@@ -2,6 +2,7 @@ title: GM Blog
 email: greg.martinez44@gmail.com
 description: My personal blog
 url: "https://gmarti-web.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/docs"
 domain: "gmarti-web.github.io"
 github_username:  gmarti-web
 
