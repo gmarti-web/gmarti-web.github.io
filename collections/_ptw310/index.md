@@ -3,7 +3,6 @@ layout: tutorials
 title: Azure Web App with Terraform
 date: 2024-11-03
 last_modified_date: 2024-11-04
-category: PTW 310
 order: 1
 ---
 

@@ -1,4 +1,4 @@
-{%- assign tutorial_pages = site.ptw310 | where: "category", include.category | sort: "order" -%}
+{%- assign tutorial_pages = site[page.collection] | sort: "order" -%}
 
 {%- if tutorial_pages.size > 0 -%}
     <nav>
