@@ -21,3 +21,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+collections:
+  tutorials:
+    order:
+      - introduction.md
+    output: true
