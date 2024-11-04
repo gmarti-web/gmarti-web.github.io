@@ -3,3 +3,34 @@
 ---
 
 @import "minima";
+
+.tutorial-layout {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.tutorial-nav-sidebar {
+    padding-right: 15px;
+    margin-right: 15px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.tutorial-nav-sidebar ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.tutorial-nav-sidebar li {
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.tutorial-nav-sidebar a {
+    color: black;
+}
+
+.tutorial-body {
+    grid-column: 2 / span 4;
+    grid-row: 1;
+}

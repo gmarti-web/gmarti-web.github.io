@@ -4,6 +4,7 @@ description: My personal blog page
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gmarti-web.github.io"
 github_username:  gmarti-web
+lang: en
 
 # Build settings
 theme: minima

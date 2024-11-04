@@ -1,0 +1,15 @@
+{%- assign tutorial_pages = site.tutorials | where: "category", include.category | sort: "order" -%}
+
+{%- if tutorial_pages.size > 0 -%}
+    <nav>
+        <ul>
+            {%- for page in tutorial_pages -%}
+            <li>
+                <a href="{{ page.url | relative_url }}">
+                    {{ page.title | escape }}
+                </a>
+            </li>
+            {%- endfor -%}
+        </ul>
+    </nav>
+{%- endif -%}
