@@ -27,3 +27,5 @@ collections:
     order:
       - introduction.md
     output: true
+
+show_excerpts: true

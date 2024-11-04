@@ -4,4 +4,7 @@ title: Introduction
 permalink: /tutorials/introduction
 ---
 
-<h2>Introduction</h2>
+In this tutorial, you'll learn how to deploy the required Azure infrastructure
+for a simple web application.
+
+## Prerequisites
