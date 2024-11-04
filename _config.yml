@@ -1,13 +1,12 @@
 title: GM Blog
 email: greg.martinez44@gmail.com
-description: My personal blog
-url: "https://gmarti-web.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/docs"
-domain: "gmarti-web.github.io"
+description: My personal blog page
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gmarti-web.github.io"
 github_username:  gmarti-web
 
 # Build settings
-theme: jekyll-theme-slate
+theme: minima
 plugins:
   - jekyll-feed
 
@@ -22,5 +21,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-enable_copy_code_button: true

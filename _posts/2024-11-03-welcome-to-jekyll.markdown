@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title:  "Welcome to Jekyll!"
-date:   2024-11-01 16:34:14 -0700
+date:   2024-11-03 17:49:41 -0800
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -19,9 +19,7 @@ def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
-
-# => prints 'Hi, Tom' to STDOUT
-
+#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
