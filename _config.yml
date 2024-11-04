@@ -6,7 +6,7 @@ url: "https://gmarti-web.github.io"
 github_username:  gmarti-web
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
