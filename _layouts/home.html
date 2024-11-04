@@ -9,22 +9,6 @@ layout: default
 
   {{ content }}
 
-  {%- if site.tutorials.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Tutorials" }}</h2>
-    <ul class="post-list">
-      {%- for tutorial in site.tutorials -%}
-      <li>
-        <a class="post-link" href="{{ tutorial.url | relative_url }}">
-          {{ tutorial.title | escape }}
-        </a>
-        {%- if site.show_excerpts -%}
-          {{ tutorial.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
-
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
