@@ -7,4 +7,4 @@ layout: home
 
 Welcome to my personal blog page.
 
-See [Tutorials]({%- link tutorials.html -%}) to learn more about working with cloud technologies.
+See [Tutorials]({%- link tutorials.md -%}) to learn more about working with cloud technologies.

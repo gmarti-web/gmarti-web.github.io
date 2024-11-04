@@ -23,8 +23,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
+collections_dir: collections
 collections:
-  tutorials:
+  ptw310:
     output: true
 
 show_excerpts: true
