@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+FILE=$1
+
+BASENAME=${FILE##*/}
+
+NEW_FILE="${BASENAME/\.md/\.docx}"
+
+NEW_DIRECTORY=/mnt/c/Users/gregm/mdtodoc
+
+if [ ! -d "$NEW_DIRECTORY" ]; then
+    mkdir "$NEW_DIRECTORY"
+fi
+
+pandoc \
+-f markdown \
+-t docx \
+-s \
+-o "$NEW_DIRECTORY/$NEW_FILE" \
+"$FILE"

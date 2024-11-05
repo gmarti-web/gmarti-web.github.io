@@ -22,6 +22,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .ruby-version
+  - scripts/
 
 collections_dir: collections
 collections:
