@@ -6,7 +6,7 @@ BASENAME=${FILE##*/}
 
 NEW_FILE="${BASENAME/\.md/\.docx}"
 
-NEW_DIRECTORY=/mnt/c/Users/gregm/mdtodoc
+NEW_DIRECTORY=~/mdtodoc
 
 if [ ! -d "$NEW_DIRECTORY" ]; then
     mkdir "$NEW_DIRECTORY"
