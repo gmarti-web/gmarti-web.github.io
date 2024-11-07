@@ -6,7 +6,7 @@ categories:
     - homework
 author: Greg Martinez
 date: 2024-11-04
-last_modified_date: 2024-11-04
+last_modified_date: 2024-11-05
 ---
 
 I finished W3Schools' HTML tutorial.
@@ -28,3 +28,11 @@ This website taught me how to think of my content as components, rather than as 
 Currently, I work with Markdown both at work and at home. I still, however, use HTML in situations where Markdown isn't flexible enough for my needs. My previous experience with HTML helps me understand when and how to use it in the larger context of my work.
 
 ## W3schools' HTML tutorial review
+
+The W3schools' HTML tutorial was easy to follow, but wasn't effective overall.
+
+The tutorial had a logical flow from one lesson to another. It starts with basic concepts, such as editors, HTML basics, and the most common HTML elements. It progresses to more complex topics, like CSS styling, compound HTML elements, and JavaScript automation. Each lesson built on the concepts from the last.
+
+Still, the tutorial had structural problems. One problem was that the language from one lesson to another wasn't consistent. Some lessons, like **HTML Basic Examples** and **HTML Input form* Attributes**, start with *This chapter...*. Others omit this convention and offer a brief definition of a concept instead. Some lessons, like **HTML Links Hyperlinks** and **HTML Image Maps**, refer to JavaScript as a language. Others refer to it as an object, like **HTML head Elements** and **HTML File Paths**. The inconsistencies distract from learning the material.
+
+Another problem was the quizzes at the end of each lesson. The quizzes were very short. Many were only three or four questions. They were often too easy and did not effectively challenge the learner.
