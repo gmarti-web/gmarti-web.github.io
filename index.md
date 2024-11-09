@@ -8,3 +8,6 @@ layout: home
 Welcome to my personal blog page.
 
 See [Tutorials]({%- link tutorials.md -%}) to learn more about working with cloud technologies.
+
+{: .important }
+This is a test callout!
