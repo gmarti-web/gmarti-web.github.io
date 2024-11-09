@@ -1,6 +1,5 @@
 ---
 title: "W3schools HTML tutorial write-up"
-layout: post
 categories:
     - ptw310
     - homework

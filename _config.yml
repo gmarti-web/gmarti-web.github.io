@@ -1,16 +1,24 @@
 title: GM Blog
+title_separator: "|"
 email: greg.martinez44@gmail.com
 description: My personal blog page
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gmarti-web.github.io"
 github_username:  gmarti-web
 lang: en
+local: en-US
+name: Greg Martinez
+breadcrumbs: true
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-octicons
+  - jekyll-include-cache
+  - jekyll-paginate
+
+include: ["_pages"]
 
 exclude:
   - .sass-cache/
@@ -32,3 +40,60 @@ collections:
     output: true
 
 show_excerpts: true
+enable_code_copy_button: true
+words_per_minute: 120
+search: true
+lunr:
+  search_within_pages: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: ptw310
+    values:
+      layout: single
+      author_profile: false
+      toc: true
+      toc_label: Table of contents
+      toc_icon: cog
+
+author:
+  name : Greg Martinez
+  email: greg.martinez44@gmail.com
+  links:
+    - label: GitHub
+      icon: "fab fa-fw fa-github"
+      url: "https://gmarti-web.github.io"
+
+pagination:
+  # Set enabled to true to use paginate v2
+  # enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: ''
+  trail:
+    before: 2
+    after: 2

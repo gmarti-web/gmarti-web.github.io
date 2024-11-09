@@ -3,10 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+permalink: /
 ---
 
 Welcome to my personal blog page.
 
-See [Tutorials]({%- link tutorials.md -%}) to learn more about working with cloud technologies.
+See [Tutorials]({%- link _pages/tutorials.md -%}) to learn more about working with cloud technologies.
 
-{%- include callouts/important.html content="This is at test callout with includes!" -%}
+This is a test notice!
+{: .notice--info}
