@@ -10,6 +10,7 @@ lang: en
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-octicons
 
 exclude:
   - .sass-cache/
