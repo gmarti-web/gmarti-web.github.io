@@ -7,8 +7,6 @@ last_modified_at: 2024-11-09
 order: 1
 ---
 
-## Introduction
+## Background
 
-### Background
-
-### Purpose and scope
+## Purpose and scope

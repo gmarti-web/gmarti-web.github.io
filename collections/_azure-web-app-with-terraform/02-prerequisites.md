@@ -8,6 +8,8 @@ order: 2
 
 ## Create a free Azure account
 
+<div>{%- include create-azure-account.html -%}</div>
+
 ## Configure the Azure CLI
 
 ### Download the CLi

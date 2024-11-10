@@ -62,6 +62,7 @@ defaults:
       author_profile: true
       read_time: true
       related: true
+      show_date: true
   - scope:
       path: _pages
       type: pages
@@ -74,6 +75,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      show_date: true
       toc: true
       toc_label: Table of contents
       toc_icon: cog
