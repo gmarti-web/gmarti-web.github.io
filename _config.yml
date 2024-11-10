@@ -40,6 +40,10 @@ collections:
   azure-web-app-with-terraform:
     output: true
     permalink: /:collection/:path
+    title: Azure Web App with Terraform
+    description: >-
+      In this tutorial, you'll learn how to deploy the required Azure infrastructure 
+      for a simple web application.
 
 show_excerpts: true
 enable_code_copy_button: true
@@ -59,27 +63,32 @@ defaults:
       read_time: true
       related: true
   - scope:
-      path: ""
+      path: _pages
       type: pages
     values:
       layout: single
       author_profile: true
   - scope:
-      path: ""
-      type: tutorials
+      path: "collections/_azure-web-app-with-terraform"
+      type: azure-web-app-with-terraform
     values:
       layout: single
       author_profile: false
+      toc: true
+      toc_label: Table of contents
+      toc_icon: cog
+      toc_sticky: true
+      sidebar:
+          nav: azure-web-app-with-terraform
 
 author:
   name : Greg Martinez
   email: greg.martinez44@gmail.com
+  location: Seattle, WA
   links:
     - label: GitHub
       icon: "fab fa-fw fa-github"
       url: "https://gmarti-web.github.io"
 
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+paginate: 5 # amount of posts to show
+paginate_path: _pages/page:num/
