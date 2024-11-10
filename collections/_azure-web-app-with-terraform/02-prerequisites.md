@@ -10,6 +10,12 @@ order: 2
 
 <div>{%- include create-azure-account.html -%}</div>
 
+You'll see the Azure homepage after you've successfully created your account.
+
+<div>
+{%- include figure popup=true image_path="/assets/images/create-azure-account-finish.png" alt="Complete Azure account creation" caption="Azure homepage" -%}
+</div>
+
 ## Configure the Azure CLI
 
 ### Download the CLi
