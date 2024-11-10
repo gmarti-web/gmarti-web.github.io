@@ -1,5 +1,13 @@
 main:
   - title: About
     url: /about/
+    description: About me
   - title: Tutorials
     url: /tutorials/
+    description: How-tos for various cloud technologies
+
+tutorials:
+  - title: Azure Web App with Terraform
+    url: /tutorials/azure-web-app-with-terraform/
+    description: >-
+      In this tutorial, you'll learn how to deploy the required Azure infrastructure for a simple web application.

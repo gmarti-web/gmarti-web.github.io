@@ -19,6 +19,7 @@ plugins:
   - jekyll-paginate
 
 include: ["_pages"]
+permalink: /:categories/:title/
 
 exclude:
   - .sass-cache/
@@ -36,8 +37,9 @@ exclude:
 
 collections_dir: collections
 collections:
-  ptw310:
+  azure-web-app-with-terraform:
     output: true
+    permalink: /:collection/:path
 
 show_excerpts: true
 enable_code_copy_button: true
@@ -64,13 +66,10 @@ defaults:
       author_profile: true
   - scope:
       path: ""
-      type: ptw310
+      type: tutorials
     values:
       layout: single
       author_profile: false
-      toc: true
-      toc_label: Table of contents
-      toc_icon: cog
 
 author:
   name : Greg Martinez
@@ -80,20 +79,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://gmarti-web.github.io"
 
-pagination:
-  # Set enabled to true to use paginate v2
-  # enabled: true
-  debug: false
-  collection: 'posts'
-  per_page: 10
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  category: 'posts'
-  tag: ''
-  locale: ''
-  trail:
-    before: 2
-    after: 2
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

@@ -1,17 +1,23 @@
 ---
-title: Tutorials
-layout: single
+layout: archive
+title: "Tutorials"
 permalink: /tutorials/
-date: 2024-11-04
-classes: wide
-last_modified_at: 2024-11-09
+author_profile: true
 ---
 
-<div class="tutorial-list">
-{%- for tutorial in site.data.tutorial-list -%}
-    <div class="tutorial-list-item">
-        <h2><a href="{{ tutorial.url }}">{{ tutorial.title }}</a></h2>
-        {{ tutorial.description }}
-    </div>
-{%- endfor -%}
-</div>
+{% capture written_label %}'None'{% endcapture %}
+
+{% for collection in site.collections %}
+  {% unless collection.output == false or collection.label == "posts" %}
+    {% capture label %}{{ collection.label }}{% endcapture %}
+    {% if label != written_label %}
+      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
+      {% capture written_label %}{{ label }}{% endcapture %}
+    {% endif %}
+  {% endunless %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false or collection.label == "posts" %}
+      {% include archive-single.html %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
