@@ -1,7 +1,8 @@
 title: GM Blog
 title_separator: "|"
+subtitle: Personal blog and portfolio
 email: greg.martinez44@gmail.com
-description: My personal blog page
+description: My personal blog and portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gmarti-web.github.io"
 github_username:  gmarti-web
@@ -9,6 +10,7 @@ lang: en
 local: en-US
 name: Greg Martinez
 breadcrumbs: true
+logo: /assets/favicon/favicon.svg
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -46,7 +48,7 @@ collections:
       for a simple web application.
 
 show_excerpts: true
-enable_code_copy_button: true
+enable_copy_code_button: true
 words_per_minute: 120
 search: true
 lunr:

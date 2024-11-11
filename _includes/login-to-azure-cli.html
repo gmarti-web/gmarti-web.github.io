@@ -1,0 +1,45 @@
+{% capture az-login %}
+In your terminal, run the following command:
+
+```console
+az login
+```
+
+A browser window opens at `https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize`.
+
+Select your Microsoft account to log in.
+
+If a window does not open, cancel the command (**Ctrl + C**) and run the following command instead:
+
+```console
+az login --use-device-code
+```
+
+Then follow the directions in the terminal to log in.
+{% endcapture %}
+
+<ol>
+    {%- if include.download == true -%}
+        <li>
+            <p>Download the Azure CLI for your operating system:</p>
+            <ul>
+                <li><a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli">Windows</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-macos">macOS</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt">Linux or Windows Subsystem for Linux (WSL)</a></li>
+            </ul>
+        </li>
+    {%- endif -%}
+    <li>
+        {{ az-login | markdownify }}
+    </li>
+    <li>
+        <p>From the table in your terminal, select your subscription.</p>
+        <p>If you have only one subscription, press <b>Enter</b>.</p>
+        <p>If you have more than one subscription, enter the number in the left-most column in your desired subscription's row and then press <b>Enter</b>.</p>
+    </li>
+</ol>
+
+<p>If the terminal shows your tenant and subscription ID, you've successfully logged in to the Azure CLI. You may seem some announcements or warnings, as well.
+</p>
+
+{% include figure popup=true image_path="/assets/images/azure-cli-finish.png" alt="azure-cli-finish" caption="Successful login" %}
