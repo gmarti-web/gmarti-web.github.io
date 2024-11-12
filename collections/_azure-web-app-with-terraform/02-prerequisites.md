@@ -64,5 +64,4 @@ Explanation TBD
 1. Go to the [Terraform Registry](https://registry.terraform.io/?product_intent=terraform).
 1. Search for the resource you want to use.
 
-    This tutorial uses the [azurerm](https://registry.terraform.io/providers/hashicorp/azurerm/latest) provider.
-    {: .notice--primary }
+    This tutorial uses the [azurerm](https://registry.terraform.io/providers/hashicorp/azurerm/latest) provider. We'll refer to the Azure provider documentation throughout the tutorial.

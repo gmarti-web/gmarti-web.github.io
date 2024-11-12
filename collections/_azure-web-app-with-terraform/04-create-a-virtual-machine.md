@@ -6,3 +6,19 @@ last_modified_at: 2024-11-10
 order: 4
 excerpt: TBD
 ---
+
+## Background
+
+TBD
+
+## Create a virtual machine
+
+TBD
+
+## Troubleshooting
+
+TBD
+
+## Learn more
+
+TBD
