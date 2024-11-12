@@ -18,6 +18,8 @@ azure-web-app-with-terraform:
         url: /azure-web-app-with-terraform/prerequisites/
   - title: Create Azure resources
     children:
+      - title: Connect to Azure with Terraform
+        url: /azure-web-app-with-terraform/connect-to-azure/
       - title: Create a virtual network
         url: /azure-web-app-with-terraform/create-a-virtual-network/
       - title: Create a virtual machine
