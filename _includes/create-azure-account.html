@@ -11,8 +11,7 @@
     </li>
     <li>
         Enter a password and then select <b>Next</b>.
-        <div class="notice--primary">
-            {% octicon bell height:16 %}
+        {%- capture password-notice -%}
             <p>Passwords must have at least 8 characters and contain two of the following:</p>
             <ul>
                 <li>uppercase letters</li>
@@ -20,7 +19,8 @@
                 <li>numbers</li>
                 <li>symbols</li>
             </ul>
-        </div>
+        {%- endcapture -%}
+        {% include primary-notice.html content=password-notice %}
     </li>
     <li>
         <p>Enter your country/region and birthdate. Then select <b>Next</b>.</p>
@@ -29,7 +29,10 @@
     <li>
         <p>Enter the six-digit code from the verification email and then select <b>Next</b>.</p>
 
-        <div class="notice--tip">Select the checkbox next to <b>I would like information, tips, and offers about Microsoft products and services</b> to unmark that option. This tells Microsoft to not send you marketing emails.</div>
+        {%- capture tip-content -%}
+        Select the checkbox next to <b>I would like information, tips, and offers about Microsoft products and services</b> to unmark that option. This tells Microsoft to not send you marketing emails.
+        {%- endcapture -%}
+        {% include tip-notice.html content=tip-content %}
     </li>
     <li>
         <p>Follow the instructions to prove you're not a robot.</p>

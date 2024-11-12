@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes";
+
+
+.notice--icon {
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+.callout-left-col {
+    grid-column: 1
+}
+
+.callout-right-col {
+    grid-column: 2
+}
