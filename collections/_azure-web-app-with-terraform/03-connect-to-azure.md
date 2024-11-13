@@ -2,9 +2,9 @@
 title: Connect to Azure with Terraform
 permalink: /azure-web-app-with-terraform/connect-to-azure/
 date: 2024-11-10
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-13
 order: 3
-excerpt: TBD
+excerpt: Set up your Terraform workspace and connect to Azure.
 ---
 
 ## Background

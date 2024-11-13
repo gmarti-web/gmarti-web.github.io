@@ -4,7 +4,7 @@ permalink: /azure-web-app-with-terraform/create-a-virtual-machine/
 date: 2024-11-09
 last_modified_at: 2024-11-11
 order: 5
-excerpt: TBD
+excerpt: Create a virtual machine with Terraform.
 ---
 
 ## Background

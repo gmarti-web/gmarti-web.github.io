@@ -2,9 +2,9 @@
 title: Create a virtual network
 permalink: /azure-web-app-with-terraform/create-a-virtual-network/
 date: 2024-11-09
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-13
 order: 4
-excerpt: TBD
+excerpt: Create a virtual network with Terraform.
 ---
 
 ## Background

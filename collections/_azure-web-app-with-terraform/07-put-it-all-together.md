@@ -4,7 +4,7 @@ permalink: /azure-web-app-with-terraform/put-it-all-together/
 date: 2024-11-10
 last_modified_at: 2024-11-11
 order: 7
-excerpt: TBD
+excerpt: Link your services together to create a web app.
 ---
 
 ## Background
