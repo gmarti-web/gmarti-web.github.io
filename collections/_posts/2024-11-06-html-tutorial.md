@@ -1,8 +1,9 @@
 ---
 title: "W3schools HTML tutorial write-up"
-author: Greg Martinez
 date: 2024-11-04
 last_modified_at: 2024-11-06
+categories:
+    - PTW310
 ---
 
 I finished W3Schools' HTML tutorial.

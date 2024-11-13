@@ -15,6 +15,7 @@ logo: /assets/favicon/favicon.svg
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
+  - jekyll-archives
   - jekyll-feed
   - jekyll-octicons
   - jekyll-include-cache
@@ -96,3 +97,10 @@ author:
 
 paginate: 5 # amount of posts to show
 paginate_path: _pages/page:num/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
