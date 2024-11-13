@@ -6,14 +6,14 @@ categories:
     - PTW310
 ---
 
-## Updates to previous assignments
-
-I don't need to update previous assignments.
-
 ## Retrospective
 
-The largest hurdle that I've run into in this project was finding a suitable format. I knew I wanted to make a series of blog posts to take the learner one step at a time, but I didn't account for how long it would take to get the environment presentable. It surprised me how quickly I would need the HTML skills covered by the W3schools course. Of course, applying the language helped cement it in my head much better than just doing the exercises. The formatting required a lot of tinkering with the Jekyll configuration and Markdown rendoring. It needed a lot of customization that I wasn't expecting to need.
+The most time-consuming part of the project, so far, has been setting up the format. I'm making a series of blog posts to take the learner through the process step-by-step. These blog posts, of course, must look nice and easy to read. So, I had to spend more time than I expected on styling and writing HTML snippets. So far, I've spent more time configuring the Jekyll templates than writing content.
 
-This surprise has been both positive and negative. I'm someone who likes to tinker. So, fiddling with the settings and getting the look of the website how I want was fun. That meant, however, I had far less time to write the content. In this case, I wish I had explored that medium more in depth during the planning phase. If I knew that I would need to spend so much time tinkering, I would have built that into the plan and scheduled for it. Or, I may have chosen a completely different medium.
+I learned at least two things from this. One thing I learned is that Jekyll is far more powerful than I realized. At its core, its just a tool to build static websites from high-level markup languages. But, it extends those languages with powerful tools, like Liquid and Kramdown syntax. These tools let me create reusable content, write conditional statements, and define metadata with little to no effort.
 
-Fortunately, this issue is now more or less resolved. I won't need to do this same set up again. I can use what I have and continue from there for future projects. I learned, however, that the format is crucial when planning a document. The format and delivery mechanism section was the shortest section of my original documentation plan. And the time to get started clearly reflected that.
+The other thing I learned is that I hadn't spent enough time on the format section of the original documentation plan. The "Format and tools" section of the plan was the shortest. I wish I had explored the medium, beyond the surface level that I was comfortable with, during the planning phase. If I knew that it would take so much configuration, I could have scheduled for extra writing time. I may have chosen a different medium, even.
+
+Fortunately, I can use the environment I configured in future projects. I've structured it so that I can use it for different tutorials or topics. I made it so I could create whole articles from snippets of reusable HTML code. And the reusable content library will grow as I continue to write. That'll make my writing process more and more efficient.
+
+Ultimately, this project has taught me how important it is to properly define your format and tools early in the process. It also taught me how versatile some of these tools can be.

@@ -1,44 +1,8 @@
-<ol>
+<p>To create your free Azure account:</p>
+<ul>
+    <li>Go to <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/">azure.microsoft.com</a>.</li>
     <li>
-        Go to <a href="https://portal.azure.com">https://portal.azure.com</a>.
+        Select <b>Try Azure for free</b>.
+        {% include figure popup=true image_path="/assets/images/azure-account-create-free.png" alt="azure-account-create-free" %}
     </li>
-    <li>
-        Select <b>Create one!</b>
-        {% include figure popup=true image_path="/assets/images/create-azure-account-start.png" alt="Create new Azure account link" %}
-    </li>
-    <li>
-        Enter your email address and then select <b>Next</b>.
-    </li>
-    <li>
-        Enter a password and then select <b>Next</b>.
-        {%- capture password-notice -%}
-            <p>Passwords must have at least 8 characters and contain two of the following:</p>
-            <ul>
-                <li>uppercase letters</li>
-                <li>lowercase letters</li>
-                <li>numbers</li>
-                <li>symbols</li>
-            </ul>
-        {%- endcapture -%}
-        {% include primary-notice.html content=password-notice %}
-    </li>
-    <li>
-        <p>Enter your country/region and birthdate. Then select <b>Next</b>.</p>
-        <p>Azure sends you a verification email to the address you entered earlier.</p>
-    </li>
-    <li>
-        <p>Enter the six-digit code from the verification email and then select <b>Next</b>.</p>
-
-        {%- capture tip-content -%}
-        Select the checkbox next to <b>I would like information, tips, and offers about Microsoft products and services</b> to unmark that option. This tells Microsoft to not send you marketing emails.
-        {%- endcapture -%}
-        {% include tip-notice.html content=tip-content %}
-    </li>
-    <li>
-        <p>Follow the instructions to prove you're not a robot.</p>
-    </li>
-</ol>
-
-You'll see the Azure homepage after you've successfully created your account.
-
-{% include figure popup=true image_path="/assets/images/create-azure-account-finish.png" alt="Complete Azure account creation" %}
+</ul>
