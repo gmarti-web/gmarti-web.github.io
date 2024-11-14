@@ -21,8 +21,6 @@ TBD
 
 ## Set up a Terraform project
 
-TBD
-
 ### Install the Terraform package
 
 1. Go to [Install Terraform](https://developer.hashicorp.com/terraform/install).
