@@ -9,6 +9,12 @@ excerpt: Create a virtual network with Terraform.
 
 ## Background
 
+### Define an address space
+
+TBD
+
+### Define a subnet
+
 TBD
 
 ## Create a VNet

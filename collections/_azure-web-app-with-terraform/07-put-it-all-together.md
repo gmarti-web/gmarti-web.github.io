@@ -57,6 +57,8 @@ TBD
 
     This creates your infrastructure. This may take a few minutes.
 
+Confirmation screenshot TBD.
+
 ## Troubleshooting
 
 TBD

@@ -9,6 +9,16 @@ excerpt: Create a virtual machine with Terraform.
 
 ## Background
 
+### Define a network interface
+
+TBD
+
+### Define an OS disk
+
+TBD
+
+### Define the source image reference
+
 TBD
 
 ## Create a virtual machine
