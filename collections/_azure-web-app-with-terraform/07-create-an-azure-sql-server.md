@@ -1,15 +1,14 @@
 ---
 title: Create an Azure SQL server
 permalink: /azure-web-app-with-terraform/create-an-azure-sql-server/
-date: 2024-11-10
-last_modified_at: 2024-11-11
-order: 6
+last_modified_at: 2024-11-15
+order: 7
 excerpt: Create an Azure SQL server with Terraform.
 ---
 
-## Background
+An Azure SQL server is a relational database management system (RDBMS). It saves data in tables that can be filtered and sliced with SQL queries. Our web app needs a SQL server to save and retrieve data from users.
 
-TBD
+This page describes how to create an Azure SQL server and connect it to our virtual network's subnet.
 
 ## Create a SQL server
 
@@ -25,6 +24,12 @@ TBD
         administrator_login          = "Example-Administrator"
         administrator_login_password = "myp@sswoRD11!"
         minimum_tls_version          = "1.2"
+    }
+
+    resource "azurerm_mssql_virtual_network_rule" "vnetrule" {
+        name      = "sql-vnet-rule"
+        server_id = azurerm_mssql_server.mssql_server.id
+        subnet_id = azurerm_subnet.subnet.id
     }
     ```
 
