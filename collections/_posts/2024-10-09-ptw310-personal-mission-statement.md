@@ -1,6 +1,6 @@
 ---
 title: Personal mission statement
-last_modified_at: 2024-10-19
+last_modified_at: 2024-10-09
 categories:
     - PTW310
 excerpt: My personal mission statement as a technical writer in the PTW310 program.
