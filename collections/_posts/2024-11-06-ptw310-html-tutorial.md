@@ -1,9 +1,9 @@
 ---
 title: "W3schools HTML tutorial write-up"
-date: 2024-11-04
 last_modified_at: 2024-11-06
 categories:
     - PTW310
+excerpt: My thoughts on the W3school's HTML tutorial.
 ---
 
 I finished W3Schools' HTML tutorial.

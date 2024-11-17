@@ -1,9 +1,9 @@
 ---
 title: Mid-project retrospective
-date: 2024-11-12
-last_updated_at: 2024-11-12
+last_modified_at: 2024-11-13
 categories:
     - PTW310
+excerpt: A mid-project retrospective of my PTW310 portfolio project.
 ---
 
 ## Retrospective
