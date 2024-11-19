@@ -90,10 +90,11 @@ author:
   name : Greg Martinez
   email: greg.martinez44@gmail.com
   location: Seattle, WA
+  avatar: /assets/bio-avatar.png
   links:
     - label: GitHub
       icon: "fab fa-fw fa-github"
-      url: "https://gmarti-web.github.io"
+      url: "https://github.com/greg-martinez44"
 
 paginate: 5 # amount of posts to show
 paginate_path: _pages/page:num/
