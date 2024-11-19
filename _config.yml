@@ -89,6 +89,7 @@ defaults:
 author:
   name : Greg Martinez
   email: greg.martinez44@gmail.com
+  bio: Data and cloud engineer with a passion for good documentation.
   location: Seattle, WA
   avatar: /assets/bio-avatar.png
   links:
@@ -96,8 +97,18 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/greg-martinez44"
 
-paginate: 5 # amount of posts to show
-paginate_path: _pages/page:num/
+pagination:
+  enabled: true
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page/:num/'  # Pages are index.html inside this folder (default)
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
 category_archive:
   type: liquid
