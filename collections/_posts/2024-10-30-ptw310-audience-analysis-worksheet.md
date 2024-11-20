@@ -140,7 +140,12 @@ excerpt: An audience analysis for my PTW310 portfolio project.
 
 The primary audience’s desired outcome is to satisfy their current and future clients.
 
-Cloud engineers, the primary audience for this project, must deliver a service to a client. And they know they must do so for other clients in the future. So, they need a way to deliver this service without starting over from scratch. To accomplish this, they can use a script multiple times with different configurations. This way, they can satisfy any client that needs a web application platform with minimal time and effort.
+Cloud engineers, the primary audience for this project, must deliver a service
+to a client. And they know they must do so for other clients in the future. So,
+they need a way to deliver this service without starting over from scratch. To
+accomplish this, they can use a script multiple times with different configurations.
+This way, they can satisfy any client that needs a web application platform with
+minimal time and effort.
 
 ## Outline of deliverable
 
