@@ -32,13 +32,13 @@ The primary and secondary deliverable types for this industry are:
 - API documentation with endpoint descriptions
 
 Software documentation spans
-["getting-started guides to in-depth documentation on technical workflows."](https://www.linkedin.com/jobs/view/4077287219/?alternateChannel=search&refId=p1W9GyUioFPD9S88aU4f%2BA%3D%3D&trackingId=jcH%2FuCWqxBc2YcWOkLrbEQ%3D%3D)
+["getting-started guides to in-depth documentation on technical workflows."](https://www.linkedin.com/jobs/view/4077287219/)
 Readers of all skill levels use this kind of document. It describes how to use
 a program, how it works, or how specific industries use it.
 
 API documentation is more specialized than software documentation. It defines the
 inputs and outputs for specific ["RESTful" endpoints](https://restfulapi.net/).
-This [Senior Technical Writer](https://www.linkedin.com/jobs/view/4051165476/?refId=54ab70a7-bbd0-4f4a-8885-ae679d0c6167&trackingId=xD7G5UnLQFedmiOK52iNnw%3D%3D)
+This [Senior Technical Writer](https://www.linkedin.com/jobs/view/4051165476/)
 role works on a corpus that includes API documentation. This
 type of documentation helps programmers build systems on top of existing
 software.
@@ -49,7 +49,7 @@ with experience as working or hobbyist developers.
 ### Essential subject matter knowledge areas
 
 In most job listings, the hiring company prefers candidates with some
-developer experience. For example, this [Technical Author](https://www.linkedin.com/jobs/view/4068265788/?refId=1efc6efe-c88a-4c3c-a1ad-978067e947d8&trackingId=%2BfDcTSn%2BRVSFchK3CDZypg%3D%3D&trk=flagship3_job_home_savedjobs)
+developer experience. For example, this [Technical Author](https://www.linkedin.com/jobs/view/4068265788/)
 listing describes the preferred candidate as someone who can work as an engineer
 and as a writer:
 
@@ -68,10 +68,10 @@ required skill.
 
 For example, the majority of listings reference a continuous integration and continuous
 deployment (CI/CD) strategy. They require experience with git and GitHub.
-[One job posting](https://www.linkedin.com/jobs/view/4076004596/?refId=1efc6efe-c88a-4c3c-a1ad-978067e947d8&trackingId=FixSxzypQHOQsDbpJGMqoQ%3D%3D&trk=flagship3_job_home_savedjobs)
+[One job posting](https://www.linkedin.com/jobs/view/4076004596/)
 lists a job responsibility as "engaging with the GitHub community" to develop
 and improve their documentation. They require that the candidate knows
-how to use markup languages, like Markdown, and the command line. [Another posting](https://www.linkedin.com/jobs/view/4077064242/?refId=1efc6efe-c88a-4c3c-a1ad-978067e947d8&trackingId=LjmAhZUNRcS0g%2FPIvXEisw%3D%3D&trk=flagship3_job_home_savedjobs)
+how to use markup languages, like Markdown, and the command line. [Another posting](https://www.linkedin.com/jobs/view/4077064242/)
 lists "XML-based authoring tools" as a desired skill.
 
 The Docs as Code mindset has a heavy influence on this industry. So, it follows
