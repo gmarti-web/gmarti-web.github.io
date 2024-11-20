@@ -3,6 +3,5 @@
         {% octicon bell height:24 %}
     </div>
     <div class="callout-right-col">
-        {{ include.content }}
-    </div>
-</div>
+        {{ include.content | strip_newlines }}
+    </div></div>

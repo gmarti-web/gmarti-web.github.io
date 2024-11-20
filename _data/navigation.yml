@@ -20,14 +20,16 @@ azure-web-app-with-terraform:
     children:
       - title: Connect to Azure with Terraform
         url: /azure-web-app-with-terraform/connect-to-azure/
+      - title: Create a resource group
+        url: /azure-web-app-with-terraform/create-a-resource-group/
       - title: Create a virtual network
         url: /azure-web-app-with-terraform/create-a-virtual-network/
       - title: Create a virtual machine
         url: /azure-web-app-with-terraform/create-a-virtual-machine/
       - title: Create an Azure SQL server
         url: /azure-web-app-with-terraform/create-an-azure-sql-server/
-      - title: Put it all together
-        url: /azure-web-app-with-terraform/put-it-all-together/
+      - title: Deploy your resources with Terraform
+        url: /azure-web-app-with-terraform/deploy-your-resources/
   - title: Wrap up
     children:
       - title: Project summary
