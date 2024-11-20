@@ -83,6 +83,7 @@ defaults:
       toc_label: Table of contents
       toc_icon: cog
       toc_sticky: true
+      sort_by: order
       sidebar:
           nav: azure-web-app-with-terraform
 

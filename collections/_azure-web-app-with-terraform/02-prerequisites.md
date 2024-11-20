@@ -1,15 +1,25 @@
 ---
 title: Prerequisites
 permalink: /azure-web-app-with-terraform/prerequisites/
-date: 2024-11-09
-last_modified_at: 2024-11-11
+last_modified_at: 2024-11-15
 order: 2
-excerpt: Install the needed software and set up your environment.
+previous:
+    - title: Introduction
+      url: /azure-web-app-with-terraform/introduction/
+next:
+    - title: Connect to Azure with Terraform
+      url: /azure-web-app-with-terraform/connect-to-azure/
 ---
 
-## Background
+To follow this tutorial, you need:
 
-TBD
+- An Azure account
+- The Azure CLI program
+- The Terraform CLI program
+
+Optionally, you may want to save your work in a [GitHub repository](https://github.com/), as well.
+
+This page describes how to set up and install the necessary applications.
 
 ## Create a free Azure account
 
@@ -19,9 +29,7 @@ TBD
 
 {% include login-to-azure-cli.html download=true %}
 
-## Set up a Terraform project
-
-### Install the Terraform package
+## Install the Terraform CLI
 
 1. Go to [Install Terraform](https://developer.hashicorp.com/terraform/install).
 1. Download the Terraform package for your operating system:
@@ -40,7 +48,7 @@ TBD
 
     {% include figure popup=true image_path="/assets/images/terraform-download-finish.png" alt="terraform-download-finish" %}
 
-### Install the Terraform VS Code extensions
+## Install the Terraform VS Code extensions
 
 1. Open VS Code and select the **Extensions** icon.
 
@@ -54,6 +62,4 @@ TBD
 
     A new window opens in VS Code.
 
-If you see the **Uninstall** button in the new window, you've successfully installed the Terraform extension.
-
-{% include figure popup=true image_path="/assets/images/terraform-vs-code-extension-finish.png" alt="terraform-vs-code-extension-finish" %}
+You've successfully installed the Terraform extension

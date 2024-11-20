@@ -1,17 +1,20 @@
 ---
 title: Connect to Azure with Terraform
 permalink: /azure-web-app-with-terraform/connect-to-azure/
-date: 2024-11-10
-last_modified_at: 2024-11-13
+last_modified_at: 2024-11-15
 order: 3
 excerpt: Set up your Terraform workspace and connect to Azure.
 ---
 
-## Background
+The [azurerm documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure) in the Terraform Registry lists different ways to authenticate to Azure. In this tutorial, we'll authenticate with the Azure CLI. If you want to automate this process, you authenticate with a service principal or managed service identity instead.
 
-TBD
+This page describes how to log into the Azure CLI and set up your `azurerm` Terraform provider.
 
-## Create your repository
+## Log into the Azure CLI
+
+{% include login-to-azure-cli.html %}
+
+## Create a `providers.tf` file
 
 1. Create a folder called `azure-web-app-with-terraform`.
 
@@ -24,10 +27,6 @@ TBD
     ```console
     cd azure-web-app-with-terraform
     ```
-
-1. Open VS Code in this folder.
-
-## Create a `providers.tf` file
 
 1. Instructions on getting Azure subscription ID TBD.
 1. Create a new file and enter the following Terraform code:
@@ -61,23 +60,6 @@ terraform init
 ```
 
 Confirmation TBD
-
-## Create a resource group
-
-Explain how resource group holds all our other components TBD.
-
-1. Create a new file and enter the following Terraform code:
-
-    ```hcl
-    resource "azurerm_resource_group" "rg" {
-        name     = "azure-web-app-with-terraform-rg"
-        location = "westus2"
-    }
-    ```
-
-1. Save this file as `main.tf`.
-
-    We'll create the rest of the infrastructure for this tutorial in this file.
 
 ## Troubleshooting 
 
