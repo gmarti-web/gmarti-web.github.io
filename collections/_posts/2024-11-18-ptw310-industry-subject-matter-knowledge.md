@@ -33,8 +33,8 @@ The primary and secondary deliverable types for this industry are:
 
 Software documentation spans
 ["getting-started guides to in-depth documentation on technical workflows."](https://www.linkedin.com/jobs/view/4077287219/?alternateChannel=search&refId=p1W9GyUioFPD9S88aU4f%2BA%3D%3D&trackingId=jcH%2FuCWqxBc2YcWOkLrbEQ%3D%3D)
-Readers of all skill levels use this kind of document. They describe how to use
-a program, how it works, or how it can solve specific problems.
+Readers of all skill levels use this kind of document. It describes how to use
+a program, how it works, or how specific industries use it.
 
 API documentation is more specialized than software documentation. It defines the
 inputs and outputs for specific ["RESTful" endpoints](https://restfulapi.net/).
@@ -74,10 +74,26 @@ and improve their documentation. They require that the candidate knows
 how to use markup languages, like Markdown, and the command line. [Another posting](https://www.linkedin.com/jobs/view/4077064242/?refId=1efc6efe-c88a-4c3c-a1ad-978067e947d8&trackingId=LjmAhZUNRcS0g%2FPIvXEisw%3D%3D&trk=flagship3_job_home_savedjobs)
 lists "XML-based authoring tools" as a desired skill.
 
-### Common themes of real-world practitioners
+The Docs as Code mindset has a heavy influence on this industry. So, it follows
+that so many job postings require some experience with a Docs as Code workflow.
+
+### Common themes among real-world practitioners
 
 In general, these positions favor candidates that have strong writing skills and
 relevant experience as a software developer. According to LinkedIn, most writers
-in this industry list experience with Docs as Code tools, like Markdown,
-git, and peer reviews. Many have previous experience as software developers
-and engineers.
+have experience with Docs as Code tools, like Markdown, git, and peer reviews.
+Many have previous experience as software developers and engineers.
+
+## Wrap up
+
+My target industry, cloud computing and infrastructure, has a heavy
+bent towards programmer writers. The most in-demand tools are
+markup languages, version control systems, and peer reviews. This
+helps their technical writers work along side their programmer
+audience, often using the same tools.
+
+Fortunately, my portfolio project aligns well with this
+technical writer profile. I wrote my documents in Markdown
+and HTML, and I used GitHub as my version control system.
+This kind of example shows how comfortable I am working
+in the environments that these jobs advertise.
