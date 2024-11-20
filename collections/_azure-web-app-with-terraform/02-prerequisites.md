@@ -3,12 +3,6 @@ title: Prerequisites
 permalink: /azure-web-app-with-terraform/prerequisites/
 last_modified_at: 2024-11-15
 order: 2
-previous:
-    - title: Introduction
-      url: /azure-web-app-with-terraform/introduction/
-next:
-    - title: Connect to Azure with Terraform
-      url: /azure-web-app-with-terraform/connect-to-azure/
 ---
 
 To follow this tutorial, you need:
