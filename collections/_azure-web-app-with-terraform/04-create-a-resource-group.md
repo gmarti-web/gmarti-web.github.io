@@ -31,4 +31,6 @@ TBD
 
 ## Learn more
 
-TBD
+- [Manage Azure resource groups by using the Azure portal - learn.microsoft.com](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal)
+- [azurerm_resource_group - registry.terraform.io](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group)
+

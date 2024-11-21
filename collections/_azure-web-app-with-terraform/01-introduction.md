@@ -1,7 +1,7 @@
 ---
 title: Introduction
 permalink: /azure-web-app-with-terraform/introduction/
-last_modified_at: 2024-11-15
+last_modified_at: 2024-11-20
 order: 1
 excerpt: Learn how to use Terraform to create the basic web app components in Azure.
 ---
@@ -9,14 +9,14 @@ excerpt: Learn how to use Terraform to create the basic web app components in Az
 A simple web app has three components:
 
 <div>
-<dl>
-    <dt>Virtual network</dt>
-    <dd>Software that replaces traditional networking infrastructure, like routers and switches</dd>
-    <dt>Virtual machine</dt>
-    <dd>A digital environment that behaves like a physical computer.</dd>
-    <dt>Database</dt>
-    <dd>A storage system that saves data.</dd>
-</dl>
+  <dl>
+      <dt>Virtual network</dt>
+      <dd>Software that replaces traditional networking infrastructure, like routers and switches</dd>
+      <dt>Virtual machine</dt>
+      <dd>A digital environment that behaves like a physical computer.</dd>
+      <dt>Database</dt>
+      <dd>A storage system that saves data.</dd>
+  </dl>
 </div>
 
 Together, these components give you a connected machine that is always on, connected to the internet, and available for others to see. This means you can save applications, services, or static web pages here and access them anywhere, anytime. With the reliability of the cloud, you don't have to worry about the host's physical environment. Compare this with hosting your content on your home computer, where you must manage its power, cooling, and continuous operation. A web app in Azure lets you focus on improving your content rather than maintaining physical hardware.
