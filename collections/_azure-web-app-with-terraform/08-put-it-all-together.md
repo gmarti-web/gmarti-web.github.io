@@ -20,7 +20,7 @@ This page describes how to review your Terraform plan and deploy your resources.
 
     This command tells you how Terraform will build your infrastructure.
 
-    {% include tip-notice.html content="Always review the plan before you create or edit resources. This is your chance to catch any misconfigurations that might harm or accidently delete your resources." %}
+    {% include tip-notice.html content="Always review the plan before you create or edit resources. This is your chance to catch any misconfigurations that might harm or accidentally delete your resources." %}
 
 1. After you review the plan, run the following command:
 

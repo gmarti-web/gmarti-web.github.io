@@ -46,13 +46,21 @@ This page describes how to set up and install the necessary applications.
 
 1. Open VS Code and select the **Extensions** icon.
 
-    {% include figure popup=true image_path="/assets/images/terraform-vs-code-extension-icon.png" alt="terraform-vs-code-extension-icon" %}
+    {% include figure
+      popup=true
+      image_path="/assets/images/terraform-vs-code-extension-icon.png"
+      alt="terraform-vs-code-extension-icon"
+    %}
 
 1. Search for **Terraform**.
 1. From the search results, find the extension published by HashiCorp.
 1. Select **Install**.
 
-    {% include figure popup=true image_path="/assets/images/terraform-vs-code-extension-install.png" alt="terraform-vs-code-extension-install" %}
+    {% include figure
+      popup=true
+      image_path="/assets/images/terraform-vs-code-extension-install.png"
+      alt="terraform-vs-code-extension-install"
+    %}
 
     A new window opens in VS Code.
 

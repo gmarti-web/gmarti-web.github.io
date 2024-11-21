@@ -28,7 +28,16 @@ This page describes how to log into the Azure CLI and set up your `azurerm` Terr
     cd azure-web-app-with-terraform
     ```
 
-1. Instructions on getting Azure subscription ID TBD.
+    {%- capture tip_content -%}
+    To get your Azure subscription ID, run the following command in your terminal:
+    <br/><br/>
+    `az account show`
+    <br/><br/>
+    This returns a JSON response in your terminal. Your subscription ID is in the `id` field.
+    {% endcapture %}
+
+    {% include tip-notice.html content=tip_content %}
+
 1. Create a new file and enter the following Terraform code:
 
     ```hcl
