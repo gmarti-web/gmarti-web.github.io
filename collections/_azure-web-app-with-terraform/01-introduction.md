@@ -6,8 +6,7 @@ order: 1
 excerpt: Learn how to use Terraform to create the basic web app components in Azure.
 ---
 
-!> [!IMPORTANT]
-> Need to add more introductory text.
+<!-- TODO: Define a web app (Disambiguation!) -->
 
 A simple web app has three components:
 
