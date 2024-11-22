@@ -23,7 +23,8 @@ jobs:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     defaults:
-      working-directory: docs
+      run:
+        working-directory: docs
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v4
