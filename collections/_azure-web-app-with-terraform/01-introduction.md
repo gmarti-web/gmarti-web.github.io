@@ -33,3 +33,6 @@ This tutorial describes how to use Terraform to create the basic components for 
 - Planning, applying, and destroying Terraform resources
 
 If you work in the cloud or are interested in learning industry-standard concepts, this tutorial will help you get started with code-first infrastructure strategies.
+
+Something with a new PR?
+
