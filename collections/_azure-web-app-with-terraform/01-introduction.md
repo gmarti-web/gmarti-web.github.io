@@ -34,5 +34,3 @@ This tutorial describes how to use Terraform to create the basic components for 
 
 If you work in the cloud or are interested in learning industry-standard concepts, this tutorial will help you get started with code-first infrastructure strategies.
 
-From azure pr!
-
