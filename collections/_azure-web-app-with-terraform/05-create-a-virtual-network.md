@@ -1,18 +1,31 @@
 ---
 title: Create a virtual network
 permalink: /azure-web-app-with-terraform/create-a-virtual-network/
-last_modified_at: 2024-11-15
+last_modified_at: 2024-11-24
 order: 5
 excerpt: Create a virtual network with Terraform.
 ---
 
-A virtual network is a digital representation of traditional networking infrastructure, like switches and routers. We use virtual networks to control how our application connects to the internet. We connect other resources to our virtual network by breaking the network into sections, called subnets.
+A virtual network is a representation of traditional networking infrastructure, like switches and routers. We use virtual networks to control how our application connects to the internet. We connect other resources to our virtual network by breaking the network into sections, called subnets. We define rules for how internet traffic can interact with our resources. Azure calls these rules network security groups.
 
 This page describes how to create:
 
 - A virtual network
 - A subnet
 - A network security group with one network security group rule
+
+## Define your network components
+
+Before you create a virtual network, you must know the required settings:
+
+<div>
+  <dl>
+    <dt>Address space</dt>
+    <dd><p>An <a href="(https://www.techtarget.com/searchstorage/definition/address-space">address space</a> is the amount of memory you want to dedicate to your virutal network. It determines how many, and what kinds of, IP addresses your network can use. The four groups of digits before the <code>/</code> define the IP range. The number after the <code>/</code> defines the number of different addresses available. The larger the number after the <code>/</code> is, the fewer IP addresses are available.</p><p>If your organization controls which IP ranges you can reserve for a resource, check with your IT or DevOps team to reserve an address space.</p></dd>
+    <dt>Subnet address prefix</dt>
+    <dd>An address prefix is a subset of the address space reserved for a single subnet in your virtual network. It reserves a slice of the available IP addresses as a logical group within a network. Other resources reference a specific subnet and its address prefix when they connect to your network.</dd>
+  </dl>
+</div>
 
 ## Create a VNet
 
@@ -63,20 +76,11 @@ This page describes how to create:
 
 1. Save the `main.tf` file.
 
-### Define an address space
-
-TBD
-
-### Define a subnet
-
-TBD
-
-
 ## Troubleshooting
 
 TBD
 
 ## Learn more
 
-TBD
+[Azure Vnet concepts and best practices](https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices)
 

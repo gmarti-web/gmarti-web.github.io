@@ -1,20 +1,22 @@
 ---
 title: Prerequisites
 permalink: /azure-web-app-with-terraform/prerequisites/
-last_modified_at: 2024-11-15
+last_modified_at: 2024-11-24
 order: 2
 excerpt: Download and configure the required tools.
 ---
 
-To follow this tutorial, you need:
+This tutorial uses infrastructure as code concepts to create resources in an Azure cloud environment.
 
-- An Azure account
-- The Azure CLI program
-- The Terraform CLI program
+Before you can follow this tutorial, you must:
 
-Optionally, you may want to save your work in a [GitHub repository](https://github.com/), as well.
+- Create an Azure account
+- Install the Azure command-line interface (CLI)
+- Install the Terraform command-line interface (CLI)
 
-This page describes how to set up and install the necessary applications.
+Optionally, you can save your work in a [GitHub repository](https://github.com/), as well.
+
+This page describes how to set up and install the necessary tools.
 
 ## Create a free Azure account
 
