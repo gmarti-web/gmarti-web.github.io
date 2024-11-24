@@ -32,3 +32,4 @@ I've done plenty of data engineering. I've created pipelines for our recent Unit
 But I do much more than just pipelines. I've helped support users with their cloud infrastructure. I've helped the Knowledge Managemnt team with MCP documentation and myriad other topics. I've helped explore our AI use cases in OpenAI and in Databricks.
 
 I would like to focus more on technical writing. I have plans to work on some more detailed documentation for working in Databricks. I also have plans to extend our AI offerings both through Azure OpenAI and Databricks's model.
+

@@ -97,3 +97,4 @@ technical writer profile. I wrote my documents in Markdown
 and HTML, and I used GitHub as my version control system.
 This kind of example shows how comfortable I am working
 in the environments that these jobs advertise.
+

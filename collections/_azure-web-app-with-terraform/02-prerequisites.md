@@ -65,3 +65,4 @@ This page describes how to set up and install the necessary applications.
     A new window opens in VS Code.
 
 You've successfully installed the Terraform extension
+
