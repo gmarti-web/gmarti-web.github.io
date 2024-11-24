@@ -40,7 +40,13 @@ This page describes how to set up and install the necessary applications.
 
     The command returns the version of the downloaded Terraform package.
 
-    {% include figure popup=true image_path="/assets/images/terraform-download-finish.png" alt="terraform-download-finish" %}
+    {%
+      include figure
+      popup=true
+      image_path="/assets/images/terraform-download-finish.png"
+      alt="terraform-download-finish"
+      caption="Terraform version command"
+    %}
 
 ## Install the Terraform VS Code extensions
 

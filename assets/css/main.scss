@@ -17,6 +17,10 @@
     grid-column: 2
 }
 
+figure {
+  flex-flow: column;
+}
+
 figure img {
     border: 1px black solid;
 }
