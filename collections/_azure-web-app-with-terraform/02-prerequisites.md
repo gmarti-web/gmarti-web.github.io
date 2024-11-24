@@ -3,6 +3,7 @@ title: Prerequisites
 permalink: /azure-web-app-with-terraform/prerequisites/
 last_modified_at: 2024-11-15
 order: 2
+excerpt: Download and configure the required tools.
 ---
 
 To follow this tutorial, you need:
