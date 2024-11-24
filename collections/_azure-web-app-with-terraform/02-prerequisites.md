@@ -50,6 +50,7 @@ This page describes how to set up and install the necessary applications.
       popup=true
       image_path="/assets/images/terraform-vs-code-extension-icon.png"
       alt="terraform-vs-code-extension-icon"
+      caption="VS Code sidebar"
     %}
 
 1. Search for **Terraform**.
@@ -60,9 +61,10 @@ This page describes how to set up and install the necessary applications.
       popup=true
       image_path="/assets/images/terraform-vs-code-extension-install.png"
       alt="terraform-vs-code-extension-install"
+      caption="VS Code extension marketplace"
     %}
 
     A new window opens in VS Code.
 
-You've successfully installed the Terraform extension
+You've successfully installed the Terraform extension.
 
