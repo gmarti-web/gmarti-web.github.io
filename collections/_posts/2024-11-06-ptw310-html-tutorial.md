@@ -65,3 +65,4 @@ language. Others refer to it as an object, like **HTML head Elements** and
 Another problem was the quizzes at the end of each lesson. The quizzes were very
 short. Many were only three or four questions. They were often too easy and did
 not effectively challenge the learner.
+
