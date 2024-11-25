@@ -6,7 +6,7 @@ order: 5
 excerpt: Create a virtual network with Terraform.
 ---
 
-A virtual network is a representation of traditional networking infrastructure, like switches and routers. We use virtual networks to control how our application connects to the internet. We connect other resources to our virtual network by breaking the network into sections, called subnets. We define rules for how internet traffic can interact with our resources. Azure calls these rules network security groups.
+A virtual network is software that acts like traditional networking infrastructure, like switches and routers. We use virtual networks to control how our application connects to the internet. We connect other resources to our virtual network by breaking the network into sections, called subnets. We define rules for how internet traffic can interact with our resources. Azure calls these rules network security groups.
 
 This page describes how to create:
 
@@ -16,16 +16,51 @@ This page describes how to create:
 
 ## Define your network components
 
-Before you create a virtual network, you must know the required settings:
+To create a virtual network, define the following:
 
-<div>
-  <dl>
-    <dt>Address space</dt>
-    <dd><p>An <a href="(https://www.techtarget.com/searchstorage/definition/address-space">address space</a> is the amount of memory you want to dedicate to your virutal network. It determines how many, and what kinds of, IP addresses your network can use. The four groups of digits before the <code>/</code> define the IP range. The number after the <code>/</code> defines the number of different addresses available. The larger the number after the <code>/</code> is, the fewer IP addresses are available.</p><p>If your organization controls which IP ranges you can reserve for a resource, check with your IT or DevOps team to reserve an address space.</p></dd>
-    <dt>Subnet address prefix</dt>
-    <dd>An address prefix is a subset of the address space reserved for a single subnet in your virtual network. It reserves a slice of the available IP addresses as a logical group within a network. Other resources reference a specific subnet and its address prefix when they connect to your network.</dd>
-  </dl>
-</div>
+### VNet
+
+This is the virtual network definition.
+
+| Configuration | Description | Example |
+|---------------|-------------|---------|
+| `name` | The name of your VNet. | `azure-web-app-vent` |
+| `address_space` | The amount of memory you want to dedicate to your virutal network. It determines how many, and what kinds, of IP addresses your network can use. [Read more about address spaces](https://www.techtarget.com/searchstorage/definition/address-space). | `10.0.0.0/16` |
+
+### Subnet
+
+A subnet is a digital slice of the virtual network. We use subnets to connect the virtual network to the Internet and other Azure resources.
+
+| Configuration | Description | Example |
+|---------------|-------------|---------|
+| `name` | The name of your subnet. | `defaultsubnet` |
+| `address_prefixes` | The subset of your virtual network's address space reserved for this subnet. | `10.0.2.0/24` |
+| `service_endpoints` | Standard aliases for Azure resources. [Read more about the available service endpoints](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview). | `Microsoft.Sql` |
+
+### Network security group
+
+A network security group is a set of rules that define how traffic moves in and out of the virtual network.
+
+| Configuration | Description | Example |
+|---------------|-------------|---------|
+| `name` | The name of the network security group. | `azure-webn-app-nsg` |
+
+### Network security group rule
+
+A network security group rule is a single rule in a network security group.
+
+For this tutorial, we create one security rule group to allow incoming traffic on port `22`. This lets us SSH into a virtual machine within the network.
+
+| Configuration | Description | Example |
+|---------------|-------------|---------|
+| `name` | The name of the network security group rule. | `azure-web-app-ssh-nsg-rule` |
+| `network_security_group_name` | The name of the network security group that owns this rule. | `azure-web-app-nsg` |
+| `priority` | The priority given to the rule in a list of rules. Network security groups evaluate rules with lower priority numbers first. | `300` |
+| `access` | This rule's action in response to the defined traffic, either `Allow` or `Deny`. | `Allow` |
+| `direction` | The direction to allow traffic, either `Inbound` or `Outbound`. | `Inbound` |
+| `protocol` | The name of the traffic protocol. | `Tcp` |
+| traffic sources (`source_port_range` and `source_address_prefix`) | Individual ports or IP address of the traffic sender. | `*` (All ports or all IP addresses) |
+| traffic destinations (`destination_port_range` and `destination_address_prefix`) | Individual ports or IP address of the traffic receiver. | `22` (Allow computers to SSH into the VNet) |
 
 ## Create a VNet
 
@@ -34,40 +69,44 @@ Before you create a virtual network, you must know the required settings:
 
     ```hcl
     resource "azurerm_virtual_network" "vnet" {
-        name                = "azure-web-app-vnet"
+        # We reference the resource group attributes by its resource block.
         location            = azurerm_resource_group.rg.location
         resource_group_name = azurerm_resource_group.rg.name
-        address_space       = ["10.0.0.0/16"]
+        name                = "azure-web-app-vnet"
+        address_space       = ["10.0.0.0/16"] # This is an example of an address space.
     }
 
     resource "azurerm_subnet" "subnet" {
-        name                 = "internalsubnet"
         resource_group_name  = azurerm_resource_group.rg.name
         virtual_network_name = azurerm_virtual_network.vnet.name
+        name                 = "defaultsubnet"
         address_prefixes     = ["10.0.2.0/24"]
-        service_endpoints    = ["Microsoft.Sql"]
+        service_endpoints    = ["Microsoft.Sql"] # This lets our web app's SQL server connect to the network.
     }
 
     resource "azurerm_network_security_group" "nsg" {
-        name                = "azure-web-app-nsg"
         resource_group_name = azurerm_resource_group.rg.name
         location            = azurerm_resource_group.rg.location
+        name                = "azure-web-app-nsg"
     }
 
     resource "azurerm_network_security_rule" "nsg_22" {
-        name                        = "azure-web-app-ssh-nsg-rule"
         resource_group_name         = azurerm_resource_group.rg.name
+        # We reference the network security group name by its resource block.
+        network_security_group_name = azurerm_network_security_group.nsg.name
+        name                        = "azure-web-app-ssh-nsg-rule"
         priority                    = 300
         access                      = "Allow"
         direction                   = "Inbound"
+        # We allow TCP traffic to port 22 so we can SSH into the network.
         protocol                    = "Tcp"
         source_port_range           = "*"
         destination_port_range      = "22"
         source_address_prefix       = "*"
         destination_address_prefix  = "*"
-        network_security_group_name = azurerm_network_security_group.nsg.name
     }
 
+    # We attach the security group to a subnet of the virtual network.
     resource "azurerm_subnet_network_security_group_association" "nsg_assoc" {
         subnet_id                 = azurerm_subnet.subnet.id
         network_security_group_id = azurerm_network_security_group.nsg.id
@@ -76,11 +115,9 @@ Before you create a virtual network, you must know the required settings:
 
 1. Save the `main.tf` file.
 
-## Troubleshooting
-
-TBD
-
 ## Learn more
 
-[Azure Vnet concepts and best practices](https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices)
+- [Azure Vnet concepts and best practices](https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices)
+- [Network security groups overview](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
+- [How network security groups filter network traffic](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works)
 
