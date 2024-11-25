@@ -1,12 +1,18 @@
 ---
 title: Connect to Azure with Terraform
 permalink: /azure-web-app-with-terraform/connect-to-azure/
-last_modified_at: 2024-11-15
+last_modified_at: 2024-11-24
 order: 3
 excerpt: Set up your Terraform workspace and connect to Azure.
 ---
 
-The [azurerm documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure) in the Terraform Registry lists different ways to authenticate to Azure. In this tutorial, we'll authenticate with the Azure CLI. If you want to automate this process, you authenticate with a service principal or managed service identity instead.
+In this tutorial, we'll authenticate to the Terraform `azurerm` provider with the Azure CLI.
+
+{%- capture tip-content -%}
+The [azurerm documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure) in the Terraform Registry lists different ways to authenticate to Azure. If you want to automate this process, authenticate with a service principal or managed service identity instead.
+{% endcapture %}
+
+{% include tip-notice.html content=tip-content %}
 
 This page describes how to log into the Azure CLI and set up your `azurerm` Terraform provider.
 
@@ -45,14 +51,14 @@ This page describes how to log into the Azure CLI and set up your `azurerm` Terr
         required_providers {
             azurerm = {
             source = "hashicorp/azurerm"
-            version = "4.9.0"
+            version = "=4.9.0"
             }
         }
     }
 
     provider "azurerm" {
         features {}
-        subscription_id = <YOUR-AZURE-SUBSCRIPTION-ID>
+        subscription_id = "<YOUR-AZURE-SUBSCRIPTION-ID>"
     }
     ```
 
@@ -68,13 +74,20 @@ In your terminal, run the following command:
 terraform init
 ```
 
-Confirmation TBD
+This command installs the providers and creates a `.terraform.lock.hcl` file. This file records which providers the workspace uses so Terraform installs the same versions when you run `terraform init` in the future.
 
-## Troubleshooting 
+{% include figure
+  popup=true
+  image_path="/assets/images/terraform-init.png"
+  alt="terraform-init"
+  caption="Terraform initialize confirmation message"
+%}
 
-TBD
+You're now ready to create Azure resources with Terraform.
 
 ## Learn more
 
-TBD
+- [`azurerm` provider in Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/4.11.0)
+- [Azure Provider: Authenticating using the Azure CLI](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
+- [Authenticate to Azure using Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli)
 
