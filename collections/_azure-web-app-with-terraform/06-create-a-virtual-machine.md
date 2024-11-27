@@ -6,9 +6,9 @@ order: 6
 excerpt: Create a virtual machine with Terraform.
 ---
 
-A virtual machine is a digital environment that behaves like a physical computer. Azure Virtual machines can run Windows or Linux operating systems. You can use virtual machines to manage access to other services, to run resource-heavy calculations, or to host content. For this tutorial, we want a virtual machine that users can access over the internet.
+A virtual machine (VM) is a digital environment that acts like a physical computer. Azure Virtual machines can run Windows or Linux operating systems. You can use virtual machines to manage access to other services, to run resource-heavy calculations, or to host content. For this tutorial, we want a virtual machine that serves content that users can access over the internet.
 
-To make our virutal machine accessible to users, it needs a steady online address. To create this address, we create a network interface with a static public IP address. With a public IP address, we can define network security rules that allow other computers to access our virtual machine.
+To make our virutal machine accessible, we must give it a reliable online address. To do so, we create a network interface with a static public IP address. With a public IP address, we can define network security rules that allow other computers to access our virtual machine.
 
 This page describes how to create:
 
@@ -18,7 +18,7 @@ This page describes how to create:
 
 ## Create a static IP address
 
-A static public IP gives your virtual machine a consistent online address. If we don't create a static IP, our computer's address may change at any time.
+A static public IP gives your virtual machine a consistent online address. If we don't create a static IP, our virtual machine's address may change at any time.
 
 1. Open the `main.tf` file.
 1. Add the following Terraform code to the bottom of the file:
@@ -45,7 +45,7 @@ A static public IP gives your virtual machine a consistent online address. If we
 
 ## Create a network interface
 
-A network interface connects a virtual machine to a virutal network.
+A network interface creates a connection between a virtual machine in a virtual network and the public internet.
 
 1. In the `main.tf` file, add the following Terraform code:
 
@@ -68,9 +68,9 @@ A network interface connects a virtual machine to a virutal network.
     | `name` | The name of your network interface. | `azure-web-app-nic` |
     | `ip_configuration` | The IP connection between the virtual network and your public IP address. | `ip_configuration {`<br/>`name="public"`<br/>`subnet_id=azurerm_subnet.subnet.id`<br/>`private_ip_address_allocation="Dynamic"`<br/>`public_ip_address_id=azurerm_public_ip.ip4.id`<br/>`}` |
 
-## Create a virtual machine
+    See the [Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_interface#argument-reference) to learn more about the `azurerm_network_interface` resource's available arguments.
 
-The virtual machine defines the compute resources our web app uses.
+## Define the virtual machine
 
 1. In the `main.tf` file, add the following Terraform code:
 
@@ -107,6 +107,8 @@ The virtual machine defines the compute resources our web app uses.
     | `network_interface`<br/>`_ids` | The network interfaces that connect the machine to the virtual network. | `azurerm_network_interface`<br/>`.nic.id` |
     | `os_disk` | The machine's storage disk. | `os_disk {`<br/>`caching="ReadWrite"`<br/>`storage_account_type="Standard_LRS"`<br/>`}` |
     | `source_image`<br/>`_reference` | The machine's operating system. | `source_image_reference {`<br/>`publisher="canonical"`<br/>`offer="0001-com-ubuntu-server-jammy`<br/>`sku="22_04-lts"`<br/>`version="latest"`<br/>`}` |
+
+    See the [Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_virtual_machine#argument-reference) to learn more about the `azurerm_linux_virtual_machine` resource's available arguments.
 
 ## Learn more
 
