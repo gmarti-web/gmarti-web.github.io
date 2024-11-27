@@ -10,7 +10,7 @@ main:
     description: Backlog of all posts
 
 azure-web-app-with-terraform:
-  - title: Get Started
+  - title: Get started
     children:
       - title: Introduction
         url: /azure-web-app-with-terraform/introduction/
@@ -30,7 +30,7 @@ azure-web-app-with-terraform:
         url: /azure-web-app-with-terraform/create-an-azure-sql-server/
       - title: Deploy your resources with Terraform
         url: /azure-web-app-with-terraform/deploy-your-resources/
-  - title: Wrap up
+  - title: Wrap up and troubleshooting
     children:
       - title: Project summary
         url: /azure-web-app-with-terraform/summary/

@@ -1,7 +1,7 @@
 ---
 title: Create an Azure SQL server
 permalink: /azure-web-app-with-terraform/create-an-azure-sql-server/
-last_modified_at: 2024-11-15
+last_modified_at: 2024-11-27
 order: 7
 excerpt: Create an Azure SQL server with Terraform.
 ---
@@ -33,11 +33,15 @@ This page describes how to create an Azure SQL server and connect it to our virt
     }
     ```
 
+    | Configuration | Definition | Example |
+    |---------------|------------|---------|
+    | `name` | The name of your SQL server. | `azure-web-app-mssqlserver` |
+    | `version` | The SQL server version. | `12.0` |
+    | `administrator_login` | The administrator's login username. | `Exmaple-Administrator` |
+    | `administrator_login_password` | The administrator's login password. | `myp@sswoRD11!` |
+    | `minimum_tls_version` | The minimum TLS version the server allows. | `1.2` |
+
 1. Save the `main.tf` file.
-
-## Troubleshooting
-
-TBD
 
 ## Learn more
 
