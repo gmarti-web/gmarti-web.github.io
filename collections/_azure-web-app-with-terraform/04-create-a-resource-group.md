@@ -6,7 +6,8 @@ order: 4
 excerpt: Create an Azure resource group with Terraform.
 ---
 
-An Azure resource group is a logical group of related resources. All Azure resources must belong to a resource group.
+An Azure resource group is a logical group of related resources. All Azure
+resources must belong to a resource group.
 
 This page describes how to create a resource group with Terraform.
 

@@ -1,7 +1,7 @@
 ---
 title: Prerequisites
 permalink: /azure-web-app-with-terraform/prerequisites/
-last_modified_at: 2024-11-24
+last_modified_at: 2024-11-29
 order: 2
 excerpt: Download and configure the required tools.
 ---
@@ -50,6 +50,10 @@ This page describes how to set up and install the necessary tools.
       alt="terraform-download-finish"
       caption="Terraform version command"
     %}
+
+This tutorial assumes you're familiar with HashiCorp configuration language (`hcl`).
+
+{% include learn-terraform.html %}
 
 ## Install the Terraform VS Code extensions
 

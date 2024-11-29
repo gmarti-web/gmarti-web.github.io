@@ -1,12 +1,15 @@
 ---
 title: Deploy your resources with Terraform
 permalink: /azure-web-app-with-terraform/deploy-your-resources/
-last_modified_at: 2024-11-15
+last_modified_at: 2024-11-27
 order: 8
 excerpt: Deploy your resources to create a web app.
 ---
 
-After you've defined your resources, Terraform creates them for you in Azure. It determines in what order resources need to be created. It tracks your resources for you, so you can change them at any time without starting over.
+Terraform uses the definitions in the `maint.tf` file to create resources in
+Azure. It determines in what order resources need to be created. And, it tracks
+your resources for you, so you can change them in the `main.tf` file at any
+time without starting from scratch.
 
 This page describes how to review your Terraform plan and deploy your resources.
 
@@ -18,25 +21,61 @@ This page describes how to review your Terraform plan and deploy your resources.
     terraform plan
     ```
 
-    This command tells you how Terraform will build your infrastructure.
+    This command tells you how Terraform will build your infrastructure. It
+    tallys up how many resources your Terraform code will add, change, or
+    destroy.
 
-    {% include tip-notice.html content="Always review the plan before you create or edit resources. This is your chance to catch any misconfigurations that might harm or accidentally delete your resources." %}
+    {% include figure
+      popup=true
+      image_path="/assets/images/terraform-plan.png"
+      alt="terraform-plan"
+      caption="`terraform plan` output"
+    %}
+
+    {% include
+      tip-notice.html
+      content="Always review the plan before you create or edit resources. This is your chance
+      to catch any misconfigurations that might harm or accidentally delete your resources."
+    %}
 
 1. After you review the plan, run the following command:
 
     ```console
-    terraform apply -auto-approve
+    terraform apply
     ```
+
+    The command asks you to confirm. To do so, enter `yes`.
+
+    {% include figure
+      popup=true
+      image_path="/assets/images/terraform-apply-confirm.png"
+      alt="terraform-apply-confirm"
+      caption="`terraform apply` confirmation message"
+    %}
 
     This creates your infrastructure. This may take a few minutes.
 
-Confirmation screenshot TBD.
+The results are displayed in your terminal.
 
-## Troubleshooting
+{% include figure
+  popup=true
+  image_path="/assets/images/terraform-apply-complete.png"
+  alt="terraform-apply-complete"
+  caption="`terraform apply` completion message"
+%}
 
-TBD
+Your resources are ready to use in Azure. See your new resource group in the
+[Azure portal](https://azure.portal.com).
+
+{% include figure
+  popup=true
+  image_path="/assets/images/azure-resources.png"
+  alt="azure-resources"
+  caption="Azure resource group details"
+%}
 
 ## Learn more
 
-TBD
+- [Terraform `plan` commmand](https://developer.hashicorp.com/terraform/cli/commands/plan)
+- [Terraform `apply` command](https://developer.hashicorp.com/terraform/cli/commands/apply)
 

@@ -6,15 +6,19 @@ order: 3
 excerpt: Set up your Terraform workspace and connect to Azure.
 ---
 
-In this tutorial, we'll authenticate to the Terraform `azurerm` provider with the Azure CLI.
+In this tutorial, we'll authenticate to the Terraform `azurerm` provider with
+the Azure CLI.
 
-{%- capture tip-content -%}
-The [azurerm documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure) in the Terraform Registry lists different ways to authenticate to Azure. If you want to automate this process, authenticate with a service principal or managed service identity instead.
-{% endcapture %}
+{%- capture tip-content -%} The [azurerm
+documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs#authenticating-to-azure)
+in the Terraform Registry lists different ways to authenticate to Azure. If you
+want to automate this process, authenticate with a service principal or managed
+service identity instead. {% endcapture %}
 
 {% include tip-notice.html content=tip-content %}
 
-This page describes how to log into the Azure CLI and set up your `azurerm` Terraform provider.
+This page describes how to log into the Azure CLI and set up your `azurerm`
+Terraform provider.
 
 ## Log into the Azure CLI
 
@@ -64,7 +68,9 @@ This page describes how to log into the Azure CLI and set up your `azurerm` Terr
 
 1. Save this file as `providers.tf`.
 
-    This file defines your Terraform providers. You can define any number of providers in your Terraform project. For this tutorial, we'll use only the `azurerm` provider.
+    This file defines your Terraform providers. You can define any number of
+    providers in your Terraform project. For this tutorial, we'll use only the
+    `azurerm` provider.
 
 ## Initialize your Terraform workspace
 
@@ -74,7 +80,9 @@ In your terminal, run the following command:
 terraform init
 ```
 
-This command installs the providers and creates a `.terraform.lock.hcl` file. This file records which providers the workspace uses so Terraform installs the same versions when you run `terraform init` in the future.
+This command installs the providers and creates a `.terraform.lock.hcl` file.
+This file records which providers the workspace uses so Terraform installs the
+same versions when you run `terraform init` in the future.
 
 {% include figure
   popup=true
