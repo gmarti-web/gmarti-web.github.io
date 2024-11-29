@@ -32,7 +32,7 @@ This page describes how to review your Terraform plan and deploy your resources.
 1. After you review the plan, run the following command:
 
     ```console
-    terraform apply -auto-approve
+    terraform apply
     ```
 
     The command asks you to confirm. To do so, enter `yes`.
@@ -66,5 +66,6 @@ Your resources are ready to use in Azure. See your new resource group in the [Az
 
 ## Learn more
 
-TBD
+- [Terraform `plan` commmand](https://developer.hashicorp.com/terraform/cli/commands/plan)
+- [Terraform `apply` command](https://developer.hashicorp.com/terraform/cli/commands/apply)
 

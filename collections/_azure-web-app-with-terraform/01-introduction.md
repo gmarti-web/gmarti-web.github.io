@@ -6,7 +6,10 @@ order: 1
 excerpt: Learn how to use Terraform to create the basic web app components in Azure.
 ---
 
-A web app is software that runs on a web server and is available through a web browser. Unlike traditional desktop applications, you don't need to install anything on your computer to run a web app. Most modern software applications are web apps.
+A web app is software that runs on a web server and is available through a web
+browser. Unlike traditional desktop applications, you don't need to install
+anything on your computer to run a web app. Most modern software applications
+are web apps.
 
 Some examples include:
 
@@ -14,7 +17,9 @@ Some examples include:
 - [Reddit](https://www.reddit.com)
 - [Etsy](https://www.etsy.com)
 
-Web apps vary in complexity. The examples above have many features, like personal accounts, payment processors, and external integrations with other web apps. The core of a web app, however, comprises three components:
+Web apps vary in complexity. The examples above have many features, like
+personal accounts, payment processors, and external integrations with other web
+apps. The core of a web app, however, comprises three components:
 
 <div>
   <dl>
@@ -27,7 +32,14 @@ Web apps vary in complexity. The examples above have many features, like persona
   </dl>
 </div>
 
-Together, these components give you a connected machine that is always on, connected to the internet, and available for others to visit. This means you can save applications, services, or static web pages here and access them anywhere, anytime. With the reliability of the cloud, you don't have to worry about the host's physical environment. Compare this with hosting your content on your home computer, where you must manage its power, cooling, and continuous operation. A web app in Azure lets you focus on improving your content rather than maintaining physical hardware.
+Together, these components give you a connected machine that is always on,
+connected to the internet, and available for others to visit. This means you
+can save applications, services, or static web pages here and access them
+anywhere, anytime. With the reliability of the cloud, you don't have to worry
+about the host's physical environment. Compare this with hosting your content
+on your home computer, where you must manage its power, cooling, and continuous
+operation. A web app in Azure lets you focus on improving your content rather
+than maintaining physical hardware.
 
 ## Purpose and scope
 
