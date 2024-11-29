@@ -77,3 +77,4 @@ This page describes how to set up and install the necessary tools.
 
 You've successfully installed the Terraform extension.
 
+
