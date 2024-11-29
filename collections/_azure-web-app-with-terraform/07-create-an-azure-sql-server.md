@@ -6,11 +6,15 @@ order: 7
 excerpt: Create an Azure SQL server with Terraform.
 ---
 
-An Azure SQL server is a relational database management system (RDBMS). It saves data in tables that can be filtered and sliced with SQL queries. Our web app needs a SQL server to save and retrieve data from users.
+An Azure SQL server is a relational database management system (RDBMS). It
+saves data in tables that can be filtered and sliced with SQL queries. Our web
+app needs a SQL server to save and retrieve data from users.
 
-We must allow the SQL server to connect to the virtual network we created earlier. We do that with a virtual network rule.
+We must allow the SQL server to connect to the virtual network we created
+earlier. We do that with a virtual network rule.
 
-This page describes how to create an Azure SQL server and connect it to our virtual network's subnet.
+This page describes how to create an Azure SQL server and connect it to our
+virtual network's subnet.
 
 ## Define the SQL server
 
@@ -43,7 +47,10 @@ This page describes how to create an Azure SQL server and connect it to our virt
     | `administrator_login_password` | The administrator's login password. | `myp@sswoRD11!` |
     | `minimum_tls_version` | The minimum TLS version the server allows. | `1.2` |
 
-    See the [Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server#argument-reference) to learn more about the `azurerm_mssql_server` resource's available arguments. 
+    See the [Terraform
+    Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server#argument-reference)
+    to learn more about the `azurerm_mssql_server` resource's available
+    arguments. 
 
 1. Save the `main.tf` file.
 

@@ -43,12 +43,15 @@ than maintaining physical hardware.
 
 ## Purpose and scope
 
-This tutorial describes how to use Terraform to create the basic components for a simple web app. It includes:
+This tutorial describes how to use Terraform to create the basic components for
+a simple web app. It includes:
 
 - Downloading, installing, and configuring the Azure CLI
 - Setting up a Terraform workspace
 - Writing Terraform configuration files
 - Planning, applying, and destroying Terraform resources
 
-If you work in the cloud or are interested in learning industry-standard concepts, this tutorial will help you get started with code-first infrastructure strategies.
+If you work in the cloud or are interested in learning industry-standard
+concepts, this tutorial will help you get started with code-first
+infrastructure strategies.
 

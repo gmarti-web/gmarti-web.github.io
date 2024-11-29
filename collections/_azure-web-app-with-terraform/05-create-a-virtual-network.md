@@ -6,7 +6,12 @@ order: 5
 excerpt: Create a virtual network with Terraform.
 ---
 
-A virtual network (Vnet) is software that acts like traditional networking infrastructure, like switches and routers. We use virtual networks to control how our application connects to the internet. We connect other resources to our virtual network by breaking the network into sections, called subnets. We define rules for how internet traffic can interact with our resources. Azure calls these rules network security groups.
+A virtual network (Vnet) is software that acts like traditional networking
+infrastructure, like switches and routers. We use virtual networks to control
+how our application connects to the internet. We connect other resources to our
+virtual network by breaking the network into sections, called subnets. We
+define rules for how internet traffic can interact with our resources. Azure
+calls these rules network security groups.
 
 This page describes how to create:
 
@@ -40,7 +45,8 @@ This page describes how to create:
 
 ## Create a subnet
 
-A subnet is a digital slice of the virtual network. We use subnets to connect the virtual network to the Internet and other Azure resources.
+A subnet is a digital slice of the virtual network. We use subnets to connect
+the virtual network to the Internet and other Azure resources.
 
 1. In the `main.tf` file, add the following Terraform code:
 
@@ -60,13 +66,16 @@ A subnet is a digital slice of the virtual network. We use subnets to connect th
      | `address_prefixes`  | The subset of your virtual network's address space reserved for this subnet.                                                                                                                 | `10.0.2.0/24`   |
      | `service_endpoints` | Standard aliases for Azure resources. [Read more about the available service endpoints](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview). | `Microsoft.Sql` |
 
-    See the [Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet#argument-reference) to learn more about the `azurerm_subnet` resource's available arguments.
+    See the [Terraform
+    Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet#argument-reference)
+    to learn more about the `azurerm_subnet` resource's available arguments.
 
 1. Save your changes to the `main.tf` file
 
 ## Create a network security group
 
-A network security group is a set of rules that define how traffic moves in and out of the virtual network.
+A network security group is a set of rules that define how traffic moves in and
+out of the virtual network.
 
 1. In the `main.tf` file, add the following Terraform code:
 
@@ -88,7 +97,10 @@ A network security group is a set of rules that define how traffic moves in and 
      |---------------|-----------------------------------------|----------------------|
      | `name`        | The name of the network security group. | `azure-webn-app-nsg` |
 
-    See the [Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_group#argument-reference) to learn more about the `azurerm_network_security_group` resource's available arguments.
+    See the [Terraform
+    Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_group#argument-reference)
+    to learn more about the `azurerm_network_security_group` resource's
+    available arguments.
 
 1. Save the `main.tf` file.
 
@@ -96,7 +108,8 @@ A network security group is a set of rules that define how traffic moves in and 
 
 A network security group rule is a single rule in a network security group.
 
-For this tutorial, we create one security rule group to allow incoming traffic on port `22`. This lets us SSH into a virtual machine within the network.
+For this tutorial, we create one security rule group to allow incoming traffic
+on port `22`. This lets us SSH into a virtual machine within the network.
 
 1. In the `main.tf` file, add the following Terraform code:
 
@@ -129,7 +142,10 @@ For this tutorial, we create one security rule group to allow incoming traffic o
     | traffic sources (`source_port_range` and `source_address_prefix`) | Individual ports or IP address of the traffic sender. | `*` (All ports or all IP addresses) |
     | traffic destinations (`destination_port_range` and `destination_address_prefix`) | Individual ports or IP address of the traffic receiver. | `22` (Allow computers to SSH into the VNet) |
 
-    See the [Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_rule#argument-reference) to learn more about the `azurerm_network_security_rule` resource's available arguments.
+    See the [Terraform
+    Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_rule#argument-reference)
+    to learn more about the `azurerm_network_security_rule` resource's
+    available arguments.
 
 1. Save your changes to the `main.tf` file.
 

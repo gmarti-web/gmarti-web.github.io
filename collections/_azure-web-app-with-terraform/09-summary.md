@@ -15,11 +15,14 @@ In this tutorial, we:
 - Created an Azure virtual machine with a public IP address and a network interface.
 - Created an Azure SQL server and connected it to our virtual network.
 
-You now have the basic infrastructure for a simple web app! And, because the infrastructure is defined as code, you can recreate this exact set of resources in any environment.
+You now have the basic infrastructure for a simple web app! And, because the
+infrastructure is defined as code, you can recreate this exact set of resources
+in any environment.
 
 ## Delete resources
 
-Delete, or destroy, the resources we created in this tutorial to avoid any unexpected charges from Azure.
+Delete, or destroy, the resources we created in this tutorial to avoid any
+unexpected charges from Azure.
 
 1. In your terminal, run the following command:
 

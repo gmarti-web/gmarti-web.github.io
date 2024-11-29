@@ -6,7 +6,10 @@ order: 8
 excerpt: Deploy your resources to create a web app.
 ---
 
-Terraform uses the definitions in the `maint.tf` file to create resources in Azure. It determines in what order resources need to be created. And, it tracks your resources for you, so you can change them in the `main.tf` file at any time without starting from scratch.
+Terraform uses the definitions in the `maint.tf` file to create resources in
+Azure. It determines in what order resources need to be created. And, it tracks
+your resources for you, so you can change them in the `main.tf` file at any
+time without starting from scratch.
 
 This page describes how to review your Terraform plan and deploy your resources.
 
@@ -18,7 +21,9 @@ This page describes how to review your Terraform plan and deploy your resources.
     terraform plan
     ```
 
-    This command tells you how Terraform will build your infrastructure. It tallys up how many resources your Terraform code will add, change, or destroy.
+    This command tells you how Terraform will build your infrastructure. It
+    tallys up how many resources your Terraform code will add, change, or
+    destroy.
 
     {% include figure
       popup=true
@@ -27,7 +32,11 @@ This page describes how to review your Terraform plan and deploy your resources.
       caption="`terraform plan` output"
     %}
 
-    {% include tip-notice.html content="Always review the plan before you create or edit resources. This is your chance to catch any misconfigurations that might harm or accidentally delete your resources." %}
+    {% include
+      tip-notice.html
+      content="Always review the plan before you create or edit resources. This is your chance
+      to catch any misconfigurations that might harm or accidentally delete your resources."
+    %}
 
 1. After you review the plan, run the following command:
 
@@ -55,7 +64,8 @@ The results are displayed in your terminal.
   caption="`terraform apply` completion message"
 %}
 
-Your resources are ready to use in Azure. See your new resource group in the [Azure portal](https://azure.portal.com).
+Your resources are ready to use in Azure. See your new resource group in the
+[Azure portal](https://azure.portal.com).
 
 {% include figure
   popup=true
