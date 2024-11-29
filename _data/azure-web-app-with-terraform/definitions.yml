@@ -1,0 +1,12 @@
+web-app: >-
+  <p> A web app is software that runs on a web server and is available through a web browser. Unlike traditional desktop applications, you don't need to install anything on your computer to run a web app. Most modern applications are web apps.</p><p>Some examples include:</p>
+  <ul><li><a href="https://docs.google.com">Google Docs</a></li><li><a href="https://www.reddit.com">Reddit</a></li><li><a href="https://www.etsy.com">Etsy</a></li></ul>
+
+resource-group: >-
+  <p>An Azure resource group is a logical group of related resources.</p>
+
+virtual-network: >-
+  <p>A virtual network (Vnet) is software that acts like traditional networking infrastructure, like switches and routers.</p>
+
+virtual-machine: >-
+  <p>A virtual machine (VM) is a digital environment that acts like a physical computer.</p>

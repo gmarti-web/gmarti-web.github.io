@@ -1,21 +1,12 @@
 ---
 title: Introduction
 permalink: /azure-web-app-with-terraform/introduction/
-last_modified_at: 2024-11-20
+last_modified_at: 2024-11-29
 order: 1
 excerpt: Learn how to use Terraform to create the basic web app components in Azure.
 ---
 
-A web app is software that runs on a web server and is available through a web
-browser. Unlike traditional desktop applications, you don't need to install
-anything on your computer to run a web app. Most modern software applications
-are web apps.
-
-Some examples include:
-
-- [Google Docs](https://docs.google.com/)
-- [Reddit](https://www.reddit.com)
-- [Etsy](https://www.etsy.com)
+{{ site.data.azure-web-app-with-terraform.definitions.web-app }}
 
 Web apps vary in complexity. The examples above have many features, like
 personal accounts, payment processors, and external integrations with other web
@@ -52,6 +43,10 @@ a simple web app. It includes:
 - Planning, applying, and destroying Terraform resources
 
 If you work in the cloud or are interested in learning industry-standard
-concepts, this tutorial will help you get started with code-first
-infrastructure strategies.
+concepts, this tutorial will help you get started with infrastructure-as-code
+strategies.
+
+This tutorial assumes you're familiar with HashiCorp configuration language (`hcl`).
+
+{% include learn-terraform.html %}
 
