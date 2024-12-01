@@ -28,7 +28,7 @@ connected to the internet, and available for others to visit. This means you
 can save applications, services, or static web pages here and access them
 anywhere, anytime. With the reliability of the cloud, you don't have to worry
 about the host's physical environment. Compare this with hosting your content
-on your home computer, where you must manage its power, cooling, and continuous
+on your home computer where you must manage its power, cooling, and continuous
 operation. A web app in Azure lets you focus on improving your content rather
 than maintaining physical hardware.
 

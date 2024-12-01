@@ -14,7 +14,7 @@ Before you can follow this tutorial, you must:
 - Install the Azure command-line interface (CLI)
 - Install the Terraform command-line interface (CLI)
 
-Optionally, you can save your work in a [GitHub repository](https://github.com/), as well.
+Optionally, you can save your work in a [GitHub repository](https://github.com/).
 
 This page describes how to set up and install the necessary tools.
 

@@ -65,7 +65,7 @@ The results are displayed in your terminal.
 %}
 
 Your resources are ready to use in Azure. See your new resource group in the
-[Azure portal](https://azure.portal.com).
+[Azure portal](https://portal.azure.com).
 
 {% include figure
   popup=true

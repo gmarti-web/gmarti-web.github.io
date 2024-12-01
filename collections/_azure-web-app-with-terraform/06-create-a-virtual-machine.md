@@ -131,5 +131,5 @@ network and the public internet.
 - [Terraform: `azurerm_public_ip`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/public_ip)
 - [Terraform: `azurerm_network_interface`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_interface)
 - [Terraform: `azurerm_linux_virtual_machine`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/linux_virtual_machine)
-- [Azure virtual machine series](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/?msockid=329aaa3c4d516c1904efbe154c7c6df5)
+- [Azure Virtual Machine series](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/?msockid=329aaa3c4d516c1904efbe154c7c6df5)
 

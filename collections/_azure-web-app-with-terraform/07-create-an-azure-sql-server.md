@@ -56,6 +56,6 @@ virtual network's subnet.
 
 ## Learn more
 
-[Terraform: `azurerm_mssql_server`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server)
-[Terraform: `azurerm_mssql_virtual_network_rule`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_virtual_network_rule)
+- [Terraform: `azurerm_mssql_server`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_server)
+- [Terraform: `azurerm_mssql_virtual_network_rule`](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_virtual_network_rule)
 
