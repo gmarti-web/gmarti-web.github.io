@@ -15,7 +15,7 @@ apps. The core of a web app, however, comprises three components:
 <div>
   <dl>
       <dt>Virtual network</dt>
-      <dd>Software that replaces traditional networking infrastructure, like routers and switches</dd>
+      <dd>Software that replaces traditional networking infrastructure, like routers and switches.</dd>
       <dt>Virtual machine</dt>
       <dd>A digital environment that behaves like a physical computer.</dd>
       <dt>Database</dt>
