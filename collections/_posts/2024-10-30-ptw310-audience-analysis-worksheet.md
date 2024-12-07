@@ -1,6 +1,6 @@
 ---
 title: Audience analysis
-last_modified_at: 2024-11-17
+last_modified_at: 2024-12-07
 categories:
     - PTW310
 excerpt: An audience analysis for my PTW310 portfolio project.
