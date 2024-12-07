@@ -14,7 +14,7 @@ includes a networking setup, a server, and a MYSQL database. The project will ha
 
 - An easy-to-use navigation menu. This lets my readers find the sections they need
 to do their work.
-- Background, instructions, and examples for each section. This gives my readers
+- Background and instructions for each section. This gives my readers
 more context about the problem they’re solving. Busy readers can skip directly to
 the information they need using hyperlinks.
 - Resources for readers to learn more about each topic. This lets readers dig deeper
@@ -29,7 +29,6 @@ The tutorial must:
 easy to follow. These tools are:
   - Visual Studio Code as my integrated development environment (IDE).
   - Terraform as my configuration language.
-  - Bash as my shell environment.
   - Azure as my cloud environment.
 - Follow the “Every Page is Page One” model. This model lets readers start learning
 from any page they land on. If a section builds on earlier concepts, I’ll give readers
@@ -98,7 +97,6 @@ The needs, values, and attitudes of this audience are:
 
 ## Format and tools
 
-I’ll write this tutorial with Markdown in Visual Studio Code. I’ll use Jekyll for
-GitHub Pages to convert them to static web pages. I’ll host these pages on my public
-GitHub account.
+I’ll write this tutorial with Markdown and HTML. I’ll use Jekyll for to convert
+them to static web pages. I’ll host these on an Azure static web app.
 
