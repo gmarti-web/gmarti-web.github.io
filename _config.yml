@@ -47,6 +47,12 @@ collections:
     description: >-
       In this tutorial, you'll learn how to deploy the required Azure infrastructure 
       for a simple web application.
+  knowledge-base-in-github:
+    output: true
+    permalink: /:collection/:path
+    title: Create a knowledge base with GitHub Pages
+    description: >-
+      In this tutorial, you'll learn how to set up, maintain, and deploy a knowledge base with GitHub Pages.
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -86,6 +92,20 @@ defaults:
       sort_by: order
       sidebar:
           nav: azure-web-app-with-terraform
+  - scope:
+      path: "collections/_knowledge-base-in-github"
+      type: knowledge-base-in-github
+    values:
+      layout: single
+      author_profile: false
+      show_date: true
+      toc: true
+      toc_lable: Table of contents
+      toc_icon: cog
+      toc_sticky: true
+      sort_by: order
+      sidebar:
+        nav: knowledge-base-in-github
 
 author:
   name : Greg Martinez
