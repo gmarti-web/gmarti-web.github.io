@@ -130,3 +130,75 @@ excerpt: An audience anlaysis for my knowledge base with GitHub Pages tutorial.
 The primary audience's desired outcome is to quickly add stubs of documentation with minimal writing effort.
 
 ## Outline of deliverable
+
+```md
+# Knowledge base with GitHub
+
+Introduction
+
+## Install `ruby` and `bundler`
+
+### Install `ruby` for windows
+
+### Install `ruby` for macOS
+
+### Install `ruby` for linux
+
+### Install `bundler`
+
+## Create a `Gemfile`
+
+## Create a GitHub repository
+
+## Set up workflow to deploy your knowledgebase
+
+### Deploy with GitHub Pages
+
+### Deploy with bring-your-own (BYO) app service
+
+## Pages and collections
+
+### What are pages?
+
+### What are collections?
+
+## Includes and data files
+
+### What are includes?
+
+### What are data files?
+
+## Create a Markdown page
+
+### Create a blank Markdown file
+
+### Add frontmatter
+
+#### Basic frontmatter
+
+#### Child page frontmatter
+
+### Add content
+
+#### Markdown basics
+
+##### Headings
+
+##### Lists
+
+###### Ordered lists
+
+###### Unordered lists
+
+##### Tables
+
+##### Links
+
+##### Images
+
+## Push to your GitHub repository
+
+## Summary
+
+## FAQs
+```
