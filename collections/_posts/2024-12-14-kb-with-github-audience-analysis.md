@@ -128,14 +128,13 @@ excerpt: An audience anlaysis for my knowledge base with GitHub Pages tutorial.
 ## Audience's desired outcome
 
 The primary audience's desired outcome is to add documentation with minimal
-effort to a shared knowledge base. The audience may not have any experience
-with jekyll, so this tutorial helps the learner set up their GitHub Pages
-service. To keep this tutorial focused on adding simple Markdown articles, it
-doesn't cover [Liquid](https://shopify.github.io/liquid/) template language or
-[jekyll site structure](https://jekyllrb.com/docs/structure/) features. It
-does, however, explain [jekyll front
-matter](https://jekyllrb.com/docs/front-matter/) so that jekyll can rendor the
-learner's articles.
+effort to a shared knowledge base. To keep this tutorial focused on simple
+Markdown articles, it doesn't cover [Liquid](https://shopify.github.io/liquid/)
+template language or [jekyll site
+structure](https://jekyllrb.com/docs/structure/) features. It does, however,
+explain how to set up a GitHub Pages service with jekyll. It also covers
+[jekyll front matter](https://jekyllrb.com/docs/front-matter/) so that jekyll
+can rendor the learner's articles.
 
 ## Outline of deliverable
 
