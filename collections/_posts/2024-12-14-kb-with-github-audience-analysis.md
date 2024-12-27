@@ -1,7 +1,7 @@
 ---
 title: Knowledge base with GitHub Pages audience analysis
 date: 2024-12-14
-last_modified_at: 2024-12-14
+last_modified_at: 2024-12-26
 categories:
     - GitHub Pages
     - Knowledge bases
@@ -127,46 +127,42 @@ excerpt: An audience anlaysis for my knowledge base with GitHub Pages tutorial.
 
 ## Audience's desired outcome
 
-The primary audience's desired outcome is to quickly add stubs of documentation with minimal writing effort.
+The primary audience's desired outcome is to add documentation with minimal
+effort to a shared knowledge base. The audience may not have any experience
+with jekyll, so this tutorial helps the learner set up their GitHub Pages
+service. To keep this tutorial focused on adding simple Markdown articles, it
+doesn't cover [Liquid](https://shopify.github.io/liquid/) template language or
+[jekyll site structure](https://jekyllrb.com/docs/structure/) features. It
+does, however, explain [jekyll front
+matter](https://jekyllrb.com/docs/front-matter/) so that jekyll can rendor the
+learner's articles.
 
 ## Outline of deliverable
 
 ```md
 # Knowledge base with GitHub
 
-Introduction
+## Introduction
 
-## Install `ruby` and `bundler`
+### Install `ruby` and `bundler`
 
-### Install `ruby` for windows
+#### Install `ruby` for windows
 
-### Install `ruby` for macOS
+#### Install `ruby` for macOS
 
-### Install `ruby` for linux
+#### Install `ruby` for linux
 
-### Install `bundler`
+#### Install `bundler`
 
-## Create a `Gemfile`
+### Create a `Gemfile`
 
 ## Create a GitHub repository
 
-## Set up workflow to deploy your knowledgebase
+### Set up workflow to deploy your knowledge base
 
-### Deploy with GitHub Pages
+#### Deploy with GitHub Pages
 
-### Deploy with bring-your-own (BYO) app service
-
-## Pages and collections
-
-### What are pages?
-
-### What are collections?
-
-## Includes and data files
-
-### What are includes?
-
-### What are data files?
+#### Deploy with bring-your-own (BYO) app service
 
 ## Create a Markdown page
 
@@ -195,6 +191,8 @@ Introduction
 ##### Links
 
 ##### Images
+
+## Preview your changes locally
 
 ## Push to your GitHub repository
 
