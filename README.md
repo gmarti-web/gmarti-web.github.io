@@ -18,3 +18,5 @@
   |   ├── about.md
   |   ├── index.md
   |   ├── tutorials.md
+
+This has evolved a bit, but I still want this site to be my portfolio.
