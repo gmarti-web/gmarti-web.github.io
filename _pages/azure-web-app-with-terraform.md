@@ -5,5 +5,7 @@ layout: collection
 collection: azure-web-app-with-terraform
 sort_by: order
 date: 2024-11-10
-last_modified_at: 2024-11-10
+last_modified_at: 2025-03-02
 ---
+
+I created this tutorial as my first portfolio project
