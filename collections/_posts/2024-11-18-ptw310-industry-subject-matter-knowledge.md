@@ -2,7 +2,7 @@
 title: Industry subject matter knowledge and tools skills
 last_modified_at: 2024-11-19
 categories:
-    - PTW310
+    - PTW
 excerpt: An exploration of current tech writing industry standards and tools.
 ---
 

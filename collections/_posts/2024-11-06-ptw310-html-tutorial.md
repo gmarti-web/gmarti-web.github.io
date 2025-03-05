@@ -2,7 +2,7 @@
 title: "W3schools HTML tutorial write-up"
 last_modified_at: 2024-11-06
 categories:
-    - PTW310
+    - PTW
 excerpt: My thoughts on the W3school's HTML tutorial.
 ---
 
