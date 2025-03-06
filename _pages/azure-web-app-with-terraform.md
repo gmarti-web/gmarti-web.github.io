@@ -5,13 +5,13 @@ layout: collection
 collection: azure-web-app-with-terraform
 sort_by: order
 date: 2024-11-10
-last_modified_at: 2025-03-02
+last_modified_at: 2025-03-05
 ---
 
 ## Project narrative
 
 For my PTW310 portfolio project, I created an instructional document
-in a Docs as Code environment. I originally planned to create an in-depth
+in a Docs-as-Code environment. I originally planned to create an in-depth
 blog-style tutorial, like other tutorials you see on Medium or other
 software source documentation. In the end, I was successful.
 
