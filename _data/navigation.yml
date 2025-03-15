@@ -36,3 +36,10 @@ azure-web-app-with-terraform:
         url: /azure-web-app-with-terraform/summary/
       - title: FAQs
         url: /azure-web-app-with-terraform/faqs/
+
+greener-redlands-proposal:
+  - title: Greener Redlands proposal
+    children:
+      - title: A greener Redlands
+        url: /greener-redlands-proposal/deliverable/
+

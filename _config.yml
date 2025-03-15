@@ -47,6 +47,11 @@ collections:
     description: >-
       In this tutorial, you'll learn how to deploy the required Azure infrastructure 
       for a simple web application.
+  greener-redlands-proposal:
+    output: true
+    title: Greener Redlands proposal
+    description: >-
+      This mock proposal was my Professional Technical Writing 320 portfolio assignment.
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -86,6 +91,14 @@ defaults:
       sort_by: order
       sidebar:
           nav: azure-web-app-with-terraform
+  - scope:
+      path: "collections/_greener-redlands-proposal"
+      type: greener-redlands-proposal
+    values:
+      layout: single
+      author_profile: false
+      show_date: true
+      toc: false
 
 author:
   name : Greg Martinez
