@@ -52,6 +52,11 @@ collections:
     title: Greener Redlands proposal
     description: >-
       This mock proposal was my Professional Technical Writing 320 portfolio assignment.
+  portfolio:
+    output: true
+    title: Portfolio
+    description: >-
+      My writing sample portfolio.
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -99,6 +104,18 @@ defaults:
       author_profile: false
       show_date: true
       toc: false
+  - scope:
+      path: "collections/_portfolio"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      toc: true
+      toc_label: Table of contents
+      toc_sticky: true
+      sort_by: order
+
 
 author:
   name : Greg Martinez
