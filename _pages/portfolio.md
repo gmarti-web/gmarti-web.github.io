@@ -12,4 +12,3 @@ layout: collection
 {% endfor %}
 </div>
 
-[What is a hub-and-spoke network architecture?](what-is-a-hub-and-spoke-topology/)
