@@ -6,7 +6,7 @@ permalink: /portfolio/what-is-a-hub-and-spoke-network/
 
 ## Introduction
 
-Network architecture patterns are reliable, industry-standard ways to manage connections between computing devices. They give you an example to follow as you set up your networking infrastructure. Two architecture pattern categories you can use are: _distributed_ or _centralized_. The best pattern category for your network depends on your use case and requirements.
+Network architecture patterns are reliable, industry-standard ways to manage connections between computing devices. They give you an example to follow as you set up your networking infrastructure. Two architecture pattern categories you can use are: _decentralized_ or _centralized_. The best pattern category for your network depends on your use case and requirements.
 
 The following table highlights some pros and cons of each category.
 
@@ -18,7 +18,7 @@ The following table highlights some pros and cons of each category.
   </thead>
   <tbody>
     <tr>
-      <td><strong>Distributed</strong></td>
+      <td><strong>Decentralized</strong></td>
       <td><ul>
         <li>Easy to add new applications.</li>
         <li>Isolated networks limit one network's impact on another.</li>
@@ -39,19 +39,19 @@ The following table highlights some pros and cons of each category.
       </ul></td>
       <td><ul>
         <li>New applications must be attached to the hub network.</li>
-        <li>Complex structure compared to a distributed network.</li>
+        <li>Complex structure compared to a decentralized network.</li>
       </ul></td>
     </tr>
   </tbody>
 </table>
 
-The following diagrams show a distributed and a centralized network configured in an Amazon Web Services (AWS) environment.
+The following diagrams show a decentralized and a centralized network in an Amazon Web Services (AWS) environment.
 
 {% include figure
   popup=true
   image_path="/assets/images/portfolio/hubandspoke/multiple-network-firewalls.drawio.svg"
   alt="A diagram of three separate AWS cloud networks"
-  caption="Figure 1: Distributed AWS networks connected to the public internet"
+  caption="Figure 1: Decentralized AWS networks connected to the public internet"
 %}
 
 
@@ -75,12 +75,15 @@ A VPC route table is a set of rules, called _routes_, that determine where to se
 
 <dl>
   <dt>Destination</dt>
-  <dd>The IP address range where you want traffic to go. For example, <code>172.16.0.0/12</code>.</dd>
+  <dd>The IP address range where you want traffic to go. For example, <code>172.16.0.0/16</code>.</dd>
   <dt>Target</dt>
   <dd>The connection or route through which to send traffic. For example, an internet gateway or transit gateway attachment. The default route through a VPC is the <strong>local</strong> route. It lets resources within a VPC communicate through private IP addresses.</dd>
 </dl>
 
-The following diagram shows a network that sends all traffic through an internet gateway (the target) to the public internet (the destination).
+In the following diagram, an example VPC route table sends:
+
+* Incoming traffic headed for the `172.16.0.0/16` IP address range to the other VPC through the transit gateway.
+* All other traffic to the public internet through the internet gateway.
 
 {% include figure
   popup=true
@@ -91,7 +94,7 @@ The following diagram shows a network that sends all traffic through an internet
 
 {%- capture tip-content -%}
 
-If the route table's destination is `0.0.0.0/0`, it routes all traffic to the target.
+If the route table's destination is `0.0.0.0/0`, it routes all traffic through the target.
 
 {% endcapture %}
 
@@ -99,15 +102,15 @@ If the route table's destination is `0.0.0.0/0`, it routes all traffic to the ta
 
 Route tables direct all traffic in to, out of, and within a hub-and-spoke network. In the following sections, we'll see how route tables move traffic:
 
-* Within the hub network.
-* Within a spoke network.
-* Between the hub and a spoke.
+* Within the hub VPC.
+* Within a spoke VPC.
+* Between the hub and a spoke VPCs.
 
-### Hub network
+### Hub VPC
 
-The hub network has the network's firewall and sole internet endpoint. Route tables move this traffic from a spoke's transit gateway attachment, to the internet, and back to the spoke.
+The hub VPC has the network's firewall and sole internet connection. Route tables move this traffic from a spoke's VPC, to the internet, and back to the spoke.
 
-The following diagram shows how route tables move traffic within the hub network. In this example, the spoke VPC's IP address range is 172.16.0.0/12.
+The following diagram shows how route tables move traffic within the hub VPC. In this example, the spoke VPC's IP address range is 172.16.0.0/12. Traffic moves from the spoke to the internet through the transit gateway and network firewall. Traffic from the internet moves back to the spoke through the same route, in reverse.
 
 {% include figure
   popup=true
@@ -116,31 +119,40 @@ The following diagram shows how route tables move traffic within the hub network
   caption="Figure 4: Traffic flow within the hub VPC"
 %}
 
-#### Transit gateway to hub VPC
+#### Internet-bound traffic through the hub VPC
 
-The transit gateway routes all traffic from a spoke VPC to a network interface associated with the hub's transit gateway attachment.
+Traffic enters the hub VPC from the hub transit gateway attachment through a network interface. The interface's associated route table sends all internet-bound traffic to a NAT gateway.
 
-The transit gateway attachment and its network interface are associated with a specific subsection of the hub VPC, called a subnet. A subnet occupies a portion of the hub VPC's full IP address range. For example, if a subnet has 10,000 available IP addresses, a subnet might use only 3,000 of them. We use a subnet's IP address range to route traffic through it with the network's route tables.
+{% include figure
+  popup=true
+  image_path="/assets/images/portfolio/hubandspoke/eni-to-nat.drawio.svg"
+  alt="A diagram of internet-bound traffic routed from a network interface to a NAT gateway"
+  caption="Figure 5: Internet-bound traffic routed through NAT gateway"
+%}
 
-The subnet's route table sends all traffic from a spoke to the NAT gateway.
+The NAT gateway is the hub VPC's connection to the network firewall and the public internet. [NAT gateways](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html) add extra security to internet connections. It translates a VPC subnet's private IP address to a public one.
 
-#### NAT gateway
+The NAT gateway's associated route table sends all internet-bound traffic to the network firewall. The firewall checks if the firewall policy allows traffic to the intended internet address. If the traffic is allowed, the firewall's associated route sends the traffic to the internet gateway. Otherwise, the firewall blocks the traffic from moving forward.
 
-The NAT gateway is the hub network's connection to the network firewall and the public internet. NAT gateways add extra security to internet connections. They limit the number of outgoing IP address, and they reject all unsolicited incoming traffic. It allows incoming traffic only in response to a request from a spoke network.
+{% include figure
+  popup=true
+  image_path="/assets/images/portfolio/hubandspoke/nat-to-igw.drawio.svg"
+  alt="A diagram of internet-bound traffic routed from a NAT gateway to an internet gateway through a network firewall"
+  caption="Figure 6: Internet-bound traffic routed through network firewall"
+%}
 
-The NAT gateway subnet's route table sends all traffic from the transit gateway subnet to the network firewall.
+#### Spoke-bound traffic through the hub VPC
 
-#### Network Firewall
+Traffic from the internet is routed to the NAT gateway subnet through the network firewall. The firewall inspects traffic as it enters. If it's allowed, then it continues to the NAT gateway subnet. Otherwise, the firewall policy blocks it.
 
-The network firewall checks all traffic against the firewall policy. The policy defines which domains the network can access. Firewall polies block any traffic to a non-allowed domain.
+The NAT gateway translates the incoming public IP address to the spoke VPC's private IP address range. It sends the traffic back to the spoke through the network interface and transit gateway.
 
-The firewall subnet's route table sends all allowed traffic from the NAT gateway subnet to the internet gateway. From the internet gateway, the traffic exists the hub VPC and connects to the public internet.
-
-#### Traffic from the internet
-
-All traffic that returns from the internet is routed to the NAT gateway subnet through the network firewall. The firewall inspects traffic as it comes in. If it's allowed, then it continues to the NAT gateway subnet. Otherwise, the firewall policy blocks it.
-
-Traffic that reaches the NAT gateway subnet is routed back to the spoke VPC through the transit gateway.
+{% include figure
+  popup=true
+  image_path="/assets/images/portfolio/hubandspoke/igw-to-tgw.drawio.svg"
+  alt="A diagram of spoke-bound traffic from the internet"
+  caption="Figure 7: Spoke-bound traffic routed through network firewall and transit gateway"
+%}
 
 ### Spoke network
 
