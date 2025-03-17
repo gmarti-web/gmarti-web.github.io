@@ -46,7 +46,5 @@ If you work in the cloud or are interested in learning industry-standard
 concepts, this tutorial will help you get started with infrastructure-as-code
 strategies.
 
-This tutorial assumes you're familiar with HashiCorp configuration language (`hcl`).
-
 {% include learn-terraform.html %}
 

@@ -51,8 +51,6 @@ This page describes how to set up and install the necessary tools.
       caption="Terraform version command"
     %}
 
-This tutorial assumes you're familiar with HashiCorp configuration language (`hcl`).
-
 {% include learn-terraform.html %}
 
 ## Install the Terraform VS Code extensions
