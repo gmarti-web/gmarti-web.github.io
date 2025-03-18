@@ -2,9 +2,6 @@ main:
   - title: About
     url: /about/
     description: About me
-  - title: Collections
-    url: /collections-archive/
-    description: How-tos for various cloud technologies
   - title: Posts
     url: /all-posts/
     description: Backlog of all posts

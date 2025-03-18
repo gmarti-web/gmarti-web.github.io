@@ -52,11 +52,11 @@ collections:
     title: Greener Redlands proposal
     description: >-
       This mock proposal was my Professional Technical Writing 320 portfolio assignment.
-  portfolio:
+  hub-and-spoke-network:
     output: true
     title: Portfolio
     description: >-
-      My writing sample portfolio.
+      An explanation of network traffic through a hub-and-spoke network model.
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -105,8 +105,8 @@ defaults:
       show_date: true
       toc: false
   - scope:
-      path: "collections/_portfolio"
-      type: portfolio
+      path: "collections/_hub-and-spoke-network"
+      type: hub-and-spoke-network
     values:
       layout: single
       author_profile: true

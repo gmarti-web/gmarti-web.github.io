@@ -4,11 +4,16 @@ permalink: /portfolio/
 layout: collection
 ---
 
-<div>
-{% for collection in site.portfolio %}
-    {% capture label %}{{ collection.title }}{% endcapture %}
-    <h2 id="{{ label | slugify }}" class="archive__subtitle"><a href="{{ label | slugify }}">{{ label }}</a></h2>
-    {{ collection.description | strip }}
-{% endfor %}
-</div>
+See the following for my work samples.
 
+## How to create an Azure web app with Terraform
+
+[How to create an Azure web app with Terraform](/azure-web-app-with-terraform/)
+
+## What is a hub-and-spoke network?
+
+[What is a hub-and-spoke network?](/what-is-a-hub-and-spoke-network/)
+
+## A greener Redlands
+
+[A greener Redlands](/greener-redlands-proposal/)

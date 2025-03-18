@@ -11,13 +11,13 @@ last_modified_at: 2025-03-05
 ## Project narrative
 
 For my PTW310 portfolio project, I created an instructional document
-in a Docs-as-Code environment. I originally planned to create an in-depth
+in a Docs-as-Code environment. I wanted it to be an in-depth
 blog-style tutorial, like other tutorials you see on Medium or other
-software source documentation. In the end, I was successful.
+software source documentation.
 
-I created an end-to-end instructional guide for a cloud-based product. I
+My project is an end-to-end instructional guide for a cloud-based product. I
 wrote the entire deliverable in Markdown and HTML. I used GitHub as my
-deliverable's version control system. And I deployed my content to a web app
+deliverable's version control system. Then I deployed my content to a web app
 with GitHub Actions, an industry-standard continuous integration/continuous
 deployment (CI/CD) tool.
 
