@@ -54,9 +54,14 @@ collections:
       This mock proposal was my Professional Technical Writing 320 portfolio assignment.
   hub-and-spoke-network:
     output: true
-    title: Portfolio
+    title: Hub-and-spoke network
     description: >-
       An explanation of network traffic through a hub-and-spoke network model.
+  mtg-scraper-dfd:
+    output: true
+    title: MTG scraper data flow diagram
+    description: >-
+      A data flow diagram showing data moving through my MTG tournament scraper app.
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -115,7 +120,14 @@ defaults:
       toc_label: Table of contents
       toc_sticky: true
       sort_by: order
-
+  - scope:
+      path: "collections/_mtg-scraper-dfd"
+      type: mtg-scraper-dfd
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      toc: false
 
 author:
   name : Greg Martinez

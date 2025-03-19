@@ -17,3 +17,7 @@ See the following for my work samples.
 ## A greener Redlands
 
 [A greener Redlands](/greener-redlands-proposal/)
+
+## MTG scraper data flow diagram
+
+[MTG scraper data flow diagram](/mtg-scraper-data-flow-diagram/)
