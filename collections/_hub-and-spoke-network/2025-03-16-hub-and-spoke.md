@@ -1,59 +1,49 @@
 ---
-title: What is a hub-and-spoke network?
+title: Network communication in an AWS VPC hub-and-spoke architecture
 last_modified_at: 2025-03-17
-permalink: /portfolio/what-is-a-hub-and-spoke-network/
+permalink: /portfolio/network-communication-in-an-aws-vpc-hub-and-spoke-architecture/
 ---
 
 ## Introduction
 
-Network architecture patterns are reliable, industry-standard ways to manage connections between computing devices. They give you an example to follow as you set up your networking infrastructure. Two architecture pattern categories you can use are: _decentralized_ or _centralized_. The best pattern category for your network depends on your use case and requirements.
+Network architecture patterns are reliable, industry-standard ways to manage connections between computing devices. They give you an example to follow as you set up your networking infrastructure. Two architecture pattern categories you can use are: _decentralized_ or _centralized_.
 
-The following table highlights some pros and cons of each category.
+In the cloud, [a best practice](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) is a centralized network architecture called the _hub-and-spoke model_. This pattern directs traffic between many networks (spokes) and one central network (hub). The hub network shares its resources, like a [network firewall](https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html), a [NAT gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html), and an internet gateway, with all the spoke networks. As a company expands its cloud infrastructure footprint, consolidated resources save money and lower the threat of exposing information.
 
-<table>
-  <thead>
-    <th>Architecture pattern</th>
-    <th>Pros</th>
-    <th>Cons</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Decentralized</strong></td>
-      <td><ul>
-        <li>Easy to add new applications.</li>
-        <li>Isolated networks limit one network's impact on another.</li>
-        <li>Networks can have individually customized firewall rules.</li>
-      </ul></td>
-      <td><ul>
-        <li>Difficult to manage network-wide changes.</li>
-        <li>Costly to maintain duplicated infrastructure.</li>
-        <li>Overall network has many connections exposed to the public internet.</li>
-      </ul></td>
-    </tr>
-    <tr>
-      <td><strong>Centralized</strong></td>
-      <td><ul>
-        <li>Lower overall networking costs by sharing network services, like firewalls and internet gateways.</li>
-        <li>Improved security against data breaches.</li>
-        <li>Easy to make network-wide changes for security or compliance reasons.</li>
-      </ul></td>
-      <td><ul>
-        <li>New applications must be attached to the hub network.</li>
-        <li>Complex structure compared to a decentralized network.</li>
-      </ul></td>
-    </tr>
-  </tbody>
-</table>
+In this article, you'll learn:
 
-The following diagrams show a decentralized and a centralized network in an Amazon Web Services (AWS) environment.
+* Why a centralized architecture, like the hub-and-spoke model, is a best practice in the cloud.
+* How traffic moves between VPCs in a hub-and-spoke model.
+* How a hub-and-spoke model saves your organization money by sharing a single network firewall, NAT gateway, and internet gateway with your entire network.
+
+## Decentralized VPC architecture
+
+In a decentralized VPC architecture, each application is completely isolated. This means it has its own infrastructure, security settings, and internet exposure points. To add a new application to the network, you must recreate all these components. While this may suit businesses with one, two, or maybe three applications, it's cumbersome to manage and costly to maintain as the business scales.
+
+For example, consider an organization with only one application. They create a single VPC with:
+
+* A NAT gateway
+* A network firewall
+* An internet gateway
+
+After some time, they create a new application. To have the same security as their first application, they create a VPC with the same components. Later, they replicate their VPC again for a third application. As the organization scales and creates more applications, they add more infrastructure to their AWS environment.
 
 {% include figure
   popup=true
   image_path="/assets/images/portfolio/hubandspoke/multiple-network-firewalls.drawio.svg"
   alt="A diagram of three separate AWS cloud networks"
-  caption="Figure 1: Decentralized AWS networks connected to the public internet"
+  caption="Figure 1: Arbitrary number of decentralized AWS VPCs connected to the public internet"
 %}
 
+This infrastructure duplication is expensive. For a single VPC in the diagram above, it [costs $322 USD to process just 10 GB of data per month](https://calculator.aws/#/estimate?id=b12e071c14c1cdf95fff8d2618465fbbfe63545b). For three VPCs, the costs triple. And, its multiple exposures to the internet make it less secure. Firewall policies and security measures must be replicated across every VPC.
+
+As an organization scales, then, it must consider how it manages its growing network. The best way to do that is to switch to a centralized VPC architecture, specifically a hub-and-spoke model.
+
+## Centralized (hub-and-spoke) VPC architecture
+
+In a centralized VPC architecture, like the hub-and-spoke model, each application (spokes) connects to a central network (hub). The hub network shares a single set of networking infrastructure with all the spoke networks. This shared infrastructure significantly reduces an organization's overall cloud costs. A hub-and-spoke model is more secure, as well, because it has only one internet exposure point to protect.
+
+For example, in the following diagram, a hub VPC in a hub-and-spoke architecture shares its firewall, NAT gateway, and internet gateway with all three spoke VPCs.
 
 {% include figure
   popup=true
@@ -62,14 +52,11 @@ The following diagrams show a decentralized and a centralized network in an Amaz
   caption="Figure 2: AWS networks connected to the public internet through a central, firewall-protected hub network"
 %}
 
+In the following sections, we'll learn how the spokes communicate with the hub, and the hub with each spoke, in detail.
 
-In the cloud, [a best practice](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) is a centralized network architecture called the _hub-and-spoke model_. This pattern directs traffic between many networks (spokes) and one central network (hub). The hub network shares its resources, like a [network firewall](https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html), a [NAT gateway](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html), and an internet gateway, with all the spoke networks. As a company expands its cloud infrastructure footprint, consolidated resources save money and lower the threat of exposing information.
+## Inter-VPC traffic with AWS Transit Gateway
 
-In this article, you'll learn how traffic moves within and between a hub and spoke in an AWS hub-and-spoke network. You'll also learn how a hub-and-spoke model shares a single NAT gateway, network firewall, and internet gateway with all its spokes.
-
-## How does traffic move between a spoke and the hub?
-
-In AWS, a hub-and-spoke network model is powered by [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/). AWS Transit Gateway connects multiple [Amazon Virtual Private Clouds (VPCs)](https://aws.amazon.com/vpc/) to a central hub. You can connect a single transit gateway hub to [5,000 spoke VPCs](https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-quotas.html) with transit gateway attachments. You define how traffic moves through these attachments with VPC route tables.
+In AWS, a hub-and-spoke network model is powered by [AWS Transit Gateway](https://aws.amazon.com/transit-gateway/). AWS Transit Gateway connects multiple VPCs to a central hub. You can connect a single transit gateway hub to [5,000 spoke VPCs](https://docs.aws.amazon.com/vpc/latest/tgw/transit-gateway-quotas.html) with transit gateway attachments. You define how traffic moves through these attachments with VPC route tables.
 
 A VPC route table is a set of rules, called _routes_, that determine where to send incoming traffic. Route tables have two main components:
 
@@ -80,18 +67,6 @@ A VPC route table is a set of rules, called _routes_, that determine where to se
   <dd>The connection or route through which to send traffic. For example, an internet gateway or transit gateway attachment. The default route through a VPC is the <strong>local</strong> route. It lets resources within a VPC communicate through private IP addresses.</dd>
 </dl>
 
-In the following diagram, an example VPC route table sends:
-
-* Incoming traffic headed for the `172.16.0.0/16` IP address range to the other VPC through the transit gateway.
-* All other traffic to the public internet through the internet gateway.
-
-{% include figure
-  popup=true
-  image_path="/assets/images/portfolio/hubandspoke/route-table-example.drawio.svg"
-  alt="A diagram of an AWS VPC route table directing network traffic"
-  caption="Figure 3: VPC route table directs traffic to DESTINATION through the TARGET"
-%}
-
 {%- capture tip-content -%}
 
 If the route table's destination is `0.0.0.0/0`, it routes all traffic through the target.
@@ -100,18 +75,22 @@ If the route table's destination is `0.0.0.0/0`, it routes all traffic through t
 
 {% include tip-notice.html content="If the route table's destination is `0.0.0.0/0`, it routes all traffic to the target." %}
 
-Route tables direct all traffic in to, out of, and within a hub-and-spoke network. In the following sections, we'll see how route tables move traffic:
+Route tables direct all traffic in to, out of, and within a hub-and-spoke network.
+
+Now, let's explore how route tables move traffic:
 
 * Between the hub and a spoke VPCs.
 * Within the hub VPC.
 * Within a spoke VPC.
 
-### VPC-to-VPC communication
+### Traffic between the hub VPC and a spoke VPC
 
-The transit gateway route tables transfer traffic from one VPC to another.
+Transit gateway route tables transfer traffic from one VPC to another.
 
 * One route table directs traffic from the firewall to the each spoke.
 * One route table for each spoke VPC directs traffic from the spoke to the firewall.
+
+The following diagram shows how route tables direct the traffic between a hub and spoke VPC:
 
 {% include figure
   popup=true
@@ -126,6 +105,8 @@ When a spoke VPC sends internet-bound traffic to the transit gateway:
 
 1. The traffic enters the transit gateway through the spoke transit gateway attachment.
 1. A transit gateway route table sends the traffic to the hub transit gateway attachment.
+
+The following diagram shows traffic from a spoke VPC to the hub:
 
 {% include figure
   popup=true
@@ -142,6 +123,8 @@ When the hub VPC sends traffic back to the spoke VPC through the transit gateway
 1. The traffic enters the transit gateway through the hub transit gateway attachment.
 1. A transit gateway route table sends the traffic to the spoke transit gateway attachment.
 
+The following diagram shows traffic from a hub VPC to a spoke:
+
 {% include figure
   popup=true
   image_path="/assets/images/portfolio/hubandspoke/hubtgwa-to-spoketgwa.drawio.svg"
@@ -149,11 +132,11 @@ When the hub VPC sends traffic back to the spoke VPC through the transit gateway
   caption="Figure 6: Traffic flow from hub VPC to spoke VPC"
 %}
 
-### Hub VPC
+### Traffic within a hub VPC
 
 The hub VPC has the network's firewall and sole internet connection. Route tables move this traffic from a spoke's VPC, to the internet, and back to the spoke.
 
-The following diagram shows how route tables move traffic within the hub VPC. In this example, the spoke VPC's IP address range is 172.16.0.0/12. Traffic moves from the spoke to the internet through the transit gateway and network firewall.
+The following diagram shows how route tables move traffic within the hub VPC. In this example, the spoke VPC's IP address range is 172.16.0.0/12. Traffic moves from the spoke to the internet through the transit gateway and network firewall:
 
 {% include figure
   popup=true
@@ -168,6 +151,8 @@ When a spoke VPC sends internet-bound traffic to the hub VPC:
 
 1. The traffic enters the hub VPC from the hub transit gateway attachment through a network interface.
 1. The interface's associated route table sends it to a NAT gateway.
+
+The following diagram shows traffic from a spoke VPC as it enters the hub:
 
 {% include figure
   popup=true
@@ -185,6 +170,8 @@ When the internet-bound traffic reaches the NAT gateway:
 
     * If the traffic is allowed, the firewall's associated route table sends the traffic to the internet gateway.
     * Otherwise, the firewall blocks the traffic from moving forward.
+
+The following diagram shows traffic as it's routed to the public internet:
 
 {% include figure
   popup=true
@@ -205,6 +192,8 @@ When the internet sends traffic back to the hub VPC:
 
 1. The NAT gateway translates the incoming public IP address to the spoke VPC's private IP address range.
 1. The NAT gateway's associated route table sends the traffic back to the spoke through the network interface and transit gateway.
+
+The following diagram shows traffic as it's routed from the public internet back to the spoke VPC:
 
 {% include figure
   popup=true

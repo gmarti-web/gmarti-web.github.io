@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.1.1">
   <diagram name="Page-1" id="tYWkpFjugVyIhqSa52aw">
-    <mxGraphModel dx="1195" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,18 +17,10 @@
           <mxGeometry x="106" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZivhqzZswGJpU1-0bC7G-22" value="Legend" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontColor=#4D4D4D;fontStyle=1;spacingLeft=6;spacing=0;resizable=0;" parent="ZivhqzZswGJpU1-0bC7G-1" vertex="1">
-          <mxGeometry x="250" width="161" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ZivhqzZswGJpU1-0bC7G-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="ZivhqzZswGJpU1-0bC7G-22" vertex="1">
-          <mxGeometry y="30" width="161" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZivhqzZswGJpU1-0bC7G-24" value="Traffic from spokes to hub" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=10;spacingRight=4;" parent="ZivhqzZswGJpU1-0bC7G-23" vertex="1">
-          <mxGeometry width="161" height="30" as="geometry">
-            <mxRectangle width="161" height="30" as="alternateBounds" />
-          </mxGeometry>
+          <mxGeometry x="250" width="161" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZivhqzZswGJpU1-0bC7G-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="ZivhqzZswGJpU1-0bC7G-22" vertex="1">
-          <mxGeometry y="60" width="161" height="30" as="geometry" />
+          <mxGeometry y="30" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZivhqzZswGJpU1-0bC7G-26" value="Traffic from hub to spokes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=12;align=left;spacingLeft=10;spacingRight=4;" parent="ZivhqzZswGJpU1-0bC7G-25" vertex="1">
           <mxGeometry width="161" height="30" as="geometry">
@@ -90,7 +82,7 @@
         <mxCell id="ZivhqzZswGJpU1-0bC7G-14" value="&lt;div&gt;Spoke&lt;/div&gt;&lt;div&gt;transit gateway&lt;/div&gt;&lt;div&gt;attachment&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.transit_gateway_attachment;" parent="1" vertex="1">
           <mxGeometry x="140" y="298" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="ZivhqzZswGJpU1-0bC7G-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#613583, #ededed);" parent="1" target="ZivhqzZswGJpU1-0bC7G-44" edge="1" source="ZivhqzZswGJpU1-0bC7G-6">
+        <mxCell id="ZivhqzZswGJpU1-0bC7G-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#613583, #ededed);" parent="1" source="ZivhqzZswGJpU1-0bC7G-6" target="ZivhqzZswGJpU1-0bC7G-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="270" as="sourcePoint" />
             <Array as="points">
@@ -105,13 +97,13 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZvQegL7FV8bK5P6VTRwN-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=44;endSize=12.902857142857142;strokeColor=light-dark(#613583, #ededed);fontColor=light-dark(#613583, #ededed);" edge="1" parent="1">
+        <mxCell id="ZvQegL7FV8bK5P6VTRwN-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=44;endSize=12.902857142857142;strokeColor=light-dark(#613583, #ededed);fontColor=light-dark(#613583, #ededed);" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="900" y="500" as="sourcePoint" />
             <mxPoint x="20" y="501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZvQegL7FV8bK5P6VTRwN-2" value="&lt;font&gt;Traffic from hub routed to the spoke VPC (DESTINATION) through the spoke transit gateway attachment (TARGET)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#613583, #ededed);fontSize=15;" vertex="1" connectable="0" parent="ZvQegL7FV8bK5P6VTRwN-1">
+        <mxCell id="ZvQegL7FV8bK5P6VTRwN-2" value="&lt;font&gt;Traffic from hub routed to the spoke VPC (DESTINATION) through the spoke transit gateway attachment (TARGET)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#613583, #ededed);fontSize=15;" parent="ZvQegL7FV8bK5P6VTRwN-1" vertex="1" connectable="0">
           <mxGeometry x="0.1673" y="4" relative="1" as="geometry">
             <mxPoint x="93" y="-5" as="offset" />
           </mxGeometry>

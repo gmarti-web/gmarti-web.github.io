@@ -10,9 +10,9 @@ See the following for my work samples.
 
 [How to create an Azure web app with Terraform](/azure-web-app-with-terraform/)
 
-## What is a hub-and-spoke network?
+## Network communication in an AWS VPC hub-and-spoke architecture
 
-[What is a hub-and-spoke network?](/what-is-a-hub-and-spoke-network/)
+[Network communication in an AWS VPC hub-and-spoke architecture](/network-communication-in-an-aws-vpc-hub-and-spoke-architecture/)
 
 ## A greener Redlands
 
