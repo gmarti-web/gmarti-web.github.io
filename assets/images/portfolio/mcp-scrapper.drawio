@@ -399,10 +399,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pirufl62WkWMEa46qo1x-0" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="OgBd493CSFW0dkyg3vhi-1">
-          <mxGeometry x="780" y="519.5" width="41" height="41" as="geometry" />
+          <mxGeometry x="800" y="519.5" width="41" height="41" as="geometry" />
         </mxCell>
         <mxCell id="pirufl62WkWMEa46qo1x-2" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="OgBd493CSFW0dkyg3vhi-1">
-          <mxGeometry x="10" y="260" width="820" height="485" as="geometry" />
+          <mxGeometry x="10" y="260" width="760" height="485" as="geometry" />
         </mxCell>
         <mxCell id="foKhEsgc8u1M2J57KX3Y-0" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="pirufl62WkWMEa46qo1x-2">
           <mxGeometry x="20" y="10" width="50" height="50" as="geometry" />
