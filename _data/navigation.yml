@@ -43,3 +43,8 @@ greener-redlands-proposal:
       - title: A greener Redlands
         url: /greener-redlands-proposal/deliverable/
 
+markdown-for-github-pages:
+  - title: Get started
+    children:
+      - title: Introduction
+        url: /markdown-for-github-pages/introduction
