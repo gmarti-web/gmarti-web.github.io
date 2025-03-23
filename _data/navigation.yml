@@ -47,4 +47,22 @@ markdown-for-github-pages:
   - title: Get started
     children:
       - title: Introduction
-        url: /markdown-for-github-pages/introduction
+        url: /markdown-for-github-pages/introduction/
+      - title: Frontmatter
+        url: /markdown-for-github-pages/frontmatter/
+      - title: Basics
+        url: /markdown-for-github-pages/basics/
+  - title: Markdown structures
+    children:
+      - title: Images
+        url: /markdown-for-github-pages/images/
+      - title: Tables
+        url: /markdown-for-github-pages/tables/
+      - title: Advanced
+        url: /markdown-for-github-pages/advanced/
+  - title: Tutorials
+    url: /markdown-for-github-pages/tutorials/
+  - title: Wrap up
+    url: /markdown-for-github-pages/wrap-up/
+  - title: FAQs
+    url: /markdown-for-github-pages/faqs/
