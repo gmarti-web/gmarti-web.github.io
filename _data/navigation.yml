@@ -48,7 +48,7 @@ markdown-for-github-pages:
     children:
       - title: Introduction
         url: /markdown-for-github-pages/introduction/
-      - title: Frontmatter
+      - title: Front matter
         url: /markdown-for-github-pages/frontmatter/
       - title: Basics
         url: /markdown-for-github-pages/basics/
