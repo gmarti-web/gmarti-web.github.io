@@ -1,15 +1,21 @@
 ---
 title: Front matter
 permalink: /markdown-for-github-pages/frontmatter/
-last_modified_date: 2025-03-23
+last_modified_date: 2025-03-26
 order: 2
 ---
 
-Front matter tells Jekyll how to render your Markdown pages on your site. It defines the page's title, layout, URL, and other metadata. If a page doesn't have this information, Jekyll won't render it.
+Front matter tells Jekyll how to render Markdown pages on your site. It defines the page's title, layout, URL, and other metadata. If a page doesn't have this information, Jekyll won't render it.
+
+This page describes:
+
+* How to wrte basic front matter.
+* Some common metadata elements used in front matter.
+* Where to find other resources to learn more advanced front matter use cases.
 
 ## Basic front matter structure
 
-Front matter goes at the top of each Markdown page. It's marked off from the rest of the content with three dashes (`---`).
+Front matter goes at the top of each Markdown page. It's marked off from the rest of the document with three dashes (`---`).
 
 For example, here's the start of a Markdown document with front matter:
 
@@ -25,7 +31,7 @@ title: My page title
 
 ## Common front matter elements
 
-You can add any metadata you want to a page's front matter. There are, however, some common, helpful elements to consider.
+You can add any metadata you want to a page's front matter. There are, however, some common, helpful metadata to consider.
 
 | YAML element | Description |
 |----------|-------------|
@@ -52,6 +58,8 @@ last_modified_date: 2025-03-24
 You can reference metadata defined in one page's front matter from any other page in your site.
 
 See [Jekyll's front matter documentation](https://jekyllrb.com/docs/front-matter/) to learn more.
+
+See [the Liquid template language reference](https://shopify.github.io/liquid/) to learn how to add logic to your documentation using metadata.
 
 To learn more about your Jekyll theme's specific front matter options, see your theme's documentation.
 
