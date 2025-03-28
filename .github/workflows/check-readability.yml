@@ -21,14 +21,12 @@ jobs:
         with:
           repository: 'greg-martinez44/ReadabilityChecker'
           path: 'ReadabilityChecker/'
-      - name: Install pandoc
-        uses: pandoc/actions/setup@v1
-        with:
-          version: 2.19
       - name: Run the ReadabilityChecker action
         id: checkerresult
         uses: './ReadabilityChecker/'
         with:
           markdown-file: './_pages/about.md'
-      - name: Echo result
-        run: echo "The readability score or grade is ${{ steps.checkerresult.outputs.fkgl }}"
+      - name: Echo grade level
+        run: echo "The Flesch-Kincaid grade level is ${{ steps.checkerresult.outputs.fkgl }}"
+      - name: Echo reading ease
+        run: echo "The Flesch Reading ease is ${{ steps.checkresult.outputs.fre }}"
