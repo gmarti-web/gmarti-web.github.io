@@ -21,6 +21,10 @@ jobs:
         with:
           repository: 'greg-martinez44/ReadabilityChecker'
           path: 'ReadabilityChecker/'
+      - name: Install pandoc
+        uses: pandoc/actions/setup@v1
+        with:
+          version: 2.19
       - name: Run the ReadabilityChecker action
         id: checkerresult
         uses: './ReadabilityChecker/'
