@@ -16,7 +16,7 @@ jobs:
         id: readabilitychecker
         uses: actions/checkout@v4
         with:
-          repository: 'https://github.com/greg-martinez44/ReadabilityChecker'
+          repository: 'greg-martinez44/ReadabilityChecker'
       - name: Run the ReadabilityChecker action
         id: checkerresult
         uses: ./
