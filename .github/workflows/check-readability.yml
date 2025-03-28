@@ -20,7 +20,7 @@ jobs:
           path: 'ReadabilityChecker/'
       - name: Run the ReadabilityChecker action
         id: checkerresult
-        uses: 'ReadabilityChecker/'
+        uses: './ReadabilityChecker/'
         with:
           markdown-file: '_pages/about.md'
       - name: Echo result
