@@ -1,0 +1,26 @@
+name: Check readability
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  check_readability:
+    runs-on: ubuntu-latest
+    name: Check readability
+    steps:
+      - name: Checkout main repo
+        id: main
+        uses: actions/checkout@v4
+      - name: Checkout ReadabilityChecker repo
+        id: readabilitychecker
+        uses: actions/checkout@v4
+        with:
+          repository: 'https://github.com/greg-martinez44/ReadabilityChecker'
+      - name: Run the ReadabilityChecker action
+        id: checkerresult
+        uses: ./
+        with:
+          markdown-file: '_pages/about.md'
+      - name: Echo result
+        run: echo "The readability score or grade is ${{ steps.checkerresult.outputs.fkgl }}"
