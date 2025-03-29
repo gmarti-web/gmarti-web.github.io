@@ -11,7 +11,6 @@ Markdown basics help add simple formatting to a document. The basics include:
 * Text formatting, like boldface, italics, and monospaced.
 * Hyperlinks.
 
-
 ## Headings
 
 Use hashes (`#`) to create headings.
