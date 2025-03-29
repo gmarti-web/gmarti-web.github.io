@@ -5,3 +5,5 @@ endunless
 [Rr]edlands
 monospac[e|ed|es]
 subpag[e|es]
+[Mm]illiman
+[Dd]atabricks
