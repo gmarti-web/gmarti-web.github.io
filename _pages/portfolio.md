@@ -21,3 +21,7 @@ See the following for my work samples.
 ## MTG scraper data flow diagram
 
 [MTG scraper data flow diagram](/mtg-scraper-data-flow-diagram/)
+
+## Markdown for GitHub Pages
+
+[Markdown for GitHub Pages](/markdown-for-github-pages/)

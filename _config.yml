@@ -62,6 +62,11 @@ collections:
     title: MTG scraper data flow diagram
     description: >-
       A data flow diagram showing data moving through my MTG tournament scraper app.
+  markdown-for-github-pages:
+    output: true
+    title: How to write Markdown for GitHub Pages
+    description: >-
+      A set of guides to help you publish your documentation to a GitHub Pages site.
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -128,6 +133,20 @@ defaults:
       author_profile: true
       show_date: true
       toc: false
+  - scope:
+      path: "collections/_markdown-for-github-pages"
+      type: markdown-for-github-pages
+    values:
+      layout: single
+      author_profile: false
+      show_date: true
+      toc: true
+      toc_label: Table of contents
+      toc_icon: cog
+      toc_sticky: true
+      sort_by: order
+      sidebar:
+        nav: markdown-for-github-pages
 
 author:
   name : Greg Martinez
