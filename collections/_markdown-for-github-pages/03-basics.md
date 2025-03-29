@@ -24,4 +24,11 @@ Use hashes (`#`) to create headings.
 | Level 5 | `#####` | `##### Level 5 heading` |
 | Level 6 | `######` | `###### Level 6 heading` |
 
-Herre's a misspelled word!
+The following image shows what these headings look like in the browser:
+
+{% include figure
+  popup=true
+  image_path="/assets/images/portfolio/markdown-for-github-pages/heading-example.png"
+  alt="A screenshot of the six Markdown heading levels"
+  caption="Figure 1: Six Markdown heading levels."
+%}
