@@ -3,5 +3,5 @@ endcapture
 endif
 endunless
 [Rr]edlands
-monospace
-subpage
+monospac[e|ed|es]
+subpag[e|es]
