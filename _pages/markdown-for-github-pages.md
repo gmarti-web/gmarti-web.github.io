@@ -4,12 +4,12 @@ permalink: /markdown-for-github-pages/
 layout: collection
 collection: markdown-for-github-pages
 date: 2025-03-21
-last_modified_at: 2025-03-23
+last_modified_at: 2025-03-29
 ---
 
 ## Project narrative
 
-This project is a guide on writing Markdown articles for a GitHub Pages site. It teaches developers how to write common developer document structures with Markdown syntax. It also teaches them to write YAML front matter, which Jekyll requires to render pages. The intended audience can use this guide to:
+This project teaches developers how to write developer documentation with Markdown syntax. It also teaches them to write YAML front matter, which Jekyll requires to render pages. The intended audience can use this guide to:
 
 * Create new developer documentation in Markdown
 * Convert existing Microsoft Word documents to Markdown.

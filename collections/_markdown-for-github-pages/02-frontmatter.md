@@ -9,15 +9,15 @@ Front matter tells Jekyll how to render Markdown pages on your site. It defines 
 
 This page describes:
 
-* How to wrte basic front matter.
+* How to write basic front matter.
 * Some common metadata elements used in front matter.
 * Where to find other resources to learn more advanced front matter use cases.
 
 ## Basic front matter structure
 
-Front matter goes at the top of each Markdown page. It's marked off from the rest of the document with three dashes (`---`).
+Front matter goes at the top of each Markdown page. Three dashes (`---`) separate the front matter from the rest of the document.
 
-For example, here's the start of a Markdown document with front matter:
+For example, a Markdown document with front matter might look like this:
 
 ```md
 <!-- START OF PAGE -->
@@ -31,16 +31,16 @@ title: My page title
 
 ## Common front matter elements
 
-You can add any metadata you want to a page's front matter. There are, however, some common, helpful metadata to consider.
+You can add any metadata you want to a page's front matter. Some common, helpful metadata elements include:
 
 | YAML element | Description |
 |----------|-------------|
 | `title` | The page title. |
 | `permalink` | The page URL. The permalink element lets you link to this page from other pages in your site. |
-| `parent` | The page's "parent." "Children" pages are organized as subpages of their parent page. |
-| `last_modified_date` | The page's last modified date. This lets readers know when a page was last updated. |
+| `parent` | The page's "parent." "Children" pages are subpages of their parent page. |
+| `last_modified_date` | The page's last modified date. This lets readers know when you last updated a page. |
 
-For example, here's the front matter element of a page that is a subpage of the "Tutorials" section:
+For example, the front matter section of a page in your site's "Tutorials" section might look like this:
 
 ```yaml
 ---
