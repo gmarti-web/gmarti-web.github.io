@@ -20,7 +20,8 @@ Use hashes (`#`) to create headings.
 | Level 1 | `#` | `# Level 1 heading` |
 | Level 2 | `##` | `## Level 2 heading` |
 | Level 3 | `###` | `### Level 3 heading` |
-| Level 4 | `####` | `#### Level 4 hreading` |
+| Level 4 | `####` | `#### Level 4 heading` |
 | Level 5 | `#####` | `##### Level 5 heading` |
 | Level 6 | `######` | `###### Level 6 heading` |
 
+Herre's a misspelled word!
