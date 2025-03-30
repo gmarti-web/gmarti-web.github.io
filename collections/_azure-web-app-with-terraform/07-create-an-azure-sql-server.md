@@ -1,7 +1,8 @@
 ---
 title: Create an Azure SQL server
 permalink: /azure-web-app-with-terraform/create-an-azure-sql-server/
-last_modified_at: 2024-11-27
+date: 2024-11-27
+last_modified_at: 2025-03-30
 order: 7
 excerpt: Create an Azure SQL server with Terraform.
 ---

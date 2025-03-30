@@ -1,7 +1,8 @@
 ---
 title: Introduction
 permalink: /azure-web-app-with-terraform/introduction/
-last_modified_at: 2024-11-29
+date: 2024-11-27
+last_modified_at: 2025-03-30
 order: 1
 excerpt: Learn how to use Terraform to create the basic web app components in Azure.
 ---
@@ -10,7 +11,7 @@ excerpt: Learn how to use Terraform to create the basic web app components in Az
 
 Web apps vary in complexity. The examples above have many features, like
 personal accounts, payment processors, and external integrations with other web
-apps. The core of a web app, however, comprises three components:
+apps. The core of a web app comprises three components:
 
 <div>
   <dl>
