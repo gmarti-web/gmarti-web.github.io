@@ -67,7 +67,7 @@ This phrase uses _italics_.
 
 ### Use monospaced font
 
-Surround a word with backticks (\`) to make it monospaced.
+Surround a word with backticks (\`) to make it monospaced. Use monospaced font for code snippets and code blocks.
 
 For example, the following Markdown text:
 
@@ -79,7 +79,7 @@ renders to:
 
 This phrase uses `monospaced` font.
 
-Use monospaced font for code snippets and code blocks. To make multi-line code blocks, surround a text block with three backticks (\`\`\`). For the code block to use syntax highlights, add the code language to the end of the first backtick triplet.
+To make multi-line code blocks, surround a text block with three backticks (\`\`\`). For the code block to use syntax highlights, add the code language to the end of the first backtick triplet.
 
 For example, the following Markdown text:
 
