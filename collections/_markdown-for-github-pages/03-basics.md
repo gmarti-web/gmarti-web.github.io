@@ -1,7 +1,7 @@
 ---
 title: Basics
 permalink: /markdown-for-github-pages/basics/
-last_modified_date: 2025-03-26
+last_modified_date: 2025-03-30
 order: 3
 ---
 
@@ -83,13 +83,13 @@ To make multi-line code blocks, surround a text block with three backticks (\`\`
 
 For example, the following Markdown text:
 
-````console
+``````console
 ```python
 import pandas
 
 df = pandas.from_csv("mydata.csv")
 ```
-````
+``````
 
 renders to:
 
@@ -98,4 +98,18 @@ import pandas
 
 df = pandas.from_csv("mydata.csv")
 ```
+
+## Hyperlinks
+
+Add hyperlinks to your document with brackets (`[]`) and parentheses (`()`).
+
+For example, the following Markdown text:
+
+```console
+[This sentence links to https://google.com.](https://google.com)
+```
+
+renders to:
+
+[This sentence links to https://google.com.](https://google.com)
 
