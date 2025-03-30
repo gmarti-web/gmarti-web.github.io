@@ -1,7 +1,8 @@
 ---
 title: Create a Virtual Machine
 permalink: /azure-web-app-with-terraform/create-a-virtual-machine/
-last_modified_at: 2024-11-27
+date: 2024-11-27
+last_modified_date: 2025-03-30
 order: 6
 excerpt: Create a virtual machine with Terraform.
 ---
@@ -12,7 +13,7 @@ You can use virtual machines to manage access to other services, to run
 resource-heavy calculations, or to host content. For this tutorial, we want a
 virtual machine that serves content that users can access over the internet.
 
-To make our virutal machine accessible, we must give it a reliable online
+To make our virtual machine accessible, we must give it a reliable online
 address. To do so, we create a network interface with a static public IP
 address. With a public IP address, we can define network security rules that
 allow other computers to access our virtual machine.
