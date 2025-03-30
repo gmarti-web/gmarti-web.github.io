@@ -13,7 +13,7 @@ Markdown basics help add simple formatting to a document. The basics include:
 
 ## Headings
 
-Use hashes (`#`) to create headings.
+Use hashes (`#`) to create headings and subheadings.
 
 | Heading level | Markdown syntax | Example |
 |---------------|-----------------|---------|
@@ -32,3 +32,70 @@ The following image shows what these headings look like in the browser:
   alt="A screenshot of the six Markdown heading levels"
   caption="Figure 1: Six Markdown heading levels."
 %}
+
+## Text formats
+
+Markdown lets you format your text with plain text decorators.
+
+### Use boldface font
+
+Surround a word or phrase with two asterisks (`**`) to make it boldface.
+
+For example, the following Markdown text:
+
+```console
+This phrase uses **boldface** font.
+```
+
+renders to:
+
+This phrase uses **boldface** font.
+
+### Use italic font
+
+Surround a word or phrase with an underscore (`_`) to make it italic.
+
+For example, the following Markdown text:
+
+```console
+This phrase uses _italics_.
+```
+
+renders to:
+
+This phrase uses _italics_.
+
+### Use monospaced font
+
+Surround a word with backticks (\`) to make it monospaced. Use monospaced font for code snippets and code blocks.
+
+For example, the following Markdown text:
+
+```console
+This phrase uses `monospaced` font.
+```
+
+renders to:
+
+This phrase uses `monospaced` font.
+
+To make multi-line code blocks, surround a text block with three backticks (\`\`\`). For the code block to use syntax highlights, add the code language to the end of the first backtick triplet.
+
+For example, the following Markdown text:
+
+````console
+```python
+import pandas
+
+df = pandas.from_csv("mydata.csv")
+```
+````
+
+renders to:
+
+```python
+import pandas
+
+df = pandas.from_csv("mydata.csv")
+```
+

@@ -3,7 +3,14 @@ endcapture
 endif
 endunless
 [Rr]edlands
-monospac[e|ed|es]
-subpag[e|es]
+monspace
+monospaces
+monospaced
+subpage
+subpages
 [Mm]illiman
 [Dd]atabricks
+(?i)vpc
+(?i)vpcs
+(?i)subnet
+(?i)subnets
