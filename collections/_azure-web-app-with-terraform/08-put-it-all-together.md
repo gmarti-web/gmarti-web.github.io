@@ -1,7 +1,8 @@
 ---
 title: Deploy your resources with Terraform
 permalink: /azure-web-app-with-terraform/deploy-your-resources/
-last_modified_at: 2024-11-27
+date: 2024-11-27
+last_modified_at: 2025-03-30
 order: 8
 excerpt: Deploy your resources to create a web app.
 ---
@@ -22,7 +23,7 @@ This page describes how to review your Terraform plan and deploy your resources.
     ```
 
     This command tells you how Terraform will build your infrastructure. It
-    tallys up how many resources your Terraform code will add, change, or
+    tallies up how many resources your Terraform code will add, change, or
     destroy.
 
     {% include figure
@@ -76,6 +77,6 @@ Your resources are ready to use in Azure. See your new resource group in the
 
 ## Learn more
 
-- [Terraform `plan` commmand](https://developer.hashicorp.com/terraform/cli/commands/plan)
+- [Terraform `plan` command](https://developer.hashicorp.com/terraform/cli/commands/plan)
 - [Terraform `apply` command](https://developer.hashicorp.com/terraform/cli/commands/apply)
 

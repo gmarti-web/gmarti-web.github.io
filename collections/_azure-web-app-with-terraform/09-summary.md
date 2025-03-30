@@ -1,7 +1,8 @@
 ---
 title: Project summary
 permalink: /azure-web-app-with-terraform/summary/
-last_modified_at: 2024-11-29
+date: 2024-11-29
+last_modified_at: 2025-03-30
 order: 9
 excerpt: Review and delete your resources.
 ---

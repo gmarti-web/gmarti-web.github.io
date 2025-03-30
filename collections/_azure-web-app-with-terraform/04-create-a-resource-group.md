@@ -1,7 +1,8 @@
 ---
 title: Create a resource group
 permalink: /azure-web-app-with-terraform/create-a-resource-group/
-last_updated_at: 2024-11-24
+date: 2024-11-24
+last_updated_at: 2025-03-30
 order: 4
 excerpt: Create an Azure resource group with Terraform.
 ---

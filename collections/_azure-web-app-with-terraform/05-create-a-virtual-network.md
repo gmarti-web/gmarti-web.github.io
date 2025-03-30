@@ -1,12 +1,13 @@
 ---
 title: Create a virtual network
 permalink: /azure-web-app-with-terraform/create-a-virtual-network/
-last_modified_at: 2024-11-27
+date: 2024-11-27
+last_modified_at: 2025-03-30
 order: 5
 excerpt: Create a virtual network with Terraform.
 ---
 
-A virtual network (Vnet) is software that acts like traditional networking
+A virtual network (VNET) is software that acts like traditional networking
 infrastructure, like switches and routers. We use virtual networks to control
 how our application connects to the internet. We connect other resources to our
 virtual network by breaking the network into sections, called subnets. We
@@ -36,8 +37,8 @@ This page describes how to create:
 
      | Configuration   | Description                                                                                                                                                                                                                                           | Example              |
      |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-     | `name`          | The name of your VNet.                                                                                                                                                                                                                                | `azure-web-app-vent` |
-     | `address_space` | The amount of memory you want to dedicate to your virutal network. It determines how many, and what kinds, of IP addresses your network can use. [Read more about address spaces](https://www.techtarget.com/searchstorage/definition/address-space). | `10.0.0.0/16`        |
+     | `name`          | The name of your VNET.                                                                                                                                                                                                                                | `azure-web-app-vent` |
+     | `address_space` | The amount of memory you want to dedicate to your virtual network. It determines how many, and what kinds, of IP addresses your network can use. [Read more about address spaces](https://www.techtarget.com/searchstorage/definition/address-space). | `10.0.0.0/16`        |
 
     See the [Terraform Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/virtual_network#argument-reference) to learn more about the `azurerm_virtual_network` resource's available arguments.
 
@@ -140,7 +141,7 @@ on port `22`. This lets us SSH into a virtual machine within the network.
     | `direction` | The direction to allow traffic, either `Inbound` or `Outbound`. | `Inbound` |
     | `protocol` | The name of the traffic protocol. | `Tcp` |
     | traffic sources (`source_port_range` and `source_address_prefix`) | Individual ports or IP address of the traffic sender. | `*` (All ports or all IP addresses) |
-    | traffic destinations (`destination_port_range` and `destination_address_prefix`) | Individual ports or IP address of the traffic receiver. | `22` (Allow computers to SSH into the VNet) |
+    | traffic destinations (`destination_port_range` and `destination_address_prefix`) | Individual ports or IP address of the traffic receiver. | `22` (Allow computers to SSH into the VNET) |
 
     See the [Terraform
     Registry](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_rule#argument-reference)
@@ -151,7 +152,7 @@ on port `22`. This lets us SSH into a virtual machine within the network.
 
 ## Learn more
 
-- [Azure Vnet concepts and best practices](https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices)
+- [Azure VNET concepts and best practices](https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices)
 - [Network security groups overview](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)
 - [How network security groups filter network traffic](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works)
 
