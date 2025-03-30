@@ -42,7 +42,7 @@ By addressing these questions, the city can prepare project budgets and schedule
 With these preparations in place, the city can plan the installation. Several companies in Southern California can help, including:
 
 * [Solar Optimum](https://www.energysage.com/supplier/21398/solar-optimum/): Solar Optimum was the 2024 Installer of the Year, according to [EnergySage](https://www.energysage.com/). Established in 2008, they continue to lead the solar industry across California, Nevada, Arizona, and Florida.
-* [NRG Clean Power](https://www.energysage.com/supplier/20701/nrg-clean-power/): NRG Clean Power is the leading solar installer in California and Texas. Two of their core tenets about electricity are taht it should be renewable and affordable.
+* [NRG Clean Power](https://www.energysage.com/supplier/20701/nrg-clean-power/): NRG Clean Power is the leading solar installer in California and Texas. Two of their core tenets about electricity are that it should be renewable and affordable.
 * [IntegrateSun, LLC](https://www.energysage.com/supplier/26285/integratesun-llc/): IntegrateSun installs the same technology that NASA uses for their space stations.
 
 City leadership must assess providers, estimated costs, and projected timelines. The city can request quotes from the above providers to compare options. Include any findings from the initial assessment in the quote request.
@@ -72,9 +72,9 @@ These benefits include:
 
 * Solar panels in Southern California, on average, [pay for themselves in five years](https://wattbuy.com/en/solar/california/redlands/).
 * In the event of an earthquake, Redlands City Hall can continue operating and aiding the community.
-* Increasing green energy's percentage of overal energy generation means less greenhouse gases and a healthier environment.
+* Increasing green energy's percentage of overall energy generation means less greenhouse gases and a healthier environment.
 
 By approving this proposal, you will not only improve Redlands's energy portfolio; you will also decrease Redlands's carbon footprint. As our carbon footprint becomes more critical to consider, these kinds of proposed initiatives become more important. Redlands owes it to its community to lead the way in green energy initiatives.
 
-Thank you for considering this proposal. We are looking forward to disucssing the matter further and are awaiting your decision.
+Thank you for considering this proposal. We are looking forward to discussing the matter further and are awaiting your decision.
 

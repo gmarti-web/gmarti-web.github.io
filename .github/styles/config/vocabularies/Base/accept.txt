@@ -10,3 +10,7 @@ subpage
 subpages
 [Mm]illiman
 [Dd]atabricks
+(?i)vpc
+(?i)vpcs
+(?i)subnet
+(?i)subnets
