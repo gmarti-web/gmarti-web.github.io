@@ -9,8 +9,10 @@ order: 3
 Basic Markdown syntax adds simple formatting to a document. The basics include:
 
 * Headings and subheadings.
-* Text formatting, like boldface, italics, and monospaced.
+* Text decorations, like boldface, italic, and monospaced fonts.
 * Hyperlinks.
+
+These Markdown features give documents structure, clarity, and emphasis. 
 
 This page describes how to add each of these basic Markdown syntax elements.
 
