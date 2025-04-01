@@ -1,7 +1,7 @@
 ---
 title: Front matter
 permalink: /markdown-for-github-pages/frontmatter/
-date: 2025-03-26
+date: 2025-03-21
 last_modified_date: 2025-03-30
 order: 2
 ---
@@ -20,7 +20,7 @@ Front matter goes at the top of each Markdown page. Three dashes (`---`) separat
 
 For example, a Markdown document with front matter might look like this:
 
-```md
+```text
 <!-- START OF PAGE -->
 
 ---
@@ -43,7 +43,7 @@ You can add any metadata you want to a page's front matter. Some common, helpful
 
 For example, the front matter section of a page in your site's "Tutorials" section might look like this:
 
-```yaml
+```text
 ---
 title: Tutorial example 1
 permalink: /tutorials/example1/
@@ -51,7 +51,7 @@ parent: Tutorials
 last_modified_date: 2025-03-24
 ---
 
-# MAIN CONTENT
+<!-- MAIN CONTENT -->
 ```
 
 ## Advanced front matter uses
