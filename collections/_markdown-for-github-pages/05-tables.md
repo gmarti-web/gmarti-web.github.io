@@ -20,7 +20,7 @@ This page describes how to create tables.
 
 Use pipe's (`|`) and new lines to define the table columns and rows.
 
-Pipes mark where columns start and end. Each table row has one pipe for each column plus one.
+Pipes mark where columns start and end. Each table row has one pipe plus one for each column.
 
 A row of dashes (`-`) in the second row makes the first row the header row.
 
@@ -41,9 +41,9 @@ renders to:
 
 ### Add a hyperlink to a table
 
-You can add a hyperlink to any cell in your table.
+You can add a hyperlink to any cell in a table.
 
-[Learn how to add a hyperlink](/markdown-for-github-pages/basics/#hyperlinks).
+[Learn how to add a hyperlink in Markdown](/markdown-for-github-pages/basics/#hyperlinks).
 
 For example, the following Markdown:
 
