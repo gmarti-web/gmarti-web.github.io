@@ -2,7 +2,7 @@
 title: Tables
 permalink: /markdown-for-github-pages/tables/
 date: 2025-03-23
-last_modified_date: 2025-03-31
+last_modified_date: 2025-04-01
 order: 5
 ---
 
@@ -37,6 +37,28 @@ renders to:
 | Column 1 | Column 2 |
 |----------|----------|
 | Column 1, Row 1 | Column 2, Row 1 |
+| Column 1, Row 2 | Column 2, Row 2 |
+
+### Add a hyperlink to a table
+
+You can add a hyperlink to any cell in your table.
+
+[Learn how to add a hyperlink](/markdown-for-github-pages/basics/#hyperlinks).
+
+For example, the following Markdown:
+
+```text
+| Column 1 | Column 2 |
+|----------|----------|
+| [This sentence links to google.com](https://google.com) | Column 2, Row 1 |
+| Column 1, Row 2 | Column 2, Row 2 |
+```
+
+renders to:
+
+| Column 1 | Column 2 |
+|----------|----------|
+| [This sentence links to google.com](https://google.com) | Column 2, Row 1 |
 | Column 1, Row 2 | Column 2, Row 2 |
 
 ## Advanced table syntax

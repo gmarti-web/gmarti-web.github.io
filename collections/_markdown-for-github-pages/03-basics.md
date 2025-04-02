@@ -2,7 +2,7 @@
 title: Basics
 permalink: /markdown-for-github-pages/basics/
 date: 2025-03-23
-last_modified_date: 2025-03-31
+last_modified_date: 2025-04-01
 order: 3
 ---
 
@@ -10,6 +10,7 @@ Basic Markdown syntax adds simple formatting to a document. The basics include:
 
 * Headings and subheadings.
 * Text decorations, like boldface, italic, and monospaced fonts.
+* Ordered and unordered lists.
 * Hyperlinks.
 
 These Markdown features give documents structure, clarity, and emphasis. 
@@ -103,6 +104,48 @@ import pandas
 
 df = pandas.from_csv("mydata.csv")
 ```
+
+## Ordered and unordered lists
+
+Lists make sequential instructions or related collections of items easier to read. They break up long portions of text and add more white space to your document.
+
+### Use an ordered list
+
+Start a line with the number one plus a period (`1.`) to make an ordered list. Use ordered lists to make sequential instructions easy to read.
+
+To make an ordered list, start each line with `1.`, whether your list has one item or 100. Most Markdown flavors, including GitHub-flavored Markdown, will render your list correctly.
+
+For example, the following Markdown:
+
+```text
+1. Do this step first
+1. Do this step next
+1. Do this step last
+```
+
+renders to:
+
+1. Do this step first
+1. Do this step next
+1. Do this step last
+
+### Use an unordered list
+
+Start a line with an asterisk (`*`) to make an unordered list. Use unordered list to organize related ideas that don't follow from one to the next.
+
+For example, the following Markdown:
+
+```text
+* Item one
+* Item two
+* Item three
+```
+
+renders to:
+
+* Item one
+* Item two
+* Item three
 
 ## Hyperlinks
 
