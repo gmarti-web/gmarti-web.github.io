@@ -6,4 +6,5 @@
 - [ ] How does Kubernetes work?
 - [ ] Synchronous vs asynchronous events
 - [ ] "Event-first mindset"
+- [ ] How to make useful GitHub templates
 
