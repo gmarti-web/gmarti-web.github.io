@@ -10,4 +10,8 @@ order: 6
 
 ## Include files
 
+Use the `include` tag to avoid writing the same Markdown snippet in many places.
+
+[Learn more about using the `include` tag](https://jekyllrb.com/docs/includes/).
+
 ## Collections

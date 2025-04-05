@@ -117,79 +117,19 @@ Use the `<table>` HTML block to add more complicated elements, like:
 * Ordered and unordered lists.
 * Multi-line code blocks
 
-### Add a subtable to a table
+### Understand the `<table>` HTML block
 
-To add a subtable, define a table in a table row.
+The `<table>` HTML block has two subsections:
 
-For example, the following HTML:
-
-```html
-<table>
-  <thead>
-    <th>Column 1</th>
-    <th>Column 2</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Column 1, Row 1</td>
-      <td>Column 2, Row 1</td>
-    </tr>
-    <tr>
-      <td>Column 1, Row 2</td>
-      <td><table>
-        <thead>
-          <th>Subcolumn 1</th>
-          <th>Subcolumn 2</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Subcolumn 1, Subrow 1</td>
-            <td>Subcolumn 2, Subrow 1</td>
-          </tr>
-          <tr>
-            <td>Subcolumn 1, Subrow 2</td>
-            <td>Subcolumn 2, Subrow 2</td>
-          </tr>
-        </tbody>
-      </table></td>
-    </tr>
-  </tbody>
-</table>
-```
-
-renders to:
-
-<table>
-  <thead>
-    <th>Column 1</th>
-    <th>Column 2</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Column 1, Row 1</td>
-      <td>Column 2, Row 1</td>
-    </tr>
-    <tr>
-      <td>Column 1, Row 2</td>
-      <td><table>
-        <thead>
-          <th>Subcolumn 1</th>
-          <th>Subcolumn 2</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Subcolumn 1, Subrow 1</td>
-            <td>Subcolumn 2, Subrow 1</td>
-          </tr>
-          <tr>
-            <td>Subcolumn 1, Subrow 2</td>
-            <td>Subcolumn 2, Subrow 2</td>
-          </tr>
-        </tbody>
-      </table></td>
-    </tr>
-  </tbody>
-</table>
+<dl>
+  <dt><code>&lt;thead&gt;</code></dt>
+  <dd>The table head section.<ul><li>Define each column name in this section with <code>&lt;th&gt;</code> elements.</li></ul></dd>
+  <dt><code>&lt;tbody&gt;</code></dt>
+  <dd>The table body section.<ul>
+    <li>Define each table row with a <code>&lt;tr&gt;</code> (table row) section.</li>
+    <li>Define each column value in a row with <code>&lt;td&gt;</code> (table data) section.</li>
+  </ul></dd>
+</dl>
 
 ### Add a list to a table
 
@@ -289,6 +229,80 @@ df = pd.read_csv("file.csv")
     <tr>
       <td>Column 1, Row 2</td>
       <td>Column 2, Row 2</td>
+    </tr>
+  </tbody>
+</table>
+
+### Add a subtable to a table
+
+To add a subtable, define a table in a table row.
+
+For example, the following HTML:
+
+```html
+<table>
+  <thead>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Column 1, Row 1</td>
+      <td>Column 2, Row 1</td>
+    </tr>
+    <tr>
+      <td>Column 1, Row 2</td>
+      <td><table>
+        <thead>
+          <th>Subcolumn 1</th>
+          <th>Subcolumn 2</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Subcolumn 1, Subrow 1</td>
+            <td>Subcolumn 2, Subrow 1</td>
+          </tr>
+          <tr>
+            <td>Subcolumn 1, Subrow 2</td>
+            <td>Subcolumn 2, Subrow 2</td>
+          </tr>
+        </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+renders to:
+
+<table>
+  <thead>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Column 1, Row 1</td>
+      <td>Column 2, Row 1</td>
+    </tr>
+    <tr>
+      <td>Column 1, Row 2</td>
+      <td><table>
+        <thead>
+          <th>Subcolumn 1</th>
+          <th>Subcolumn 2</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Subcolumn 1, Subrow 1</td>
+            <td>Subcolumn 2, Subrow 1</td>
+          </tr>
+          <tr>
+            <td>Subcolumn 1, Subrow 2</td>
+            <td>Subcolumn 2, Subrow 2</td>
+          </tr>
+        </tbody>
+      </table></td>
     </tr>
   </tbody>
 </table>

@@ -9,7 +9,7 @@ order: 3
 Basic Markdown syntax adds structure, clarity, and emphasis to a document. The basics include:
 
 * Headings and subheadings.
-* Text decorations, like boldface, italic, and monospaced fonts.
+* Text decorations, like boldface, italic, and monospaced (code) fonts.
 * Ordered and unordered lists.
 * Hyperlinks.
 
@@ -71,9 +71,11 @@ renders to:
 
 This phrase uses _italics_.
 
-### Use monospaced font
+### Use monospaced (code) font
 
-Surround a word with backticks (\`) to make it monospaced. Use monospaced font for code snippets and code blocks.
+Use monospaced font for code snippets and code blocks
+
+Surround a word with backticks (\`) to make it monospaced.
 
 For example, the following Markdown text:
 
