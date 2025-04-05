@@ -2,22 +2,22 @@
 title: Basics
 permalink: /markdown-for-github-pages/basics/
 date: 2025-03-23
-last_modified_date: 2025-04-01
+last_modified_date: 2025-04-05
 order: 3
 ---
 
-Basic Markdown syntax adds simple formatting to a document. The basics include:
+Basic Markdown syntax adds structure, clarity, and emphasis to a document. The basics include:
 
 * Headings and subheadings.
 * Text decorations, like boldface, italic, and monospaced fonts.
 * Ordered and unordered lists.
 * Hyperlinks.
 
-These Markdown features give documents structure, clarity, and emphasis. 
-
 This page describes how to add each of these basic Markdown syntax elements.
 
 ## Headings
+
+Headings and subheadings add structure and organization to your document.
 
 Use hashes (`#`) to create headings and subheadings.
 
@@ -107,13 +107,13 @@ df = pandas.from_csv("mydata.csv")
 
 ## Ordered and unordered lists
 
-Lists make sequential instructions or related collections of items easier to read. They break up long portions of text and add more white space to your document.
+Lists make sequential instructions or related collections of items easier to read. They break up long portions of text and add helpful white space to your document.
 
 ### Use an ordered list
 
-Start a line with the number one plus a period (`1.`) to make an ordered list. Use ordered lists to make sequential instructions easy to read.
+Use ordered lists to make sequential instructions easy to read.
 
-To make an ordered list, start each line with `1.`, whether your list has one item or 100. Most Markdown flavors, including GitHub-flavored Markdown, will render your list correctly.
+Start a line with the number one and a period (`1.`) to make an ordered list, whether your list has one or 100 items. Most Markdown flavors, including GitHub-flavored Markdown, will render your list in increasing, sequential order.
 
 For example, the following Markdown:
 
@@ -131,7 +131,9 @@ renders to:
 
 ### Use an unordered list
 
-Start a line with an asterisk (`*`) to make an unordered list. Use unordered list to organize related ideas that don't follow from one to the next.
+Use unordered list to organize related ideas that don't follow from one to the next.
+
+Start a line with an asterisk (`*`) to make an unordered list.
 
 For example, the following Markdown:
 

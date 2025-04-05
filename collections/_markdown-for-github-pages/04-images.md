@@ -2,11 +2,11 @@
 title: Images
 permalink: /markdown-for-github-pages/images/
 date: 2025-03-23
-last_modified_date: 2025-03-31
+last_modified_date: 2025-04-05
 order: 4
 ---
 
-Images make technical documentation easier to read. They break up the text and give the reader another medium through which they can understand the content.
+Images add concise explanations of complex topics to your technical documentation . They break up the text and give the reader another medium through which they can understand the content.
 
 This page describes how to add images in two ways.
 

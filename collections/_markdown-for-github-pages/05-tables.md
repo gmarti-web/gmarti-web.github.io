@@ -2,23 +2,23 @@
 title: Tables
 permalink: /markdown-for-github-pages/tables/
 date: 2025-03-23
-last_modified_date: 2025-04-01
+last_modified_date: 2025-04-05
 order: 5
 ---
 
-Tables display information in a clear and logical format. With tables, you can:
+Tables display information in a clear and logical format. They let readers easily scan your document for the information they need.
+
+With tables, you can:
 
 * Describe API inputs and outputs.
 * Define technical terms.
 * Show causes and effects.
 
-Readers can easily scan tables for the information they need.
-
 This page describes how to create tables.
 
 ## Basic table syntax
 
-Use pipe's (`|`) and new lines to define a table's columns and rows.
+Use pipes (`|`) and new lines to define a table's columns and rows.
 
 Pipes mark where columns start and end. Each table row has one pipe plus one for each column.
 
