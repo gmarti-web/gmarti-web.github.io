@@ -5,11 +5,13 @@ on:
     branches:
       - main
     paths-ignore:
-      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/*_TEMPLATE/**"
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+    paths-ignore:
+      - ".github/*_TEMPLATE/**"
 
 permissions:
   contents: read
