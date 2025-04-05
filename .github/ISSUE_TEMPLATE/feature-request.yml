@@ -1,0 +1,23 @@
+name: Feature request
+description: Request a new feature (blog post, tutorial, or other content).
+title: "[Feature request]: "
+labels: ["documentation", "feature-request"]
+assignees:
+  - greg-martinez44
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the feature you want to create.
+  - type: textarea
+    id: brief
+    attributes:
+      label: Content brief
+      description: Describe the feature's objective.
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Audience
+      description: Briefly describe the intended audience.
