@@ -13,7 +13,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 2
       - id: yaml_count
         run: |
           changed_files=$(git diff --name-only HEAD^)
