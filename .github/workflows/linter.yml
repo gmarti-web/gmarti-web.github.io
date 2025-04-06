@@ -11,11 +11,11 @@ jobs:
       yaml_count: ${{ steps.yaml_count.outputs.yaml_count }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
       - id: yaml_count
         run: |
-          changed_files=$(git diff --name-only HEAD^)
+          base_sha=${{ github.event.pull_request.base.sha }}
+          head_sha=${{ github.event.pull_request.head.sha }}
+          changed_files=$(git diff --name-only $head_sha $base_sha)
           for file in $changed_files; do
             content=$(cat $file)
             if [ "${file##*.}" -ne "md" ]; then
