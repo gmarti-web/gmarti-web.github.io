@@ -1,12 +1,7 @@
 name: reviewdog
 on:
   pull_request:
-    paths:
-      - "_pages/**"
-      - "collections/**"
   workflow_dispatch:
-      - "_pages/**"
-      - "collections/**"
 
 jobs:
   count-frontmatter:
