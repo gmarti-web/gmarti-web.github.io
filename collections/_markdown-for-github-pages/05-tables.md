@@ -2,7 +2,7 @@
 title: Tables
 permalink: /markdown-for-github-pages/tables/
 date: 2025-03-23
-last_modified_at: 2025-04-05
+last_modified_at: 2025-04-06
 order: 5
 ---
 
@@ -183,7 +183,7 @@ renders to:
 
 ### Add a multi-line code block to a table
 
-To add a multi-line code block, define preformatted code block.
+To add a multi-line code block, define a preformatted code block in a table row.
 
 For example, the following HTML:
 
