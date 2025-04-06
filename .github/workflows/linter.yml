@@ -4,6 +4,34 @@ on:
   workflow_dispatch:
 
 jobs:
+  count-frontmatter:
+    name: Count front matter block delimiters.
+    runs-on: ubuntu-latest
+    outputs:
+      yaml_count: ${{ steps.yaml_count.outputs.yaml_count }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: yaml_count
+        run: |
+          base_sha=${{ github.event.pull_request.base.sha }}
+          changed_files=$(git diff --name-only HEAD $base_sha)
+          for file in $changed_files; do
+            content=$(cat $file)
+            if [ "${file##*.}" -ne "md" ]; then
+              exit 1
+            fi
+            yaml_block_count=$(cat ${content/---/~~~} | grep -o '~~~ ' | wc -l)
+            if [ "$yaml_block_count" -lt 2 ]; then
+              echo "yaml_count=$yaml_block_count" >> "$GITHUB_OUTPUT"
+              break
+            fi
+          done
+      - id: yaml_check
+        if: ${{ steps.yaml_count.outputs.yaml_count < 2 }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            core.setFailed("Did not find YAML block!")
   vale:
     name: runner / vale
     runs-on: ubuntu-latest
