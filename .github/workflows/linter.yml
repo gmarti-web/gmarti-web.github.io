@@ -19,6 +19,9 @@ jobs:
           changed_files=$(git diff --name-only HEAD^)
           for file in $changed_files; do
             content=$(cat $file)
+            if [ "${file##*.}" -ne "md" ]; then
+              exit 1
+            fi
             yaml_block_count=$(cat ${content/---/~~~} | grep -o '~~~ ' | wc -l)
             if [ "$yaml_block_count" -lt 2 ]; then
               echo "yaml_count=$yaml_block_count" >> "$GITHUB_OUTPUT"
