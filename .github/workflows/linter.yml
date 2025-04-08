@@ -9,4 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - id: Define the vale StylesPath
+        run:
+          stylespath="StylesPath = .github/styles"
+          sed -i 'li $stylespath' .vale.ini
       - uses: errata-ai/vale-action@v2.1.1
