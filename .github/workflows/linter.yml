@@ -12,5 +12,5 @@ jobs:
       - name: Define the vale StylesPath
         run:
           stylespath="StylesPath = .github/styles"
-          sed -i 'li $stylespath' .vale.ini
+          sed -ie 'li${stylespath}\' .vale.ini
       - uses: errata-ai/vale-action@v2.1.1
