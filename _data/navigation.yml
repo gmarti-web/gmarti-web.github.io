@@ -58,11 +58,7 @@ markdown-for-github-pages:
         url: /markdown-for-github-pages/images/
       - title: Tables
         url: /markdown-for-github-pages/tables/
-      - title: Advanced
-        url: /markdown-for-github-pages/advanced/
-  - title: Tutorials
-    url: /markdown-for-github-pages/tutorials/
+  - title: Convert Word documents to Markdown
+    url: /markdown-for-github-pages/convert-from-word/
   - title: Wrap up
     url: /markdown-for-github-pages/wrap-up/
-  - title: FAQs
-    url: /markdown-for-github-pages/faqs/

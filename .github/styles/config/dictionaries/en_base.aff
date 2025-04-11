@@ -40,6 +40,7 @@ PFX F   0     con         .
 
 PFX K Y 1
 PFX K   0     pro         .
+PFX K   0     pre         .
 
 SFX V N 2
 SFX V   e     ive        e
@@ -74,6 +75,7 @@ SFX D Y 4
 SFX D   0     d          e
 SFX D   y     ied        [^aeiou]y
 SFX D   0     ed         [^ey]
+SFX D   0     ted         [^ey]
 SFX D   0     ed         [aeiou]y
 
 SFX T N 4
@@ -107,6 +109,7 @@ SFX P   0     ness       [^y]
 
 SFX M Y 1
 SFX M   0     's         .
+SFX M   0     s'         .
 
 SFX B Y 3
 SFX B   0     able       [^aeiou]
