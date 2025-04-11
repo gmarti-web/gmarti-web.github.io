@@ -10,7 +10,7 @@ Many developers write their documentation with a program like Microsoft Word. Wo
 
 Word, though, has its drawbacks:
 
-* It's hard to contextual formatting.
+* Contextual elements, like code blocks or collapsible sections, are hard or impossible to add.
 * The bells and whistles distract from writing.
 * They're hard to version control.
 
