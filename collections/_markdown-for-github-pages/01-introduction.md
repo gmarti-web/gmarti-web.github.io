@@ -2,7 +2,7 @@
 title: Introduction
 permalink: /markdown-for-github-pages/introduction/
 date: 2025-03-21
-last_modified_at: 2025-04-11
+last_modified_at: 2025-04-12
 order: 1
 ---
 
@@ -11,9 +11,10 @@ In any software project, one of the most important parts is the documentation. A
 * How the software works.
 * Why you created it.
 * Your reasons for choosing one technology over another.
-* Who is responsible for which job.
 
-Still, despite its importance, the documentation is often the last thing on a developer's mind. It may not be as glamorous as designing the code base or as rewarding as seeing the system work. They quickly scrape together snippets of text and a collection of screenshots into a word processor and call it a day. That's if they create any documentation, at all.
+Despite its importance, the documentation is often the last thing on a developer's mind. To get it done, they just cobble together text snippets and screenshots into a word processor. That's if they create any documentation, at all.
+
+It's hard to blame them. Clear writing isn't as glamorous as designing a code base. Nor is it as rewarding as seeing the system work. As a result, there is less incentive for a developer to spend time mastering their word processor over their other work.
 
 While we can't turn every developer into an expert writer, we can reach a middle ground. That middle ground is a Docs-as-Code approach to technical documentation.
 
@@ -23,9 +24,9 @@ A Docs-as-Code approach uses many of the same concepts as a typical software dev
 
 * You write your documents in plain text, often in the same editor as you write your code.
 * You save your documents in the same version control system (VCS) as the rest of your code base.
-* You maintain the quality and certain standards for your documentation using continuous integration and continuous development (CI/CD) pipelines.
+* You maintain the quality and standards for your documentation with continuous integration and continuous development (CI/CD) pipelines.
 
-By merging the writing process into their daily workflow, developers are better situated to create clearer, more complete documentation.
+By merging the writing process into their daily workflow, developers are better positioned to create clearer, more complete documentation.
 
 ## Docs-as-Code and GitHub Pages
 
@@ -37,7 +38,7 @@ GitHub Pages renders plain text Markdown files into static HTML and CSS files wi
 * Site 2
 * Site 3
 
-The primary tool you use in a Docs-as-Code approach with GitHub Pages and Jekyll is Markdown. Markdown is a plain text format that uses "markup" to mark where to render:
+The primary tool you use in a Docs-as-Code approach with GitHub Pages and Jekyll is Markdown. Markdown is a plain text format that uses "markup" to denote where to render:
 
 * Headings
 * Links
@@ -46,3 +47,4 @@ The primary tool you use in a Docs-as-Code approach with GitHub Pages and Jekyll
 * Other formatting options (for example, boldface, italics, or monospaced text)
 
 In this tutorial, you'll learn some [basic Markdown formatting tools](/markdown-for-github-pages/basics/). These tools will help you create well-structured Markdown documents from scratch, including the required [YAML front matter](/markdown-for-github-pages/frontmatter/). You'll also learn how to [quickly convert existing documentation](/markdown-for-github-pages/convert-from-word/), likely written in Microsoft Word documents, into Markdown with the `pandoc` tool.
+
