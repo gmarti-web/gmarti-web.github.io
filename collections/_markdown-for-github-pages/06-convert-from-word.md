@@ -2,7 +2,7 @@
 title: Convert Word documents to Markdown
 permalink: /markdown-for-github-pages/convert-from-word/
 date: 2025-03-23
-last_modified_at: 2025-04-10
+last_modified_at: 2025-04-11
 order: 7
 ---
 
@@ -41,3 +41,8 @@ To convert you Word document to Markdown:
 
 Pandoc saves your converted document to `path/to/markdown/file.md`. It saves any images from your Word document to a folder called `images`.
 
+## End product clean up
+
+It's important to check that the conversion was successful. There may be artifacts or ill-formatted tables that you must clean up before submitting the document to your version control system.
+
+You also must add the required [YAML front matter](/markdown-for-github-pages/frontmatter/). Without the front matter, Jekyll won't render your document.
