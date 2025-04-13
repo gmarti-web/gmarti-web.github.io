@@ -2,7 +2,7 @@
 title: Introduction
 permalink: /markdown-for-github-pages/introduction/
 date: 2025-03-21
-last_modified_at: 2025-04-12
+last_modified_at: 2025-04-13
 order: 1
 ---
 
@@ -13,14 +13,14 @@ In this tutorial, you'll learn some [basic Markdown formatting tools](/markdown-
 In any software project, one of the most important parts is the documentation. A project's documentation tells the developers, stake holders, and end users:
 
 * How the software works.
-* Why you created it.
-* Your reasons for choosing one technology over another.
+* Why you or your company created it.
+* The reasons for choosing one technology over another.
 
-Despite its importance, the documentation is often the last thing on a developer's mind. To get it done, they just cobble together text snippets and screenshots into a word processor. That's if they create any documentation, at all.
+Despite its importance, the documentation is often the last thing on a developer's mind. To get it done, many people cobble together text snippets and screenshots into a word processor. That's if they create any documentation, at all.
 
-It's hard to blame them. Clear writing is hard work. It isn't as glamorous as designing a code base. Nor is it as rewarding as seeing the system work. As a result, there is less incentive for a developer to spend time mastering their word processor over their other work.
+It's hard to blame them. Clear writing is hard work. It isn't as glamorous as designing a code base. Nor is it as rewarding as seeing the system work. As a result, there is less incentive for a developer to spend time mastering their word processor over doing their other work.
 
-While we can't turn every developer into an expert writer, we can reach a middle ground. That middle ground is a [_Docs as Code_](https://www.writethedocs.org/guide/docs-as-code/) approach to technical documentation.
+You can't turn every developer into an expert writer, but there's a middle ground. That middle ground is a [_Docs as Code_](https://www.writethedocs.org/guide/docs-as-code/) approach to technical documentation.
 
 ## The _Docs as Code_ approach
 
@@ -50,5 +50,5 @@ GitHub Pages uses Jekyll to render plain text Markdown files into static HTML an
 
 You don't need to rewrite your existing documentation to add it to your GitHub Pages project. The [`pandoc`](https://pandoc.org/) tool can convert most file formats into Markdown for you. This includes Word documents. In most cases, you can convert a Word document into Markdown with just a single terminal command.
 
-With GitHub Pages, Jekyll, and some simple Markdown skills, you can create enticing, well-structured online documents. And, with a _Docs as Code_ approach, you can bring your development team along for the ride.
+With GitHub Pages, Jekyll, and some simple Markdown skills, you can create enticing, well-structured online documents. And, with a _Docs as Code_ approach, you can bring your development team along with you.
 

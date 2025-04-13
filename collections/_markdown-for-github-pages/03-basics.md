@@ -2,11 +2,13 @@
 title: Basics
 permalink: /markdown-for-github-pages/basics/
 date: 2025-03-23
-last_modified_at: 2025-04-05
+last_modified_at: 2025-04-13
 order: 3
 ---
 
-Basic Markdown syntax adds structure, clarity, and emphasis to a document. The basics include:
+Basic Markdown syntax adds structure, clarity, and emphasis to a document.
+
+The basics include:
 
 * Headings and subheadings.
 * Text decorations, like boldface, italic, and monospaced (code) fonts.

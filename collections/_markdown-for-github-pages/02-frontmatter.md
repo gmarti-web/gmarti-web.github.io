@@ -2,7 +2,7 @@
 title: Front matter
 permalink: /markdown-for-github-pages/frontmatter/
 date: 2025-03-21
-last_modified_at: 2025-03-30
+last_modified_at: 2025-04-13
 order: 2
 ---
 
@@ -56,7 +56,11 @@ last_modified_date: 2025-03-24
 
 ## Advanced front matter uses
 
-You can reference metadata defined in one page's front matter from any other page in your site.
+You can reference metadata defined in one page's front matter from any other page in your site. This expands your site's capabilities to:
+
+* Create template HTML files to include on different pages.
+* Define data once and use it many times.
+* Generate page content dynamically.
 
 See [Jekyll's front matter documentation](https://jekyllrb.com/docs/front-matter/) to learn more.
 
