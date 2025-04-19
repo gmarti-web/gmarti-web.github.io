@@ -2,7 +2,7 @@
 title: Convert Word documents to Markdown
 permalink: /markdown-for-github-pages/convert-from-word/
 date: 2025-03-23
-last_modified_at: 2025-04-11
+last_modified_at: 2025-04-19
 order: 7
 ---
 
@@ -11,8 +11,8 @@ Many developers write their documentation with a program like Microsoft Word. Wo
 Word, though, has its drawbacks:
 
 * Contextual elements, like code blocks or collapsible sections, are hard or impossible to add.
-* The bells and whistles distract from writing.
-* They're hard to version control.
+* Word's bells and whistles distract from writing.
+* Documents hard to version control.
 
 GitHub pages solves these issues. That doesn't mean, though, you have to rewrite your Word document in Markdown. Instead, you can use a tool like `pandoc` to convert them for you.
 
@@ -41,8 +41,9 @@ To convert you Word document to Markdown:
 
 Pandoc saves your converted document to `path/to/markdown/file.md`. It saves any images from your Word document to a folder called `images`.
 
-## End product clean up
+## Review the output
 
 It's important to check that the conversion was successful. There may be artifacts or ill-formatted tables that you must clean up before submitting the document to your version control system.
 
 You also must add the required [YAML front matter](/markdown-for-github-pages/frontmatter/). Without the front matter, Jekyll won't render your document.
+
