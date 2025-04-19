@@ -2,11 +2,11 @@
 title: Introduction
 permalink: /markdown-for-github-pages/introduction/
 date: 2025-03-21
-last_modified_at: 2025-04-13
+last_modified_at: 2025-04-19
 order: 1
 ---
 
-In this tutorial, you'll learn some [basic Markdown formatting tools](/markdown-for-github-pages/basics/). These tools will help you create well-structured Markdown documents from scratch. You'll also learn how to add the [YAML front matter](/markdown-for-github-pages/frontmatter/) that Jekyll needs to render your documents into HTML and CSS. Finally, you'll learn how to [quickly convert existing documentation](/markdown-for-github-pages/convert-from-word/) into Markdown with the `pandoc` tool.
+In this tutorial, you'll learn how to contribute to a GitHub Pages project with some [basic Markdown formatting tools](/markdown-for-github-pages/basics/). These tools will help you create well-structured Markdown documents from scratch. You'll also learn how to add the [YAML front matter](/markdown-for-github-pages/frontmatter/) that Jekyll needs to render your documents. Finally, you'll learn how to use the `pandoc` tool to [convert existing Word documents](/markdown-for-github-pages/convert-from-word/) into Markdown.
 
 ## Background
 
