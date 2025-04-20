@@ -15,6 +15,8 @@ logo: /assets/favicon/favicon.svg
 # Build settings
 theme: minimal-mistakes-jekyll
 plugins:
+  - asciidoctor
+  - jekyll-asciidoc
   - jekyll-archives
   - jekyll-feed
   - jekyll-octicons
@@ -178,3 +180,12 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+asciidoc:
+  processor: asciidoctor
+  require_front_matter_header: true
+asciidoctor:
+  attributes:
+    icons: font
+    stylesdir: /assets/css
+    source-highlighter: pygments
