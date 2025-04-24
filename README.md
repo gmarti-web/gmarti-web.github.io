@@ -1,22 +1,26 @@
-# Blog structure
+# gmartiblog.com
 
-- Home
-- About
-- Tutorials
-  - Azure Web App with Terraform
-    - Index page should be `collection` type.
-    - Tutorial should flow from there.
-  - \<Other tutorials\>
+This repository hosts content for my blog.
 
-  ```console
-  gmarti-web.github.io
-  ├── _data
-  |   ├── navigation.yml
-  |   └── ui-text.yml
-  ├── _pages
-  |   ├── 404.html
-  |   ├── about.md
-  |   ├── index.md
-  |   ├── tutorials.md
+The [gmartiblog.com](https://gmartiblog.com) blog mainly uses [Markdown](https://commonmark.org/help/) but explores [AsciiDoc](https://asciidoc.org/), as well. Both formats use plain text to add structure to documents. Markdown, though, almost always needs help from HTML. The format doesn't have the ability to make complex tables, collapsible sections, or definition lists. AsciiDoc doesn't need the added HTML. It can do all that with only AsciiDoc markers. This keeps the raw code behind the rendered documents easy to read.
 
-This has evolved a bit, but I still want this site to be my portfolio.
+[Jekyll](https://jekyllrb.com/) renders all Markdown and AsciiDoc documents into static blog pages.
+
+## How to build
+
+Build the site on your local computer to see how Jekyll renders your document.
+
+### Prerequisites
+
+<details>
+<summary>Download ruby and the `bundle` package manager</summary>
+</details>
+
+<details>
+<summary>Download `jekyll`</summary>
+</details>
+
+### Jekyll serve
+
+## How to contribute
+
