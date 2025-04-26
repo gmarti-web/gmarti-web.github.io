@@ -93,7 +93,7 @@ To install the needed gems:
 
     ```console
     git clone https://github.com/gmarti-web/gmarti-web.github.io.git
-    cd gmarti-web.github.io.gi
+    cd gmarti-web.github.io.git
     ```
 
 2. Set the local gem folder.
@@ -214,4 +214,21 @@ vale path/to/folder/
 ```
 
 ## How to contribute to the project
+
+To contribute to the project:
+
+1. [Find an issue](https://github.com/gmarti-web/gmarti-web.github.io/issues) you want to work on. If one doesn't exist, [create one](https://github.com/gmarti-web/gmarti-web.github.io/issues/new?template=feature-request.yml).
+1. Check out the repository.
+1. Create a new branch that describes your work.
+
+    ```console
+    git checkout -b my-branch
+    ```
+
+1. [Build the project on your local computer](#how-to-build-this-project-locally).
+1. Make your changes, test them on your local server, and then lint for writing errors.
+1. Push your changes to a new remote branch.
+1. Create a new pull request.
+
+The code owner reviews the pull request. If approved, they'll merge the changes into the main branch. If not, they'll add their feedback to the pull request.
 
