@@ -23,7 +23,7 @@ Follow the instructions for your operating system to install Jekyll and [Bundler
   sudo apt-get install ruby-full build-essential zlib1g-dev
   ```
 
-1. Add a gem installation directory for your user account to your `~/.bashrc` file.
+2. Add a gem installation directory for your user account to your `~/.bashrc` file.
 
   ```console
   echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
@@ -31,7 +31,7 @@ Follow the instructions for your operating system to install Jekyll and [Bundler
   source ~/.bashrc
   ```
 
-1. Install Jekyll and Bundler.
+3. Install Jekyll and Bundler.
 
   ```console
   gem install jekyll bundler
@@ -41,7 +41,8 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
 
 </details>
 
-{% capture MacOs %}
+<details>
+<summary>macOS</summary>
 
 1. Install [HomeBrew](http://brew.sh/)).
 
@@ -49,7 +50,7 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
 
-1. Install `chruby` and the latest Ruby version.
+2. Install `chruby` and the latest Ruby version.
 
   ```console
   brew install chruby ruby-install
@@ -59,7 +60,7 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
   ruby-install ruby 3.4.1
   ```
 
-1. Configure your shell to use `chruby`.
+3. Configure your shell to use `chruby`.
 
   ```console
   echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
@@ -68,7 +69,7 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
   source ~/.bash_profile
   ```
 
-1. Install Jekyll and Bundler
+4. Install Jekyll and Bundler
 
   ```console
   gem install jekyll bundler
@@ -76,11 +77,6 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
 
 To learn more about installing Jekyll on macOS, see [Jekyll on macOS](https://jekyllrb.com/docs/installation/macos/).
 
-{% endcapture %}
-
-<details>
-<summary>macOS</summary>
-{{ MacOs | markdownify }}
 </details>
 
 For a complete list of installation methods, see [Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/).
