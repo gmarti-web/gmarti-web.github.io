@@ -14,7 +14,8 @@ Follow the instructions for your operating system to install Jekyll and [Bundler
 
 ### Install dependencies
 
-{% capture Ubuntu %}
+<details>
+<summary>Ubuntu or Debian</summary>
 
 1. Install Ruby and prerequisites:
 
@@ -38,11 +39,6 @@ Follow the instructions for your operating system to install Jekyll and [Bundler
 
 To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/).
 
-{% endcapture %}
-
-<details>
-<summary>Ubuntu or Debian</summary>
-{{ Ubuntu | markdownify }}
 </details>
 
 {% capture MacOs %}
