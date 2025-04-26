@@ -71,7 +71,7 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
     source ~/.bash_profile
     ```
 
-4. Install Jekyll and Bundler
+4. Install Jekyll and Bundler.
 
     ```console
     gem install jekyll bundler
@@ -152,7 +152,7 @@ To install Vale, use your operating system's package manager.
         sudo apt install snapd
         ```
 
-1. Install Vale
+1. Install Vale.
 
     ```console
     snap install vale
@@ -177,7 +177,7 @@ sudo apt install asciidoc asciidoctor -y
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-1. Install Vale
+1. Install Vale.
 
     ```console
     brew install vale
@@ -213,7 +213,7 @@ To lint all the files in a folder, run the following command:
 vale path/to/folder/
 ```
 
-## How to contribute to the project
+## How to contribute to this project
 
 To contribute to the project:
 
