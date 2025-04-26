@@ -10,12 +10,14 @@ The [gmartiblog.com](https://gmartiblog.com) blog mainly uses [Markdown](https:/
 
 Build the site on your local computer to see how Jekyll renders your document.
 
-Follow the instructions for your operating system to install Jekyll and [Bundler](https://bundler.io/).
-
 ### Install dependencies
+
+Follow the instructions for your operating system to install Jekyll and [Bundler](https://bundler.io/).
 
 <details>
 <summary>Ubuntu or Debian</summary>
+
+To install Jekyll and Bundler on Ubuntu or Debian:
 
 1. Install Ruby and prerequisites:
 
@@ -44,7 +46,9 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
 <details>
 <summary>macOS</summary>
 
-1. Install [HomeBrew](http://brew.sh/)).
+To install Jekyll and Bundler on macOS:
+
+1. Install [HomeBrew](http://brew.sh/).
 
   ```console
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -81,16 +85,44 @@ To learn more about installing Jekyll on macOS, see [Jekyll on macOS](https://je
 
 For a complete list of installation methods, see [Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/).
 
-<details>
-<summary>Install Ruby and download the <code>bundle</code> package manager</summary>
+### Install gems from `Gemfile`
 
-</details>
+This project's `Gemfile` lists all the gems that this project needs. You only need to install these gems the first time you build the site.
 
-<details>
-<summary>Download `jekyll`</summary>
-</details>
+To install the needed gems:
 
-### Jekyll serve
+1. In your terminal, go to the project's root folder.
+
+  ```console
+  git clone https://github.com/gmarti-web/gmarti-web.github.io.git
+  cd gmarti-web.github.io.gi
+  ```
+
+2. Set the local gem folder.
+
+  This keeps the gems you install for this project scoped to this folder.
+
+  ```console
+  bundle config path 'vendor/bundle' --local
+  ```
+
+3. Install the project's required gems from the `Gemfile`.
+
+  ```console
+  bundle install
+  ```
+
+This installs this project's gems to a local folder called `vendor/bundle`.
+
+### Start the server
+
+After you install the gems, use `bundle` to start the Jekyll server:
+
+```console
+bundle exec jekyll serve
+```
+
+To see the rendered site, go to [http://localhost:4000](http://localhost:4000).
 
 ## How to contribute
 
