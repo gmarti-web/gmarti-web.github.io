@@ -21,23 +21,23 @@ To install Jekyll and Bundler on Ubuntu or Debian:
 
 1. Install Ruby and prerequisites:
 
-  ```console
-  sudo apt-get install ruby-full build-essential zlib1g-dev
-  ```
+    ```console
+    sudo apt-get install ruby-full build-essential zlib1g-dev
+    ```
 
 2. Add a gem installation directory for your user account to your `~/.bashrc` file.
 
-  ```console
-  echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-  echo 'export PATH="$PATH:$HOME/gems/bin"' >> ~/.bashrc
-  source ~/.bashrc
-  ```
+    ```console
+    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+    echo 'export PATH="$PATH:$HOME/gems/bin"' >> ~/.bashrc
+    source ~/.bashrc
+    ```
 
 3. Install Jekyll and Bundler.
 
-  ```console
-  gem install jekyll bundler
-  ```
+    ```console
+    gem install jekyll bundler
+    ```
 
 To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/).
 
@@ -50,34 +50,34 @@ To install Jekyll and Bundler on macOS:
 
 1. Install [HomeBrew](http://brew.sh/).
 
-  ```console
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
+    ```console
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
 
 2. Install `chruby` and the latest Ruby version.
 
-  ```console
-  brew install chruby ruby-install
-  ```
+    ```console
+    brew install chruby ruby-install
+    ```
 
-  ```console
-  ruby-install ruby 3.4.1
-  ```
+    ```console
+    ruby-install ruby 3.4.1
+    ```
 
 3. Configure your shell to use `chruby`.
 
-  ```console
-  echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
-  echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
-  echo "chruby ruby-3.4.1" >> ~/.bash_profile
-  source ~/.bash_profile
-  ```
+    ```console
+    echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile
+    echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile
+    echo "chruby ruby-3.4.1" >> ~/.bash_profile
+    source ~/.bash_profile
+    ```
 
 4. Install Jekyll and Bundler
 
-  ```console
-  gem install jekyll bundler
-  ```
+    ```console
+    gem install jekyll bundler
+    ```
 
 To learn more about installing Jekyll on macOS, see [Jekyll on macOS](https://jekyllrb.com/docs/installation/macos/).
 
@@ -93,24 +93,24 @@ To install the needed gems:
 
 1. In your terminal, go to the project's root folder.
 
-  ```console
-  git clone https://github.com/gmarti-web/gmarti-web.github.io.git
-  cd gmarti-web.github.io.gi
-  ```
+    ```console
+    git clone https://github.com/gmarti-web/gmarti-web.github.io.git
+    cd gmarti-web.github.io.gi
+    ```
 
 2. Set the local gem folder.
 
-  This keeps the gems you install for this project scoped to this folder.
+    This keeps the gems you install for this project scoped to this folder.
 
-  ```console
-  bundle config path 'vendor/bundle' --local
-  ```
+    ```console
+    bundle config path 'vendor/bundle' --local
+    ```
 
 3. Install the project's required gems from the `Gemfile`.
 
-  ```console
-  bundle install
-  ```
+    ```console
+    bundle install
+    ```
 
 This installs this project's gems to a local folder called `vendor/bundle`.
 
