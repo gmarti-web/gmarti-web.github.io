@@ -1,4 +1,4 @@
-25
+26
 subpage/MS
 subtable/MS
 redlands/MS
@@ -25,3 +25,4 @@ menudo
 pandoc/M
 repo/MS
 bundler/M
+snapcraft/M
