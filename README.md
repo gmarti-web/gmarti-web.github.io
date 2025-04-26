@@ -179,18 +179,17 @@ To install Vale on Linux:
         sudo apt install snapd
         ```
 
-    To test the installation, install and run the [hello-world](https://snapcraft.io/hello-world) snap.
+1. Install Vale
 
     ```console
-    snap install hello-world
-    hello-world
+    snap install vale
     ```
 
-    If the installation was successful, the `hello-world` command prints:
+This installs Vale and adds it to your `$PATH` variable.
 
-    ```console
-    Hello World!
-    ```
+</details>
+
+To learn more about installing Vale, see [Install–Vale CLI](https://vale.sh/docs/install).
 
 ## How to contribute to the project
 
