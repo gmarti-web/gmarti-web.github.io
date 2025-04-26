@@ -19,8 +19,6 @@ Follow the instructions for your operating system to install Jekyll and [Bundler
 <details>
 <summary>Linux, Ubuntu, or Debian</summary>
 
-To install Jekyll and Bundler on Linux, Ubuntu, or Debian:
-
 1. Install Ruby and prerequisites:
 
     ```console
@@ -47,8 +45,6 @@ To learn more about installing Jekyll on Ubuntu, see [Jekyll on Ubuntu](https://
 
 <details>
 <summary>macOS</summary>
-
-To install Jekyll and Bundler on macOS:
 
 1. Install [HomeBrew](http://brew.sh/).
 
@@ -133,34 +129,11 @@ This project uses Vale to check, or lint, for any writing errors.
 To install Vale, use your operating system's package manager.
 
 <details>
-<summary>macOS</summary>
-
-To install Vale on macOS:
-
-1. Install [HomeBrew](http://brew.sh/).
-
-    ```console
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-
-1. Install Vale
-
-    ```console
-    brew install vale
-    ```
-
-This installs Vale and adds it to your `$PATH` variable.
-
-</details>
-
-<details>
 <summary>Linux, Ubuntu, or Debian</summary>
 
-To install Vale on Linux:
+1. For Linux and Debian, you must install the [Snapcraft](https://snapcraft.io/) daemon. For Ubuntu, which has the daemon pre-installed, skip to step two.
 
-1. Install [Snapcraft](https://snapcraft.io/).
-
-    1. Remove the `nosnap.pref` file from your native package manager's preference folder.
+    1. For Linux, remove the `nosnap.pref` file from your native package manager's preference folder. For Debian, skip to step ii.
 
         ```console
         sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.bkp
@@ -187,7 +160,28 @@ To install Vale on Linux:
 
 This installs Vale and adds it to your `$PATH` variable.
 
+
 </details>
+
+<details>
+<summary>macOS</summary>
+
+1. Install [HomeBrew](http://brew.sh/).
+
+    ```console
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+
+1. Install Vale
+
+    ```console
+    brew install vale
+    ```
+
+This installs Vale and adds it to your `$PATH` variable.
+
+</details>
+
 
 To learn more about installing Vale, see [Install–Vale CLI](https://vale.sh/docs/install).
 
