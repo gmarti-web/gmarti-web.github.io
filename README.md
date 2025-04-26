@@ -6,7 +6,7 @@ The [gmartiblog.com](https://gmartiblog.com) blog mainly uses [Markdown](https:/
 
 To create my blog, this project uses [Jekyll](https://jekyllrb.com/) and [Vale](https://vale.sh/). Jekyll renders all Markdown and AsciiDoc documents into static blog pages. This controls how the documents look to viewers in their browser. Vale lints these documents to keep them error-free. It checks for spelling issues, grammatical errors, over-complicated content, and more. Together, they convert the plain text documents in this repository into a vibrant, well-structured blog for my technical writing projects.
 
-The rest of this README page describes how to build this project on your local computer and add changes to the gmartiblog.com platform.
+The rest of this README page describes how to build this project on your local computer and add changes to the gmartiblog.com platform. The page assumes you work in either a Linux-based or macOS environment.
 
 ## How to build this project locally
 
@@ -160,6 +160,11 @@ To install Vale, use your operating system's package manager.
 
 This installs Vale and adds it to your `$PATH` variable.
 
+To lint AsciiDoc files, install the `asciidoc` and `asciidoctor` packages, as well.
+
+```console
+sudo apt install asciidoc asciidoctor -y
+```
 
 </details>
 
@@ -180,10 +185,33 @@ This installs Vale and adds it to your `$PATH` variable.
 
 This installs Vale and adds it to your `$PATH` variable.
 
+To lint AsciiDoc files, install the `asciidoc` and `asciidoctor` packages, as well.
+
+```console
+brew install asciidoc asciidoctor
+```
+
 </details>
 
-
 To learn more about installing Vale, see [Install–Vale CLI](https://vale.sh/docs/install).
+
+After you install Vale, install the packages listed in the `.vale.ini` file:
+
+```console
+vale sync
+```
+
+To lint a single file, run the following command:
+
+```console
+vale path/to/document.{md,adoc}
+```
+
+To lint all the files in a folder, run the following command:
+
+```console
+vale path/to/folder/
+```
 
 ## How to contribute to the project
 
