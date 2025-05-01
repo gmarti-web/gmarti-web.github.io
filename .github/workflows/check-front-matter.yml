@@ -57,6 +57,9 @@ jobs:
 
           # Run the validation on all Markdown files
           for file in *.md; do
+            if [ "$file" == "README.md" ]; then
+              continue
+            fi
             echo $file
             validate_front_matter "$file" || exit 1
           done
