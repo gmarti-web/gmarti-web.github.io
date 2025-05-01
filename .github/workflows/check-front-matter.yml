@@ -19,7 +19,7 @@ jobs:
         id: changes
         run: |
           # Find changed files with .adoc extension
-          git diff --name-only ${{ github.base_ref || 'HEAD^' }} ${{ github.head_ref || 'HEAD' }} > changed_files.txt
+          git diff ${{ github.base_ref || 'HEAD^' }} ${{ github.head_ref || 'HEAD' }} --name-only > changed_files.txt
           grep '\.md$' changed_files.txt > filtered_md_files.txt || true
           grep '\.adoc$' changed_files.txt > filtered_adoc_files.txt || true
 
