@@ -16,17 +16,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Get list of changed Markdown files
-        id: asciidoc-changes
+        id: changes
         run: |
           # Find changed files with .adoc extension
           git diff --name-only ${{ github.base_ref || 'HEAD^' }} ${{ github.head_ref || 'HEAD' }} > changed_files.txt
           grep '\.md$' changed_files.txt > filtered_md_files.txt || true
-
-      - name: Get list of changed AsciiDoc files
-        id: asciidoc-changes
-        run: |
-          # Find changed files with .adoc extension
-          git diff --name-only ${{ github.base_ref || 'HEAD^' }} ${{ github.head_ref || 'HEAD' }} > changed_files.txt
           grep '\.adoc$' changed_files.txt > filtered_adoc_files.txt || true
 
       - name: Validate Markdown files
