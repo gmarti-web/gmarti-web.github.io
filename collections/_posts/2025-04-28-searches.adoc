@@ -1,0 +1,31 @@
+= _Searches_: A glimpse into and a warning of the singularity
+:page-last_modified_at: 2025-04-30
+:book-title: Searches
+:book-subtitle: Selfhood in the Digital Age
+:page-categories: [book-reviews]
+:page-excerpt: A glimpse into and a warning of the singularity
+:url-book: https://www.penguinrandomhouse.com/books/745381/searches-by-vauhini-vara/
+
+{url-book}[_Searches: Selfhood in the Digital Age_] by Vauhini Vara (Pantheon, 2025) explores how to be human in an AI age. Vara talks about how we give our language, our attention, and our experiences to Big Tech. What we're left with is a sense that it's too late to take any of it back. Even if we could, we wouldn't want to.
+
+.*Searches* by Vauhini Vara
+image::https://images4.penguinrandomhouse.com/cover/9780593701522["Searches book cover"]
+
+pass:[<!-- vale Microsoft.Headings = NO -->]
+
+== ChatGPT—the co-editor
+
+pass:[<!-- vale Microsoft.Headings = YES -->]
+
+After the introduction, {author-last} gives us the transcript of a conversation between here and OpenAI's ChatGPT3 model.
+
+pass:[<!-- vale Microsoft.Headings = NO -->]
+
+== The _Ghosts_ essay
+
+pass:[<!-- vale Microsoft.Headings = YES -->]
+
+An odd essay.
+
+== Conclusion
+

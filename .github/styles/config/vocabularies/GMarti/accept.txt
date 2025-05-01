@@ -29,3 +29,4 @@ Hamel
 [rR]epo
 [bB]undler
 [sS]napcraft
+Vauhini
