@@ -1,18 +1,14 @@
-= _{book-title}_: A glimpse into and a warning of the singularity
+= _Searches_: A glimpse into and a warning of the singularity
 :page-last_modified_at: 2025-04-30
 :book-title: Searches
 :book-subtitle: Selfhood in the Digital Age
-:author-last: Vara
-:author-full: Vauhini {author-last}
-:publisher: Pantheon
-:pub-year: 2025
 :page-categories: [book-reviews]
-:page-exceprt: A glimpse into and a warning of the singularity
+:page-excerpt: A glimpse into and a warning of the singularity
 :url-book: https://www.penguinrandomhouse.com/books/745381/searches-by-vauhini-vara/
 
-{url-book}[_{book-title}: {book-subtitle}_] by {author-full} ({publisher}, {pub-year}) explores how to be human in an AI age. {author-last} covers how we volunteer our language, our attention, and ourselves to the technological powers that be. What we're left with is a sense that it's too late to take any of it back, and, even if we could, we wouldn't want to.
+{url-book}[_Searches: Selfhood in the Digital Age_] by Vauhini Vara (Pantheon, 2025) explores how to be human in an AI age. Vara talks about how we give our language, our attention, and our experiences to Big Tech. What we're left with is a sense that it's too late to take any of it back. Even if we could, we wouldn't want to.
 
-.*{book-title}* by {author-full}
+.*Searches* by Vauhini Vara
 image::https://images4.penguinrandomhouse.com/cover/9780593701522["Searches book cover"]
 
 pass:[<!-- vale Microsoft.Headings = NO -->]
@@ -29,7 +25,7 @@ pass:[<!-- vale Microsoft.Headings = NO -->]
 
 pass:[<!-- vale Microsoft.Headings = YES -->]
 
-A very odd essay.
+An odd essay.
 
 == Conclusion
 
