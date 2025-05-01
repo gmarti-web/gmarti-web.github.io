@@ -22,36 +22,36 @@ jobs:
 
               # Check if the file exists
               if [[ ! -f "$file" ]]; then
-                  echo "File does not exist." >&2
+                  echo "$file does not exist." >&2
                   return 0
               fi
 
               # Check for a front matter section (delimited by ---)
               if ! awk 'NR==1 && /^---$/ {found=1; next} /^---$/ && found {exit 0} END {exit !found}' "$file"; then
-                  echo "Error: Front matter section not found." >&2
+                  echo "Error: Front matter section not found in $file." >&2
                   return 1
               fi
 
               # Check for a title field in the front matter
               if ! grep -q "^title:" "$file"; then
-                  echo "Error: 'title' attribute not found in front matter." >&2
+                  echo "Error: 'title' attribute not found in front matter in $file." >&2
                   return 1
               fi
 
               # Check for a last_modified_at field
               if ! grep -q "^last_modified_at:" "$file"; then
-                  echo "Error: 'last_modified_at' field not found in front matter." >&2
+                  echo "Error: 'last_modified_at' field not found in front matter in $file." >&2
                   return 1
               fi
 
               # Check if last_modified_at matches the current date (YYYY-mm-dd format)
               local current_date=$(date +"%Y-%m-%d")
               if ! grep -q "^last_modified_at: $current_date" "$file"; then
-                  echo "Error: 'last_modified_at' field does not match the current date ($current_date)." >&2
+                  echo "Error: 'last_modified_at' field does not match the current date ($current_date) in $file." >&2
                   return 1
               fi
 
-              echo "Validation passed: The Markdown file is properly formatted."
+              echo "Validation passed: $file is properly formatted."
               return 0
           }
 
@@ -69,28 +69,28 @@ jobs:
               local file="$1"
 
               if [[ ! -f "$file" ]]; then
-                  echo "File does not exist." >&2
+                  echo "$file does not exist." >&2
                   return 0
               fi
 
               # Check for a front matter section (delimited by : or key-value pairs)
               if ! grep -q "^= \w.*$" "$file"; then
-                  echo "Error: 'title' parameter not found in front matter." >&2
+                  echo "Error: 'title' parameter not found in front matter in $file." >&2
                   return 1
               fi
 
               if ! grep -q ":page-last_modified_at:" "$file"; then
-                  echo "Error: 'last-modified' field not found in front matter." >&2
+                  echo "Error: 'last-modified' field not found in front matter $file." >&2
                   return 1
               fi
 
               local current_date=$(date +"%Y-%m-%d")
               if ! grep -q "^:page-last_modified_at: $current_date" "$file"; then
-                  echo "Error: 'last-modified' field does not match the current date ($current_date)." >&2
+                  echo "Error: 'last-modified' field does not match the current date ($current_date) in $file." >&2
                   return 1
               fi
 
-              echo "Validation passed: The AsciiDoc file is properly formatted."
+              echo "Validation passed: $file is properly formatted."
               return 0
           }
 
