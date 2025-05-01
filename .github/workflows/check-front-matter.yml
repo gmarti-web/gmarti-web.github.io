@@ -1,0 +1,100 @@
+name: Validate front matter
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Markdown files
+        run: |
+          validate_front_matter() {
+              local file="$1"
+
+              # Check if the file exists
+              if [[ ! -f "$file" ]]; then
+                  echo "$file does not exist." >&2
+                  return 0
+              fi
+
+              # Check for a front matter section (delimited by ---)
+              if ! awk 'NR==1 && /^---$/ {found=1; next} /^---$/ && found {exit 0} END {exit !found}' "$file"; then
+                  echo "Error: Front matter section not found in $file." >&2
+                  return 1
+              fi
+
+              # Check for a title field in the front matter
+              if ! grep -q "^title:" "$file"; then
+                  echo "Error: 'title' attribute not found in front matter in $file." >&2
+                  return 1
+              fi
+
+              # Check for a last_modified_at field
+              if ! grep -q "^last_modified_at:" "$file"; then
+                  echo "Error: 'last_modified_at' field not found in front matter in $file." >&2
+                  return 1
+              fi
+
+              # Check if last_modified_at matches the current date (YYYY-mm-dd format)
+              local current_date=$(date +"%Y-%m-%d")
+              if ! grep -q "^last_modified_at: $current_date" "$file"; then
+                  echo "Error: 'last_modified_at' field does not match the current date ($current_date) in $file." >&2
+                  return 1
+              fi
+
+              echo "Validation passed: $file is properly formatted."
+              return 0
+          }
+
+          # Run the validation on all Markdown files
+          for file in *.md; do
+            if [ "$file" == "README.md" ]; then
+              continue
+            fi
+            validate_front_matter "$file" || exit 1
+          done
+
+      - name: Validate AsciiDoc files
+        run: |
+          validate_adoc_front_matter() {
+              local file="$1"
+
+              if [[ ! -f "$file" ]]; then
+                  echo "$file does not exist." >&2
+                  return 0
+              fi
+
+              # Check for a front matter section (delimited by : or key-value pairs)
+              if ! grep -q "^= \w.*$" "$file"; then
+                  echo "Error: 'title' parameter not found in front matter in $file." >&2
+                  return 1
+              fi
+
+              if ! grep -q ":page-last_modified_at:" "$file"; then
+                  echo "Error: 'last-modified' field not found in front matter $file." >&2
+                  return 1
+              fi
+
+              local current_date=$(date +"%Y-%m-%d")
+              if ! grep -q "^:page-last_modified_at: $current_date" "$file"; then
+                  echo "Error: 'last-modified' field does not match the current date ($current_date) in $file." >&2
+                  return 1
+              fi
+
+              echo "Validation passed: $file is properly formatted."
+              return 0
+          }
+
+          # Run the validation on all AsciiDoc files
+          for file in *.adoc; do
+            validate_adoc_front_matter "$file" || exit 1
+          done
