@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  validate-markdown:
+  validate-front-matter:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
