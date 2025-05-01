@@ -1,6 +1,9 @@
 name: reviewdog
 on:
   pull_request:
+    paths:
+      - '**.md'
+      - '**.adoc'
   workflow_dispatch:
 
 jobs:
