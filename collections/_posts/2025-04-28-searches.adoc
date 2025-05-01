@@ -29,5 +29,7 @@ pass:[<!-- vale Microsoft.Headings = NO -->]
 
 pass:[<!-- vale Microsoft.Headings = YES -->]
 
+A very odd essay.
+
 == Conclusion
 
