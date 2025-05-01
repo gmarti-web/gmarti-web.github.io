@@ -1,9 +1,6 @@
 name: Validate front matter
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -14,6 +11,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get list of changed files
+        id: changes
+        run: |
+          git diff --name-only -r HEAD^1 HEAD > changed_files.txt
+          grep '\.md$' changed_files.txt > filtered_md_files.txt || true
+          grep '\.adoc$' changed_files.txt > filtered_adoc_files.txt || true
 
       - name: Validate Markdown files
         run: |
@@ -45,7 +51,7 @@ jobs:
               fi
 
               # Check if last_modified_at matches the current date (YYYY-mm-dd format)
-              local current_date=$(date +"%Y-%m-%d")
+              local current_date=$(TZ=America/Los_Angeles date +"%Y-%m-%d")
               if ! grep -q "^last_modified_at: $current_date" "$file"; then
                   echo "Error: 'last_modified_at' field does not match the current date ($current_date) in $file." >&2
                   return 1
@@ -56,12 +62,13 @@ jobs:
           }
 
           # Run the validation on all Markdown files
-          for file in *.md; do
+          while read file; do
             if [ "$file" == "README.md" ]; then
               continue
             fi
+            echo "Validating $file..."
             validate_front_matter "$file" || exit 1
-          done
+          done < filtered_md_files.txt
 
       - name: Validate AsciiDoc files
         run: |
@@ -80,13 +87,13 @@ jobs:
               fi
 
               if ! grep -q ":page-last_modified_at:" "$file"; then
-                  echo "Error: 'last-modified' field not found in front matter $file." >&2
+                  echo "Error: 'page-last_modified_at' field not found in front matter $file." >&2
                   return 1
               fi
 
-              local current_date=$(date +"%Y-%m-%d")
+              local current_date=$(TZ=America/Los_Angeles date +"%Y-%m-%d")
               if ! grep -q "^:page-last_modified_at: $current_date" "$file"; then
-                  echo "Error: 'last-modified' field does not match the current date ($current_date) in $file." >&2
+                  echo "Error: 'page-last_modified_at' field does not match the current date ($current_date) in $file." >&2
                   return 1
               fi
 
@@ -95,6 +102,7 @@ jobs:
           }
 
           # Run the validation on all AsciiDoc files
-          for file in *.adoc; do
+          while read file; do
+            echo "Validating $file..."
             validate_adoc_front_matter "$file" || exit 1
-          done
+          done < filtered_adoc_files.txt
