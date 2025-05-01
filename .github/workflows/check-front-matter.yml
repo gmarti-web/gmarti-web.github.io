@@ -60,13 +60,12 @@ jobs:
             if [ "$file" == "README.md" ]; then
               continue
             fi
-            echo $file
             validate_front_matter "$file" || exit 1
           done
 
       - name: Validate AsciiDoc files
         run: |
-          validate_and_update_front_matter() {
+          validate_adoc_front_matter() {
               local file="$1"
 
               if [[ ! -f "$file" ]]; then
@@ -97,6 +96,5 @@ jobs:
 
           # Run the validation on all AsciiDoc files
           for file in *.adoc; do
-            echo $file
-            validate_and_update_front_matter "$file" || exit 1
+            validate_adoc_front_matter "$file" || exit 1
           done
