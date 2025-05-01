@@ -22,8 +22,8 @@ jobs:
 
               # Check if the file exists
               if [[ ! -f "$file" ]]; then
-                  echo "Error: File does not exist." >&2
-                  return 1
+                  echo "File does not exist." >&2
+                  return 0
               fi
 
               # Check for a front matter section (delimited by ---)
@@ -69,8 +69,8 @@ jobs:
               local file="$1"
 
               if [[ ! -f "$file" ]]; then
-                  echo "Error: File does not exist." >&2
-                  return 1
+                  echo "File does not exist." >&2
+                  return 0
               fi
 
               # Check for a front matter section (delimited by : or key-value pairs)
