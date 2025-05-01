@@ -1,9 +1,6 @@
 name: Validate front matter
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -14,11 +11,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - name: Get list of changed Markdown files
+      - name: Get list of changed files
         id: changes
         run: |
-          git diff origin/${{ github.base_ref || 'HEAD^' }} ${{ github.head_ref || 'HEAD' }} --name-only > changed_files.txt
+          git diff --name-only -r HEAD^1 HEAD > changed_files.txt
           grep '\.md$' changed_files.txt > filtered_md_files.txt || true
           grep '\.adoc$' changed_files.txt > filtered_adoc_files.txt || true
 
