@@ -2,11 +2,11 @@
 title: Front matter
 permalink: /markdown-for-github-pages/frontmatter/
 date: 2025-03-21
-last_modified_at: 2025-04-13
+last_modified_at: 2025-04-30
 order: 2
 ---
 
-Front matter tells Jekyll how to render Markdown pages on your site. It defines the page's title, layout, URL, and other metadata. If a page doesn't have this information, Jekyll won't render it.
+Front matter tells Jekyll how to render Markdown pages on your site. It defines the page's title, layout, address, and other metadata. If a page doesn't have this information, Jekyll won't render it.
 
 This page describes:
 
@@ -37,7 +37,7 @@ You can add any metadata you want to a page's front matter. Some common, helpful
 | YAML element | Description |
 |----------|-------------|
 | `title` | The page title. |
-| `permalink` | The page URL. The permalink element lets you link to this page from other pages in your site. |
+| `permalink` | The page's address. The permalink element lets you link to this page from other pages in your site. |
 | `parent` | The page's "parent." "Children" pages are subpages of their parent page. |
 | `last_modified_date` | The page's last modified date. This lets readers know when you last updated a page. |
 
