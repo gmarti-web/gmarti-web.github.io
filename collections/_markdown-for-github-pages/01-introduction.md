@@ -48,7 +48,7 @@ GitHub Pages uses Jekyll to render plain text Markdown files into static HTML an
 
 ## Upgrade existing documentation
 
-You don't need to rewrite your existing documentation to add it to your GitHub Pages project. The [`pandoc`](https://pandoc.org/) tool can convert most file formats into Markdown for you. This includes Word documents. In most cases, you can convert a Word document into Markdown with just a single terminal command.
+You don't need to rewrite your existing documentation to add it to your GitHub Pages project. The [`pandoc`](https://pandoc.org/) tool can convert most file formats into Markdown for you. This includes Word documents. Usually, you can convert a Word document into Markdown with just a single terminal command.
 
 With GitHub Pages, Jekyll, and some simple Markdown skills, you can create enticing, well-structured online documents. And, with a _Docs as Code_ approach, you can bring your development team along with you.
 
