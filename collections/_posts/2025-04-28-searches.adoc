@@ -14,11 +14,19 @@
 .*{book-title}* by {author-full}
 image::https://images4.penguinrandomhouse.com/cover/9780593701522["Searches book cover"]
 
+pass:[<!-- vale Microsoft.Headings = NO -->]
+
 == ChatGPT—the co-editor
+
+pass:[<!-- vale Microsoft.Headings = YES -->]
 
 After the introduction, {author-last} gives us the transcript of a conversation between here and OpenAI's ChatGPT3 model.
 
+pass:[<!-- vale Microsoft.Headings = NO -->]
+
 == The _Ghosts_ essay
+
+pass:[<!-- vale Microsoft.Headings = YES -->]
 
 == Conclusion
 
