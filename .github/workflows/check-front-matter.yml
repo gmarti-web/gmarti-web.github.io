@@ -87,13 +87,13 @@ jobs:
               fi
 
               if ! grep -q ":page-last_modified_at:" "$file"; then
-                  echo "Error: 'last-modified' field not found in front matter $file." >&2
+                  echo "Error: 'page-last_modified_at' field not found in front matter $file." >&2
                   return 1
               fi
 
               local current_date=$(date +"%Y-%m-%d")
               if ! grep -q "^:page-last_modified_at: $current_date" "$file"; then
-                  echo "Error: 'last-modified' field does not match the current date ($current_date) in $file." >&2
+                  echo "Error: 'page-last_modified_at' field does not match the current date ($current_date) in $file." >&2
                   return 1
               fi
 

@@ -1,4 +1,5 @@
 = _{book-title}_: A glimpse into and a warning of the singularity
+:page-last_modified_at: 2025-04-30
 :book-title: Searches
 :book-subtitle: Selfhood in the Digital Age
 :author-last: Vara
