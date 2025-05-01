@@ -57,6 +57,7 @@ jobs:
 
           # Run the validation on all Markdown files
           for file in *.md; do
+            echo $file
             validate_front_matter "$file" || exit 1
           done
 
@@ -93,5 +94,6 @@ jobs:
 
           # Run the validation on all AsciiDoc files
           for file in *.adoc; do
+            echo $file
             validate_and_update_front_matter "$file" || exit 1
           done
