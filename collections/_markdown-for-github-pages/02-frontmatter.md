@@ -2,7 +2,7 @@
 title: Front matter
 permalink: /markdown-for-github-pages/frontmatter/
 date: 2025-03-21
-last_modified_at: 2025-04-30
+last_modified_at: 2025-05-03
 order: 2
 ---
 
