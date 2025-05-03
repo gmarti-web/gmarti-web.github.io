@@ -158,7 +158,7 @@ To install the gems:
 1. In your terminal, go to the project's root folder.
 
     ```console
-    cd gmarti-web.github.io.git
+    cd gmarti-web.github.io
     ```
 
 2. Set the local gem folder.
@@ -229,12 +229,6 @@ To install Vale, use your operating system's package manager.
 
 This installs Vale and adds it to your `$PATH` variable.
 
-To lint AsciiDoc files, install the `asciidoc` and `asciidoctor` packages, as well.
-
-```console
-gem install asciidoctor asciidoctor-pdf
-```
-
 </details>
 
 <details>
@@ -255,12 +249,6 @@ gem install asciidoctor asciidoctor-pdf
 1. Run `vale -v` to check that the installation succeeded.
 
 This installs Vale and adds it to your `$PATH` variable.
-
-To lint AsciiDoc files, install the `asciidoc` and `asciidoctor` packages, as well.
-
-```console
-gem install asciidoc asciidoctor
-```
 
 </details>
 
@@ -292,12 +280,6 @@ gem install asciidoc asciidoctor
 
 This installs Vale and adds it to your `%PATH%` variable.
 
-To lint AsciiDoc files, install the `asciidoc` and `asciidoctor` packages, as well.
-
-```console
-gem install asciidoc asciidoctor
-```
-
 </details>
 
 To learn more about installing Vale, see [Install–Vale CLI][21].
@@ -306,6 +288,11 @@ After you install Vale, install the packages listed in the `.vale.ini` file:
 
 ```console
 vale sync
+```
+To lint AsciiDoc files, install the `asciidoc` and `asciidoctor` packages, as well.
+
+```console
+gem install asciidoctor asciidoctor-pdf
 ```
 
 To lint a single file, run the following command:
