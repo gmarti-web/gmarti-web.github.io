@@ -1,0 +1,19 @@
+= README driven development
+:page-last_modified_at: 2025-05-03
+:page-categories: [articles]
+
+In README Driven Development (RDD), you start your project with the README file. This makes you plan out your project before you even start writing any code. By creating the README first, you have to think about how you'll use it, how others will use it, and how anyone can contribute to it. Your project ends up more streamlined from the beginning. RDD also means your project starts with a solid foundation as far as documentation is concerned. Rather than creating your documentation after the fact, you start with a solid document that can evolve as the project evolves. Maintaining a document is much easier than going back and trying to remember every implementation detail after you've pushed the entire project.
+
+In this article, we'll explore the pros and cons of RDD, how it compares to other "driven development" strategies, and my own experience with it.
+
+pass:[<!-- vale Microsoft.Headings = NO -->]
+
+== Pros and cons of README Driven Development
+
+== The historical context of README Driven Development
+
+== My README Driven Development experience
+
+pass:[<!-- vale Microsoft.Headings = YES -->]
+
+== Conclusion
