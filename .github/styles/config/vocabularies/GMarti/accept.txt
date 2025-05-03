@@ -38,3 +38,5 @@ Hamel
 [sS]napcraft
 Vauhini
 [pP]reformatted
+Jaron
+Lanier

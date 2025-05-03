@@ -5,3 +5,9 @@ _site
 vendor
 
 Gemfile.lock
+
+.github/styles/*
+!.github/styles/config/
+
+.github/styles/config/*
+!.github/styles/config/vocabularies/

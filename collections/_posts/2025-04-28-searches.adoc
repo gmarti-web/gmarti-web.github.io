@@ -1,5 +1,5 @@
 = _Searches_: A glimpse into and a warning of the singularity
-:page-last_modified_at: 2025-04-30
+:page-last_modified_at: 2025-05-02
 :book-title: Searches
 :book-subtitle: Selfhood in the Digital Age
 :page-categories: [book-reviews]
@@ -8,24 +8,9 @@
 
 {url-book}[_Searches: Selfhood in the Digital Age_] by Vauhini Vara (Pantheon, 2025) explores how to be human in an AI age. Vara talks about how we give our language, our attention, and our experiences to Big Tech. What we're left with is a sense that it's too late to take any of it back. Even if we could, we wouldn't want to.
 
-.*Searches* by Vauhini Vara
 image::https://images4.penguinrandomhouse.com/cover/9780593701522["Searches book cover"]
 
-pass:[<!-- vale Microsoft.Headings = NO -->]
+Vara made me think. What, truly, do we give to Altman and Musk and the other technocrats? Her conversations with ChatGPT haunted me. The model's contributions stank of AI but Vara spun gold from it. I've never seen an author use it like that, so in the open for all to see.
 
-== ChatGPT—the co-editor
-
-pass:[<!-- vale Microsoft.Headings = YES -->]
-
-After the introduction, {author-last} gives us the transcript of a conversation between here and OpenAI's ChatGPT3 model.
-
-pass:[<!-- vale Microsoft.Headings = NO -->]
-
-== The _Ghosts_ essay
-
-pass:[<!-- vale Microsoft.Headings = YES -->]
-
-An odd essay.
-
-== Conclusion
+I recommend reading this one. The experience is worth it. Her writing style is clear and crisp. I want to read her fiction, whatever had won her the Pulitzer. I hope to get more books about AI and it's impacts in the future, and I hope they're as good as this one.
 

@@ -1,0 +1,20 @@
+= _The Sirens' Call_: Do I have your attention
+:page-last_modified_at: 2025-05-02
+:page-categories: [book-reviews]
+:url-cover: https://images1.penguinrandomhouse.com/cover/9780593653111
+:url-book: https://www.penguinrandomhouse.com/books/719661/the-sirens-call-by-chris-hayes/
+:url-all-in: https://www.msnbc.com/all
+:url-ten-arguments: https://us.macmillan.com/books/9781250239082/tenargumentsfordeletingyoursocialmediaaccountsrightnow/
+
+{url-book}[_The Sirens' Call: How Attention Became the World's Most Endangered Resource_] by Chris Hayes (Penguin, 2025) exposes the attention economy. "The platforms," like X, Facebook, and Google, took their attention distribution systems to the extreme. They want to squeeze as much attention from you as they can, and they do it because our attention is the most valuable resource in the market.
+
+image::{url-cover}["The Siren's Call by Chris Hayes"]
+
+Hayes, of course, also peddles in attention. He admits this throughout the book. He has a show on MSNBC called {url-all-in}[_All In with Chris Hayes_]. To pump up his ratings, he plays the attention game. It's important to note this, whether his journalistic does give him a pass or not.
+
+The book's argument is that attention is the most valuable resource in today's world. As a society, the tech giants have plundered our attention spans. To keep us on the line, they work harder to capture our attention every few seconds. This, Hayes argues, is much easier than keeping our attention for any given amount of time.
+
+I thought Hayes put together a decent argument. His conclusions, though, are unrealistic. He wants us to believe that we can resurrect the print newspaper and USENET, like we did with vinyl records. This doesn't seem right to me. We can't trust people to act in their best interest.
+
+_The Sirens' Call_ checks the boxes for someone that likes a good screed against smartphones and social media. I've read better introductions to the genre, though. See {url-ten-arguments}[_Ten Arguments for Deleting Your Social Media Accounts Right Now_] by Jaron Lanier for a more compelling call to action.
+
