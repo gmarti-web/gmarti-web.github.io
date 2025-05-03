@@ -30,3 +30,5 @@ Hamel
 [bB]undler
 [sS]napcraft
 Vauhini
+Jaron
+Lanier
