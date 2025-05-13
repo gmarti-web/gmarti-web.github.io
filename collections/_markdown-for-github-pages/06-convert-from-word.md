@@ -2,7 +2,7 @@
 title: Convert Word documents to Markdown
 permalink: /markdown-for-github-pages/convert-from-word/
 date: 2025-03-23
-last_modified_at: 2025-04-19
+last_modified_at: 2025-05-12
 order: 7
 ---
 
@@ -20,7 +20,7 @@ GitHub pages solves these issues. That doesn't mean, though, you have to rewrite
 
 The [`pandoc`](https://pandoc.org/index.html) can convert documents from one format to another.
 
-To convert you Word document to Markdown:
+To convert your Word document to Markdown:
 
 1. Install [`pandoc`](https://pandoc.org/installing.html).
 
