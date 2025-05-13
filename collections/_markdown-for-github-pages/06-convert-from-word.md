@@ -11,8 +11,8 @@ Many developers write their documentation with a program like Microsoft Word. Wo
 Word, though, has its drawbacks:
 
 * Contextual elements, like code blocks or collapsible sections, are hard or impossible to add.
-* Word's bells and whistles distract from writing.
-* Documents hard to version control.
+* The bells and whistles distract from writing.
+* Documents are hard to version control.
 
 GitHub pages solves these issues. That doesn't mean, though, you have to rewrite your Word document in Markdown. Instead, you can use a tool like `pandoc` to convert them for you.
 
