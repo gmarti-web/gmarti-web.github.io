@@ -2,7 +2,7 @@
 title: Wrap up
 permalink: /markdown-for-github-pages/wrap-up/
 date: 2025-03-23
-last_modified_at: 2025-04-13
+last_modified_at: 2025-05-13
 order: 8
 toc: false
 excerpt: A summary of what you learned and how to build on it.
@@ -14,7 +14,6 @@ In this tutorial, you learned:
 * [How to add basic Markdown formatting](/markdown-for-github-pages/basics/).
 * [How to add images to your Markdown documents](/markdown-for-github-pages/images/).
 * [How to add tables with Markdown and HTML syntax](/markdown-for-github-pages/tables/).
-* [How to convert your existing Word documents to Markdown files](/markdown-for-github-pages/convert-from-word/).
 
 With these skills, you're ready to create simple but effective documents for your own GitHub Pages site.
 
