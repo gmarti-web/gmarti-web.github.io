@@ -15,7 +15,7 @@ In this tutorial, you learned:
 * [How to add images to your Markdown documents](/markdown-for-github-pages/images/).
 * [How to add tables with Markdown and HTML syntax](/markdown-for-github-pages/tables/).
 
-With these skills, you're ready to create simple but effective documents for your own GitHub Pages site.
+With these skills, you're ready to create simple but effective documents in Markdown for your own GitHub Pages site.
 
 When you're ready to move beyond the basics, there are plenty of areas to explore with the _Docs as Code_ approach:
 
