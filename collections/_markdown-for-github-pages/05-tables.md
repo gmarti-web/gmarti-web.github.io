@@ -2,11 +2,11 @@
 title: Tables
 permalink: /markdown-for-github-pages/tables/
 date: 2025-03-23
-last_modified_at: 2025-04-06
+last_modified_at: 2025-05-13
 order: 5
 ---
 
-Tables display information in a clear and logical format. They let readers easily scan your document for the information they need.
+Tables display information in a clear and logical format. They let readers scan your document for the information they need.
 
 With tables, you can:
 
