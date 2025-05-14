@@ -1,14 +1,31 @@
 = README driven development
-:page-last_modified_at: 2025-05-03
+:page-last_modified_at: 2025-05-14
 :page-categories: [articles]
 
-In README Driven Development (RDD), you start your project with the README file. This makes you plan out your project before you even start writing any code. By creating the README first, you have to think about how you'll use it, how others will use it, and how anyone can contribute to it. Your project ends up more streamlined from the beginning. RDD also means your project starts with a solid foundation as far as documentation is concerned. Rather than creating your documentation after the fact, you start with a solid document that can evolve as the project evolves. Maintaining a document is much easier than going back and trying to remember every implementation detail after you've pushed the entire project.
+In README Driven Development (RDD), you start your project with the README file. This makes you plan out your project before you even start writing any code. By creating the README first, you have to think about how you use it, how others use it, and how anyone can contribute to it. Your project becomes more streamlined from the beginning. RDD also means your project starts with a solid foundation in terms of documentation. Rather than creating your documentation after the fact, you start with a document that evolves as the project evolves. That's much easier than trying to remember every implementation detail after you've pushed the entire project.
 
-In this article, we'll explore the pros and cons of RDD, how it compares to other "driven development" strategies, and my own experience with it.
+In this article, I discuss the pros and cons of RDD, how it compares to other "driven development" strategies, and my own experience with it.
 
 pass:[<!-- vale Microsoft.Headings = NO -->]
 
 == Pros and cons of README Driven Development
+
+[cols="1,1"]
+|===
+|Pros |Cons
+
+a|
+
+* Makes you think about the project before you start it.
+* Lets others understand the project and help develop it.
+* Keeps your project's documentation up to date.
+
+a|
+
+* Adds an extra layer of effort to start a new project.
+* Writing isn't the most comfortable activity for many developers.
+* Implementation details are hard to pin down before you start coding.
+|===
 
 == The historical context of README Driven Development
 
