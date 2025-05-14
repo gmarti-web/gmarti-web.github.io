@@ -54,6 +54,8 @@ This tutorial is a reference guide to the most important Markdown features. Mark
 
 If you're brand new to Markdown, read this tutorial in order. If you have some Markdown experience, use the list of topics on the left side of the page to find a topic you want to learn more about.
 
+With GitHub Pages, Jekyll, and some simple Markdown skills, you can create enticing, well-structured online documents. And, with a _Docs as Code_ approach, you can bring your development team along with you.
+
 [1]: https://www.writethedocs.org/guide/docs-as-code/
 [2]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 [3]: https://github.com/collections/github-pages-examples
