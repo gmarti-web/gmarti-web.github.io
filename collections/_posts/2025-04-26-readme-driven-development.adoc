@@ -1,12 +1,24 @@
 = README driven development
 :page-last_modified_at: 2025-05-14
 :page-categories: [articles]
+:url-1: https://tom.preston-werner.com/2010/08/23/readme-driven-development
+:url-2: https://www.oreilly.com/library/view/clean-code-a/9780136083238/
+:url-3: https://github.com/resources/articles/software-development/innersource
+:url-4: https://www.agilealliance.org/agile101/
 
-In README Driven Development (RDD), you start your project with the README file. This makes you plan out your project before you even start writing any code. By creating the README first, you have to think about how you use it, how others use it, and how anyone can contribute to it. Your project becomes more streamlined from the beginning. RDD also means your project starts with a solid foundation in terms of documentation. Rather than creating your documentation after the fact, you start with a document that evolves as the project evolves. That's much easier than trying to remember every implementation detail after you've pushed the entire project.
+I recently came across an {url-1}[article by Tom Preston-Werner] about how to solve the undocumented project problem. Then, I saw this article and Preston-Werner's solution everywhere. His solution is README Driven Development (RDD).
 
-In this article, I discuss the pros and cons of RDD, how it compares to other "driven development" strategies, and my own experience with it.
+In RDD, you start your project with the README file. This makes you plan out your project before you even start writing any code. By creating the README first, you have to think about how you use it, how others use it, and how anyone can contribute to it. Your project becomes more streamlined from the beginning. RDD also means your project starts with a solid foundation in terms of documentation. Rather than creating your documentation after the fact, you start with a document that evolves as the project evolves. That's much easier than trying to remember every implementation detail after you've pushed the entire project.
+
+In this article, I discuss how RDD compares to other "driven development" strategies, its pros and cons,  and my own experience with it.
 
 pass:[<!-- vale Microsoft.Headings = NO -->]
+
+== The historical context of README Driven Development
+
+The software development world has seen a varied family of "driven development" strategies. Some examples are Test Driven Development (TDD), Design or Document Driven Development (DDD), and Bug Driven Development (BDD). They describe a mindset that software developers adopt to create good products. Typically, they stress the importance of one component of the development cycle, like test suites or bug catches. This component becomes the driving force behind the whole endeavor. These kinds of software development strategies have been around for ages. I first read about one of them—Test Driven Development—in Robert Martin's {url-2}[_Clean Code: A Handbook of Agile Software Craftsmanship_]. Since then, I've seen all kinds of variations.
+
+How does RDD fit into this group of development strategies? Rather than tests or bugs, RDD focuses on a project's documentation. Specifically, it applies to open source or {url-3}[innersource] projects that have their documentation as their landing page for new users. RDD, like the types of projects it serves, leaves room for flexibility. RDD starts with the documentation, called the README, it lets the documentation evolve as the project evolves. In that way, it fits well with other methodologies that other driven development strategies use, like {url-4}[Agile].
 
 == Pros and cons of README Driven Development
 
@@ -27,7 +39,6 @@ a|
 * Implementation details are hard to pin down before you start coding.
 |===
 
-== The historical context of README Driven Development
 
 == My README Driven Development experience
 
