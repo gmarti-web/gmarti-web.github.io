@@ -42,6 +42,10 @@ A clear README opens the door for other developers to add to your project. The f
 It's harder to write documentation for a finished project than to update documentation as a project grows. If you start your project with a well-written README document, then you can update it as you update the source code. Otherwise, you have to remember all the details hours or days after you wrote the code and published the project. Often, projects end up with no documentation, at all.
 --
 
+On the other hand, has its drawbacks. With RDD, you're writing about what you want to build, rather than just building it. Then you have to hold yourself back—even after hyping of the project, RDD says you have to write the README first. It's a practice of delayed gratification. Not only is it delayed gratification, it's often not comfortable for developers to write this way. They think more in code than in words. Despite the typical job requirements for software engineers that include "communication skills," most engineers get by with minimal written documentation.
+
+This is, of course, an issue. But it's one that can be overcome with practice and training. Developers learn that putting their ideas on paper—or on screen—means they spend less time trying different strategies or changing interfaces. They also learn that the coding experience is smoother when you have a rough plan laid out for you. And everyone else in the development cycle benefits from clear documentation.
+
 == My README Driven Development experience
 
 pass:[<!-- vale Microsoft.Headings = YES -->]
