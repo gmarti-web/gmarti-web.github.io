@@ -41,7 +41,6 @@ A clear README opens the door for other developers to add to your project. The f
 --
 It's harder to write documentation for a finished project than to update documentation as a project grows. If you start your project with a well-written README document, then you can update it as you update the source code. Otherwise, you have to remember all the details hours or days after you wrote the code and published the project. Often, projects end up with no documentation, at all.
 --
-+
 
 == My README Driven Development experience
 
