@@ -1,0 +1,40 @@
+= _The Devils_
+:page-last_modified_at: 2025-05-26
+:page-categories: [book-reviews]
+:url-book-cover: https://mpd-biblio-covers.imgix.net/9781250880055.jpg?w=900dpr=2
+:url-1: https://us.macmillan.com/books/9781250880055/thedevils/
+
+pass:[<!-- vale Microsoft.Headings = NO -->]
+pass:[<!-- vale Microsoft.Vocab = NO -->]
+
+{url-1}[_The Devils_] by Joe Abercrombie (Tor, 2025)
+
+image::{url-book-cover}["The Devils book cover."]
+
+== Fantasy in Europe
+
+Much fantasy takes part in its own world. It has its own cities, kingdoms, and history. In _The Devils_, Abercrombie uses Europe, with a twist, instead. The story happens after the Second Crusade, the followers of the circle fighting the elves, rather than Catholics fighting Muslims. The heroes journey from the Holy City—Rome—to Troy, complete with the Hanging Gardens. It gives the story an almost familiar air. It's much easier to feel the distance between Rome and Troy, in present day Turkey. When they cross the Aegean, you can imagine exactly that. That's much different than contriving a brand new geography.
+
+== A story in four boss fights
+
+Abercrombie tells the story in four stages. Alex has four brothers, and we see the story progress with each borther's defeat. The exception is the fourth brother, Archaeus. He's not a boss fight. Instead, it's Alex's uncle that acts as the final villain.
+
+I found that it gave the story a good cadence. Each fight was unique in both its form and setting. Even if it removed the element of surprise, it promised that the next fight would be more intense than the last. I enjoyed it, but I wouldn't want all books to follow the format. Every once in a while, it's fun. Over and over, it's too formulaic and predictable. While I don't know how much is too much, I would think that two books in a row is too much.
+
+== Well-rounded adventuring party
+
+The adventuring party comprises an array of characters.
+
+pass:[<!-- vale Vale.Spelling = NO -->]
+
+Alex:: The party's fighter. A thief, street rat, and "princess." Alex doesn't fight much. When she does, she's close to the ground, unarmed, and full of scrap. She's versatile, like a good figher should be. Despite her humble beginnings, she grows into the role as Empress of Troy.
+Brother Diaz:: The party's cleric. He can't heal, but he's full of spiritual guidance. He's the moral compass of the group. He starts as a coward, but learns to take control of his situation.
+Baptiste:: The party's bard. She's worked every job there is and knows everyone of importance. Brash and bold, she's comfortable in every situation. She's made it so far because she doesn't stick her neck out. That's a lesson she learns, with tragic results.
+Baron Rickon:: The party's sorcerer. A centuries-old vampire that trances and charms audiences of all kinds throughout the journey. Unlike the others in the Cathedral of Expedience, he sticks around for the fun of it rather than by the Pope's binding.
+Sunny:: The party's rogue. An elf, a supposed enemy of God, who turns invisible when she holds her breath. Silent and aloof, she just wants to belong.
+Balthazar:: The party's wizard. Pompous and abrasive, he wants nothing more than to cast off the Pope's binding and continue with his necromancy. Instead, he learns to take part as tool for the second coming of the Savior.
+Jakob:: The party's warrior. A man cursed by an ex-lover to never die. He's stabbed, drowned, smashed, and more but continues to fight.
+Vigga:: The party's barbarian. A werewolf that's crass and irreverant. She wants to control the wolf inside her, but it proves more challenging than she could've imagined.
+
+pass:[<!-- vale Vale.Spelling = YES -->]
+
