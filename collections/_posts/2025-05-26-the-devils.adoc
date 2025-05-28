@@ -2,18 +2,18 @@
 :page-last_modified_at: 2025-05-26
 :page-categories: [book-reviews]
 :url-book-cover: https://mpd-biblio-covers.imgix.net/9781250880055.jpg?w=900dpr=2
-:url-1: https://us.macmillan.com/books/9781250880055/thedevils/
+:url-macmillan: https://us.macmillan.com/books/9781250880055/thedevils/
 
 pass:[<!-- vale Microsoft.Headings = NO -->]
 pass:[<!-- vale Microsoft.Vocab = NO -->]
 
-{url-1}[_The Devils_] by Joe Abercrombie (Tor, 2025)
+{url-macmillan}[_The Devils_] by Joe Abercrombie (Tor, 2025)
 
 image::{url-book-cover}["The Devils book cover."]
 
 == Fantasy in Europe
 
-Much fantasy takes part in its own world. It has its own cities, kingdoms, and history. In _The Devils_, Abercrombie uses Europe, with a twist, instead. The story happens after the Second Crusade, the followers of the circle fighting the elves, rather than Catholics fighting Muslims. The heroes journey from the Holy City—Rome—to Troy, complete with the Hanging Gardens. It gives the story an almost familiar air. It's much easier to feel the distance between Rome and Troy, in present day Turkey. When they cross the Aegean, you can imagine exactly that. That's much different than contriving a brand new geography.
+Much fantasy takes part in its own world. It has its own cities, kingdoms, and history. _A Song of Ice and Fire_ has Westeros. _The Name of the Wind_ has Temerant. The _First Law_ trilogy has the Circle of the World. In _The Devils_, Abercrombie uses Europe—with a twist—instead. The story happens after the Second Crusade, the followers of the circle fighting the elves, rather than Catholics fighting Muslims. The heroes journey from the Holy City—Rome—to Troy, complete with the Hanging Gardens. It gives the story an almost familiar air. It's much easier to feel the distance between Rome and Troy, in present day Turkey. When they cross the Aegean, you can imagine exactly that. That's much different than contriving a brand new geography. I think this really adds to the "I'm there with them" feeling. What I like most about this, though, is that it's easy to see the historical parallels. The elves stand in for the Turks and Muslims; the schism between the east and west reflect the real schism that happened in medieval Catholicism. I found it satisfying. I don't think htis impacted the creativity of the overall effort. It still felt like I was reading Abercrombie, a master of worldbuilding.
 
 == A story in four boss fights
 
@@ -21,20 +21,11 @@ Abercrombie tells the story in four stages. Alex has four brothers, and we see t
 
 I found that it gave the story a good cadence. Each fight was unique in both its form and setting. Even if it removed the element of surprise, it promised that the next fight would be more intense than the last. I enjoyed it, but I wouldn't want all books to follow the format. Every once in a while, it's fun. Over and over, it's too formulaic and predictable. While I don't know how much is too much, I would think that two books in a row is too much.
 
+What's so cool about the boss fight set up is that it was almost like playing a video game. Or watching someone play a video game, in this instance. After each fight, they seemed to gain some sort of power up, so it even had that feeling of progression. This was a really cool mechanic.
+
 == Well-rounded adventuring party
 
-The adventuring party comprises an array of characters.
+The adventuring party comprises an array of characters. There are all kinds; some feel like traditional Dungeons & Dragons roles, like Vigga the barbarian, Jakob the warrior, or Balthazar the sorcerer—even if he really wants to be called a magician. It gave them a fun dynamic. There was a lot of reparte and wit behind their conversations. And, because most had some kind of history between them, there was a sense of real commraderie that would have felt out of place if they all had just met before the adventure at hand. There was some points of contention for me here, though. One was the romance scenes.  Idon't think they needed to all be paired up. I wasn't interested in that component. I also wasn't interested in Vigga's development at the end. There seemed to be some inconsitency here, compared to some early remakrs in the book.
 
-pass:[<!-- vale Vale.Spelling = NO -->]
-
-Alex:: The party's fighter. A thief, street rat, and "princess." Alex doesn't fight much. When she does, she's close to the ground, unarmed, and full of scrap. She's versatile, like a good figher should be. Despite her humble beginnings, she grows into the role as Empress of Troy.
-Brother Diaz:: The party's cleric. He can't heal, but he's full of spiritual guidance. He's the moral compass of the group. He starts as a coward, but learns to take control of his situation.
-Baptiste:: The party's bard. She's worked every job there is and knows everyone of importance. Brash and bold, she's comfortable in every situation. She's made it so far because she doesn't stick her neck out. That's a lesson she learns, with tragic results.
-Baron Rickon:: The party's sorcerer. A centuries-old vampire that trances and charms audiences of all kinds throughout the journey. Unlike the others in the Cathedral of Expedience, he sticks around for the fun of it rather than by the Pope's binding.
-Sunny:: The party's rogue. An elf, a supposed enemy of God, who turns invisible when she holds her breath. Silent and aloof, she just wants to belong.
-Balthazar:: The party's wizard. Pompous and abrasive, he wants nothing more than to cast off the Pope's binding and continue with his necromancy. Instead, he learns to take part as tool for the second coming of the Savior.
-Jakob:: The party's warrior. A man cursed by an ex-lover to never die. He's stabbed, drowned, smashed, and more but continues to fight.
-Vigga:: The party's barbarian. A werewolf that's crass and irreverant. She wants to control the wolf inside her, but it proves more challenging than she could've imagined.
-
-pass:[<!-- vale Vale.Spelling = YES -->]
+== Conclusion
 
