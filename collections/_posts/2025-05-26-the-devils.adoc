@@ -1,21 +1,16 @@
 = _The Devils_
-:page-last_modified_at: 2025-05-26
+:page-last_modified_at: 2025-05-29
 :page-categories: [book-reviews]
 :url-book-cover: https://mpd-biblio-covers.imgix.net/9781250880055.jpg?w=900dpr=2
 :url-macmillan: https://us.macmillan.com/books/9781250880055/thedevils/
 
-pass:[<!-- vale Microsoft.Headings = NO -->]
-pass:[<!-- vale Microsoft.Vocab = NO -->]
+pass:[<!-- vale Microsoft = NO -->]
 
-{url-macmillan}[_The Devils_] by Joe Abercrombie (Tor, 2025)
+{url-macmillan}[_The Devils_] by Joe Abercrombie (Tor, 2025) is an excitement-filled, stereotypically Abercrombie-esque romp. The story follows Alex and the devils of the Chapel of the Holy Expediency as they travel from the Holy City to Troy to heal the schism between the west and east.
 
 image::{url-book-cover}["The Devils book cover."]
 
-== Fantasy in Europe
-
-Much fantasy takes part in its own world. It has its own cities, kingdoms, and history. _A Song of Ice and Fire_ has Westeros. _The Name of the Wind_ has Temerant. The _First Law_ trilogy has the Circle of the World. In _The Devils_, Abercrombie uses Europe—with a twist—instead. The story happens after the Second Crusade, the followers of the circle fighting the elves, rather than Catholics fighting Muslims. The heroes journey from the Holy City—Rome—to Troy, complete with the Hanging Gardens. It gives the story an almost familiar air. It's much easier to feel the distance between Rome and Troy, in present day Turkey. When they cross the Aegean, you can imagine exactly that. That's much different than contriving a brand new geography. I think this really adds to the "I'm there with them" feeling. What I like most about this, though, is that it's easy to see the historical parallels. The elves stand in for the Turks and Muslims; the schism between the east and west reflect the real schism that happened in medieval Catholicism. I found it satisfying. I don't think htis impacted the creativity of the overall effort. It still felt like I was reading Abercrombie, a master of worldbuilding.
-
-== A story in four boss fights
+Much fantasy takes part in its own world. It has its own cities, kingdoms, and history. In _The Devils_, Abercrombie uses Europe, with a twist. It's much easier to feel the distance between Rome and Troy, in present day Turkey, than between Winterfell and Highgarden in Westeros. When they cross the Aegean, you can imagine someone doing exactly that.
 
 Abercrombie tells the story in four stages. Alex has four brothers, and we see the story progress with each borther's defeat. The exception is the fourth brother, Archaeus. He's not a boss fight. Instead, it's Alex's uncle that acts as the final villain.
 
