@@ -1,0 +1,16 @@
+= _The Devils_
+:page-last_modified_at: 2025-05-30
+:page-categories: [book-reviews]
+:url-book-cover: https://mpd-biblio-covers.imgix.net/9781250880055.jpg?w=900dpr=2
+:url-macmillan: https://us.macmillan.com/books/9781250880055/thedevils/
+
+pass:[<!-- vale Microsoft = NO -->]
+
+image::{url-book-cover}["The Devils book cover."]
+
+{url-macmillan}[_The Devils_] by Joe Abercrombie (Tor, 2025) is an excitement-filled, stereotypically Abercrombie-esque romp. The story follows Alex and the devils of the Chapel of the Holy Expediency as they travel from the Holy City to Troy. Their aim is heal the schism between the west and east by claiming Alex's birthright, the Serpent Throne. Along the way, they face the jealous and powerful members of Alex's newly-realized family in fierce competition for the eastern kingdom's throne.
+
+Abercrombie uses a Europe with a fantasy-style twist this time around, which gives a satisfying sense of place as the adventure unfolds. The adventure itself is rather predictable; Abercrombie sets up a reliable pattern of one boss fight per part. It felt a little like reading a video game script. As for the adventurers, they're varied and unique and fun in their own ways. Unfortunately, some among the party didn't see as much progression as others. Or, if they did grow, it didn't feel like they grew in a satisfying way, which is very unlike Abercrombie's other novels. The politics in _The Devil_, too, didn't live up to my expectations. The twists and turns never matched the Machiavellian precedent set by the _First Law_ trilogy.
+
+Even still, this was a fun new story from Abercrombie. It's full of grim fights and touching romance. Fans of his other work won't be disappointed.
+
