@@ -1,26 +1,16 @@
 = _The Devils_
-:page-last_modified_at: 2025-05-29
+:page-last_modified_at: 2025-05-30
 :page-categories: [book-reviews]
 :url-book-cover: https://mpd-biblio-covers.imgix.net/9781250880055.jpg?w=900dpr=2
 :url-macmillan: https://us.macmillan.com/books/9781250880055/thedevils/
 
 pass:[<!-- vale Microsoft = NO -->]
 
-{url-macmillan}[_The Devils_] by Joe Abercrombie (Tor, 2025) is an excitement-filled, stereotypically Abercrombie-esque romp. The story follows Alex and the devils of the Chapel of the Holy Expediency as they travel from the Holy City to Troy to heal the schism between the west and east.
-
 image::{url-book-cover}["The Devils book cover."]
 
-Much fantasy takes part in its own world. It has its own cities, kingdoms, and history. In _The Devils_, Abercrombie uses Europe, with a twist. It's much easier to feel the distance between Rome and Troy, in present day Turkey, than between Winterfell and Highgarden in Westeros. When they cross the Aegean, you can imagine someone doing exactly that.
+{url-macmillan}[_The Devils_] by Joe Abercrombie (Tor, 2025) is an excitement-filled, stereotypically Abercrombie-esque romp. The story follows Alex and the devils of the Chapel of the Holy Expediency as they travel from the Holy City to Troy. Their aim is heal the schism between the west and east by claiming Alex's birthright, the Serpent Throne. Along the way, they face the jealous and powerful members of Alex's newly-realized family in fierce competition for the eastern kingdom's throne.
 
-Abercrombie tells the story in four stages. Alex has four brothers, and we see the story progress with each borther's defeat. The exception is the fourth brother, Archaeus. He's not a boss fight. Instead, it's Alex's uncle that acts as the final villain.
+Abercrombie uses a Europe with a fantasy-style twist this time around, which gives a satisfying sense of place as the adventure unfolds. The adventure itself is rather predictable; Abercrombie sets up a reliable pattern of one boss fight per part. It felt a little like reading a video game script. As for the adventurers, they're varied and unique and fun in their own ways. Unfortunately, some among the party didn't see as much progression as others. Or, if they did grow, it didn't feel like they grew in a satisfying way, which is very unlike Abercrombie's other novels. The politics in _The Devil_, too, didn't live up to my expectations. The twists and turns never matched the Machiavellian precedent set by the _First Law_ trilogy.
 
-I found that it gave the story a good cadence. Each fight was unique in both its form and setting. Even if it removed the element of surprise, it promised that the next fight would be more intense than the last. I enjoyed it, but I wouldn't want all books to follow the format. Every once in a while, it's fun. Over and over, it's too formulaic and predictable. While I don't know how much is too much, I would think that two books in a row is too much.
-
-What's so cool about the boss fight set up is that it was almost like playing a video game. Or watching someone play a video game, in this instance. After each fight, they seemed to gain some sort of power up, so it even had that feeling of progression. This was a really cool mechanic.
-
-== Well-rounded adventuring party
-
-The adventuring party comprises an array of characters. There are all kinds; some feel like traditional Dungeons & Dragons roles, like Vigga the barbarian, Jakob the warrior, or Balthazar the sorcerer—even if he really wants to be called a magician. It gave them a fun dynamic. There was a lot of reparte and wit behind their conversations. And, because most had some kind of history between them, there was a sense of real commraderie that would have felt out of place if they all had just met before the adventure at hand. There was some points of contention for me here, though. One was the romance scenes.  Idon't think they needed to all be paired up. I wasn't interested in that component. I also wasn't interested in Vigga's development at the end. There seemed to be some inconsitency here, compared to some early remakrs in the book.
-
-== Conclusion
+Even still, this was a fun new story from Abercrombie. It's full of grim fights and touching romance. Fans of his other work won't be disappointed.
 
