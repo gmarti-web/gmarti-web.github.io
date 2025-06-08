@@ -4,7 +4,7 @@ This repo hosts content for my personal blog.
 
 The [gmartiblog.com][1] blog uses [Markdown][2] and [AsciiDoc][3]. Both formats add structure to documents with plain text. However, Markdown needs help from HTML to make complex tables, collapsible sections, or definition lists, whereas AsciiDoc can make those features itself. By replacing the HTML code in Markdown files with plain text, AsciiDocs keep the raw code behind the rendered documents easy to read.
 
-To create the blog, this project uses [Jekyll][4] and [Vale][5]. Jekyll renders all Markdown and AsciiDoc documents into static blog pages. This controls how the documents look to viewers in their browser. Before Jekyll renders these documents, vale lints them to keep them error-free. It checks for spelling issues, grammatical errors, and over-complicated content. Together, Jekyll and vale convert the plain text documents in this repository into a vibrant, well-structured blog for my technical writing projects.
+To create the blog, this project uses [Vale][5] and [Jekyll][4]. First, Vale checks each document for spelling issues, grammatical errors, and over-complicated sentences. Then, Jekyll renders the documents into static HTML pages. Together, Vale and Jekyll convert the plain text documents in this repository into a vibrant, well-structured blog for my technical writing projects.
 
 This page describes how to build this project on your local computer and add changes to gmartiblog.com. The page assumes you work in either a Linux-based or macOS environment.
 
@@ -188,7 +188,7 @@ bundle exec jekyll serve
 
 To see the rendered site, go to [http://localhost:4000][13].
 
-### Install vale
+### Install Vale
 
 This project uses Vale to check, or lint, for any writing errors. To keep content error free, lint each change before you push it to GitHub.
 
