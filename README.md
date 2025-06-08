@@ -1,12 +1,12 @@
 # gmartiblog.com
 
-This project hosts content for my blog.
+This repo hosts content for my personal blog.
 
-The [gmartiblog.com][1] blog mainly uses [Markdown][2] but explores [AsciiDoc][3], as well. Both formats use plain text to add structure to documents. Markdown, though, almost always needs help from HTML. The format doesn't have the ability to make complex tables, collapsible sections, or definition lists. AsciiDoc doesn't need the added HTML. It can make all those features with only AsciiDoc markers. This keeps the raw code behind the rendered documents easy to read.
+The [gmartiblog.com][1] blog uses [Markdown][2] and [AsciiDoc][3]. Both formats add structure to documents with plain text. However, Markdown needs help from HTML to make complex tables, collapsible sections, or definition lists, whereas AsciiDoc can make those features itself. By replacing the HTML code in Markdown files with plain text, AsciiDocs keep the raw code behind the rendered documents easy to read.
 
-To create the blog, this project uses [Jekyll][4] and [Vale][5]. Jekyll renders all Markdown and AsciiDoc documents into static blog pages. This controls how the documents look to viewers in their browser. Vale lints these documents to keep them error-free. It checks for spelling issues, grammatical errors, over-complicated content, and more. Together, they convert the plain text documents in this repository into a vibrant, well-structured blog for my technical writing projects.
+To create the blog, this project uses [Jekyll][4] and [Vale][5]. Jekyll renders all Markdown and AsciiDoc documents into static blog pages. This controls how the documents look to viewers in their browser. Before Jekyll renders these documents, vale lints them to keep them error-free. It checks for spelling issues, grammatical errors, and over-complicated content. Together, Jekyll and vale convert the plain text documents in this repository into a vibrant, well-structured blog for my technical writing projects.
 
-This page describes how to build this project on your local computer and add changes to the gmartiblog.com platform. The page assumes you work in either a Linux-based or macOS environment.
+This page describes how to build this project on your local computer and add changes to gmartiblog.com. The page assumes you work in either a Linux-based or macOS environment.
 
 ## How to contribute to this project
 
@@ -17,6 +17,7 @@ To contribute to the project:
 
     ```console
     git clone https://github.com/gmarti-web/gmarti-web.github.io
+    cd gmarti-web.github.io
     ```
 1. Create a new branch that describes your work.
 
@@ -48,9 +49,7 @@ To contribute to the project:
 
 1. Create a new pull request to merge your branch into the `main` branch.
 
-The code owner reviews your request for consistency, clarity, and correctness. If approved, they merge the changes into the main branch. If not, they add their feedback to the pull request and ask you to revise it.
-
-To see how Jekyll renders your changes before you push them to GitHub, build the project locally. See the following sections to learn more.
+The code owner reviews your request for consistency, clarity, and correctness. If they approve the request, they merge the changes into the `main` branch. If they reject the request, they add their feedback to the pull request and ask you to revise it.
 
 ## How to build this project locally
 
@@ -189,7 +188,7 @@ bundle exec jekyll serve
 
 To see the rendered site, go to [http://localhost:4000][13].
 
-### Install Vale
+### Install vale
 
 This project uses Vale to check, or lint, for any writing errors. To keep content error free, lint each change before you push it to GitHub.
 
