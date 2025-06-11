@@ -1,0 +1,97 @@
+= Plain English editing
+:page-last_modified_at: 2025-06-10
+:page-categories: ["portfolio"]
+
+== Exercise 1
+
+In each sentence, underline the subject once and the verb twice. Is the subject abstract or concrete? Rewrite the sentences choosing concrete nouns as subjects and making their actions the verbs.
+
+. [.underline]#Processes# undertaken by diverse plants and animals [.doubleunderline]#are# responsible for such ecological actions as nutrient cycling, carbon storage, and atmospheric regulation.
++
+--
+The subject, _Processes_, is abstract.
+
+.My revision
+[%collapsible]
+====
+Diverse [.underline]#plants and animals# [.doubleunderline]#perform# ecological actions such as nutrient cycling, carbon storage, and atmospheric regulation.
+====
+
+.Solution
+[%collapsible]
+====
+An [.underline]#ecosystem# of diverse plants and animals [.doubleunderline]#cycles# nutrients, [.doubleunderline]#stores# carbon, and [.doubleunderline]#regulates# the atmosphere.
+====
+--
++
+. [.underline]#Declines# in birth rates [.doubleunderline]#have been observed# in many developed countries, and demographers expect that the transition to a stable population will eventually occur in many undeveloped nations as well.
++
+--
+The subject, _Declines_, is abstract.
+
+.My revision
+[%collapsible]
+====
+[.underline]#Demographers# [.doubleunderline]#have observed# declines in birth rates in many developed countries. [.underline]#They# [.doubleunderline]#expect# the same to happen eventually in undeveloped nations as well.
+====
+
+.Solution
+[%collapsible]
+====
+[.underline]#Demographers# [.doubleunderline]#have observed# that birth rates are declining in many developed countries. They [.doubleunderline]#expect# that populations will eventually stabilize as birth rates decline in undeveloped countries as well.
+====
+--
++
+. [.underline]#Variations# in magmatism during rifting [.doubleunderline]#have been attributed# to variations in mantle temperature, rifting velocity or duration, active upwelling, or small-scale convection.
++
+--
+The subject, _Variations_ is abstract.
+
+.My revision
+[%collapsible]
+====
+During rifting, [.underline]#magmatism# [.doubleunderline]#changes# according to changes in mantle temperature, speeds and durations of rifting, movements of magma, and transfers of heat.
+====
+
+.Solution
+[%collapsible]
+====
+[.underline]#Magma# produced during rifting [.doubleunderline]#varies# for several reasons: changes in mantel temperature, rifting velocity or duration, active upwelling, or small-scale convection.
+====
+--
++
+. The [.underline]#inability# of lateral variations in mantle temperature and composition, alone, to account for our observations [.doubleunderline]#leads# us to propose that another influence was melt focusing.
++
+--
+The subject, _inability_, is abstract.
+
+.My revision
+[%collapsible]
+====
+[.underline]#We# could not [.doubleunderline]#attribute# our observations to only lateral differences in mantel temperature and composition. [.underline]#We# [.doubleunderline]#propose# melt focusing as another influence on our observations.
+====
+
+.Solution
+[%collapsible]
+====
+[.underline]#We# [.doubleunderline]#could# not [.doubleunderline]#account# for our observations with lateral variations in mantle temperatures and composition alone. Another [.underline]#influence# [.doubleunderline]#was# melt focusing.
+====
+--
++
+. The [.underline]#ability# of mudrock seals to prevent CO~2~ leakage [.doubleunderline]#is# a major concern for geological storage of anthropogenic CO~2~.
++
+--
+The subject, _ability_, is abstract.
+
+.My revision
+[%collapsible]
+====
+Mudrock [.underline]#seals# [.doubleunderline]#can prevent# CO~2~ leakage and thus can add to the geological storage of anthropogenic CO~2~.
+====
+
+.Solution
+[%collapsible]
+====
+[.underline]#Geologists# [.doubleunderline]#are concerned# that mudrock seals may allow anthropogenic CO~2~ to leak from geological storage.
+====
+--
