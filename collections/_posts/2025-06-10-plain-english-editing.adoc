@@ -2,6 +2,10 @@
 :page-last_modified_at: 2025-06-10
 :page-categories: ["portfolio"]
 
+++++
+<script src="/assets/scripts/pdf_download_script.js"></script>
+++++
+
 == Exercise 1
 
 In each sentence, underline the subject once and the verb twice. Is the subject abstract or concrete? Rewrite the sentences choosing concrete nouns as subjects and making their actions the verbs.
@@ -95,3 +99,47 @@ Mudrock [.underline]#seals# [.doubleunderline]#can prevent# CO~2~ leakage and th
 [.underline]#Geologists# [.doubleunderline]#are concerned# that mudrock seals may allow anthropogenic CO~2~ to leak from geological storage.
 ====
 --
+
+== Exercise 2
+
+In each sentence, underline the main verb twice. Revise the sentences by substituting strong verbs for weak verbs. Replace abstract nouns where you can.
+
+. Photographs from space taken by satellites [.doubleunderline]#are# indicators of urbanization and just one of the demonstrations of the human footprint.
++
+--
+.My revision
+[%collapsible]
+====
+Photographs from space taken by satellites indicate urbanization and demonstrate the human footprint on the planet.
+====
+
+.Solution
+[%collapsible]
+====
+Satellite photographs indicate the spread of urban areas and demonstrate the human footprint.
+====
+--
++
+. Weather variables (precipitation, temperature, and wind speed) [.underline]#are# key factors in limiting summer habitat availability.
++
+--
+.My revision
+[%collapsible]
+====
+====
+--
++
+. A risk management ranking system is the central mechanism for which prioritization of terrestrial invasive species is based.
+. It is clear that Prairie Chickens are closely associated with sagebrush habitat throughout the year.
+. The occurence of freesing and thawing is an important control on cohesive bank erosion in the region.
+
+== Exercise 3
+
+In each sentence, underline the subject once and the verb twice. Revise by placing the subject and the verb close together. Replace abstract nouns where you can.
+
+. Environmentally sensitive solutions to the problems associated with continued population growth and development will require an environmentally literate citizenry.
+. Partnerships between professional teachers, scientists, non-professional science educators, and administrators are needed to improve the content and effectiveness of science education, particularly in rural areas.
+. Our ability to predict the spatial spread of exotic species and their transformation of natural communities is still developing.
+. The amount of magmatism that accompanies the extension and rupture of the continental lithosphere varies dramatically at rifts and margins around the world.
+. Pre-migration of melts vertically to the top of the melting region and then laterally along the base of the extended continental lithosphere would focus melts toward the eastern part of the basin.
+. Pre-treatment of tenocytes with different concentrations of wortmannin (1, 10, and 20 nM) for 1 h, treated with curcumin (5 μM) for 4 h, and then treated with IL-1β-induced NF-κB activation.
