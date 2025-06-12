@@ -1,10 +1,11 @@
 = Plain English editing
-:page-last_modified_at: 2025-06-10
+:page-last_modified_at: 2025-06-12
+:page-liquid:
 :page-categories: ["portfolio"]
-
-++++
-<script src="/assets/scripts/pdf_download_script.js"></script>
-++++
+:page-toc: true
+:page-toc_label: "Table of contents"
+:page-toc_icon: "cog"
+:page-toc_sticky: true
 
 == Exercise 1
 
@@ -110,36 +111,177 @@ In each sentence, underline the main verb twice. Revise the sentences by substit
 .My revision
 [%collapsible]
 ====
-Photographs from space taken by satellites indicate urbanization and demonstrate the human footprint on the planet.
+Photographs from space taken by satellites [.doubleunderline]#indicate# urbanization and [.doubleunderline]#demonstrate# the human footprint on the planet.
 ====
 
 .Solution
 [%collapsible]
 ====
-Satellite photographs indicate the spread of urban areas and demonstrate the human footprint.
+Satellite photographs [.doubleunderline]#indicate# the spread of urban areas and [.doubleunderline]#demonstrate# the human footprint.
 ====
 --
 +
-. Weather variables (precipitation, temperature, and wind speed) [.underline]#are# key factors in limiting summer habitat availability.
+. Weather variables (precipitation, temperature, and wind speed) [.doubleunderline]#are# key factors in limiting summer habitat availability.
 +
 --
 .My revision
 [%collapsible]
 ====
+Precipitation, temperature, and wind speed [.doubleunderline]#limit# available summer habitat.
+====
+
+.Solution
+[%collapsible]
+====
+Precipitation, temperature, and wind speed [.doubleunderline]#limit# available summer habitat.
 ====
 --
 +
-. A risk management ranking system is the central mechanism for which prioritization of terrestrial invasive species is based.
-. It is clear that Prairie Chickens are closely associated with sagebrush habitat throughout the year.
-. The occurence of freesing and thawing is an important control on cohesive bank erosion in the region.
+. A risk management ranking system [.doubleunderline]#is# the central mechanism for which prioritization of terrestrial invasive species is based.
++
+--
+.My revision
+[%collapsible]
+====
+A risk management ranking system [.doubleunderline]#prioritizes# terrestrial invasive species.
+====
+
+.Solution
+[%collapsible]
+====
+We [.doubleunderline]#rank# terrestrial invasive species according to the threat they pose to the environment.
+====
+--
++
+. It [.doubleunderline]#is# clear that Prairie Chickens are closely associated with sagebrush habitat throughout the year.
++
+--
+.My revision
+[%collapsible]
+====
+Prairie Chickens [.doubleunderline]#live# in sagebrush habitat throughout the year.
+====
+
+.Solution
+[%collapsible]
+====
+Prairie Chickens [.doubleunderline]#occupy# sagebrush habitat throughout the year.
+====
+--
++
+. The occurence of freezing and thawing [.doubleunderline]#is# an important control on cohesive bank erosion in the region.
++
+--
+.My revision
+[%collapsible]
+====
+Freezing and thawing [.doubleunderline]#control# cohesive bank erosion in the region.
+====
+
+.Solution
+[%collapsible]
+====
+Freezing and thawing [.doubleunderline]#control# cohesive bank erosion in the region.
+====
+--
 
 == Exercise 3
 
 In each sentence, underline the subject once and the verb twice. Revise by placing the subject and the verb close together. Replace abstract nouns where you can.
 
-. Environmentally sensitive solutions to the problems associated with continued population growth and development will require an environmentally literate citizenry.
-. Partnerships between professional teachers, scientists, non-professional science educators, and administrators are needed to improve the content and effectiveness of science education, particularly in rural areas.
-. Our ability to predict the spatial spread of exotic species and their transformation of natural communities is still developing.
-. The amount of magmatism that accompanies the extension and rupture of the continental lithosphere varies dramatically at rifts and margins around the world.
-. Pre-migration of melts vertically to the top of the melting region and then laterally along the base of the extended continental lithosphere would focus melts toward the eastern part of the basin.
-. Pre-treatment of tenocytes with different concentrations of wortmannin (1, 10, and 20 nM) for 1 h, treated with curcumin (5 μM) for 4 h, and then treated with IL-1β-induced NF-κB activation.
+. Environmentally sensitive [.underline]#solutions# to the problems associated with continued population growth and development [.doubleunderline]#will require# an environmentally literate citizenry.
++
+--
+.My revision
+[%collapsible]
+====
+[.underline]#We# [.doubleunderline]#will require# environmentally literate citizens to find environmentally sensitive solutions to the problems of our continuously growing and developing population.
+====
+
+.Solution
+[%collapsible]
+====
+To develop sustainable solutions to the problems of human growth and development, [.underline]#we# [.doubleunderline]#will need# environmentally literate citizens.
+====
+--
++
+. [.underline]#Partnerships# between professional teachers, scientists, non-professional science educators, and administrators [.doubleunderline]#are# needed to improve the content and effectiveness of science education, particularly in rural areas.
++
+--
+.My revision
+[%collapsible]
+====
+[.underline]#Scientists and science educators# [.doubleunderline]#must work# together to improve science education, particularly in rural areas.
+====
+
+.Solution
+[%collapsible]
+====
+By building partnerships between professional teachers, scientists, nonprofessional science educators, and administrators, [.underline]#we# [.doubleunderline]#can improve# the content and effectiveness of science education, particularly in rural areas.
+====
+--
++
+. Our [.underline]#ability# to predict the spatial spread of exotic species and their transformation of natural communities [.underline]#is# still developing.
++
+--
+.My revision
+[%collapsible]
+====
+[.underline]#We# [.doubleunderline]#cannot predict# yet how exotic species spread through the environment and how they transform natural communities.
+====
+
+.Solution
+[%collapsible]
+====
+[.underline]#We# still [.doubleunderline]#cannot predict# with certainty how an exotic species will spread or transform a natural community.
+====
+--
++
+. The [.underline]#amount# of magmatism that accompanies the extension and rupture of the continental lithosphere [.doubleunderline]#varies# dramatically at rifts and margins around the world.
++
+--
+.My revision
+[%collapsible]
+====
+As the continental lithosphere extends and ruptures, the accompanying magma [.underline]#flow# [.doubleunderline]#varies# dramatically at rifts and margins around the world.
+====
+
+.Solution
+[%collapsible]
+====
+When the continental lithosphere extends and ruptures at rifts and margins, the [.underline]#amount# of accompanying magmatism [.doubleunderline]#varies# dramatically.
+====
+--
++
+. [.underline]#Pre-migration# of melts vertically to the top of the melting region and then laterally along the base of the extended continental lithosphere [.doubleunderline]#would focus# melts toward the eastern part of the basin.
++
+--
+.My revision
+[%collapsible]
+====
+* If melts migrated to the top of the melting region and then along the base of the continental lithosphere, [.underline]#they# [.doubleunderline]#would focus# towards the eastern part of the basin.
+* [.underline]#Melts# [.doubleunderline]#would focus# toward the eastern part of the basin if they migrated to the top of the melting region and then along the base of the continental lithosphere.
+====
+
+.Solution
+[%collapsible]
+====
+[.underline]#Melts# [.doubleunderline]#migrate# vertically to the top of the melting region, then laterally along the base of the extended continental lithosphere toward the eastern part of the basin.
+====
+--
++
+. Pre-treatment of tenocytes with different concentrations of wortmannin (1, 10, and 20 nM) for 1 h, treated with curcumin (5 μM) for 4 h, and then treated with IL-1β for 1 h, inhibited the IL-1β-induced NF-κB activation.
++
+--
+.My revision
+[%collapsible]
+====
+[.underline]#We# [.doubleunderline]#prevented# IL-1β from activating NF-κB in tenocytes by treating them with different wortmannin concentrations (1, 10, and 20 nM) for 1 h, curcumin (5 μM) for 4 h, and then IL-1β for 1 h.
+====
+
+.Solution
+[%collapsible]
+====
+[.underline]#We# [.doubleunderline]#inhibited# the IL-1β-induced NF-κB activation by treating tenocytes with wortmannin (1, 10, and 20 nM) for 1h, followed by curcumin (5μM) for 4h, and then IL-1β for 1 h.
+====
+--
