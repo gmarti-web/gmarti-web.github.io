@@ -11,9 +11,9 @@
 
 Technical writers strive to make their documentation as useful as possible for their readers. One strategy technical writers follow is plain language writing. With plain language writing, technical writers replace weak verbs with strong verbs, convert passive voice to active voice, and rearrange complex sentences into simple ones. With these editorial techniques, writers write documentation in Plain English.
 
-??? defines the rules of Plain English writing in her book, _Writing Science in Plain English_. As a general philosophy, Plain English writing calls for short, simple words and clear sentence structures to make text easier to read and understand. Although ??? focuses on scientific writing, her rules apply to all technical writing. And so all technical writers would benefit from her advice.
+Anne Greene defines the rules of Plain English writing in her book, _Writing Science in Plain English_. As a general philosophy, Plain English writing calls for short, simple words and clear sentence structures to make text easier to read and understand. Although Greene focuses on scientific writing, her rules apply to all technical writing. And so all technical writers would benefit from her advice.
 
-Throughout her book, ??? includes exercises for the reader to practice writing in Plain English. I've completed each exercise below. Along with my answer, I provided ???'s solution as well. By comparing my answers with her solution, I tried to reason through how we arrived at our specific revisions.
+Throughout her book, Greene includes exercises for the reader to practice writing in Plain English. I've completed each exercise below. Along with my answer, I provided Greene's solution as well. By comparing my answers with her solution, I tried to reason through how we arrived at our specific revisions.
 
 == Exercise 1
 
