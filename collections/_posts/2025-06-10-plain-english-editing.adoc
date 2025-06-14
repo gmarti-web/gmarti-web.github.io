@@ -9,11 +9,11 @@
 
 == Introduction
 
-Technical writers strive to make their documentation as useful as possible for their readers. One strategy technical writers follow is plain language writing. With plain language writing, technical writers replace weak verbs with strong verbs, convert passive voice to active voice, and rearrange complex sentences into simple ones. With these editorial techniques, writers write documentation in Plain English.
+Technical writers try to write in a way that best serves their readers. So, they replace weak verbs with strong verbs, switch passive voice to active voice, and rewrite complex sentences into simple ones. Together, these rules describe the Plain English style.
 
-Anne Greene defines the rules of Plain English writing in her book, _Writing Science in Plain English_. As a general philosophy, Plain English writing calls for short, simple words and clear sentence structures to make text easier to read and understand. Although Greene focuses on scientific writing, her rules apply to all technical writing. And so all technical writers would benefit from her advice.
+To learn more about Plain English, I read the latest edition of Anne Greene's book, _Writing Science in Plain English_. As a general strategy, Plain English demands short, simple words and clear sentences. This creates texts that can clearly describe any kind of complex topic. And that makes the style worth practicing for any writer. Throughout her book, Greene includes exercises to teach the reader how to use Plain English.
 
-Throughout her book, Greene includes exercises for the reader to practice writing in Plain English. I've completed each exercise below. Along with my answer, I provided Greene's solution as well. By comparing my answers with her solution, I tried to reason through how we arrived at our specific revisions.
+I answered each exercise below. For each, I included Greene's answer as well. I compared our answers to see how we arrived at our revised sentences. With these exercises, I hope to improve my own Plain English style and to write clearer content.
 
 == Exercise 1
 
