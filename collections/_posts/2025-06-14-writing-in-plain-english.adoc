@@ -1,5 +1,5 @@
 = Writing in Plain English
-:page-last_modified_at: 2025-06-12
+:page-last_modified_at: 2025-06-15
 :page-liquid:
 :page-categories: ["portfolio"]
 :page-toc: true
@@ -293,3 +293,19 @@ When the continental lithosphere extends and ruptures at rifts and margins, the 
 [.underline]#We# [.doubleunderline]#inhibited# the IL-1β-induced NF-κB activation by treating tenocytes with wortmannin (1, 10, and 20 nM) for 1h, followed by curcumin (5μM) for 4h, and then IL-1β for 1 h.
 ====
 --
+
+== Exercise 4
+
+Read each sentence and underline the subject and double underline the verb(s). Is the verb active or passive?
+
+. Four big brown bats served as subjects in these experiments, two males and two females.
+. The animals were collected from private homes in Maryland and were housed in the University of Maryland bat vivarium.
+. Bats were maintained at 80% of their _ad lib_ feeding weight and were normally fed mealworms only during experiments.
+. We exposed the bats to a reversed 12h dark:12h light cycle, and we gave them free access to water.
+
+== Exercise 5
+
+Change the following sentences from passive to active. [Greene has given] the word counts in the originals. How many words are in [my] revisions?
+
+.For effective storage of industrial CO~2~, retention times of ~10^4^ yr or greater are required. (15 words)
+
