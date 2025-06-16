@@ -298,14 +298,87 @@ When the continental lithosphere extends and ruptures at rifts and margins, the 
 
 Read each sentence and underline the subject and double underline the verb(s). Is the verb active or passive?
 
-. Four big brown bats served as subjects in these experiments, two males and two females.
-. The animals were collected from private homes in Maryland and were housed in the University of Maryland bat vivarium.
-. Bats were maintained at 80% of their _ad lib_ feeding weight and were normally fed mealworms only during experiments.
-. We exposed the bats to a reversed 12h dark:12h light cycle, and we gave them free access to water.
+. Four big brown [.underline]#bats# [.doubleunderline]#served# as subjects in these experiments, two males and two females.
++
+The verb, _served_, is active.
++
+. The [.underline]#animals# [.doubleunderline]#were collected# from private homes in Maryland and [.doubleunderline]#were housed# in the University of Maryland bat vivarium.
++
+The verbs phrases, _were collected_ and _were housed_, are passive.
++
+. [.underline]#Bats# [.doubleunderline]#were maintained# at 80% of their _ad lib_ feeding weight and [.doubleunderline]#were# normally [.doubleunderline]#fed# mealworms only during experiments.
++
+The verb phrases, _were maintained_ and _were [normally] fed_, are passive.
++
+. [.underline]#We# [.doubleunderline]#exposed# the bats to a reversed 12h dark:12h light cycle, and we [.doubleunderline]#gave# them free access to water.
++
+The verbs, _exposed_ and _gave_, are active.
 
 == Exercise 5
 
 Change the following sentences from passive to active. [Greene has given] the word counts in the originals. How many words are in [my] revisions?
 
-.For effective storage of industrial CO~2~, retention times of ~10^4^ yr or greater are required. (15 words)
+. For effective storage of industrial CO~2~, retention times of ~10^4^ yr or greater are required. (15 words)
++
+--
+.My revision
+[%collapsible]
+====
+To effectively store industrial CO~2~, we must retain it for ~10^4^ or more years. (14 words)
+====
+
+.Solution
+[%collapsible]
+====
+Effective storage of industrial CO~2~ requires retention times of ~10^4^ yr or greater. (13 words)
+====
+--
++
+. It is hypothesized that groundwater pH must have been, on average, highest shortly before the Late Ordovician to Silurian proliferation of root-forming land plants. (24 words)
++
+--
+.My revision
+[%collapsible]
+====
+We hypothesize that groundwater pH was, on average, highest shortly before the late Ordovician to Silurian proliferation of root-forming land plants. (22 words)
+====
+
+.Solution
+[%collapsible]
+====
+One hypothesize suggests that, on average, groundwater pH must have been highest shortly before the late Ordovician to Silurian proliferation of root-forming land plants. (24 words)
+====
+--
++
+. We were compelled to rely on the SOC90 data as no further information on the occupational situation (employed vs. self-employed) or on the size of the firm was available in retrospective form. (32 words)
++
+--
+.My revision
+[%collapsible]
+====
+We relied on the SOC90 data because we could not access further information on the occupational situation (employed vs. self-employed) or on the size of the firm in retrospective form. (30 words)
+====
+
+.Solution
+[%collapsible]
+====
+We relied on the SOC90 data because we couldn't find past information on the number of people who were employed versus self-employed or on the size of the firm. (29 words).
+====
+--
++
+. Moreover, it has been demonstrated that mineral-water reactions increase the pH of groundwater even in the presence of abundant acid-producing lichens (Schatz 1963). (24 words)
++
+--
+.My revision
+[%collapsible]
+====
+Moreover, mineral-water reactions increase the pH of groundwater, even in the presence of abundant acid-producing lichens (Shatz 1963). (19 words)
+====
+
+.Solution
+[%collapsible]
+====
+Shatz (1963) demonstrated that mineral-water reactions increase the pH of groundwater, even in the presence of abundant acid-producing lichens. (19 words)
+====
+--
 
