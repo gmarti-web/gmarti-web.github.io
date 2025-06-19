@@ -382,3 +382,152 @@ Shatz (1963) demonstrated that mineral-water reactions increase the pH of ground
 ====
 --
 
+== Exercise 6
+
+How many syllables are in each of the underlined words below? [Predict] whether they have Latin, French or Old English roots. Look up the origins of each of the words, and then rewrite the sentences using as many Old English words as you can without changing the meaning.
+
+. For example, [.underline]#expansion# of the extent of the winter range by [.underline]#continued pioneering# of segments of the northern Yellowstone elk herd northward from the park [.underline]#boundary# and [.underline]#extensive# use of these more northerly areas by greater numbers of elk have been [.underline]#coincident# with [.underline]#acquisition# and [.underline]#conversion# of rangelands from livestock [.underline]#production# to elk winter range.
++
+--
+* _expansion_: three syllables, Latin
+* _continued pioneering_: seven syllables, French
+* _boundary_: three syllables, French
+* _extensive_: three syllables, French
+* _coincident_: four syllables, Latin
+* _acquisition_: four syllables, Latin
+* _conversion_: three syllables, French
+* _production_: three syllables, French
+
+.My revision
+[%collapsible]
+====
+For example, as a part of the northern Yellowstone elk herd roams north of the park limits, they add the rangelands used to farm livestock to their winter range.
+====
+
+.Solution
+[%collapsible]
+====
+For example, [.underline]#more# elk from the northern Yellowstone herd have [.underline]#moved# north of the park boundary and are [.underline]#mainly# using the ranchland that we [.underline]#bought# and [.underline]#put into# elk winter range.
+====
+--
++
+. Poor [.underline]#communication# between [.underline]#physician# and patients [.underline]#predisposes# to [.underline]#medical malpractice# cases, while [.underline]#effective# communication lowers patient's [.underline]#anxiety#, improves [.underline]#compliance# and [.underline]#clinical# outcome.
++
+--
+* _communication_: five syllables, French
+* _physician_: three syllables, French
+* _predisposes_: four syllables, Latin
+* _medical_: three syllables, French
+* _malpractice_: three syllables, French
+* _effective_: three syllables, Latin
+* _anxiety_: four syllables, French
+* _compliance_: three syllables, Latin
+* _clinical_: three syllables, Latin
+
+.My revision
+[%collapsible]
+====
+Doctors who talk to their patients have happier patients and better results.
+====
+
+.Solution
+[%collapsible]
+====
+If patients [.underline]#cannot# understand [.underline]#what their doctors# are [.underline]#saying#, they [.underline]#worry# more and are [.underline]#less likely# to [.underline]#follow# instructions and [.underline]#get better#. They are also [.underline]#more# likely to [.underline]#sue#.
+====
+--
+
+== Exercise 7
+
+Find the different terms in the following sentences and underline them. Revise by replacing different terms with ones that are the same. Use as many short, simple words as you can.
+
+. One way to assess the perceived risk of feeding in different locations is to measure the proportion of the available food a forager removes before switching to an alternative patch. All else being equal, foragers should be willing to forage longer and remove more food from a safe area than a risky one.
+. Stress coping styles have been characterized as a proactive/reactive dichotomy in laboratory and domesticated animals. In this study, we examined the prevalence of proactive/reactive stress coping styles in wild-caught short-tailed mice (_Scotinomys teguina_). We compared stress responses to spontaneous singing, a social and reproductive behavior that characterizes this species.
+. Expansion of child-care subsidies would mitigate family income gaps in access to licensed care facilities, moving families from unlicensed care to center-based care in particular.
+. Studies of long-term outcomes in offspring exposed to maternal undernutrition and stress caused by the Dutch Hunger Winter of 1944 to 1945 revealed an increased prevalence of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have been developed to asses the long-term consequences of a variety of maternal challengs including under-and overnutrition, hperglycemia, chronic stress, and inflammation. Exposures to a wide range of insults during gestation are associated with convergent effects on fetal growth, neurodevelopment, and metabolism.
+
+== Exercise 8
+
+In the following sentences, underline the noun strings and revise by breaking them up and replacing long words with short ones.
+
+. Developing regular exercise programs and diet regimes contributes to disease risk prevention and optimal health promotion.
+. Research focused on care time deficits and time squeezes for families has identified the persistence of gendered care time burdens and the sense of time pressure many dual-earner families experience around care.
+. There will be major conservation implications if mercury ingestion in ospreys causes negative population level effects either through direct mortality or negative fecundity.
+
+== Exercise 9
+
+Here is an example of complex writing from the field of immunology. Have the authors tried to make it understandable to a broad audience of immunologists? Have they succeeded? Why or why not?
+
+. One of the well-researched immunoregulatory functions of probiotics is the induction of cytokine production. In particular, the induction of IL-10 and IL-12 production by probiotics has been studied intensively, because the balance of IL-10/IL-12 secreted by macrophages and dendritic cells in response to microbes is crucial for determination of the direction of the immune response. IL-10 is an anti-inflammatory cytokine and is expected to improve chronic inflammation, such as that of inflammatory bowel diseases and autoimmune disease. IL-10 downregulates phagocytic and T cell functions, including the production of proinflammatory cytokines, such as IL-12, TNF-α, and IFN-γ, that control inflammatory responses. IL-10 promotes the development of regulatory T cells for the control of excessive immune responses. In contrast, IL-12 is an important mediator of cell-mediated immunity and is expected to augment the natural immune defense against infections and cancers. IL-12 stimulates T cells to secret IFN-γ, promotes Th1 cell development, and, directly or indirectly, augments the cytotoxic activity of NK cells in macrophages. IL-12 also suppresses redundant TH2 cell responses for the control of allergy.
+
+== Exercise 10
+
+Describe the causes of wordiness in teh following sentences and paragraphs where needed. Rewrite omitting as many needless words as you can. How many words are in the revisions?
+
+. While a growing body of research indicates taht large herbivores as a group can exert strong indirect effects on co-occuring species, there are comparatively few examples of strong community-wide impacts from individual large herbivore species. (37 words)
+. Small mammal species diversity increased in exclosures relative to controls, while survivorship showed no significatn trends. (16 words)
+. In this essay, I wil be looking at how higher summer temperatures cause quicker soil and plant evaporation. We all know that climate change has caused elevated temperatures in the Northwest throughout the spring and summer months. We also know that these record-breaking temperatures have the effect of quickly and easily desiccating soul and drying out plant foliage so that it is more flammable. Understandably then, when lightning strikes this very combustible environment, a spark can very quickly turn into a widespread blaze. (83 words)
+. Zimbabwean undocumented migrants are shown to be marginalized and vulnerable with limited transnational citizenship. (14 words)
+. When the lithosphere extends and rifts along continental margins, magma is produced in varying quantities. Widely spaced geophysical transects who that rifting along some continental margins can transition from magma-poort to magma-rich. Our wide-angle seismic data from the Black Sea provide the first direct observations of such a transition. This transition coincides with a transform fault and is abrupt, ocurring only ~20-30 km. This abrupt transition cannot be explained solely by gradual along-margin variations in mantle properties, since these would be expected to result in a smooth transition from magma-poor to magma-rich rifting over hundreds of kilometers. We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, a phenomenon that has been observed in active rift environments such as mid-ocean ridges. (133 words)
+. The empirical data presented in this article reveal a segmented labor market and exploitation, with undocumented migrants not benefiting from international protection, human rights, nation state citizenship rights, or rights associated with the more recent concepts of postnatinoal and transnational citizenship. (41 words)
+
+List the transition words in the following paragraph and explain why they are useful.
+. The systemic immune response in _Drosophila_ is mediated by a battery of antimicrobial peptides produced largely by the fat body, an insect organ analogous to a mammalian liver. These peptides lyse microorganisms by forming pores in their cell walls. Functionally, the antimicrobial peptides fall into three classes depending on the pathogen specificity of their lytic activity. Thus, Drosomycin is a major antifungal peoptide, whereas Diptericin is active against gram-negative bacteria, and Defensin works against gram-positive bacteria. Interestingly, infection of _Drosophila_ with different classes of pathogens leads to preferential induction of the appropriate group of antimicrobial peptides.
+
+The next paragraph is about hybrids and their long-term survival and reproduction. How many different principles of plain English can you identify in the writing? Describe them. Is the writing concise as a result?
+
+. Introgressive hybridization is most commonly observed in zones of geographical contact between otherwise allopatric taxa. Studies of such zones have provided important insights into the evolutionary process and have helped resolve part of the debate about fitness of hybrids. In many cases, most hybrid genotypes tend to be less fit than are the parental genotypes in parental habitats, oweing either to endogenous or exogenous selection or both. However, theory predicts taht some can be of equal or superior fitness in new habitats and, occasionally, even in parental habitats.
+
+== Exercise 11
+
+In the following sentences and paragraphs, did the writers put the old and new information in the right places? Revise any incorrect sentences using the "old to new" principle.
+
+. Unfortunately, as noted 40 years ago, few students experiences the thrill of doing field science because they are rarely alllowed to leave the confines of the classroom to become imersed in field-based science.
+. Bank erosion rates along the South River in Virginia increased by factors of 2-3 after 1957. Increased bank erosion rates cannot be explained by changes in the intensity of either freeze-thaw or storm intensity, and changes in the density of riparian trees should have decreased erosion rates.
+. Students majoring in science often believe they can escape the intensive writing and ppresentations that their peers in the humanities and social sciences must do. However, science is a collective human endeavor whose success hinges upon effective communication, both written and oral. Even if findings are ground breaking, they are potentially worthless if they can't be shared with others in a clear and engaging way. teaching undergraduate science students to effectively communicate is therefore an essential goal.
+. They put their lives in our hands, and we failed to save their lives.
+. Climate plays an important part in determining the average numbres of species, and periodical seasons of extreme cold or drought, I believe to be the most effective of all checks. I estimated that the winter of 1854-55 destroyed four-fifths of the birds in my own grounds; and this is a tremendous destruction, when we remember that ten per cent is an extraordinarily severe mortality from epidemics with man. The action of climate seems at firest sight to be quite independent of the struggle for existence; but in so far as climate chiefly acts in reducing food, it brings on the most severe struggle between the individuals, wheter of the same or of distinct species, which subsist on the same kind of food. Even when climate, for instance extreme cold, acts directly, it will be the least vigorous, or those which have got least food through the advancing winter, which will suffer most.
+
+== Exercise 12
+
+Dissect the lists in the following sentences. Are they parallel? Revise them to be parallel.
+
+. Central to this deficit has been the rising average age of the nursing workforce and the decline in the number of hours worked; fewer nurses are working standard full-time hours (35-44 hours per week) and 44 percent work part-time.
+. The problem of finding the optimal strokes of hypothetical microswimmers ahs drawn a lot of attention in recent years. Problems that have been solved include the optimal stroke pattern of Purcell's three-link swimmer, an ideal elastic flagellujm, a shape-changing body, a two- and a three-sphere swimmer, and a spherical squirmer.
+. Cilia are hair-like protrusions that beat in an asymmetric fashion to pump the fluid in the direction of their effective stroke. They propel certain prtozoa, such as _Paramecium_, and also fulfuill a number of functions in mammals, including mucous clearance from airways, left-right asymmetry determination, and transport of an egg cell in fallopian tubes.
+. Integrons consist of three elements: an attachment site where the horizontally aquired sequence is integrated; a gene encoding a site-specific recombinase (that is, integrase); and a promoter taht drives expression of the incorporated sequence.
+. North American (NA)-EEEV strains cause periodic outbreaks of mosquito-borne encephalities in humans and equines, are highly neurovirulent, and, in comparison with related Venezuelan equine encephalitis virus (VEEV) and western equine encephalitis virus (WEEV), cause far more severe encephalitic diease in humans.
+
+== Exercise 13
+
+Count the number of words in these sentences. Is there a variety of sentence lengths? What is the average number of words in a sentence? Is the average long or short? Suggest how you would improve the sentence length.
+
+. In order to unravel the mode of action of neuronal networks, a neurobiologist's dream would be not only to be able to monitor neuronal activity but also to have control over distinct sets of neurons and to be able to manipulate their activity and abserve the effect on behavior. This idea is not new. As the activity of a neuron is based on the depolarization of its cell membrane, neuronal activity can be induced by an experimenter using stimulation electrodes by which the cell membrane can be artificially depolarized or hyperpolarized. Although stimulation electrodes have served, and continue to serve, neuroscientiss well for decades, limiatations of this invasive approach are obvious.
+
+Break up the following long sentences into shorter ones.
+
+. The extrapolation from _in vitro_ measurements to the _in vivo_ behavior of proteins is hampered by extremely high (300-400 mg/mL) intracellular macromolecular concentrations in the cell, i.i. crowding, which is one of the most important factors that influences the structure and function of proteins under physiological conditions. (47 words)
+. Some of the confusion about the role of hybridization in evolutionary diversification stems from the contradiction between a perceived necessity for cessation of gene flow to enable adaptive poulation differentiation on the one hand, and the potential of hybridization for generating adaptive variation, functional novelty, and new species on the other. (52 words)
+
+== Exercise 14
+
+Find the issue in the following body paragraphs. How does the writer develop it?
+
+. Males of _O. acuminatus_ [dung beetles] employed two very different tactics to encounter and mate with females: they either attempted to monopolize access to a female by guarding the entrance to her tunnel (guarding), or they attempted to bypass guarding males (sneaking). Guarding behaviour entailed remaining inside a tunnel with a female, and fighting intruding males over possession of the tunnel. Guarding males blocked tunnel entrances and periodically "patrolled" the length of the tunnel. Rival males could gain possession of a tunnel only by forcibly evicting the resident male, and both fights and turnovers were frequent. Fights over tunnel occupancy entailed repeated butting, wrestling and pushing of opponents, and fights continued until one of the contestants left the tunnel.
+. One prerequisite for the maintenance of dimorphism is that organisms experience a fitness tradeoff across environments. If animals encounter several discrete environment types, or ecological or behavioral situations, and these different environments favor different morphologies, then distinct morphological alternatives can evolve within a single population—each specialized for one of the different environments. Such fitness tradeoffs have been demonstrated for several dimorphic species. For example, soft and hard seed diets have favored two divergent bill morphologies within populations of the African finches, and high and low levels of predation have favored alternative shell morphologies in barnacles, and spined and spineless morphologies in rotifers and _Daphnia_. It is possible that the alternative reproductive tactics characterized in this study produce a similar situation in _O.acuminatus_. If guarding and sneaking behaviors favor horned and hornless male morphologies, respectively, then the reproductive behavior of males may have contributed to the evolution of male horn length dimorphism in this species.
+. In recent times, the origin of the adaptive immune response has been uncovered. It turns out that the two recombinase-activated genes are encoded in a short stretch of DNA, in opposite orientations and lacking exons. This suggested an origin in a retroposon, as did the presence of the recognition signal sequences that lie 3' of all V gene segments and 5' of all J gene segments. This hypothesis was tested _in vitro_ and shown to be true. Other processes expand diversity tremendously, such as the generation of D gene segments in the first chain to rearrange, the nucleotide -adding enzyeme TdT taht inserts nucleotides in the junctions of the V-D-J junctions, and somatic hypermutation.
+
+Describe the issue, development, and conclusion in each of the following paragraphs.
+
+. Despite a consistent correlation between genome size and the obligate association with host cells, genome reduction is not simply an adaptive response to living within hosts. Instead, the trend toward large-scale gene loss reflects a lack of effective selection for maintaining genes in these specialized microbes. because the host presents a constant environment rich in metabolic intermediates, some genes are rendered useless by adoption of a strictly symbiotic or pathogenic life-style. These superfluous sequences are eliminated through mutational bias favoring deletions, a process apparently universal in bacterial lineages. thus, all of the fullly sequenced small genomes display a pattern of loss of biosynthetic pathways, such as those for amino acids that can be obtained from the host cytoplasm.
+. Unlike pathogens, symbionts may devote part of ther genomes to processes taht are more directly beneficial to the host rather than to the host rather than to the bacterial cell itself. _Buchnera_ retains and even amplifies genes for the biosynthesis of amino acids required by hosts, devoting almost 10% of its genome to these pathways, which are missing from pathogens with similarly small genomes. because of their fastidious growth requirements, the biological role of obligately associated symbionts can rearely be determined experimentally. However, genome comparisons can provide a means for determining their functions in hosts. Such future research should reveal, for example, whether the endosymbionts of blood-feeding hosts, such as _Wiggleworthia glossinia_ in tsetse files, retain pathways for biosynthesis of vitamins absent from blood, whether the  symbiont _Vibrio fischeri_ provides functions other than bioluminescence to its squid host, and whther the mutualistic _Wolbachia_ of filarial nematodes contain genes for host benefit that are absent in the parasitic _Wolbachia_ of arthorpods.
+
+== Exercise 15
+
+What arrangement pattern have the following writers used to order their paragraphs? What words foretell the pattern?
+
+. Previous studies have shown that animals produce different antipredator vocalizations for aerial and terrestrial predators. Most of these studies, however, have presented these two types of predators in different ways, potentially confounding the interpretation that prey distinguish between types of predators and not their location or behavior. Our results show taht chickadees do not vocally discriminate between raptors and mammals when they are presented in similar ways, and thus the "chick-a-dee" call does not refer specifically to the type of predator. +
+Instead, these vocal signals likely contain information about the degree of threat that a predator represents. Maneuverability (e.g., as measured by turning radius, or radial acceleration) is extremely important in determining the outcome of predator-prey interactions and is inversely related to wingspan and body size in birds. Body size may be a good predictor of risk for chickadees: Small raptors tend to be much more maneuverable than larger raptors and likely pose a greater threat.
+. We tend to take for granted the ability of our immune systems to free our bodies of infection and prevent its recurrence. In some people, however, parts of the immune system fail. In the most severe of these immunodeficiency diseases, adaptive immunity is completely absent, and death occurs in infancy from overwhelming infection unless heroic measures are taken. Other less catastrophic failures lead to recurrent infections with particular types of pathogen, depending on the particular deficiency. Much has been learned about the functions of the different components of the hyuman immune system through the study of these immunodeficienceies, many of which are caused by inhertied genetic defects. +
+Morew than 25 years ago, a devastating form of immunodeficiency appeared, the acuquired immune deficiency syndrome, or AIDS, which is caused by an infectious agent, the human immunodeficiency viruses HIV-1 and HIV-22. This sdeasease destroys T cells, dendrititc cells, and macrophages bearing CD4, leading to infections caused by intracellular bacteria and other pathogens normally controlled by such cells. These infections are the major cause of death from this increasingly prevalent immunodeficiency disease.
+
