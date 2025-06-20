@@ -562,24 +562,148 @@ If high levels of mercury in ospreys either kills them directly or lowers their 
 Here is an example of complex writing from the field of immunology. Have the authors tried to make it understandable to a broad audience of immunologists? Have they succeeded? Why or why not?
 
 . One of the well-researched immunoregulatory functions of probiotics is the induction of cytokine production. In particular, the induction of IL-10 and IL-12 production by probiotics has been studied intensively, because the balance of IL-10/IL-12 secreted by macrophages and dendritic cells in response to microbes is crucial for determination of the direction of the immune response. IL-10 is an anti-inflammatory cytokine and is expected to improve chronic inflammation, such as that of inflammatory bowel diseases and autoimmune disease. IL-10 downregulates phagocytic and T cell functions, including the production of proinflammatory cytokines, such as IL-12, TNF-α, and IFN-γ, that control inflammatory responses. IL-10 promotes the development of regulatory T cells for the control of excessive immune responses. In contrast, IL-12 is an important mediator of cell-mediated immunity and is expected to augment the natural immune defense against infections and cancers. IL-12 stimulates T cells to secret IFN-γ, promotes Th1 cell development, and, directly or indirectly, augments the cytotoxic activity of NK cells in macrophages. IL-12 also suppresses redundant TH2 cell responses for the control of allergy.
++
+The authors wrote what seems like an understandable paragraph for their audience of immunologists. They structured their sentences so that old information comes before new information. They broke up excessively long noun strings. And their word choice seems appropriate to immunologists, even if I don't personally understand much of it.
 
 == Exercise 10
 
-Describe the causes of wordiness in teh following sentences and paragraphs where needed. Rewrite omitting as many needless words as you can. How many words are in the revisions?
+Describe the causes of wordiness in the following sentences and paragraphs where needed. Rewrite omitting as many needless words as you can. How many words are in the revisions?
 
-. While a growing body of research indicates taht large herbivores as a group can exert strong indirect effects on co-occuring species, there are comparatively few examples of strong community-wide impacts from individual large herbivore species. (37 words)
-. Small mammal species diversity increased in exclosures relative to controls, while survivorship showed no significatn trends. (16 words)
-. In this essay, I wil be looking at how higher summer temperatures cause quicker soil and plant evaporation. We all know that climate change has caused elevated temperatures in the Northwest throughout the spring and summer months. We also know that these record-breaking temperatures have the effect of quickly and easily desiccating soul and drying out plant foliage so that it is more flammable. Understandably then, when lightning strikes this very combustible environment, a spark can very quickly turn into a widespread blaze. (83 words)
+. While a growing body of research indicates that large herbivores as a group can exert strong indirect effects on co-occuring species, there are comparatively few examples of strong community-wide impacts from individual large herbivore species. (37 words)
++
+--
+The sentences uses several adjectives that add to the word count.
+
+.My revision
+[%collapsible]
+====
+While research indicates that groups of large herbivores can exert indirect effects on co-occuring species, there are few examples of community-wide impacts from individual species. (25 words)
+====
+
+.Solution
+[%collapsible]
+====
+Research shows that large herbivores can indirectly influence co-occuring species, but few studies focus on a single species of large herbivore and how it affects the whole community. (28 words)
+====
+--
++
+. Small mammal species diversity increased in exclosures relative to controls, while survivorship showed no significant trends. (16 words)
++
+--
+_Small mammal species_ can be rewritten in fewer words; _significant_ is a weasel word.
+
+.My revision
+[%collapsible]
+====
+Small mammals diversified more in exclosures relative to controls, but survivorship was unaffected. (13 words)
+====
+
+.Solution
+[%collapsible]
+====
+Diversity of small mammals increased in exclosures relative to controls, while survivorship stayed the same. (15 words)
+====
+--
++
+. In this essay, I wil be looking at how higher summer temperatures cause quicker soil and plant evaporation. We all know that climate change has caused elevated temperatures in the Northwest throughout the spring and summer months. We also know that these record-breaking temperatures have the effect of quickly and easily desiccating soil and drying out plant foliage so that it is more flammable. Understandably then, when lightning strikes this very combustible environment, a spark can very quickly turn into a widespread blaze. (83 words)
++
+--
+_In this essay_, _We all know that_, and _Understandably then_ are unnecessary or can be rewritten in fewer words.
+
+.My revision
+[%collapsible]
+====
+It is well known that climate change has caused elevated temperatures in the Northwest. It is also known that these record-breaking temperatures quickly and easily dessicate soil and dry out plant foliage so that it is more flammable. Therefore, when lightning stikes this flammable environment, a spark can quickly turn into a widespread blaze. (54 words)
+====
+
+.Solution
+[%collapsible]
+====
+Due to climate change, spring and summer temperatures in the Northwest are becoming warmeer. Warmer temperatures dry out both soils and plant foliage, which are then more prone to wildfires. (30 words)
+====
+--
++
 . Zimbabwean undocumented migrants are shown to be marginalized and vulnerable with limited transnational citizenship. (14 words)
-. When the lithosphere extends and rifts along continental margins, magma is produced in varying quantities. Widely spaced geophysical transects who that rifting along some continental margins can transition from magma-poort to magma-rich. Our wide-angle seismic data from the Black Sea provide the first direct observations of such a transition. This transition coincides with a transform fault and is abrupt, ocurring only ~20-30 km. This abrupt transition cannot be explained solely by gradual along-margin variations in mantle properties, since these would be expected to result in a smooth transition from magma-poor to magma-rich rifting over hundreds of kilometers. We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, a phenomenon that has been observed in active rift environments such as mid-ocean ridges. (133 words)
++
+--
+_Zimbabwean undocumented migrants_ is a long string of two adjectives and a noun; _shown to be_ can be rewritten in fewer words.
+
+.My revision
+[%collapsible]
+====
+Undocumented migrants from Zimbabwe are marginalized and vulnerable with limited transnational citizenship. (12 words)
+====
+
+.Solution
+[%collapsible]
+====
+Undocumented migrants from Zimbabwe are marginalized and vulnerable with limited transnational citizenship. (12 words)
+====
+--
++
+. When the lithosphere extends and rifts along continental margins, magma is produced in varying quantities. Widely spaced geophysical transects show that rifting along some continental margins can transition from magma-poor to magma-rich. Our wide-angle seismic data from the Black Sea provide the first direct observations of such a transition. This transition coincides with a transform fault and is abrupt, ocurring over only ~20-30 km. This abrupt transition cannot be explained solely by gradual along-margin variations in mantle properties, since these would be expected to result in a smooth transition from magma-poor to magma-rich rifting over hundreds of kilometers. We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, a phenomenon that has been observed in active rift environments such as mid-ocean ridges. (133 words)
++
+--
+The paragraph has many long strings of multiple adjectives and one noun:
+
+* _Widely spaced geophysical transects_
+* _wide-angle seismic data_
+* _gradual along-margin variations_
+* _active rift environments_
+* _mid-ocean ridges_
+
+The first sentence doesn't seem necessary for the rest of the paragraph.
+
+.My revision
+[%collapsible]
+====
+Our wide-angle seismic data from the Black Sea provide the first direct observations of rifting that transitions from magma-poor to magma-rich. This transition coincides with a transform fault and is abrupt, occuring over only ~20-30 km. We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater expansion during rifting rather than gradual variations along a continental margin. (66 words)
+====
+
+.Solution
+[%collapsible]
+====
+We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, similar to active rift environments such as mid-ocean ridges. (31 words)
+====
+--
++
 . The empirical data presented in this article reveal a segmented labor market and exploitation, with undocumented migrants not benefiting from international protection, human rights, nation state citizenship rights, or rights associated with the more recent concepts of postnatinoal and transnational citizenship. (41 words)
++
+--
+_presented in this article_ is unneeded metadiscourse; _not benefiting_ is negative.
+
+.My revision
+[%collapsible]
+====
+Empircal data reveal a segmented labor market and exploitation, which excludes undocumented migrants from international protection, human rights, nation state citizenship rights, or rights associated with the more recent concepts of postnational and transitional citizenship. (35 words)
+====
+
+.Solution
+[%collapsible]
+====
+The segmented labor market we describe exploits undocumented migrants. These people lack international protection, human rights, nation state citizenship, and rights associated with the more recent concepts of postnational and transnational citizenship. (30 words)
+====
+--
 
 List the transition words in the following paragraph and explain why they are useful.
+
 . The systemic immune response in _Drosophila_ is mediated by a battery of antimicrobial peptides produced largely by the fat body, an insect organ analogous to a mammalian liver. These peptides lyse microorganisms by forming pores in their cell walls. Functionally, the antimicrobial peptides fall into three classes depending on the pathogen specificity of their lytic activity. Thus, Drosomycin is a major antifungal peoptide, whereas Diptericin is active against gram-negative bacteria, and Defensin works against gram-positive bacteria. Interestingly, infection of _Drosophila_ with different classes of pathogens leads to preferential induction of the appropriate group of antimicrobial peptides.
+
+* _These peptide_ tell the reader that the peptides from the last sentences are the ones that this sentences is talking about.
+* _Functionally_ helps keep the sentence subject consistent with the rest of the paragraph.
+* _Thus_ draws a conclusion from the previous sentences.
+* _Interstingly_ calls to the reader's attention something worth noting about the previous sentences.
 
 The next paragraph is about hybrids and their long-term survival and reproduction. How many different principles of plain English can you identify in the writing? Describe them. Is the writing concise as a result?
 
-. Introgressive hybridization is most commonly observed in zones of geographical contact between otherwise allopatric taxa. Studies of such zones have provided important insights into the evolutionary process and have helped resolve part of the debate about fitness of hybrids. In many cases, most hybrid genotypes tend to be less fit than are the parental genotypes in parental habitats, oweing either to endogenous or exogenous selection or both. However, theory predicts taht some can be of equal or superior fitness in new habitats and, occasionally, even in parental habitats.
+. Introgressive hybridization is most commonly observed in zones of geographical contact between otherwise allopatric taxa. Studies of such zones have provided important insights into the evolutionary process and have helped resolve part of the debate about fitness of hybrids. In many cases, most hybrid genotypes tend to be less fit than are the parental genotypes in parental habitats, owing either to endogenous or exogenous selection or both. However, theory predicts that some can be of equal or superior fitness in new habitats and, occasionally, even in parental habitats.
+
+* Good use of metadiscourse and transition phrases.
+* Simple words, assuming the intended audience are geneticists.
+* Verbs are strong; only one passive verb.
+* Subjects and verbs are close together.
+
+These principles make the writing concise.
 
 == Exercise 11
 
