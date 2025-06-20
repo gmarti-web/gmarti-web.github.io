@@ -1,5 +1,5 @@
 = Writing in Plain English
-:page-last_modified_at: 2025-06-15
+:page-last_modified_at: 2025-06-19
 :page-liquid:
 :page-categories: ["portfolio"]
 :page-toc: true
@@ -441,18 +441,121 @@ If patients [.underline]#cannot# understand [.underline]#what their doctors# are
 
 Find the different terms in the following sentences and underline them. Revise by replacing different terms with ones that are the same. Use as many short, simple words as you can.
 
-. One way to assess the perceived risk of feeding in different locations is to measure the proportion of the available food a forager removes before switching to an alternative patch. All else being equal, foragers should be willing to forage longer and remove more food from a safe area than a risky one.
-. Stress coping styles have been characterized as a proactive/reactive dichotomy in laboratory and domesticated animals. In this study, we examined the prevalence of proactive/reactive stress coping styles in wild-caught short-tailed mice (_Scotinomys teguina_). We compared stress responses to spontaneous singing, a social and reproductive behavior that characterizes this species.
-. Expansion of child-care subsidies would mitigate family income gaps in access to licensed care facilities, moving families from unlicensed care to center-based care in particular.
-. Studies of long-term outcomes in offspring exposed to maternal undernutrition and stress caused by the Dutch Hunger Winter of 1944 to 1945 revealed an increased prevalence of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have been developed to asses the long-term consequences of a variety of maternal challengs including under-and overnutrition, hperglycemia, chronic stress, and inflammation. Exposures to a wide range of insults during gestation are associated with convergent effects on fetal growth, neurodevelopment, and metabolism.
+. One way to assess the perceived risk of feeding in different [.underline]#locations# is to measure the proportion of the available food a forager removes before switching to an alternative [.underlien]#patch#. All else being equal, foragers should be willing to forage longer and remove more food from a safe [.underline]#area# than a risky one.
++
+--
+.My revision
+[%collapsible]
+====
+One way to assess the perceived risk of feeding in different areas is to measure how much food a forager eats before moving to another area. All else being equal, foragers prefer to forage longer and eat more food in a safe area than a risky one.
+====
+
+.Solution
+[%collapsible]
+====
+We can assess the perceived risk of feeding in different patches by measuring the proportion of the available food a forager removes before switching to an alternative patch. All else being equal, foragers should be willing to forage longer and remove more food from a safe patch than a risky one.
+====
+--
++
+. [.underline]#Stress coping styles# have been characterized as a proactive/reactive dichotomy in laboratory and domesticated animals. In this study, we examined the prevalence of [.underline]#proactive/reactive stress coping styles# in wild-caught short-tailed mice (_Scotinomys teguina_). We compared [.underline]#stress responses# to spontaneous singing, a social and reproductive behavior that characterizes this species.
++
+--
+.My revision
+[%collapsible]
+====
+Stress responses in laboratory and domesticated animals have been categorized into two types: proactive and reactive. In this study, we examined of both types of stress responses in wild-caught short-tailed mice (_Scotinomys teguina_). We compared stress responses to spontaneous singing, a social and reproductive behavior that characterizes this species.
+====
+
+.Solution
+[%collapsible]
+====
+Laboratory and domestic animals respond to stress in one of two ways: practively or reactively. Here, we looked at how often wild-caught short-tailed mice responded either proactively or reactively to spontaneous singing—a common social and reproductive behavior of this species.
+====
+--
++
+. Expansion of child-care subsidies would mitigate family income gaps in access to [.underline]#licensed care facilities#, moving families from [.underline]#unlicensed care# to [.underline]#center-based care# in particular.
++
+--
+.My revision
+[%collapsible]
+====
+If we expanded access to child-care subsidies, more families could switch from unlicensed care facilities to licensed care facilities.
+====
+
+.Solution
+[%collapsible]
+====
+If there were expanded subsidies for child care, more families could afford t omove their children from unlicensed to licensed facilities.
+====
+--
++
+. Studies of long-term outcomes in offspring exposed to [.underline]#maternal undernutrition and stress# caused by the Dutch Hunger Winter of 1944 to 1945 revealed an increased prevalence of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have been developed to asses the long-term consequences of a variety of [.underline]#maternal challengs# including under-and overnutrition, hyperglycemia, chronic stress, and inflammation. Exposures to a wide range of [.underline]#insults during gestation# are associated with convergent effects on fetal growth, neurodevelopment, and metabolism.
++
+--
+.My revision
+[%collapsible]
+====
+Studies of the long-term effects on offspring exposed to maternal ailments caused by the Dutch Hunger Winter of 1944 to 1945 revelaed a higher rate of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional psychiatric disorders. Animal models have assessed the long-term effects of a variety of maternal ailments. These maternal ailments are associated with long-term effects on offspring's fetal growth, neurodevelopment, and metabolism.
+====
+
+.Solution
+[%collapsible]
+====
+Studies show that when mothers were starved and stressed during pregnancy in the Dutch Hunger Winter of 1944 to 1945, it had long-term effects on their children. These children developed more metabolic desease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Research on animals show simlar results. Starvation, overeating, hyperglycemia, chronic stress, and inflammation during pregnancy affect fetal growth, neurodevelopment, and metabolism.
+====
+--
 
 == Exercise 8
 
 In the following sentences, underline the noun strings and revise by breaking them up and replacing long words with short ones.
 
-. Developing regular exercise programs and diet regimes contributes to disease risk prevention and optimal health promotion.
-. Research focused on care time deficits and time squeezes for families has identified the persistence of gendered care time burdens and the sense of time pressure many dual-earner families experience around care.
-. There will be major conservation implications if mercury ingestion in ospreys causes negative population level effects either through direct mortality or negative fecundity.
+. Developing [.underline]#regular exercise programs# and [.underline]#diet regimes# contributes to [.underline]#disease risk prevention# and [.underline]#optimal health promotion#.
++
+--
+.My revision
+[%collapsible]
+====
+Regular exercise and diets prevent disease and promote a healthy lifestyle.
+====
+
+.Solution
+[%collapsible]
+====
+Regular exercise and attention to diet help prevent disease and promote health.
+====
+--
++
+. Research focused on [.underline]#care time deficits# and [.underline]#time squeezes# for families has identified the persistence of [.underline]#gendered care time burdens# and the sense of [.underline]#time pressure# many [.underline]#dual-earner families# experience around care.
++
+--
+.My revision
+[%collapsible]
+====
+Research focused on the time spent on child care in families where both parents work has identified the persistence of different expectations based on gender and the overall sense of urgency that many families experience around care.
+====
+
+.Solution]
+[%collapsible]
+====
+Research on families where both parents work shows that the demans of child care take a greate deal of time and are still met mostly by mothers.
+====
+--
++
+. There will be [.underline]#major conservation implications# if [.underline]#mercury ingestion# in ospreys causes [.underline]#negative population level effects# either through [.underline]#direct mortality# or [.underline]#negative fecundity#.
++
+--
+.My revision
+[%collapsible]
+====
+There will be major impacts on conservation efforts if eating mercury causes populations of osprey to fall, either through more deaths or fewer births.
+====
+
+.Solution
+[%collapsible]
+====
+If high levels of mercury in ospreys either kills them directly or lowers their breeding success, their populations will decline.
+====
+--
 
 == Exercise 9
 
