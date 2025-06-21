@@ -867,9 +867,9 @@ The writers have ordered their paragraphs to compare their results with earlier 
 ====
 +
 . We tend to take for granted the ability of our immune systems to free our bodies of infection and prevent its recurrence. In some people, however, parts of the immune system fail. In the most severe of these immunodeficiency diseases, adaptive immunity is completely absent, and death occurs in infancy from overwhelming infection unless heroic measures are taken. Other less catastrophic failures lead to recurrent infections with particular types of pathogen, depending on the particular deficiency. Much has been learned about the functions of the different components of the hyuman immune system through the study of these immunodeficienceies, many of which are caused by inherited genetic defects. +
-Morew than 25 years ago, a devastating form of immunodeficiency appeared, the acuquired immune deficiency syndrome, or AIDS, which is caused by an infectious agent, the human immunodeficiency viruses HIV-1 and HIV-22. This disease destroys T cells, dendritic cells, and macrophages bearing CD4, leading to infections caused by intracellular bacteria and other pathogens normally controlled by such cells. These infections are the major cause of death from this increasingly prevalent immunodeficiency disease.
+Morew than 25 years ago, a devastating form of immunodeficiency appeared, the acuquired immune deficiency syndrome, or AIDS, which is caused by an infectious agent, the human immunodeficiency viruses HIV-1 and HIV-2. This disease destroys T cells, dendritic cells, and macrophages bearing CD4, leading to infections caused by intracellular bacteria and other pathogens normally controlled by such cells. These infections are the major cause of death from this increasingly prevalent immunodeficiency disease.
 +
 ====
-
+The writers have ordered their paragraphs from general information to specific information. They use general words, like _our immune systems_ or _some people_ in the first paragrah. In the second, they use more specific examples, like _a devestating form_ and _this disease_.
 ====
 
