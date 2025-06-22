@@ -101,3 +101,5 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 .listingblock code[data-lang]::before{display:block}
 pre.pygments, pre.pygments code { background:#f7f7f8; }
 pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.underline { text-decoration: underline; }
+.doubleunderline { text-decoration: underline; text-decoration-style: double; }

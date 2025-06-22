@@ -1,0 +1,953 @@
+= Writing in Plain English
+:page-last_modified_at: 2025-06-22
+:page-liquid:
+:page-categories: ["portfolio"]
+:page-toc: true
+:page-toc_label: "Table of contents"
+:page-toc_icon: "cog"
+:page-toc_sticky: true
+
+== Introduction
+
+Technical writers want to write in a way that best serves their readers: they replace weak verbs with strong verbs, switch passive voice to active voice, and rewrite complex sentences into simple ones. Together, these rules guide technical writers towards a consistent style that's easy to read and understand. Writers call this style Plain English.
+
+But what exactly does Plain English mean? To learn more, I read the latest edition of Anne Greene's classic book, _Writing Science in Plain English_. Plain English demands short, simple words and clear sentences. These demands create texts that can clearly explain any kind of complex topic beyond just science. And that makes the style worth learning for any kind of technical writer.
+
+To help readers learn to use Plain English, Greene includes exercises throughout her book. For each exercise, I wrote my answer and included Greene's answer as well. I then compared our answers to see how we arrived at our new sentences. By doing so, I hope to improve my Plain English skills and write clearer content.
+
+== Exercise 1
+
+In each sentence, underline the subject once and the verb twice. Is the subject abstract or concrete? Rewrite the sentences choosing concrete nouns as subjects and making their actions the verbs.
+
+. [.underline]#Processes# undertaken by diverse plants and animals [.doubleunderline]#are# responsible for such ecological actions as nutrient cycling, carbon storage, and atmospheric regulation.
++
+====
+The subject, _Processes_, is abstract.
+
+.My revision
+[%collapsible]
+======
+Diverse [.underline]#plants and animals# [.doubleunderline]#perform# various ecological actions. For example, they cycle nutrients, store carbon, and regulate the atmopshere.
+======
+
+.Solution
+[%collapsible]
+======
+An [.underline]#ecosystem# of diverse plants and animals [.doubleunderline]#cycles# nutrients, [.doubleunderline]#stores# carbon, and [.doubleunderline]#regulates# the atmosphere.
+======
+
+Greene has written a much simpler sentence. I broke the sentence into two, but she streamlined the single sentence. This makes for a much more direct message.
+====
++
+. [.underline]#Declines# in birth rates [.doubleunderline]#have been observed# in many developed countries, and demographers expect that the transition to a stable population will eventually occur in many undeveloped nations as well.
++
+====
+The subject, _Declines_, is abstract.
+
+.My revision
+[%collapsible]
+======
+[.underline]#Demographers# [.doubleunderline]#have observed# declines in birth rates in many developed countries. [.underline]#They# [.doubleunderline]#expect# the same to happen eventually in undeveloped nations as well.
+======
+
+.Solution
+[%collapsible]
+======
+[.underline]#Demographers# [.doubleunderline]#have observed# that birth rates are declining in many developed countries. They [.doubleunderline]#expect# that populations will eventually stabilize as birth rates decline in undeveloped countries as well.
+======
+
+In my revision, I tried to remove "-ing" conjugations. I believed that these conjugations made the text harder to read and less accessible for non-English readers. However, I'm not sure that's true. Whether it's true or not, I like both revisions. Mine is shorter, but Greene's retains extra context by emphasizing ("-ing"!) that populations will "stabilize" because of the decline in birth rates.
+====
++
+. [.underline]#Variations# in magmatism during rifting [.doubleunderline]#have been attributed# to variations in mantle temperature, rifting velocity or duration, active upwelling, or small-scale convection.
++
+====
+The subject, _Variations_ is abstract.
+
+.My revision
+[%collapsible]
+======
+During rifting, [.underline]#magmatism# [.doubleunderline]#changes# according to changes in mantle temperature, speeds and durations of rifting, movements of magma, and transfers of heat.
+======
+
+.Solution
+[%collapsible]
+======
+[.underline]#Magma# produced during rifting [.doubleunderline]#varies# for several reasons: changes in mantel temperature, rifting velocity or duration, active upwelling, or small-scale convection.
+======
+
+Greene has the advantage here. Her sentence is more direct and easier to read. It translates "magmatism" and makes good use of the colon.
+====
++
+. The [.underline]#inability# of lateral variations in mantle temperature and composition, alone, to account for our observations [.doubleunderline]#leads# us to propose that another influence was melt focusing.
++
+====
+The subject, _inability_, is abstract.
+
+.My revision
+[%collapsible]
+======
+[.underline]#We# could not [.doubleunderline]#attribute# our observations to only lateral differences in mantel temperature and composition. [.underline]#We# [.doubleunderline]#propose# melt focusing as another influence on our observations.
+======
+
+.Solution
+[%collapsible]
+======
+[.underline]#We# [.doubleunderline]#could# not [.doubleunderline]#account# for our observations with lateral variations in mantle temperatures and composition alone. Another [.underline]#influence# [.doubleunderline]#was# melt focusing.
+======
+
+I think both revisions are good. Mine kept the subject the same between the two sentences, but Greene's is a little shorter and less committed. (She doesn't pin the writers to a position with "We propose.")
+====
++
+. The [.underline]#ability# of mudrock seals to prevent CO~2~ leakage [.doubleunderline]#is# a major concern for geological storage of anthropogenic CO~2~.
++
+====
+The subject, _ability_, is abstract.
+
+.My revision
+[%collapsible]
+======
+Mudrock [.underline]#seals# [.doubleunderline]#can prevent# CO~2~ leakage and thus can add to the geological storage of anthropogenic CO~2~.
+======
+
+.Solution
+[%collapsible]
+======
+[.underline]#Geologists# [.doubleunderline]#are concerned# that mudrock seals may allow anthropogenic CO~2~ to leak from geological storage.
+======
+
+These revisions are quite different, and I attribute that to my misunderstanding the original sentence. However, I think both are good revisions.
+====
+
+== Exercise 2
+
+In each sentence, underline the main verb twice. Revise the sentences by substituting strong verbs for weak verbs. Replace abstract nouns where you can.
+
+. Photographs from space taken by satellites [.doubleunderline]#are# indicators of urbanization and just one of the demonstrations of the human footprint.
++
+====
+.My revision
+[%collapsible]
+======
+Photographs from space taken by satellites [.doubleunderline]#indicate# urbanization and [.doubleunderline]#demonstrate# the human footprint on the planet.
+======
+
+.Solution
+[%collapsible]
+======
+Satellite photographs [.doubleunderline]#indicate# the spread of urban areas and [.doubleunderline]#demonstrate# the human footprint.
+======
+
+Greene's is shorter and cleaner. She collapsed "Photographs from space taken by satellites" to the much more readable "Satellite photographs." She also broke down "urbanization" into "spread of urban areas," which eliminates a nominalization.
+====
++
+. Weather variables (precipitation, temperature, and wind speed) [.doubleunderline]#are# key factors in limiting summer habitat availability.
++
+====
+.My revision
+[%collapsible]
+======
+Precipitation, temperature, and wind speed [.doubleunderline]#limit# available summer habitat.
+======
+
+.Solution
+[%collapsible]
+======
+Precipitation, temperature, and wind speed [.doubleunderline]#limit# available summer habitat.
+======
+
+Our revisions are the same. We both took the parenthetical and made those the acting characters in the sentence.
+====
++
+. A risk management ranking system [.doubleunderline]#is# the central mechanism for which prioritization of terrestrial invasive species is based.
++
+====
+.My revision
+[%collapsible]
+======
+A risk management ranking system [.doubleunderline]#prioritizes# terrestrial invasive species.
+======
+
+.Solution
+[%collapsible]
+======
+We [.doubleunderline]#rank# terrestrial invasive species according to the threat they pose to the environment.
+======
+
+Greene introduces a new actor, "We," to the sentence. Mine doesn't. I think both are good.
+====
++
+. It [.doubleunderline]#is# clear that Prairie Chickens are closely associated with sagebrush habitat throughout the year.
++
+====
+.My revision
+[%collapsible]
+======
+Prairie Chickens [.doubleunderline]#live# in sagebrush habitat throughout the year.
+======
+
+.Solution
+[%collapsible]
+======
+Prairie Chickens [.doubleunderline]#occupy# sagebrush habitat throughout the year.
+======
+
+These are the same, except I use "live in" and Greene uses "occupy." I like "live in" better because it's simpler, but "occupy" is much more concise.
+====
++
+. The occurrence of freezing and thawing [.doubleunderline]#is# an important control on cohesive bank erosion in the region.
++
+====
+.My revision
+[%collapsible]
+======
+Freezing and thawing [.doubleunderline]#control# cohesive bank erosion in the region.
+======
+
+.Solution
+[%collapsible]
+======
+Freezing and thawing [.doubleunderline]#control# cohesive bank erosion in the region.
+======
+
+Our revisions are exactly the same. In both, "Freezing and thawing" become the acting characters instead of the more nebulous "occurrence."
+====
+
+== Exercise 3
+
+In each sentence, underline the subject once and the verb twice. Revise by placing the subject and the verb close together. Replace abstract nouns where you can.
+
+. Environmentally sensitive [.underline]#solutions# to the problems associated with continued population growth and development [.doubleunderline]#will require# an environmentally literate citizenry.
++
+====
+.My revision
+[%collapsible]
+======
+[.underline]#We# [.doubleunderline]#will require# environmentally literate citizens to find environmentally sensitive solutions to the problems of our continuously growing and developing population.
+======
+
+.Solution
+[%collapsible]
+======
+To develop sustainable solutions to the problems of human growth and development, [.underline]#we# [.doubleunderline]#will need# environmentally literate citizens.
+======
+
+Greene and I order our clauses differently. Greene opens her sentence with a dependent clause, and I finish mine with the same clause. Both are good, but the "winner" depends on the sentence's context.
+====
++
+. [.underline]#Partnerships# between professional teachers, scientists, non-professional science educators, and administrators [.doubleunderline]#are# needed to improve the content and effectiveness of science education, particularly in rural areas.
++
+====
+.My revision
+[%collapsible]
+======
+[.underline]#Scientists and science educators# [.doubleunderline]#must work# together to improve science education, particularly in rural areas.
+======
+
+.Solution
+[%collapsible]
+======
+By building partnerships between professional teachers, scientists, nonprofessional science educators, and administrators, [.underline]#we# [.doubleunderline]#can improve# the content and effectiveness of science education, particularly in rural areas.
+======
+
+Like the previous question, we reversed our clause order. Unlike the first sentence, I condensed the sentence's scope from four audiences to two. I did this for a little more brevity and clarity. But, the sentence's context may require all four audiences to be explicitly stated.
+====
++
+. Our [.underline]#ability# to predict the spatial spread of exotic species and their transformation of natural communities [.underline]#is# still developing.
++
+====
+.My revision
+[%collapsible]
+======
+[.underline]#We# [.doubleunderline]#cannot predict# yet how exotic species spread through the environment and how they transform natural communities.
+======
+
+.Solution
+[%collapsible]
+======
+[.underline]#We# still [.doubleunderline]#cannot predict# with certainty how an exotic species will spread or transform a natural community.
+======
+
+These are very similar. My revision says we "cannot predict yet", and Greene's says we "still cannot predict." Mine puts more emphasis on the idea that, one day, we'll be able to predict how exotic species spread.
+====
++
+. The [.underline]#amount# of magmatism that accompanies the extension and rupture of the continental lithosphere [.doubleunderline]#varies# dramatically at rifts and margins around the world.
++
+====
+.My revision
+[%collapsible]
+======
+As the continental lithosphere extends and ruptures, the accompanying magma [.underline]#flow# [.doubleunderline]#varies# dramatically at rifts and margins around the world.
+======
+
+.Solution
+[%collapsible]
+======
+When the continental lithosphere extends and ruptures at rifts and margins, the [.underline]#amount# of accompanying magmatism [.doubleunderline]#varies# dramatically.
+======
+
+Based on previous examples, I thought Greene would have opted to use something other than "magmatism" in her revision. Therefore, I tried to do the same. However, Greene kept magmatism and shifts the clauses around. I prefer my revision to Greene's.
+====
++
+. [.underline]#Pre-migration# of melts vertically to the top of the melting region and then laterally along the base of the extended continental lithosphere [.doubleunderline]#would focus# melts toward the eastern part of the basin.
++
+====
+.My revision
+[%collapsible]
+======
+* If melts migrated to the top of the melting region and then along the base of the continental lithosphere, [.underline]#they# [.doubleunderline]#would focus# towards the eastern part of the basin.
+* [.underline]#Melts# [.doubleunderline]#would focus# toward the eastern part of the basin if they migrated to the top of the melting region and then along the base of the continental lithosphere.
+======
+
+.Solution
+[%collapsible]
+======
+[.underline]#Melts# [.doubleunderline]#migrate# vertically to the top of the melting region, then laterally along the base of the extended continental lithosphere toward the eastern part of the basin.
+======
+
+Here's another example of me not understanding the original sentence. Both revisions do well to put the subject and verb close together. Greene's probably makes more sense, technically.
+====
++
+. Pre-treatment of tenocytes with different concentrations of wortmannin (1, 10, and 20 nM) for 1 h, treated with curcumin (5 μM) for 4 h, and then treated with IL-1β for 1 h, inhibited the IL-1β-induced NF-κB activation.
++
+====
+.My revision
+[%collapsible]
+======
+[.underline]#We# [.doubleunderline]#prevented# IL-1β from activating NF-κB in tenocytes by treating them with different wortmannin concentrations (1, 10, and 20 nM) for 1 h, curcumin (5 μM) for 4 h, and then IL-1β for 1 h.
+======
+
+.Solution
+[%collapsible]
+======
+[.underline]#We# [.doubleunderline]#inhibited# the IL-1β-induced NF-κB activation by treating tenocytes with wortmannin (1, 10, and 20 nM) for 1h, followed by curcumin (5μM) for 4h, and then IL-1β for 1 h.
+======
+
+These are pretty similar revisions. Between the two, I like mine more. It feels more direct ("prevented" vs. "inhibited"). However, I like that Greene removed "different...concentrations" in her revision.
+====
+
+== Exercise 4
+
+Read each sentence and underline the subject and double underline the verb(s). Is the verb active or passive?
+
+. Four big brown [.underline]#bats# [.doubleunderline]#served# as subjects in these experiments, two males and two females.
++
+====
+The verb, _served_, is active.
+====
++
+. The [.underline]#animals# [.doubleunderline]#were collected# from private homes in Maryland and [.doubleunderline]#were housed# in the University of Maryland bat vivarium.
++
+====
+The verbs phrases, _were collected_ and _were housed_, are passive.
+====
++
+. [.underline]#Bats# [.doubleunderline]#were maintained# at 80% of their _ad lib_ feeding weight and [.doubleunderline]#were# normally [.doubleunderline]#fed# mealworms only during experiments.
++
+====
+The verb phrases, _were maintained_ and _were [normally] fed_, are passive.
+====
++
+. [.underline]#We# [.doubleunderline]#exposed# the bats to a reversed 12h dark:12h light cycle, and we [.doubleunderline]#gave# them free access to water.
++
+====
+The verbs, _exposed_ and _gave_, are active.
+====
+
+== Exercise 5
+
+Change the following sentences from passive to active. [Greene has given] the word counts in the originals. How many words are in [my] revisions?
+
+. For effective storage of industrial CO~2~, retention times of ~10^4^ yr or greater are required. (15 words)
++
+====
+.My revision
+[%collapsible]
+======
+To effectively store industrial CO~2~, we must retain it for ~10^4^ or more years. (14 words)
+======
+
+.Solution
+[%collapsible]
+======
+Effective storage of industrial CO~2~ requires retention times of ~10^4^ yr or greater. (13 words)
+======
+
+I added a concrete subject, "we," for this revision. This shaved off a word from the original sentence, and I think it's pretty clear. Although, Greene's version is one word less still.
+====
++
+. It is hypothesized that groundwater pH must have been, on average, highest shortly before the Late Ordovician to Silurian proliferation of root-forming land plants. (24 words)
++
+====
+.My revision
+[%collapsible]
+======
+We hypothesize that groundwater pH was, on average, highest shortly before the late Ordovician to Silurian proliferation of root-forming land plants. (22 words)
+======
+
+.Solution
+[%collapsible]
+======
+One hypothesize suggests that, on average, groundwater pH must have been highest shortly before the late Ordovician to Silurian proliferation of root-forming land plants. (24 words)
+======
+
+Again, I added "we" as a concrete subject. My revision is the shorter one this time. I think my version is more direct, clear, and readable.
+====
++
+. We were compelled to rely on the SOC90 data as no further information on the occupational situation (employed vs. self-employed) or on the size of the firm was available in retrospective form. (32 words)
++
+====
+.My revision
+[%collapsible]
+======
+We relied on the SOC90 data because we could not access further information on the occupational situation (employed vs. self-employed) or on the size of the firm in retrospective form. (30 words)
+======
+
+.Solution
+[%collapsible]
+======
+We relied on the SOC90 data because we couldn't find past information on the number of people who were employed versus self-employed or on the size of the firm. (29 words).
+======
+
+These are close, but Greene's is better. It eliminates odd phrases, like "occupational situation" or "retrospective form." She does a much better job of simplifying the sentence.
+====
++
+. Moreover, it has been demonstrated that mineral-water reactions increase the pH of groundwater even in the presence of abundant acid-producing lichens (Schatz 1963). (24 words)
++
+====
+.My revision
+[%collapsible]
+======
+Moreover, mineral-water reactions increase the pH of groundwater, even in the presence of abundant acid-producing lichens (Shatz 1963). (19 words)
+======
+
+.Solution
+[%collapsible]
+======
+Shatz (1963) demonstrated that mineral-water reactions increase the pH of groundwater, even in the presence of abundant acid-producing lichens. (19 words)
+======
+
+Greene moves the inline citation to the start of the sentence and incorporates into the sentence directly. I think both revisions are good, but Greene's has a human character performing an action, which helps readability.
+====
+
+== Exercise 6
+
+How many syllables are in each of the underlined words below? [Predict] whether they have Latin, French or Old English roots. Look up the origins of each of the words, and then rewrite the sentences using as many Old English words as you can without changing the meaning.
+
+. For example, [.underline]#expansion# of the extent of the winter range by [.underline]#continued pioneering# of segments of the northern Yellowstone elk herd northward from the park [.underline]#boundary# and [.underline]#extensive# use of these more northerly areas by greater numbers of elk have been [.underline]#coincident# with [.underline]#acquisition# and [.underline]#conversion# of rangelands from livestock [.underline]#production# to elk winter range.
++
+====
+* _expansion_: three syllables, Latin
+* _continued pioneering_: seven syllables, French
+* _boundary_: three syllables, French
+* _extensive_: three syllables, French
+* _coincident_: four syllables, Latin
+* _acquisition_: four syllables, Latin
+* _conversion_: three syllables, French
+* _production_: three syllables, French
+
+.My revision
+[%collapsible]
+======
+For example, as a part of the northern Yellowstone elk herd roams north of the park limits, they add the rangelands used to farm livestock to their winter range.
+======
+
+.Solution
+[%collapsible]
+======
+For example, [.underline]#more# elk from the northern Yellowstone herd have [.underline]#moved# north of the park boundary and are [.underline]#mainly# using the ranchland that we [.underline]#bought# and [.underline]#put into# elk winter range.
+======
+
+I tried to simplify the sentence as much as I could, but I seemed to have misinterpreted the original. I think both revisions are fine, even if they say different things.
+====
++
+. Poor [.underline]#communication# between [.underline]#physician# and patients [.underline]#predisposes# to [.underline]#medical malpractice# cases, while [.underline]#effective# communication lowers patient's [.underline]#anxiety#, improves [.underline]#compliance# and [.underline]#clinical# outcome.
++
+====
+* _communication_: five syllables, French
+* _physician_: three syllables, French
+* _predisposes_: four syllables, Latin
+* _medical_: three syllables, French
+* _malpractice_: three syllables, French
+* _effective_: three syllables, Latin
+* _anxiety_: four syllables, French
+* _compliance_: three syllables, Latin
+* _clinical_: three syllables, Latin
+
+.My revision
+[%collapsible]
+======
+Doctors who talk to their patients have happier patients and better results.
+======
+
+.Solution
+[%collapsible]
+======
+If patients [.underline]#cannot# understand [.underline]#what their doctors# are [.underline]#saying#, they [.underline]#worry# more and are [.underline]#less likely# to [.underline]#follow# instructions and [.underline]#get better#. They are also [.underline]#more# likely to [.underline]#sue#.
+======
+
+Greene's is clearly more descriptive. Compared to hers, my revision is a little to pared back. I think Greene's is a much better example of using simple words without obfuscating or changing the sentence's meaning.
+====
+
+== Exercise 7
+
+Find the different terms in the following sentences and underline them. Revise by replacing different terms with ones that are the same. Use as many short, simple words as you can.
+
+. One way to assess the perceived risk of feeding in different [.underline]#locations# is to measure the proportion of the available food a forager removes before switching to an alternative [.underlien]#patch#. All else being equal, foragers should be willing to forage longer and remove more food from a safe [.underline]#area# than a risky one.
++
+====
+.My revision
+[%collapsible]
+======
+One way to assess the perceived risk of feeding in different areas is to measure how much food a forager eats before moving to another area. All else being equal, foragers prefer to forage longer and eat more food in a safe area than a risky one.
+======
+
+.Solution
+[%collapsible]
+======
+We can assess the perceived risk of feeding in different patches by measuring the proportion of the available food a forager removes before switching to an alternative patch. All else being equal, foragers should be willing to forage longer and remove more food from a safe patch than a risky one.
+======
+
+These are close; I chose "area" and Greene chose "patch." And I opted for "eat" instead of "remove...food." Greene also introduces a human subject, "we."
+====
++
+. [.underline]#Stress coping styles# have been characterized as a proactive/reactive dichotomy in laboratory and domesticated animals. In this study, we examined the prevalence of [.underline]#proactive/reactive stress coping styles# in wild-caught short-tailed mice (_Scotinomys teguina_). We compared [.underline]#stress responses# to spontaneous singing, a social and reproductive behavior that characterizes this species.
++
+====
+.My revision
+[%collapsible]
+======
+Stress responses in laboratory and domesticated animals have been categorized into two types: proactive and reactive. In this study, we examined of both types of stress responses in wild-caught short-tailed mice (_Scotinomys teguina_). We compared stress responses to spontaneous singing, a social and reproductive behavior that characterizes this species.
+======
+
+.Solution
+[%collapsible]
+======
+Laboratory and domestic animals respond to stress in one of two ways: practively or reactively. Here, we looked at how often wild-caught short-tailed mice responded either proactively or reactively to spontaneous singing—a common social and reproductive behavior of this species.
+======
+
+The second sentence in each revision is pretty close. I misinterpreted the original sentence; it wasn't clear to me that the spontaneous singing caused the stress responses. Greene's first sentence is very compact, the subject and verb are close to each other, and she makes good use of a colon to introduce new information at the end of the sentence.
+====
++
+. Expansion of child-care subsidies would mitigate family income gaps in access to [.underline]#licensed care facilities#, moving families from [.underline]#unlicensed care# to [.underline]#center-based care# in particular.
++
+====
+.My revision
+[%collapsible]
+======
+If we expanded access to child-care subsidies, more families could switch from unlicensed care facilities to licensed care facilities.
+======
+
+.Solution
+[%collapsible]
+======
+If there were expanded subsidies for child care, more families could afford to move their children from unlicensed to licensed facilities.
+======
+
+My revision uses a human subject, "we." Greene's doesn't. And her independent clause sounds better. I think she does it by not repeating "care facilities" twice.
+====
++
+. Studies of long-term outcomes in offspring exposed to [.underline]#maternal undernutrition and stress# caused by the Dutch Hunger Winter of 1944 to 1945 revealed an increased prevalence of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have been developed to assess the long-term consequences of a variety of [.underline]#maternal challengs# including under-and overnutrition, hyperglycemia, chronic stress, and inflammation. Exposures to a wide range of [.underline]#insults during gestation# are associated with convergent effects on fetal growth, neurodevelopment, and metabolism.
++
+====
+.My revision
+[%collapsible]
+======
+Studies of the long-term effects on offspring exposed to maternal ailments caused by the Dutch Hunger Winter of 1944 to 1945 revelaed a higher rate of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have assessed the long-term effects of a variety of maternal ailments. These maternal ailments are associated with long-term effects on offspring's fetal growth, neurodevelopment, and metabolism.
+======
+
+.Solution
+[%collapsible]
+======
+Studies show that when mothers were starved and stressed during pregnancy in the Dutch Hunger Winter of 1944 to 1945, it had long-term effects on their children. These children developed more metabolic desease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Research on animals show simlar results. Starvation, overeating, hyperglycemia, chronic stress, and inflammation during pregnancy affect fetal growth, neurodevelopment, and metabolism.
+======
+
+Greene's revision is much clearer. She replaces words with simpler ones, like "mother," "children," "starvation," and "overeating." She uses four sentences instead of three, which gives her writing room to breathe.
+====
+
+== Exercise 8
+
+In the following sentences, underline the noun strings and revise by breaking them up and replacing long words with short ones.
+
+. Developing [.underline]#regular exercise programs# and [.underline]#diet regimes# contributes to [.underline]#disease risk prevention# and [.underline]#optimal health promotion#.
++
+====
+.My revision
+[%collapsible]
+======
+Regular exercise and diets prevent disease and promote a healthy lifestyle.
+======
+
+.Solution
+[%collapsible]
+======
+Regular exercise and attention to diet help prevent disease and promote health.
+======
+
+These revisions are pretty similar. I like Greene's "attention to diet" rather than my "diets." I'm always torn over using the verb "help." Instead, my instinct tells me to drop it and let the subject perform the action, not just help perform it. However, using "help" does make it clearer when it's the case that the subject is only one among many ways to perform the action.
+====
++
+. Research focused on [.underline]#care time deficits# and [.underline]#time squeezes# for families has identified the persistence of [.underline]#gendered care time burdens# and the sense of [.underline]#time pressure# many [.underline]#dual-earner families# experience around care.
++
+====
+.My revision
+[%collapsible]
+======
+Research focused on the time spent on child care in families where both parents work has identified the persistence of different expectations based on gender and the overall sense of urgency that many families experience around care.
+======
+
+.Solution]
+[%collapsible]
+======
+Research on families where both parents work shows that the demans of child care take a great deal of time and are still met mostly by mothers.
+======
+
+Greene's revision is much clearer. And I like that she called out the issue by name: time spent on child care falls disproportionately on mothers. Mine was too vague.
+====
++
+. There will be [.underline]#major conservation implications# if [.underline]#mercury ingestion# in ospreys causes [.underline]#negative population level effects# either through [.underline]#direct mortality# or [.underline]#negative fecundity#.
++
+====
+.My revision
+[%collapsible]
+======
+There will be major impacts on conservation efforts if eating mercury causes populations of osprey to fall, either through more deaths or fewer births.
+======
+
+.Solution
+[%collapsible]
+======
+If high levels of mercury in ospreys either kills them directly or lowers their breeding success, their populations will decline.
+======
+
+Again, Greene's version is much clearer. If X, then Y. That's easier to read and to follow than my revision.
+====
+
+== Exercise 9
+
+Here is an example of complex writing from the field of immunology. Have the authors tried to make it understandable to a broad audience of immunologists? Have they succeeded? Why or why not?
+
+. One of the well-researched immunoregulatory functions of probiotics is the induction of cytokine production. In particular, the induction of IL-10 and IL-12 production by probiotics has been studied intensively, because the balance of IL-10/IL-12 secreted by macrophages and dendritic cells in response to microbes is crucial for determination of the direction of the immune response. IL-10 is an anti-inflammatory cytokine and is expected to improve chronic inflammation, such as that of inflammatory bowel diseases and autoimmune disease. IL-10 downregulates phagocytic and T cell functions, including the production of proinflammatory cytokines, such as IL-12, TNF-α, and IFN-γ, that control inflammatory responses. IL-10 promotes the development of regulatory T cells for the control of excessive immune responses. In contrast, IL-12 is an important mediator of cell-mediated immunity and is expected to augment the natural immune defense against infections and cancers. IL-12 stimulates T cells to secret IFN-γ, promotes Th1 cell development, and, directly or indirectly, augments the cytotoxic activity of NK cells in macrophages. IL-12 also suppresses redundant Th2 cell responses for the control of allergy.
+====
+The authors wrote what seems like an understandable paragraph for their audience of immunologists. They structured their sentences so that old information comes before new information. They broke up excessively long noun strings. And their word choice seems appropriate to immunologists, even if I don't understand it.
+====
+
+== Exercise 10
+
+Describe the causes of wordiness in the following sentences and paragraphs where needed. Rewrite omitting as many needless words as you can. How many words are in the revisions?
+
+. While a growing body of research indicates that large herbivores as a group can exert strong indirect effects on co-occuring species, there are comparatively few examples of strong community-wide impacts from individual large herbivore species. (37 words)
++
+====
+The sentences uses several adjectives that add to the word count.
+
+.My revision
+[%collapsible]
+======
+While research indicates that groups of large herbivores can exert indirect effects on co-occuring species, there are few examples of community-wide impacts from individual species. (25 words)
+======
+
+.Solution
+[%collapsible]
+======
+Research shows that large herbivores can indirectly influence co-occuring species, but few studies focus on a single species of large herbivore and how it affects the whole community. (28 words)
+======
+
+Both revisions are good improvements over the original sentence. My revision is shorter and just as easy to read as Greene's revision.
+====
++
+. Small mammal species diversity increased in exclosures relative to controls, while survivorship showed no significant trends. (16 words)
++
+====
+_Small mammal species_ can be rewritten in fewer words; _significant_ is a weasel word.
+
+.My revision
+[%collapsible]
+======
+Small mammals diversified more in exclosures relative to controls, but survivorship was unaffected. (13 words)
+======
+
+.Solution
+[%collapsible]
+======
+Diversity of small mammals increased in exclosures relative to controls, while survivorship stayed the same. (15 words)
+======
+
+My revision is a couple of words shorter than Greene's revision. This is at least partially due to the lessons I learned from Johnson-Sheehan—eliminate unneccessary prepositional phrases.
+====
++
+. In this essay, I wil be looking at how higher summer temperatures cause quicker soil and plant evaporation. We all know that climate change has caused elevated temperatures in the Northwest throughout the spring and summer months. We also know that these record-breaking temperatures have the effect of quickly and easily desiccating soil and drying out plant foliage so that it is more flammable. Understandably then, when lightning strikes this very combustible environment, a spark can very quickly turn into a widespread blaze. (83 words)
++
+====
+_In this essay_, _We all know that_, and _Understandably then_ are unnecessary or can be rewritten in fewer words.
+
+.My revision
+[%collapsible]
+======
+It is well known that climate change has caused elevated temperatures in the Northwest. It is also known that these elevated temperatures quickly and easily dessicate soil and dry out plant foliage so that it is more flammable. Therefore, when lightning stikes this flammable environment, a spark can quickly turn into a widespread blaze. (54 words)
+======
+
+.Solution
+[%collapsible]
+======
+Due to climate change, spring and summer temperatures in the Northwest are becoming warmer. Warmer temperatures dry out both soils and plant foliage, which are then more prone to wildfires. (30 words)
+======
+
+Both revisions cut the number of words from the original sentence significantly. Greene's revision, though, cuts far more words than mine. Hers is much more clear and direct.
+====
++
+. Zimbabwean undocumented migrants are shown to be marginalized and vulnerable with limited transnational citizenship. (14 words)
++
+====
+_Zimbabwean undocumented migrants_ is a long string of two adjectives and a noun; _shown to be_ can be rewritten in fewer words.
+
+.My revision
+[%collapsible]
+======
+Undocumented migrants from Zimbabwe are marginalized and vulnerable with limited transnational citizenship. (12 words)
+======
+
+.Solution
+[%collapsible]
+======
+Undocumented migrants from Zimbabwe are marginalized and vulnerable with limited transnational citizenship. (12 words)
+======
+
+Our revisions are exactly the same. In both revisions, we break up the phrase _Zimbabwean undocumented migrants_. This is an example that comes up frequently throughout this section of exercises: long strings of multiple adjectives and one noun. This kind of construction is ripe for rephrasing to clarify text.
+====
++
+. When the lithosphere extends and rifts along continental margins, magma is produced in varying quantities. Widely spaced geophysical transects show that rifting along some continental margins can transition from magma-poor to magma-rich. Our wide-angle seismic data from the Black Sea provide the first direct observations of such a transition. This transition coincides with a transform fault and is abrupt, ocurring over only ~20-30 km. This abrupt transition cannot be explained solely by gradual along-margin variations in mantle properties, since these would be expected to result in a smooth transition from magma-poor to magma-rich rifting over hundreds of kilometers. We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, a phenomenon that has been observed in active rift environments such as mid-ocean ridges. (133 words)
++
+====
+The paragraph has many long strings of multiple adjectives and one noun:
+
+* _Widely spaced geophysical transects_
+* _wide-angle seismic data_
+* _gradual along-margin variations_
+* _active rift environments_
+* _mid-ocean ridges_
+
+The first sentence doesn't seem necessary for the rest of the paragraph.
+
+.My revision
+[%collapsible]
+======
+Our wide-angle seismic data from the Black Sea provide the first direct observations of rifting that transitions from magma-poor to magma-rich. This transition coincides with a transform fault and is abrupt, occuring over only ~20-30 km. We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater expansion during rifting rather than gradual variations along a continental margin. (66 words)
+======
+
+.Solution
+[%collapsible]
+======
+We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, similar to active rift environments such as mid-ocean ridges. (31 words)
+======
+
+Greene cuts over 100 words from the original sentence by completely removing the preamble. By contrast, I kept an abreviated form the of introductory information because I thought it was important for the context of the final sentence. Although that may sometimes be true, it's clearly important to evaluate that carefully. Otherwise, you miss might miss the opportunity to shorten your text by a lot.
+====
++
+. The empirical data presented in this article reveal a segmented labor market and exploitation, with undocumented migrants not benefiting from international protection, human rights, nation state citizenship rights, or rights associated with the more recent concepts of postnatinoal and transnational citizenship. (41 words)
++
+====
+_presented in this article_ is unneeded metadiscourse; _not benefiting_ is negative.
+
+.My revision
+[%collapsible]
+======
+Empircal data reveal a segmented labor market and exploitation, which excludes undocumented migrants from international protection, human rights, nation state citizenship rights, or rights associated with the more recent concepts of postnational and transitional citizenship. (35 words)
+======
+
+.Solution
+[%collapsible]
+======
+The segmented labor market we describe exploits undocumented migrants. These people lack international protection, human rights, nation state citizenship, and rights associated with the more recent concepts of postnational and transnational citizenship. (30 words)
+======
+
+Greene's version is shorter, but her first sentence could be clearer, in my opinion. Otherwise, I like that she split a long sentence into two shorter ones.
+====
+
+List the transition words in the following paragraph and explain why they are useful.
+
+. The systemic immune response in _Drosophila_ is mediated by a battery of antimicrobial peptides produced largely by the fat body, an insect organ analogous to a mammalian liver. These peptides lyse microorganisms by forming pores in their cell walls. Functionally, the antimicrobial peptides fall into three classes depending on the pathogen specificity of their lytic activity. Thus, Drosomycin is a major antifungal peptide, whereas Diptericin is active against gram-negative bacteria, and Defensin works against gram-positive bacteria. Interestingly, infection of _Drosophila_ with different classes of pathogens leads to preferential induction of the appropriate group of antimicrobial peptides.
+
+====
+* _These peptide_ tell the reader that the peptides from the last sentences are the ones that this sentences is talking about.
+* _Functionally_ helps keep the sentence subject consistent with the rest of the paragraph.
+* _Thus_ draws a conclusion from the previous sentences.
+* _Interstingly_ calls to the reader's attention something worth noting about the previous sentences.
+====
+
+The next paragraph is about hybrids and their long-term survival and reproduction. How many different principles of plain English can you identify in the writing? Describe them. Is the writing concise as a result?
+
+. Introgressive hybridization is most commonly observed in zones of geographical contact between otherwise allopatric taxa. Studies of such zones have provided important insights into the evolutionary process and have helped resolve part of the debate about fitness of hybrids. In many cases, most hybrid genotypes tend to be less fit than are the parental genotypes in parental habitats, owing either to endogenous or exogenous selection or both. However, theory predicts that some can be of equal or superior fitness in new habitats and, occasionally, even in parental habitats.
+
+====
+* Good use of metadiscourse and transition phrases.
+* Simple words, assuming the intended audience are geneticists.
+* Verbs are strong; only one passive verb.
+* Subjects and verbs are close together.
+
+These principles make the writing concise.
+====
+
+== Exercise 11
+
+In the following sentences and paragraphs, did the writers put the old and new information in the right places? Revise any incorrect sentences using the "old to new" principle.
+
+. Unfortunately, as noted 40 years ago, few students experience the thrill of doing field science because they are rarely allowed to leave the confines of the classroom to become immersed in field-based science.
++
+====
+The writers put the old information at the end of this sentence.
+
+Unfortunately, as noted 40 years ago, few students experience the thrill of doing field science because they are rarely allowed to leave the confines of the classroom.
+====
++
+. Bank erosion rates along the South River in Virginia increased by factors of 2-3 after 1957. Increased bank erosion rates cannot be explained by changes in the intensity of either freeze-thaw or storm intensity, and changes in the density of riparian trees should have decreased erosion rates.
++
+====
+The writers put old information at the end of this sentence.
+
+After 1957, bank erosion rates along the South River in Virgina increased 2-3 times. These increases have little to do with changes in freeze-thaw or storm intensity, and changes in riparian tree density should have had the opposite effect.
+====
++
+. Students majoring in science often believe they can escape the intensive writing and presentations that their peers in the humanities and social sciences must do. However, science is a collective human endeavor whose success hinges upon effective communication, both written and oral. Even if findings are ground breaking, they are potentially worthless if they can't be shared with others in a clear and engaging way. Teaching undergraduate science students to effectively communicate is therefore an essential goal.
++
+====
+The ends of the first three sentences don't introduce the subject of the next one.
+
+Students often believe they can escape the intensive writing and presentations that their peers in the humanities and social sciences must do by majoring in science. However, science is a collective human endeavor whose success hinges upon the effective written and oral communication of its findings. Even if those findings are ground breaking, they are potentially worthless if students are not taught to share them. Therefore, teaching undergraduate science students to communicate effectively is an essential goal.
+====
++
+. They put their lives in our hands, and we failed to save their lives.
++
+====
+The writers put old information, _their lives_ at the end of the sentence.
+
+They put their lives in our hands, and we failed them.
+====
++
+. Climate plays an important part in determining the average numbers of species, and periodical seasons of extreme cold or drought, I believe to be the most effective of all checks. I estimated that the winter of 1854-55 destroyed four-fifths of the birds in my own grounds; and this is a tremendous destruction, when we remember that ten per cent is an extraordinarily severe mortality from epidemics with man. The action of climate seems at first sight to be quite independent of the struggle for existence; but in so far as climate chiefly acts in reducing food, it brings on the most severe struggle between the individuals, whether of the same or of distinct species, which subsist on the same kind of food. Even when climate, for instance extreme cold, acts directly, it will be the least vigorous, or those which have got least food through the advancing winter, which will suffer most.
++
+====
+Each sentence, and each clause within the sentence, places information that came earlier at the start.
+
+This sentence was, apparently, written by Charles Darwin in _The Origin of Species_.
+====
+
+== Exercise 12
+
+Dissect the lists in the following sentences. Are they parallel? Revise them to be parallel.
+
+. Central to this deficit has been the rising average age of the nursing workforce and the decline in the number of hours worked; fewer nurses are working standard full-time hours (35-44 hours per week) and 44 percent work part-time.
++
+====
+Central to this deficit has been the rising average age of the nursing workforce and the declining number of hours worked; fewer nurses are working standard full-time hours (35-44 hours per week) and 44 percent are working part-time.
+====
++
+. The problem of finding the optimal strokes of hypothetical microswimmers has drawn a lot of attention in recent years. Problems that have been solved include the optimal stroke pattern of Purcell's three-link swimmer, an ideal elastic flagellum, a shape-changing body, a two- and a three-sphere swimmer, and a spherical squirmer.
++
+====
+In recent years, there's been a lot of attention to the problem of finding the optimal strokes of hypothetical microswimmers. Optimal strokes that have been found include those for a Purcell's three-link swimmer, an ideal elastic flagellum, a shape-changing body, a two- and a three-sphere swimmer, and a spherical squirmer.
+====
++
+. Cilia are hair-like protrusions that beat in an asymmetric fashion to pump the fluid in the direction of their effective stroke. They propel certain protozoa, such as _Paramecium_, and also fulfill a number of functions in mammals, including mucous clearance from airways, left-right asymmetry determination, and transport of an egg cell in fallopian tubes.
++
+====
+Cilia are hair-like protrusions that beat in an asymmetric fashion to pump the fluid in the direction of their effective stroke. They propel certain protozoa, such as _Paramecium_, and also fulfill a number of functions in mammals, including clearing mucous from airways, determining left-right asymmetry, and transporting egg cells in fallopian tubes.
+====
++
+. Integrons consist of three elements: an attachment site where the horizontally aquired sequence is integrated; a gene encoding a site-specific recombinase (that is, integrase); and a promoter that drives expression of the incorporated sequence.
++
+====
+Integrons consist of three elements: a site that integrates horizontally aquired sequences; a gene that encodes a site-specific recombinate (that is, integrase); and a promoter that derives expression of the incorporated sequence.
+====
++
+. North American (NA)-EEEV strains cause periodic outbreaks of mosquito-borne encephalitis in humans and equines, are highly neurovirulent, and, in comparison with related Venezuelan equine encephalitis virus (VEEV) and western equine encephalitis virus (WEEV), cause far more severe encephalitic disease in humans.
++
+====
+North American (NA)-EEEV strains cause periodic outbreaks of mosquito-borne encephalitis in humans and equines, severe neurological diseases, and far more severe encephalitic disease in humans compared to related Venezuelan equine encephalitic virus (VEEV) and western equine encephalitis virus (WEEV).
+====
+
+== Exercise 13
+
+Count the number of words in these sentences. Is there a variety of sentence lengths? What is the average number of words in a sentence? Is the average long or short? Suggest how you would improve the sentence length.
+
+. In order to unravel the mode of action of neuronal networks, a neurobiologist's dream would be not only to be able to monitor neuronal activity but also to have control over distinct sets of neurons and to be able to manipulate their activity and observe the effect on behavior. This idea is not new. As the activity of a neuron is based on the depolarization of its cell membrane, neuronal activity can be induced by an experimenter using stimulation electrodes by which the cell membrane can be artificially depolarized or hyperpolarized. Although stimulation electrodes have served, and continue to serve, neuroscientists well for decades, limitations of this invasive approach are obvious.
++
+====
+* Sentence 1: 49 words
+* Sentence 2: 5 words
+* Sentence 3: 37 words
+* Sentence 4: 20 words
+
+The paragraph has some variety of sentence lengths. The average length is just under 28 words per sentence, which is long. To lower this average, the first sentence can be shortened.
+
+Neurobiologists dream of being able to monitor and manipulate neuronal activity in distinct sets of neurons to observe the effect on behavior.
+====
+
+Break up the following long sentences into shorter ones.
+
+. The extrapolation from _in vitro_ measurements to the _in vivo_ behavior of proteins is hampered by extremely high (300-400 mg/mL) intracellular macromolecular concentrations in the cell, i.e. crowding, which is one of the most important factors that influences the structure and function of proteins under physiological conditions. (47 words)
++
+====
+The extrapolation from _in vitro_ measurements to the _in vivo_ behavior of proteins is hampered by extremely high (300-400 mg/mL) intracellular macromolecular concentrations in the cell, i.e. crowding. Crowding is one of the most important factors that influences the structure and function of proteins under physiological conditions. (29 words, 19 words)
+====
++
+. Some of the confusion about the role of hybridization in evolutionary diversification stems from the contradiction between a perceived necessity for cessation of gene flow to enable adaptive population differentiation on the one hand, and the potential of hybridization for generating adaptive variation, functional novelty, and new species on the other. (52 words)
++
+====
+Some of the confusion about the role of hybridization in evolutionary diversification stems from two contradicting ideas. One is the perceived necessity for cessation of gene flow to enable adaptive population differentiation. The other is the potential of hybridization for generating adaptive variation, functional novelty, and new species. (17 words, 15 words, 16 words)
+====
+
+== Exercise 14
+
+Find the issue in the following body paragraphs. How does the writer develop it?
+
+. Males of _O. acuminatus_ [dung beetles] employed two very different tactics to encounter and mate with females: they either attempted to monopolize access to a female by guarding the entrance to her tunnel (guarding), or they attempted to bypass guarding males (sneaking). Guarding behaviour entailed remaining inside a tunnel with a female, and fighting intruding males over possession of the tunnel. Guarding males blocked tunnel entrances and periodically "patrolled" the length of the tunnel. Rival males could gain possession of a tunnel only by forcibly evicting the resident male, and both fights and turnovers were frequent. Fights over tunnel occupancy entailed repeated butting, wrestling and pushing of opponents, and fights continued until one of the contestants left the tunnel.
++
+====
+This paragraph's issue is the two mating tactics of _O. acuminatus_ males. The paragraph develops this issue by describing one of these techniques: guarding.
+====
++
+. One prerequisite for the maintenance of dimorphism is that organisms experience a fitness tradeoff across environments. If animals encounter several discrete environment types, or ecological or behavioral situations, and these different environments favor different morphologies, then distinct morphological alternatives can evolve within a single population—each specialized for one of the different environments. Such fitness tradeoffs have been demonstrated for several dimorphic species. For example, soft and hard seed diets have favored two divergent bill morphologies within populations of the African finches, and high and low levels of predation have favored alternative shell morphologies in barnacles, and spined and spineless morphologies in rotifers and _Daphnia_. It is possible that the alternative reproductive tactics characterized in this study produce a similar situation in _O.acuminatus_. If guarding and sneaking behaviors favor horned and hornless male morphologies, respectively, then the reproductive behavior of males may have contributed to the evolution of male horn length dimorphism in this species.
++
+====
+The paragraph's issue comprises the first three sentences. In these sentences, the writer states that this paragraph is about the relationship between dimorphism and fitness tradeoffs in different environments. The rest of the paragraph develops this issue by providing examples.
+====
++
+. In recent times, the origin of the adaptive immune response has been uncovered. It turns out that the two recombinase-activated genes are encoded in a short stretch of DNA, in opposite orientations and lacking exons. This suggested an origin in a retroposon, as did the presence of the recognition signal sequences that lie 3' of all V gene segments and 5' of all J gene segments. This hypothesis was tested _in vitro_ and shown to be true. Other processes expand diversity tremendously, such as the generation of D gene segments in the first chain to rearrange, the nucleotide-adding enzyeme TdT that inserts nucleotides in the junctions of the V-D-J junctions, and somatic hypermutation.
++
+====
+The paragraph's first sentence contains the issue: the recent discovery of the origin of the adaptive immune response. It develops this issue by describing how DNA has evolved and expanded diversity.
+====
+
+Describe the issue, development, and conclusion in each of the following paragraphs.
+
+. Despite a consistent correlation between genome size and the obligate association with host cells, genome reduction is not simply an adaptive response to living within hosts. Instead, the trend toward large-scale gene loss reflects a lack of effective selection for maintaining genes in these specialized microbes. Because the host presents a constant environment rich in metabolic intermediates, some genes are rendered useless by adoption of a strictly symbiotic or pathogenic life-style. These superfluous sequences are eliminated through mutational bias favoring deletions, a process apparently universal in bacterial lineages. Thus, all of the fully sequenced small genomes display a pattern of loss of biosynthetic pathways, such as those for amino acids that can be obtained from the host cytoplasm.
++
+====
+This paragraph's issue is that microbes experience genome reduciton because they don't effectively select for maintaining genes, not simply because they adaptively respond to living within hosts. The paragraph develops this issue by explaining how the genome reduction occurs. It concludes that "all of the fully sequenced genomes display a pattern of loss of biosynthetic pathways."
+====
++
+. Unlike pathogens, symbionts may devote part of ther genomes to processes that are more directly beneficial to the host rather than to the bacterial cell itself. _Buchnera_ retains and even amplifies genes for the biosynthesis of amino acids required by hosts, devoting almost 10% of its genome to these pathways, which are missing from pathogens with similarly small genomes. Because of their fastidious growth requirements, the biological role of obligately associated symbionts can rearely be determined experimentally. However, genome comparisons can provide a means for determining their functions in hosts. Such future research should reveal, for example, whether the endosymbionts of blood-feeding hosts, such as _Wiggleworthia glossinia_ in tsetse files, retain pathways for biosynthesis of vitamins absent from blood, whether the  symbiont _Vibrio fischeri_ provides functions other than bioluminescence to its squid host, and whther the mutualistic _Wolbachia_ of filarial nematodes contain genes for host benefit that are absent in the parasitic _Wolbachia_ of arthropods.
++
+====
+This paragraph's issue is the first sentence. It then develops that issue by describing examples of symbionts that devote part of their genomes to helping their hosts. The conclusion suggests areas of future research.
+====
+
+== Exercise 15
+
+What arrangement pattern have the following writers used to order their paragraphs? What words foretell the pattern?
+
+. Previous studies have shown that animals produce different antipredator vocalizations for aerial and terrestrial predators. Most of these studies, however, have presented these two types of predators in different ways, potentially confounding the interpretation that prey distinguish between types of predators and not their location or behavior. Our results show that chickadees do not vocally discriminate between raptors and mammals when they are presented in similar ways, and thus the "chick-a-dee" call does not refer specifically to the type of predator. +
+Instead, these vocal signals likely contain information about the degree of threat that a predator represents. Maneuverability (e.g., as measured by turning radius, or radial acceleration) is extremely important in determining the outcome of predator-prey interactions and is inversely related to wingspan and body size in birds. Body size may be a good predictor of risk for chickadees: Small raptors tend to be much more maneuverable than larger raptors and likely pose a greater threat.
++
+====
+The writers have ordered their paragraphs to compare their results with earlier studies. They signal this pattern with words like _previous_ and _instead_.
+====
++
+. We tend to take for granted the ability of our immune systems to free our bodies of infection and prevent its recurrence. In some people, however, parts of the immune system fail. In the most severe of these immunodeficiency diseases, adaptive immunity is completely absent, and death occurs in infancy from overwhelming infection unless heroic measures are taken. Other less catastrophic failures lead to recurrent infections with particular types of pathogen, depending on the particular deficiency. Much has been learned about the functions of the different components of the human immune system through the study of these immunodeficiencies, many of which are caused by inherited genetic defects. +
+More than 25 years ago, a devastating form of immunodeficiency appeared, the acquired immune deficiency syndrome, or AIDS, which is caused by an infectious agent, the human immunodeficiency viruses HIV-1 and HIV-2. This disease destroys T cells, dendritic cells, and macrophages bearing CD4, leading to infections caused by intracellular bacteria and other pathogens normally controlled by such cells. These infections are the major cause of death from this increasingly prevalent immunodeficiency disease.
++
+====
+The writers have ordered their paragraphs from general information to specific information. They use general words, like _our immune systems_ or _some people_ in the first paragrah. In the second, they use more specific examples, like _a devestating form_ and _this disease_.
+====
+
