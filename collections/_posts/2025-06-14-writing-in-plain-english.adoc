@@ -11,7 +11,7 @@
 
 Technical writers want to write in a way that best serves their readers: they replace weak verbs with strong verbs, switch passive voice to active voice, and rewrite complex sentences into simple ones. Together, these rules guide technical writers towards a consistent style that's easy to read and understand. Writers call this style Plain English.
 
-But what exactly does Plain English mean? To learn more, I read the latest edition of Anne Greene's classic book, _Writing Science in Plain English_. Plain English demands short, simple words and clear sentences. This creates texts that can clearly explain any kind of complex topic beyond just science. And that makes the style worth using for any writer.
+But what exactly does Plain English mean? To learn more, I read the latest edition of Anne Greene's classic book, _Writing Science in Plain English_. Plain English demands short, simple words and clear sentences. These demands create texts that can clearly explain any kind of complex topic beyond just science. And that makes the style worth learning for any kind of technical writer.
 
 To help readers learn to use Plain English, Greene includes exercises throughout her book. For each exercise, I wrote my answer and included Greene's answer as well. I then compared our answers to see how we arrived at our new sentences. By doing so, I hope to improve my Plain English skills and write clearer content.
 
@@ -27,7 +27,7 @@ The subject, _Processes_, is abstract.
 .My revision
 [%collapsible]
 ======
-Diverse [.underline]#plants and animals# [.doubleunderline]#perform# ecological actions such as nutrient cycling, carbon storage, and atmospheric regulation.
+Diverse [.underline]#plants and animals# [.doubleunderline]#perform# various ecological actions. For example, they cycle nutrients, store carbon, and regulate the atmopshere.
 ======
 
 .Solution
@@ -35,6 +35,8 @@ Diverse [.underline]#plants and animals# [.doubleunderline]#perform# ecological 
 ======
 An [.underline]#ecosystem# of diverse plants and animals [.doubleunderline]#cycles# nutrients, [.doubleunderline]#stores# carbon, and [.doubleunderline]#regulates# the atmosphere.
 ======
+
+Greene has written a much simpler sentence. I broke the sentence into two, but she streamlined the single sentence. This makes for a much more direct message.
 ====
 +
 . [.underline]#Declines# in birth rates [.doubleunderline]#have been observed# in many developed countries, and demographers expect that the transition to a stable population will eventually occur in many undeveloped nations as well.
@@ -53,6 +55,8 @@ The subject, _Declines_, is abstract.
 ======
 [.underline]#Demographers# [.doubleunderline]#have observed# that birth rates are declining in many developed countries. They [.doubleunderline]#expect# that populations will eventually stabilize as birth rates decline in undeveloped countries as well.
 ======
+
+In my revision, I tried to remove "-ing" conjugations. I believed that these conjugations made the text harder to read and less accessible for non-English readers. However, I'm not sure that's true. Whether it's true or not, I like both revisions. Mine is shorter, but Greene's retains extra context by emphasizing ("-ing"!) that populations will "stabilize" because of the decline in birth rates.
 ====
 +
 . [.underline]#Variations# in magmatism during rifting [.doubleunderline]#have been attributed# to variations in mantle temperature, rifting velocity or duration, active upwelling, or small-scale convection.
@@ -71,6 +75,8 @@ During rifting, [.underline]#magmatism# [.doubleunderline]#changes# according to
 ======
 [.underline]#Magma# produced during rifting [.doubleunderline]#varies# for several reasons: changes in mantel temperature, rifting velocity or duration, active upwelling, or small-scale convection.
 ======
+
+Greene has the advantage here. Her sentence is more direct and easier to read. It translates "magmatism" and makes good use of the colon.
 ====
 +
 . The [.underline]#inability# of lateral variations in mantle temperature and composition, alone, to account for our observations [.doubleunderline]#leads# us to propose that another influence was melt focusing.
@@ -89,6 +95,8 @@ The subject, _inability_, is abstract.
 ======
 [.underline]#We# [.doubleunderline]#could# not [.doubleunderline]#account# for our observations with lateral variations in mantle temperatures and composition alone. Another [.underline]#influence# [.doubleunderline]#was# melt focusing.
 ======
+
+I think both revisions are good. Mine kept the subject the same between the two sentences, but Greene's is a little shorter and less committed. (She doesn't pin the writers to a position with "We propose.")
 ====
 +
 . The [.underline]#ability# of mudrock seals to prevent CO~2~ leakage [.doubleunderline]#is# a major concern for geological storage of anthropogenic CO~2~.
@@ -107,6 +115,8 @@ Mudrock [.underline]#seals# [.doubleunderline]#can prevent# CO~2~ leakage and th
 ======
 [.underline]#Geologists# [.doubleunderline]#are concerned# that mudrock seals may allow anthropogenic CO~2~ to leak from geological storage.
 ======
+
+These revisions are quite different, and I attribute that to my misunderstanding the original sentence. However, I think both are good revisions.
 ====
 
 == Exercise 2
@@ -127,6 +137,8 @@ Photographs from space taken by satellites [.doubleunderline]#indicate# urbaniza
 ======
 Satellite photographs [.doubleunderline]#indicate# the spread of urban areas and [.doubleunderline]#demonstrate# the human footprint.
 ======
+
+Greene's is shorter and cleaner. She collapsed "Photographs from space taken by satellites" to the much more readable "Satellite photographs." She also broke down "urbanization" into "spread of urban areas," which eliminates a nominalization.
 ====
 +
 . Weather variables (precipitation, temperature, and wind speed) [.doubleunderline]#are# key factors in limiting summer habitat availability.
@@ -143,6 +155,8 @@ Precipitation, temperature, and wind speed [.doubleunderline]#limit# available s
 ======
 Precipitation, temperature, and wind speed [.doubleunderline]#limit# available summer habitat.
 ======
+
+Our revisions are the same. We both took the parenthetical and made those the acting characters in the sentence.
 ====
 +
 . A risk management ranking system [.doubleunderline]#is# the central mechanism for which prioritization of terrestrial invasive species is based.
@@ -159,6 +173,8 @@ A risk management ranking system [.doubleunderline]#prioritizes# terrestrial inv
 ======
 We [.doubleunderline]#rank# terrestrial invasive species according to the threat they pose to the environment.
 ======
+
+Greene introduces a new actor, "We," to the sentence. Mine doesn't. I think both are good.
 ====
 +
 . It [.doubleunderline]#is# clear that Prairie Chickens are closely associated with sagebrush habitat throughout the year.
@@ -175,9 +191,11 @@ Prairie Chickens [.doubleunderline]#live# in sagebrush habitat throughout the ye
 ======
 Prairie Chickens [.doubleunderline]#occupy# sagebrush habitat throughout the year.
 ======
+
+These are the same, except I use "live in" and Greene uses "occupy." I like "live in" better because it's simpler, but "occupy" is much more concise.
 ====
 +
-. The occurence of freezing and thawing [.doubleunderline]#is# an important control on cohesive bank erosion in the region.
+. The occurrence of freezing and thawing [.doubleunderline]#is# an important control on cohesive bank erosion in the region.
 +
 ====
 .My revision
@@ -191,6 +209,8 @@ Freezing and thawing [.doubleunderline]#control# cohesive bank erosion in the re
 ======
 Freezing and thawing [.doubleunderline]#control# cohesive bank erosion in the region.
 ======
+
+Our revisions are exactly the same. In both, "Freezing and thawing" become the acting characters instead of the more nebulous "occurrence."
 ====
 
 == Exercise 3
@@ -211,6 +231,8 @@ In each sentence, underline the subject once and the verb twice. Revise by placi
 ======
 To develop sustainable solutions to the problems of human growth and development, [.underline]#we# [.doubleunderline]#will need# environmentally literate citizens.
 ======
+
+Greene and I order our clauses differently. Greene opens her sentence with a dependent clause, and I finish mine with the same clause. Both are good, but the "winner" depends on the sentence's context.
 ====
 +
 . [.underline]#Partnerships# between professional teachers, scientists, non-professional science educators, and administrators [.doubleunderline]#are# needed to improve the content and effectiveness of science education, particularly in rural areas.
@@ -227,6 +249,8 @@ To develop sustainable solutions to the problems of human growth and development
 ======
 By building partnerships between professional teachers, scientists, nonprofessional science educators, and administrators, [.underline]#we# [.doubleunderline]#can improve# the content and effectiveness of science education, particularly in rural areas.
 ======
+
+Like the previous question, we reversed our clause order. Unlike the first sentence, I condensed the sentence's scope from four audiences to two. I did this for a little more brevity and clarity. But, the sentence's context may require all four audiences to be explicitly stated.
 ====
 +
 . Our [.underline]#ability# to predict the spatial spread of exotic species and their transformation of natural communities [.underline]#is# still developing.
@@ -243,6 +267,8 @@ By building partnerships between professional teachers, scientists, nonprofessio
 ======
 [.underline]#We# still [.doubleunderline]#cannot predict# with certainty how an exotic species will spread or transform a natural community.
 ======
+
+These are very similar. My revision says we "cannot predict yet", and Greene's says we "still cannot predict." Mine puts more emphasis on the idea that, one day, we'll be able to predict how exotic species spread.
 ====
 +
 . The [.underline]#amount# of magmatism that accompanies the extension and rupture of the continental lithosphere [.doubleunderline]#varies# dramatically at rifts and margins around the world.
@@ -259,6 +285,8 @@ As the continental lithosphere extends and ruptures, the accompanying magma [.un
 ======
 When the continental lithosphere extends and ruptures at rifts and margins, the [.underline]#amount# of accompanying magmatism [.doubleunderline]#varies# dramatically.
 ======
+
+Based on previous examples, I thought Greene would have opted to use something other than "magmatism" in her revision. Therefore, I tried to do the same. However, Greene kept magmatism and shifts the clauses around. I prefer my revision to Greene's.
 ====
 +
 . [.underline]#Pre-migration# of melts vertically to the top of the melting region and then laterally along the base of the extended continental lithosphere [.doubleunderline]#would focus# melts toward the eastern part of the basin.
@@ -276,6 +304,8 @@ When the continental lithosphere extends and ruptures at rifts and margins, the 
 ======
 [.underline]#Melts# [.doubleunderline]#migrate# vertically to the top of the melting region, then laterally along the base of the extended continental lithosphere toward the eastern part of the basin.
 ======
+
+Here's another example of me not understanding the original sentence. Both revisions do well to put the subject and verb close together. Greene's probably makes more sense, technically.
 ====
 +
 . Pre-treatment of tenocytes with different concentrations of wortmannin (1, 10, and 20 nM) for 1 h, treated with curcumin (5 μM) for 4 h, and then treated with IL-1β for 1 h, inhibited the IL-1β-induced NF-κB activation.
@@ -292,6 +322,8 @@ When the continental lithosphere extends and ruptures at rifts and margins, the 
 ======
 [.underline]#We# [.doubleunderline]#inhibited# the IL-1β-induced NF-κB activation by treating tenocytes with wortmannin (1, 10, and 20 nM) for 1h, followed by curcumin (5μM) for 4h, and then IL-1β for 1 h.
 ======
+
+These are pretty similar revisions. Between the two, I like mine more. It feels more direct ("prevented" vs. "inhibited"). However, I like that Greene removed "different...concentrations" in her revision.
 ====
 
 == Exercise 4
@@ -300,9 +332,12 @@ Read each sentence and underline the subject and double underline the verb(s). I
 
 . Four big brown [.underline]#bats# [.doubleunderline]#served# as subjects in these experiments, two males and two females.
 +
+====
 The verb, _served_, is active.
+====
 +
 . The [.underline]#animals# [.doubleunderline]#were collected# from private homes in Maryland and [.doubleunderline]#were housed# in the University of Maryland bat vivarium.
+==
 +
 The verbs phrases, _were collected_ and _were housed_, are passive.
 +
