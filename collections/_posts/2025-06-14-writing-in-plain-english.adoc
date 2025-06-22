@@ -1,5 +1,5 @@
 = Writing in Plain English
-:page-last_modified_at: 2025-06-19
+:page-last_modified_at: 2025-06-22
 :page-liquid:
 :page-categories: ["portfolio"]
 :page-toc: true
@@ -337,17 +337,22 @@ The verb, _served_, is active.
 ====
 +
 . The [.underline]#animals# [.doubleunderline]#were collected# from private homes in Maryland and [.doubleunderline]#were housed# in the University of Maryland bat vivarium.
-==
 +
+====
 The verbs phrases, _were collected_ and _were housed_, are passive.
+====
 +
 . [.underline]#Bats# [.doubleunderline]#were maintained# at 80% of their _ad lib_ feeding weight and [.doubleunderline]#were# normally [.doubleunderline]#fed# mealworms only during experiments.
 +
+====
 The verb phrases, _were maintained_ and _were [normally] fed_, are passive.
+====
 +
 . [.underline]#We# [.doubleunderline]#exposed# the bats to a reversed 12h dark:12h light cycle, and we [.doubleunderline]#gave# them free access to water.
 +
+====
 The verbs, _exposed_ and _gave_, are active.
+====
 
 == Exercise 5
 
@@ -367,6 +372,8 @@ To effectively store industrial CO~2~, we must retain it for ~10^4^ or more year
 ======
 Effective storage of industrial CO~2~ requires retention times of ~10^4^ yr or greater. (13 words)
 ======
+
+I added a concrete subject, "we," for this revision. This shaved off a word from the original sentence, and I think it's pretty clear. Although, Greene's version is one word less still.
 ====
 +
 . It is hypothesized that groundwater pH must have been, on average, highest shortly before the Late Ordovician to Silurian proliferation of root-forming land plants. (24 words)
@@ -383,6 +390,8 @@ We hypothesize that groundwater pH was, on average, highest shortly before the l
 ======
 One hypothesize suggests that, on average, groundwater pH must have been highest shortly before the late Ordovician to Silurian proliferation of root-forming land plants. (24 words)
 ======
+
+Again, I added "we" as a concrete subject. My revision is the shorter one this time. I think my version is more direct, clear, and readable.
 ====
 +
 . We were compelled to rely on the SOC90 data as no further information on the occupational situation (employed vs. self-employed) or on the size of the firm was available in retrospective form. (32 words)
@@ -399,6 +408,8 @@ We relied on the SOC90 data because we could not access further information on t
 ======
 We relied on the SOC90 data because we couldn't find past information on the number of people who were employed versus self-employed or on the size of the firm. (29 words).
 ======
+
+These are close, but Greene's is better. It eliminates odd phrases, like "occupational situation" or "retrospective form." She does a much better job of simplifying the sentence.
 ====
 +
 . Moreover, it has been demonstrated that mineral-water reactions increase the pH of groundwater even in the presence of abundant acid-producing lichens (Schatz 1963). (24 words)
@@ -415,6 +426,8 @@ Moreover, mineral-water reactions increase the pH of groundwater, even in the pr
 ======
 Shatz (1963) demonstrated that mineral-water reactions increase the pH of groundwater, even in the presence of abundant acid-producing lichens. (19 words)
 ======
+
+Greene moves the inline citation to the start of the sentence and incorporates into the sentence directly. I think both revisions are good, but Greene's has a human character performing an action, which helps readability.
 ====
 
 == Exercise 6
@@ -444,6 +457,8 @@ For example, as a part of the northern Yellowstone elk herd roams north of the p
 ======
 For example, [.underline]#more# elk from the northern Yellowstone herd have [.underline]#moved# north of the park boundary and are [.underline]#mainly# using the ranchland that we [.underline]#bought# and [.underline]#put into# elk winter range.
 ======
+
+I tried to simplify the sentence as much as I could, but I seemed to have misinterpreted the original. I think both revisions are fine, even if they say different things.
 ====
 +
 . Poor [.underline]#communication# between [.underline]#physician# and patients [.underline]#predisposes# to [.underline]#medical malpractice# cases, while [.underline]#effective# communication lowers patient's [.underline]#anxiety#, improves [.underline]#compliance# and [.underline]#clinical# outcome.
@@ -470,6 +485,8 @@ Doctors who talk to their patients have happier patients and better results.
 ======
 If patients [.underline]#cannot# understand [.underline]#what their doctors# are [.underline]#saying#, they [.underline]#worry# more and are [.underline]#less likely# to [.underline]#follow# instructions and [.underline]#get better#. They are also [.underline]#more# likely to [.underline]#sue#.
 ======
+
+Greene's is clearly more descriptive. Compared to hers, my revision is a little to pared back. I think Greene's is a much better example of using simple words without obfuscating or changing the sentence's meaning.
 ====
 
 == Exercise 7
@@ -490,6 +507,8 @@ One way to assess the perceived risk of feeding in different areas is to measure
 ======
 We can assess the perceived risk of feeding in different patches by measuring the proportion of the available food a forager removes before switching to an alternative patch. All else being equal, foragers should be willing to forage longer and remove more food from a safe patch than a risky one.
 ======
+
+These are close; I chose "area" and Greene chose "patch." And I opted for "eat" instead of "remove...food." Greene also introduces a human subject, "we."
 ====
 +
 . [.underline]#Stress coping styles# have been characterized as a proactive/reactive dichotomy in laboratory and domesticated animals. In this study, we examined the prevalence of [.underline]#proactive/reactive stress coping styles# in wild-caught short-tailed mice (_Scotinomys teguina_). We compared [.underline]#stress responses# to spontaneous singing, a social and reproductive behavior that characterizes this species.
@@ -506,6 +525,8 @@ Stress responses in laboratory and domesticated animals have been categorized in
 ======
 Laboratory and domestic animals respond to stress in one of two ways: practively or reactively. Here, we looked at how often wild-caught short-tailed mice responded either proactively or reactively to spontaneous singing—a common social and reproductive behavior of this species.
 ======
+
+The second sentence in each revision is pretty close. I misinterpreted the original sentence; it wasn't clear to me that the spontaneous singing caused the stress responses. Greene's first sentence is very compact, the subject and verb are close to each other, and she makes good use of a colon to introduce new information at the end of the sentence.
 ====
 +
 . Expansion of child-care subsidies would mitigate family income gaps in access to [.underline]#licensed care facilities#, moving families from [.underline]#unlicensed care# to [.underline]#center-based care# in particular.
@@ -520,17 +541,19 @@ If we expanded access to child-care subsidies, more families could switch from u
 .Solution
 [%collapsible]
 ======
-If there were expanded subsidies for child care, more families could afford t omove their children from unlicensed to licensed facilities.
+If there were expanded subsidies for child care, more families could afford to move their children from unlicensed to licensed facilities.
 ======
+
+My revision uses a human subject, "we." Greene's doesn't. And her independent clause sounds better. I think she does it by not repeating "care facilities" twice.
 ====
 +
-. Studies of long-term outcomes in offspring exposed to [.underline]#maternal undernutrition and stress# caused by the Dutch Hunger Winter of 1944 to 1945 revealed an increased prevalence of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have been developed to asses the long-term consequences of a variety of [.underline]#maternal challengs# including under-and overnutrition, hyperglycemia, chronic stress, and inflammation. Exposures to a wide range of [.underline]#insults during gestation# are associated with convergent effects on fetal growth, neurodevelopment, and metabolism.
+. Studies of long-term outcomes in offspring exposed to [.underline]#maternal undernutrition and stress# caused by the Dutch Hunger Winter of 1944 to 1945 revealed an increased prevalence of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have been developed to assess the long-term consequences of a variety of [.underline]#maternal challengs# including under-and overnutrition, hyperglycemia, chronic stress, and inflammation. Exposures to a wide range of [.underline]#insults during gestation# are associated with convergent effects on fetal growth, neurodevelopment, and metabolism.
 +
 ====
 .My revision
 [%collapsible]
 ======
-Studies of the long-term effects on offspring exposed to maternal ailments caused by the Dutch Hunger Winter of 1944 to 1945 revelaed a higher rate of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional psychiatric disorders. Animal models have assessed the long-term effects of a variety of maternal ailments. These maternal ailments are associated with long-term effects on offspring's fetal growth, neurodevelopment, and metabolism.
+Studies of the long-term effects on offspring exposed to maternal ailments caused by the Dutch Hunger Winter of 1944 to 1945 revelaed a higher rate of metabolic disease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Animal models have assessed the long-term effects of a variety of maternal ailments. These maternal ailments are associated with long-term effects on offspring's fetal growth, neurodevelopment, and metabolism.
 ======
 
 .Solution
@@ -538,6 +561,8 @@ Studies of the long-term effects on offspring exposed to maternal ailments cause
 ======
 Studies show that when mothers were starved and stressed during pregnancy in the Dutch Hunger Winter of 1944 to 1945, it had long-term effects on their children. These children developed more metabolic desease, such as glucose intolerance, obesity, and cardiovascular disease, as well as emotional and psychiatric disorders. Research on animals show simlar results. Starvation, overeating, hyperglycemia, chronic stress, and inflammation during pregnancy affect fetal growth, neurodevelopment, and metabolism.
 ======
+
+Greene's revision is much clearer. She replaces words with simpler ones, like "mother," "children," "starvation," and "overeating." She uses four sentences instead of three, which gives her writing room to breathe.
 ====
 
 == Exercise 8
@@ -558,6 +583,8 @@ Regular exercise and diets prevent disease and promote a healthy lifestyle.
 ======
 Regular exercise and attention to diet help prevent disease and promote health.
 ======
+
+These revisions are pretty similar. I like Greene's "attention to diet" rather than my "diets." I'm always torn over using the verb "help." Instead, my instinct tells me to drop it and let the subject perform the action, not just help perform it. However, using "help" does make it clearer when it's the case that the subject is only one among many ways to perform the action.
 ====
 +
 . Research focused on [.underline]#care time deficits# and [.underline]#time squeezes# for families has identified the persistence of [.underline]#gendered care time burdens# and the sense of [.underline]#time pressure# many [.underline]#dual-earner families# experience around care.
@@ -572,8 +599,10 @@ Research focused on the time spent on child care in families where both parents 
 .Solution]
 [%collapsible]
 ======
-Research on families where both parents work shows that the demans of child care take a greate deal of time and are still met mostly by mothers.
+Research on families where both parents work shows that the demans of child care take a great deal of time and are still met mostly by mothers.
 ======
+
+Greene's revision is much clearer. And I like that she called out the issue by name: time spent on child care falls disproportionately on mothers. Mine was too vague.
 ====
 +
 . There will be [.underline]#major conservation implications# if [.underline]#mercury ingestion# in ospreys causes [.underline]#negative population level effects# either through [.underline]#direct mortality# or [.underline]#negative fecundity#.
@@ -590,15 +619,17 @@ There will be major impacts on conservation efforts if eating mercury causes pop
 ======
 If high levels of mercury in ospreys either kills them directly or lowers their breeding success, their populations will decline.
 ======
+
+Again, Greene's version is much clearer. If X, then Y. That's easier to read and to follow than my revision.
 ====
 
 == Exercise 9
 
 Here is an example of complex writing from the field of immunology. Have the authors tried to make it understandable to a broad audience of immunologists? Have they succeeded? Why or why not?
 
-. One of the well-researched immunoregulatory functions of probiotics is the induction of cytokine production. In particular, the induction of IL-10 and IL-12 production by probiotics has been studied intensively, because the balance of IL-10/IL-12 secreted by macrophages and dendritic cells in response to microbes is crucial for determination of the direction of the immune response. IL-10 is an anti-inflammatory cytokine and is expected to improve chronic inflammation, such as that of inflammatory bowel diseases and autoimmune disease. IL-10 downregulates phagocytic and T cell functions, including the production of proinflammatory cytokines, such as IL-12, TNF-α, and IFN-γ, that control inflammatory responses. IL-10 promotes the development of regulatory T cells for the control of excessive immune responses. In contrast, IL-12 is an important mediator of cell-mediated immunity and is expected to augment the natural immune defense against infections and cancers. IL-12 stimulates T cells to secret IFN-γ, promotes Th1 cell development, and, directly or indirectly, augments the cytotoxic activity of NK cells in macrophages. IL-12 also suppresses redundant TH2 cell responses for the control of allergy.
+. One of the well-researched immunoregulatory functions of probiotics is the induction of cytokine production. In particular, the induction of IL-10 and IL-12 production by probiotics has been studied intensively, because the balance of IL-10/IL-12 secreted by macrophages and dendritic cells in response to microbes is crucial for determination of the direction of the immune response. IL-10 is an anti-inflammatory cytokine and is expected to improve chronic inflammation, such as that of inflammatory bowel diseases and autoimmune disease. IL-10 downregulates phagocytic and T cell functions, including the production of proinflammatory cytokines, such as IL-12, TNF-α, and IFN-γ, that control inflammatory responses. IL-10 promotes the development of regulatory T cells for the control of excessive immune responses. In contrast, IL-12 is an important mediator of cell-mediated immunity and is expected to augment the natural immune defense against infections and cancers. IL-12 stimulates T cells to secret IFN-γ, promotes Th1 cell development, and, directly or indirectly, augments the cytotoxic activity of NK cells in macrophages. IL-12 also suppresses redundant Th2 cell responses for the control of allergy.
 ====
-The authors wrote what seems like an understandable paragraph for their audience of immunologists. They structured their sentences so that old information comes before new information. They broke up excessively long noun strings. And their word choice seems appropriate to immunologists, even if I don't personally understand much of it.
+The authors wrote what seems like an understandable paragraph for their audience of immunologists. They structured their sentences so that old information comes before new information. They broke up excessively long noun strings. And their word choice seems appropriate to immunologists, even if I don't understand it.
 ====
 
 == Exercise 10
@@ -621,6 +652,8 @@ While research indicates that groups of large herbivores can exert indirect effe
 ======
 Research shows that large herbivores can indirectly influence co-occuring species, but few studies focus on a single species of large herbivore and how it affects the whole community. (28 words)
 ======
+
+Both revisions are good improvements over the original sentence. My revision is shorter and just as easy to read as Greene's revision.
 ====
 +
 . Small mammal species diversity increased in exclosures relative to controls, while survivorship showed no significant trends. (16 words)
@@ -639,6 +672,8 @@ Small mammals diversified more in exclosures relative to controls, but survivors
 ======
 Diversity of small mammals increased in exclosures relative to controls, while survivorship stayed the same. (15 words)
 ======
+
+My revision is a couple of words shorter than Greene's revision. This is at least partially due to the lessons I learned from Johnson-Sheehan—eliminate unneccessary prepositional phrases.
 ====
 +
 . In this essay, I wil be looking at how higher summer temperatures cause quicker soil and plant evaporation. We all know that climate change has caused elevated temperatures in the Northwest throughout the spring and summer months. We also know that these record-breaking temperatures have the effect of quickly and easily desiccating soil and drying out plant foliage so that it is more flammable. Understandably then, when lightning strikes this very combustible environment, a spark can very quickly turn into a widespread blaze. (83 words)
@@ -649,7 +684,7 @@ _In this essay_, _We all know that_, and _Understandably then_ are unnecessary o
 .My revision
 [%collapsible]
 ======
-It is well known that climate change has caused elevated temperatures in the Northwest. It is also known that these record-breaking temperatures quickly and easily dessicate soil and dry out plant foliage so that it is more flammable. Therefore, when lightning stikes this flammable environment, a spark can quickly turn into a widespread blaze. (54 words)
+It is well known that climate change has caused elevated temperatures in the Northwest. It is also known that these elevated temperatures quickly and easily dessicate soil and dry out plant foliage so that it is more flammable. Therefore, when lightning stikes this flammable environment, a spark can quickly turn into a widespread blaze. (54 words)
 ======
 
 .Solution
@@ -657,6 +692,8 @@ It is well known that climate change has caused elevated temperatures in the Nor
 ======
 Due to climate change, spring and summer temperatures in the Northwest are becoming warmer. Warmer temperatures dry out both soils and plant foliage, which are then more prone to wildfires. (30 words)
 ======
+
+Both revisions cut the number of words from the original sentence significantly. Greene's revision, though, cuts far more words than mine. Hers is much more clear and direct.
 ====
 +
 . Zimbabwean undocumented migrants are shown to be marginalized and vulnerable with limited transnational citizenship. (14 words)
@@ -675,6 +712,8 @@ Undocumented migrants from Zimbabwe are marginalized and vulnerable with limited
 ======
 Undocumented migrants from Zimbabwe are marginalized and vulnerable with limited transnational citizenship. (12 words)
 ======
+
+Our revisions are exactly the same. In both revisions, we break up the phrase _Zimbabwean undocumented migrants_. This is an example that comes up frequently throughout this section of exercises: long strings of multiple adjectives and one noun. This kind of construction is ripe for rephrasing to clarify text.
 ====
 +
 . When the lithosphere extends and rifts along continental margins, magma is produced in varying quantities. Widely spaced geophysical transects show that rifting along some continental margins can transition from magma-poor to magma-rich. Our wide-angle seismic data from the Black Sea provide the first direct observations of such a transition. This transition coincides with a transform fault and is abrupt, ocurring over only ~20-30 km. This abrupt transition cannot be explained solely by gradual along-margin variations in mantle properties, since these would be expected to result in a smooth transition from magma-poor to magma-rich rifting over hundreds of kilometers. We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, a phenomenon that has been observed in active rift environments such as mid-ocean ridges. (133 words)
@@ -701,6 +740,8 @@ Our wide-angle seismic data from the Black Sea provide the first direct observat
 ======
 We suggest that the abruptness of the transition results from the 3-D migration of magma into areas of greater extension during rifting, similar to active rift environments such as mid-ocean ridges. (31 words)
 ======
+
+Greene cuts over 100 words from the original sentence by completely removing the preamble. By contrast, I kept an abreviated form the of introductory information because I thought it was important for the context of the final sentence. Although that may sometimes be true, it's clearly important to evaluate that carefully. Otherwise, you miss might miss the opportunity to shorten your text by a lot.
 ====
 +
 . The empirical data presented in this article reveal a segmented labor market and exploitation, with undocumented migrants not benefiting from international protection, human rights, nation state citizenship rights, or rights associated with the more recent concepts of postnatinoal and transnational citizenship. (41 words)
@@ -719,11 +760,13 @@ Empircal data reveal a segmented labor market and exploitation, which excludes u
 ======
 The segmented labor market we describe exploits undocumented migrants. These people lack international protection, human rights, nation state citizenship, and rights associated with the more recent concepts of postnational and transnational citizenship. (30 words)
 ======
+
+Greene's version is shorter, but her first sentence could be clearer, in my opinion. Otherwise, I like that she split a long sentence into two shorter ones.
 ====
 
 List the transition words in the following paragraph and explain why they are useful.
 
-. The systemic immune response in _Drosophila_ is mediated by a battery of antimicrobial peptides produced largely by the fat body, an insect organ analogous to a mammalian liver. These peptides lyse microorganisms by forming pores in their cell walls. Functionally, the antimicrobial peptides fall into three classes depending on the pathogen specificity of their lytic activity. Thus, Drosomycin is a major antifungal peoptide, whereas Diptericin is active against gram-negative bacteria, and Defensin works against gram-positive bacteria. Interestingly, infection of _Drosophila_ with different classes of pathogens leads to preferential induction of the appropriate group of antimicrobial peptides.
+. The systemic immune response in _Drosophila_ is mediated by a battery of antimicrobial peptides produced largely by the fat body, an insect organ analogous to a mammalian liver. These peptides lyse microorganisms by forming pores in their cell walls. Functionally, the antimicrobial peptides fall into three classes depending on the pathogen specificity of their lytic activity. Thus, Drosomycin is a major antifungal peptide, whereas Diptericin is active against gram-negative bacteria, and Defensin works against gram-positive bacteria. Interestingly, infection of _Drosophila_ with different classes of pathogens leads to preferential induction of the appropriate group of antimicrobial peptides.
 
 ====
 * _These peptide_ tell the reader that the peptides from the last sentences are the ones that this sentences is talking about.
@@ -749,7 +792,7 @@ These principles make the writing concise.
 
 In the following sentences and paragraphs, did the writers put the old and new information in the right places? Revise any incorrect sentences using the "old to new" principle.
 
-. Unfortunately, as noted 40 years ago, few students experience the thrill of doing field science because they are rarely allowed to leave the confines of the classroom to become imersed in field-based science.
+. Unfortunately, as noted 40 years ago, few students experience the thrill of doing field science because they are rarely allowed to leave the confines of the classroom to become immersed in field-based science.
 +
 ====
 The writers put the old information at the end of this sentence.
@@ -762,7 +805,7 @@ Unfortunately, as noted 40 years ago, few students experience the thrill of doin
 ====
 The writers put old information at the end of this sentence.
 
-After 1957, bank erosion rates along the South River in Virgina increased 2-3 times. These increases have little to do with changes in freeze-thaw or storm intensity. Changes in riparian tree density should have had the opposite effect.
+After 1957, bank erosion rates along the South River in Virgina increased 2-3 times. These increases have little to do with changes in freeze-thaw or storm intensity, and changes in riparian tree density should have had the opposite effect.
 ====
 +
 . Students majoring in science often believe they can escape the intensive writing and presentations that their peers in the humanities and social sciences must do. However, science is a collective human endeavor whose success hinges upon effective communication, both written and oral. Even if findings are ground breaking, they are potentially worthless if they can't be shared with others in a clear and engaging way. Teaching undergraduate science students to effectively communicate is therefore an essential goal.
@@ -770,7 +813,7 @@ After 1957, bank erosion rates along the South River in Virgina increased 2-3 ti
 ====
 The ends of the first three sentences don't introduce the subject of the next one.
 
-Students often believe they can escape the intensive writing and presentations that their peers in the humanities and social sciences must do by majoring in science. However, science is a collective human endeavor whose success hinges upon the effective written and oral communication of its findings. Even if those findings are ground breaking, they are potentially worthless if they cannot be shared. Therefore, teaching undergraduate science students to communicate effectively is an essential goal.
+Students often believe they can escape the intensive writing and presentations that their peers in the humanities and social sciences must do by majoring in science. However, science is a collective human endeavor whose success hinges upon the effective written and oral communication of its findings. Even if those findings are ground breaking, they are potentially worthless if students are not taught to share them. Therefore, teaching undergraduate science students to communicate effectively is an essential goal.
 ====
 +
 . They put their lives in our hands, and we failed to save their lives.
@@ -781,7 +824,7 @@ The writers put old information, _their lives_ at the end of the sentence.
 They put their lives in our hands, and we failed them.
 ====
 +
-. Climate plays an important part in determining the average numbers of species, and periodical seasons of extreme cold or drought, I believe to be the most effective of all checks. I estimated that the winter of 1854-55 destroyed four-fifths of the birds in my own grounds; and this is a tremendous destruction, when we remember that ten per cent is an extraordinarily severe mortality from epidemics with man. The action of climate seems at first sight to be quite independent of the struggle for existence; but in so far as climate chiefly acts in reducing food, it brings on the most severe struggle between the individuals, wheter of the same or of distinct species, which subsist on the same kind of food. Even when climate, for instance extreme cold, acts directly, it will be the least vigorous, or those which have got least food through the advancing winter, which will suffer most.
+. Climate plays an important part in determining the average numbers of species, and periodical seasons of extreme cold or drought, I believe to be the most effective of all checks. I estimated that the winter of 1854-55 destroyed four-fifths of the birds in my own grounds; and this is a tremendous destruction, when we remember that ten per cent is an extraordinarily severe mortality from epidemics with man. The action of climate seems at first sight to be quite independent of the struggle for existence; but in so far as climate chiefly acts in reducing food, it brings on the most severe struggle between the individuals, whether of the same or of distinct species, which subsist on the same kind of food. Even when climate, for instance extreme cold, acts directly, it will be the least vigorous, or those which have got least food through the advancing winter, which will suffer most.
 +
 ====
 Each sentence, and each clause within the sentence, places information that came earlier at the start.
@@ -805,7 +848,7 @@ Central to this deficit has been the rising average age of the nursing workforce
 In recent years, there's been a lot of attention to the problem of finding the optimal strokes of hypothetical microswimmers. Optimal strokes that have been found include those for a Purcell's three-link swimmer, an ideal elastic flagellum, a shape-changing body, a two- and a three-sphere swimmer, and a spherical squirmer.
 ====
 +
-. Cilia are hair-like protrusions that beat in an asymmetric fashion to pump the fluid in the direction of their effective stroke. They propel certain protozoa, such as _Paramecium_, and also fulfuill a number of functions in mammals, including mucous clearance from airways, left-right asymmetry determination, and transport of an egg cell in fallopian tubes.
+. Cilia are hair-like protrusions that beat in an asymmetric fashion to pump the fluid in the direction of their effective stroke. They propel certain protozoa, such as _Paramecium_, and also fulfill a number of functions in mammals, including mucous clearance from airways, left-right asymmetry determination, and transport of an egg cell in fallopian tubes.
 +
 ====
 Cilia are hair-like protrusions that beat in an asymmetric fashion to pump the fluid in the direction of their effective stroke. They propel certain protozoa, such as _Paramecium_, and also fulfill a number of functions in mammals, including clearing mucous from airways, determining left-right asymmetry, and transporting egg cells in fallopian tubes.
@@ -827,7 +870,7 @@ North American (NA)-EEEV strains cause periodic outbreaks of mosquito-borne ence
 
 Count the number of words in these sentences. Is there a variety of sentence lengths? What is the average number of words in a sentence? Is the average long or short? Suggest how you would improve the sentence length.
 
-. In order to unravel the mode of action of neuronal networks, a neurobiologist's dream would be not only to be able to monitor neuronal activity but also to have control over distinct sets of neurons and to be able to manipulate their activity and abserve the effect on behavior. This idea is not new. As the activity of a neuron is based on the depolarization of its cell membrane, neuronal activity can be induced by an experimenter using stimulation electrodes by which the cell membrane can be artificially depolarized or hyperpolarized. Although stimulation electrodes have served, and continue to serve, neuroscientists well for decades, limitations of this invasive approach are obvious.
+. In order to unravel the mode of action of neuronal networks, a neurobiologist's dream would be not only to be able to monitor neuronal activity but also to have control over distinct sets of neurons and to be able to manipulate their activity and observe the effect on behavior. This idea is not new. As the activity of a neuron is based on the depolarization of its cell membrane, neuronal activity can be induced by an experimenter using stimulation electrodes by which the cell membrane can be artificially depolarized or hyperpolarized. Although stimulation electrodes have served, and continue to serve, neuroscientists well for decades, limitations of this invasive approach are obvious.
 +
 ====
 * Sentence 1: 49 words
@@ -845,13 +888,13 @@ Break up the following long sentences into shorter ones.
 . The extrapolation from _in vitro_ measurements to the _in vivo_ behavior of proteins is hampered by extremely high (300-400 mg/mL) intracellular macromolecular concentrations in the cell, i.e. crowding, which is one of the most important factors that influences the structure and function of proteins under physiological conditions. (47 words)
 +
 ====
-The extrapolation from _in vitro_ measurements to the _in vivo_ behavior of proteins is hampered by extremely high (300-400 mg/mL) intracellular macromolecular concentrations in the cell, i.e. crowding. This crowding is one of the most important factors that influences the structure and function of proteins under physiological conditions. (29 words, 20 words)
+The extrapolation from _in vitro_ measurements to the _in vivo_ behavior of proteins is hampered by extremely high (300-400 mg/mL) intracellular macromolecular concentrations in the cell, i.e. crowding. Crowding is one of the most important factors that influences the structure and function of proteins under physiological conditions. (29 words, 19 words)
 ====
 +
 . Some of the confusion about the role of hybridization in evolutionary diversification stems from the contradiction between a perceived necessity for cessation of gene flow to enable adaptive population differentiation on the one hand, and the potential of hybridization for generating adaptive variation, functional novelty, and new species on the other. (52 words)
 +
 ====
-Some of the confusion about the role of hybridization in evolutionary diversification stems from two ideas. One is the contradiction between a perceived necessity for cessation of gene flow to enable adaptive population differentiation. The other is the potential of hybridization for generating adaptive variation, functional novelty, and new species. (16 words, 18 words, 16 words)
+Some of the confusion about the role of hybridization in evolutionary diversification stems from two contradicting ideas. One is the perceived necessity for cessation of gene flow to enable adaptive population differentiation. The other is the potential of hybridization for generating adaptive variation, functional novelty, and new species. (17 words, 15 words, 16 words)
 ====
 
 == Exercise 14
@@ -870,7 +913,7 @@ This paragraph's issue is the two mating tactics of _O. acuminatus_ males. The p
 The paragraph's issue comprises the first three sentences. In these sentences, the writer states that this paragraph is about the relationship between dimorphism and fitness tradeoffs in different environments. The rest of the paragraph develops this issue by providing examples.
 ====
 +
-. In recent times, the origin of the adaptive immune response has been uncovered. It turns out that the two recombinase-activated genes are encoded in a short stretch of DNA, in opposite orientations and lacking exons. This suggested an origin in a retroposon, as did the presence of the recognition signal sequences that lie 3' of all V gene segments and 5' of all J gene segments. This hypothesis was tested _in vitro_ and shown to be true. Other processes expand diversity tremendously, such as the generation of D gene segments in the first chain to rearrange, the nucleotide -adding enzyeme TdT that inserts nucleotides in the junctions of the V-D-J junctions, and somatic hypermutation.
+. In recent times, the origin of the adaptive immune response has been uncovered. It turns out that the two recombinase-activated genes are encoded in a short stretch of DNA, in opposite orientations and lacking exons. This suggested an origin in a retroposon, as did the presence of the recognition signal sequences that lie 3' of all V gene segments and 5' of all J gene segments. This hypothesis was tested _in vitro_ and shown to be true. Other processes expand diversity tremendously, such as the generation of D gene segments in the first chain to rearrange, the nucleotide-adding enzyeme TdT that inserts nucleotides in the junctions of the V-D-J junctions, and somatic hypermutation.
 +
 ====
 The paragraph's first sentence contains the issue: the recent discovery of the origin of the adaptive immune response. It develops this issue by describing how DNA has evolved and expanded diversity.
@@ -884,7 +927,7 @@ Describe the issue, development, and conclusion in each of the following paragra
 This paragraph's issue is that microbes experience genome reduciton because they don't effectively select for maintaining genes, not simply because they adaptively respond to living within hosts. The paragraph develops this issue by explaining how the genome reduction occurs. It concludes that "all of the fully sequenced genomes display a pattern of loss of biosynthetic pathways."
 ====
 +
-. Unlike pathogens, symbionts may devote part of ther genomes to processes that are more directly beneficial to the host rather than to the bacterial cell itself. _Buchnera_ retains and even amplifies genes for the biosynthesis of amino acids required by hosts, devoting almost 10% of its genome to these pathways, which are missing from pathogens with similarly small genomes. Because of their fastidious growth requirements, the biological role of obligately associated symbionts can rearely be determined experimentally. However, genome comparisons can provide a means for determining their functions in hosts. Such future research should reveal, for example, whether the endosymbionts of blood-feeding hosts, such as _Wiggleworthia glossinia_ in tsetse files, retain pathways for biosynthesis of vitamins absent from blood, whether the  symbiont _Vibrio fischeri_ provides functions other than bioluminescence to its squid host, and whther the mutualistic _Wolbachia_ of filarial nematodes contain genes for host benefit that are absent in the parasitic _Wolbachia_ of arthorpods.
+. Unlike pathogens, symbionts may devote part of ther genomes to processes that are more directly beneficial to the host rather than to the bacterial cell itself. _Buchnera_ retains and even amplifies genes for the biosynthesis of amino acids required by hosts, devoting almost 10% of its genome to these pathways, which are missing from pathogens with similarly small genomes. Because of their fastidious growth requirements, the biological role of obligately associated symbionts can rearely be determined experimentally. However, genome comparisons can provide a means for determining their functions in hosts. Such future research should reveal, for example, whether the endosymbionts of blood-feeding hosts, such as _Wiggleworthia glossinia_ in tsetse files, retain pathways for biosynthesis of vitamins absent from blood, whether the  symbiont _Vibrio fischeri_ provides functions other than bioluminescence to its squid host, and whther the mutualistic _Wolbachia_ of filarial nematodes contain genes for host benefit that are absent in the parasitic _Wolbachia_ of arthropods.
 +
 ====
 This paragraph's issue is the first sentence. It then develops that issue by describing examples of symbionts that devote part of their genomes to helping their hosts. The conclusion suggests areas of future research.
@@ -898,11 +941,11 @@ What arrangement pattern have the following writers used to order their paragrap
 Instead, these vocal signals likely contain information about the degree of threat that a predator represents. Maneuverability (e.g., as measured by turning radius, or radial acceleration) is extremely important in determining the outcome of predator-prey interactions and is inversely related to wingspan and body size in birds. Body size may be a good predictor of risk for chickadees: Small raptors tend to be much more maneuverable than larger raptors and likely pose a greater threat.
 +
 ====
-The writers have ordered their paragraphs to compare their results with earlier studies. They use words like _previous_ and _instead_ to signal this pattern.
+The writers have ordered their paragraphs to compare their results with earlier studies. They signal this pattern with words like _previous_ and _instead_.
 ====
 +
-. We tend to take for granted the ability of our immune systems to free our bodies of infection and prevent its recurrence. In some people, however, parts of the immune system fail. In the most severe of these immunodeficiency diseases, adaptive immunity is completely absent, and death occurs in infancy from overwhelming infection unless heroic measures are taken. Other less catastrophic failures lead to recurrent infections with particular types of pathogen, depending on the particular deficiency. Much has been learned about the functions of the different components of the hyuman immune system through the study of these immunodeficienceies, many of which are caused by inherited genetic defects. +
-Morew than 25 years ago, a devastating form of immunodeficiency appeared, the acuquired immune deficiency syndrome, or AIDS, which is caused by an infectious agent, the human immunodeficiency viruses HIV-1 and HIV-2. This disease destroys T cells, dendritic cells, and macrophages bearing CD4, leading to infections caused by intracellular bacteria and other pathogens normally controlled by such cells. These infections are the major cause of death from this increasingly prevalent immunodeficiency disease.
+. We tend to take for granted the ability of our immune systems to free our bodies of infection and prevent its recurrence. In some people, however, parts of the immune system fail. In the most severe of these immunodeficiency diseases, adaptive immunity is completely absent, and death occurs in infancy from overwhelming infection unless heroic measures are taken. Other less catastrophic failures lead to recurrent infections with particular types of pathogen, depending on the particular deficiency. Much has been learned about the functions of the different components of the human immune system through the study of these immunodeficiencies, many of which are caused by inherited genetic defects. +
+More than 25 years ago, a devastating form of immunodeficiency appeared, the acquired immune deficiency syndrome, or AIDS, which is caused by an infectious agent, the human immunodeficiency viruses HIV-1 and HIV-2. This disease destroys T cells, dendritic cells, and macrophages bearing CD4, leading to infections caused by intracellular bacteria and other pathogens normally controlled by such cells. These infections are the major cause of death from this increasingly prevalent immunodeficiency disease.
 +
 ====
 The writers have ordered their paragraphs from general information to specific information. They use general words, like _our immune systems_ or _some people_ in the first paragrah. In the second, they use more specific examples, like _a devestating form_ and _this disease_.
