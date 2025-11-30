@@ -2,6 +2,7 @@
 title: Portfolio
 permalink: /portfolio/
 layout: collection
+last_modified_at: 2025-11-30
 ---
 
 See the following for my work samples.
@@ -25,3 +26,7 @@ See the following for my work samples.
 ## Markdown for GitHub Pages
 
 [Markdown for GitHub Pages](/markdown-for-github-pages/)
+
+## Your new data warehouse
+
+[Your new data warehouse](/your-new-data-warehouse/)
