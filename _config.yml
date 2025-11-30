@@ -69,6 +69,11 @@ collections:
     title: How to write Markdown for GitHub Pages
     description: >-
       A set of guides to help you publish your documentation to a GitHub Pages site.
+  your-new-data-warehouse:
+    output: true
+    title: Your new data warehouse
+    description: >-
+      A brief article to help decision makers decide to build or buy a data warehouse for their organization.
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -149,6 +154,18 @@ defaults:
       sort_by: order
       sidebar:
         nav: markdown-for-github-pages
+  - scope:
+      path: "collections/_your-new-data-warehouse"
+      type: your-new-data-warehouse
+    values:
+      layout: single
+      read_time: true
+      author_profile: true
+      show_date: true
+      toc: true
+      toc_label: Table of contents
+      toc_sticky: true
+      sort_by: order
 
 author:
   name : Greg Martinez
