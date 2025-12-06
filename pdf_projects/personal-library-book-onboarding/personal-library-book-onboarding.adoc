@@ -1,0 +1,21 @@
+= Scottinez library book onboarding guide
+:page-last_modified_at: 2025-12-06
+:page-categories: [portfolio, how-to]
+
+== Introduction
+
+== Onboard a new book
+
+=== Scan barcode
+
+=== Enter ISBN
+
+=== Search by title
+
+=== Create new book
+
+== Edit an existing book
+
+== Remove a book
+
+== Troubleshooting
