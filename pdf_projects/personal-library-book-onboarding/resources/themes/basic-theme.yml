@@ -1,0 +1,6 @@
+extends: default
+admonition:
+  border-color: #E6E8FA
+  column-rule-style: "dotted"
+  label:
+    font-color: #ff0000

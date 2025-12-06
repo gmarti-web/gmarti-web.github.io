@@ -1,14 +1,48 @@
 = Scottinez library book onboarding guide
 :page-last_modified_at: 2025-12-06
 :page-categories: [portfolio, how-to]
+:url-libib: https://apps.apple.com/us/app/libib/id721908216
 
 == Introduction
 
+This guide describes how to manage books in the Scottinez library collection on the Libib app.
+
+IMPORTANT: The procedures below require the {url-libib}[Libib mobile application].
+
 == Onboard a new book
+
+Onboard new books into Libib as you get them. Libib offers four different ways to do so; if one way fails, try the next one. See the following flowchart for a quick guide on moving through your options.
 
 === Scan barcode
 
+.Prepare the barcode
+. Remove stickers or other obstructions from the barcode.
+
+.Scan the barcode with the Libib app
+. Open the Libib mobile app and select *Scottinez Books*.
+. Select image:resources/images/libib-plus.png[title=Libib + button,20,20] and then select *Barcode*.
+. Select *Book*.
+. Center the book's barcode on your screen using your phone's camera. Libib automatically captures the barcode.
+. Select *Add another* to add another book or select *Done* to save your changes.
+
+The book appears in the collection.
+
 === Enter ISBN
+
+. Find the ISBN 13 or ISBN 10 on the book's copyright page or near the barcode.
++
+--
+ISBN 13:: An identification number with 13 digits. An ISBN 13 code starts with _978_ or _979_. Books printed after 2007 only have an ISBN 13.
+ISBN 10:: An identification number with 10 digits. An ISBN 10 code starts with _0_ or _1_. Books printed before 2007 have both an ISBN 10 and an ISBN 13, but may only show the ISBN 10.
+--
++
+. Open the Libib mobile app and select *Scottinez Books*.
+. Select image:resources/images/libib-plus.png[title=Libib + button,20,20] and then select *Barcode*.
+. Select *Book*.
+. Enter the ISBN 13 or ISBN 10 in the search bar along the top of the screen and then tap *return*.
+. Select *Add another* to add another book or select *Done* to save your changes.
+
+The book appears in the collection.
 
 === Search by title
 
