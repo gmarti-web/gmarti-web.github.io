@@ -1,6 +1,19 @@
 extends: default
 admonition:
-  border-color: #E6E8FA
-  column-rule-style: "dotted"
+  background-color: #ede8fa
+  label:
+    font-color: #ff0000
+
+admonition_tip:
+  border-color: #872de6
+  text-align: left
+  border-radius: 3
+  border-style: dashed
+  font-kerning: none
+  padding: 0.3cm
+  label:
+    font-color: #00ff00
+
+admonition_important:
   label:
     font-color: #ff0000

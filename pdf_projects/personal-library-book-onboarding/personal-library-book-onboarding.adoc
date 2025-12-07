@@ -12,10 +12,10 @@ IMPORTANT: The procedures below require the {url-libib-app}[Libib mobile applica
 
 == Add a new book
 
-Onboard new books into Libib as you get them. Libib offers four different ways to do so; if one way fails, try the next one. See the following flowchart for reference.
+Add new books into Libib as you get them. You can do so in four ways. If one way fails, try the next one. See the following flowchart for reference.
 
 .New book process flowchart
-image::resources/images/add-new-book.drawio.png[A flowchart showing decisions a user must make when adding a book to a Libib collection.]
+image::resources/images/add-new-book.drawio.png[A flowchart showing decisions a user must make when adding a book to a Libib collection., height=500]
 
 === Scan barcode
 
@@ -54,7 +54,7 @@ The book appears in the collection.
 . In the sidebar menu, select *Add Items*.
 . Under _Select Item Type_, choose *Book*.
 . Enter the book's name in the search bar under _Search for Books_ and then select *Search*.
-. Find the entry that most closely matches the book and then select *Add Item*.
+. Find the entry that matches the book and then select *Add Item*.
 +
 --
 Check the following attributes to find the closest match:
@@ -64,7 +64,7 @@ Check the following attributes to find the closest match:
 * Author
 * Publish year
 * Number of pages
-* Publisher (in parantheses next to number of pages)
+* Publisher (in parentheses next to number of pages)
 --
 
 The book appears in the collection.
@@ -83,39 +83,39 @@ The book appears in the collection.
 
 s|Title
 |The book's name.
-|YES
+s|Yes
 
 s|Authors (comma separate)
 |A comma-separated list of the book's authors.
-|YES
+s|Yes
 
 s|Description
 |The brief description of the book on the inside flap or back cover.
-|YES
+s|Yes
 
 s|Price
 |The book's price.
-|NO
+|No
 
 s|Publisher
 |The book's publisher as listed on the copyright page or spine.
-|YES
+s|Yes
 
 s|Publish Date (YYYY MM DD)
 |The book's publish date or year as listed on the copyright page.
-|YES (year only)
+s|Yes (year only)
 
 s|ISBN 13
 |The book's ISBN 13 code.
-|NO
+|No
 
 s|ISBN 10
 |The book's ISBN 10 code.
-|NO
+|No
 
 s|Pages
-|The book's total page count, including backmatter (notes, bibliography, or index).
-|YES (except for audiobooks)
+|The book's total page count, including back matter (notes, bibliography, or index).
+s|Yes (except for audio books)
 |===
 --
 
