@@ -12,7 +12,10 @@ IMPORTANT: The procedures below require the {url-libib-app}[Libib mobile applica
 
 == Add a new book
 
-Onboard new books into Libib as you get them. Libib offers four different ways to do so; if one way fails, try the next one. See the following flowchart for a quick guide on moving through your options.
+Onboard new books into Libib as you get them. Libib offers four different ways to do so; if one way fails, try the next one. See the following flowchart for reference.
+
+.New book process flowchart
+image::resources/images/add-new-book.drawio.png[A flowchart showing decisions a user must make when adding a book to a Libib collection.]
 
 === Scan barcode
 
@@ -21,7 +24,7 @@ Onboard new books into Libib as you get them. Libib offers four different ways t
 
 .Scan the barcode with the Libib app
 . Open the Libib mobile app and select *Scottinez Books*.
-. Select image:resources/images/libib-plus.png[title=Libib + button,20,20] and then select *Barcode*.
+. Select image:resources/images/libib-plus.png[Libib + button,20,20] and then select *Barcode*.
 . Select *Book*.
 . Center the book's barcode on your screen using your phone's camera. Libib automatically captures the barcode.
 . Select *Add another* to add another book or select *Done* to save your changes.
@@ -38,7 +41,7 @@ ISBN 10:: An identification number with 10 digits. An ISBN 10 code starts with _
 --
 +
 . Open the Libib mobile app and select *Scottinez Books*.
-. Select image:resources/images/libib-plus.png[title=Libib + button,20,20] and then select *Barcode*.
+. Select image:resources/images/libib-plus.png[Libib + button,20,20] and then select *Barcode*.
 . Select *Book*.
 . Enter the ISBN 13 or ISBN 10 in the search bar along the top of the screen and then tap *return*.
 . Select *Add another* to add another book or select *Done* to save your changes.
@@ -69,7 +72,7 @@ The book appears in the collection.
 === Create new book
 
 . Open the Libib mobile app and select *Scottinez Books*.
-. Select image:resources/images/libib-plus.png[title=Libib + button,20,20] and then select *Manual*.
+. Select image:resources/images/libib-plus.png[Libib + button,20,20] and then select *Manual*.
 . Select *Book*.
 . Fill out the Manual Entry form and then select *Submit*. The following table describes each field in the form.
 +
@@ -120,14 +123,14 @@ s|Pages
 
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to edit.
-. Select image:resources/images/libib-meatballs.PNG[title=Libib book meatball menu,20,20] and then select *Edit*.
+. Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Edit*.
 . Make the required changes and then select *Save*.
 
 == Remove a book
 
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to remove.
-. Select image:resources/images/libib-meatballs.PNG[title=Libib book meatball menu,20,20] and then select *Delete*.
+. Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Delete*.
 . Select *Delete* again to confirm.
 
 == Troubleshooting
