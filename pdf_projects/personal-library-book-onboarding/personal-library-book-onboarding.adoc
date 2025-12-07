@@ -60,7 +60,7 @@ A green confirmation message appears along the top of the screen.
 
 === Search by title
 
-If the book doesn't have an ISBN printed on it—this is common for older books—or if the search doesn't return results, search for the book by its title.
+If the book doesn't have a printed ISBN or the search doesn't return results, search for the book by its title.
 
 IMPORTANT: You must use the website to search for a book by title.
 
