@@ -137,16 +137,33 @@ s|Yes (except for audio books)
 |===
 --
 
+A green confirmation message appears along the top of the screen.
+
+Select *Library* to return to the library.
+
 == Edit an existing book
 
-To edit an existing book's properties:
-
+.Edit a book's properties
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to edit.
 . Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Edit*.
 . Make the required changes and then select *Save*.
 
 A green confirmation message appears along the top of the screen.
+
+Select *Back* and then select *Back* again to return to the library.
+
+.Edit a book's image
+. Open the Libib mobile app and select *Scottinez Books*.
+. Select the book that you want to edit.
+. Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Image*.
+** Select *Photo Library* to choose a photo from your phone. Give Libib access to view your photos, if asked.
+** Select *Camera* to take a new photo. Select *Use Photo* to confirm the photo.
+. Select image:resources/images/libib-save-icon.PNG[Libib upload photo save icon,20,20].
+
+A green confirmation message appears along the top of the screen.
+
+Select *Back* and then select *Back* again to return to the library.
 
 == Delete a book
 
@@ -160,6 +177,8 @@ To delete a book:
 . Select *Delete* again to confirm.
 
 A green confirmation message appears along the top of the screen.
+
+You're automatically returned to the library.
 
 == Troubleshooting
 
