@@ -1,4 +1,4 @@
-= Scottinez library book collection management guide
+= Scottinez collection guide
 :page-last_modified_at: 2025-12-06
 :page-categories: [portfolio, how-to]
 :url-libib-app: https://apps.apple.com/us/app/libib/id721908216
@@ -20,10 +20,10 @@ Add new books into Libib as you get them. You can do so in four ways:
 * Search for the book by title.
 * Create a new book manually.
 
-If one way fails, try the next one. See the following flowchart for reference.
+If one way fails, try another. See the following flowchart for reference.
 
 .New book process flowchart
-image::resources/images/add-new-book.drawio.png[A flowchart showing decisions a user must make when adding a book to a Libib collection., height=500]
+image::resources/images/add-new-book.drawio.png["A flowchart showing decisions a user must make when adding a book to a Libib collection.",550,200]
 
 === Scan barcode
 
@@ -85,7 +85,7 @@ A green confirmation message appears along the top of the screen.
 
 === Create new book entry
 
-If you can't find the book by its barcode, ISBN 13 or 10, or title, create a new book entry.
+If you can't find the book by its barcode, ISBN 13 or 10, or title, create a new book entry. Only create a new entry if none of the other search methods work.
 
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select image:resources/images/libib-plus.png[Libib + button,20,20] and then select *Manual*.
@@ -144,6 +144,8 @@ To edit an existing book's properties:
 . Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Edit*.
 . Make the required changes and then select *Save*.
 
+A green confirmation message appears along the top of the screen.
+
 == Delete a book
 
 Delete books from Libib as you remove them from the library.
@@ -155,9 +157,15 @@ To delete a book:
 . Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Delete*.
 . Select *Delete* again to confirm.
 
+A green confirmation message appears along the top of the screen.
+
 == Troubleshooting
+
+=== Can't find book by barcode, ISBN, or title
 
 === Scanned a book that already exists in the collection
 
 === Need to adjust the number of copies in the collection
+
+=== Scanned book has wrong or missing information
 
