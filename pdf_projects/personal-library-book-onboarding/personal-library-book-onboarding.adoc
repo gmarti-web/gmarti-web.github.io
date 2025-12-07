@@ -1,15 +1,16 @@
-= Scottinez library book onboarding guide
+= Scottinez library book collection management guide
 :page-last_modified_at: 2025-12-06
 :page-categories: [portfolio, how-to]
-:url-libib: https://apps.apple.com/us/app/libib/id721908216
+:url-libib-app: https://apps.apple.com/us/app/libib/id721908216
+:url-libib: https://www.libib.com
 
 == Introduction
 
 This guide describes how to manage books in the Scottinez library collection on the Libib app.
 
-IMPORTANT: The procedures below require the {url-libib}[Libib mobile application].
+IMPORTANT: The procedures below require the {url-libib-app}[Libib mobile application].
 
-== Onboard a new book
+== Add a new book
 
 Onboard new books into Libib as you get them. Libib offers four different ways to do so; if one way fails, try the next one. See the following flowchart for a quick guide on moving through your options.
 
@@ -46,10 +47,87 @@ The book appears in the collection.
 
 === Search by title
 
+. Go to {url-libib}[Libib.com] and log in to the _greagancatalog@protonmail.com_ account.
+. In the sidebar menu, select *Add Items*.
+. Under _Select Item Type_, choose *Book*.
+. Enter the book's name in the search bar under _Search for Books_ and then select *Search*.
+. Find the entry that most closely matches the book and then select *Add Item*.
++
+--
+Check the following attributes to find the closest match:
+
+* Title
+* Cover image
+* Author
+* Publish year
+* Number of pages
+* Publisher (in parantheses next to number of pages)
+--
+
+The book appears in the collection.
+
 === Create new book
+
+. Open the Libib mobile app and select *Scottinez Books*.
+. Select image:resources/images/libib-plus.png[title=Libib + button,20,20] and then select *Manual*.
+. Select *Book*.
+. Fill out the Manual Entry form and then select *Submit*. The following table describes each field in the form.
++
+--
+.Manual Entry form
+|===
+|Field |Description |Required?
+
+s|Title
+|The book's name.
+|YES
+
+s|Authors (comma separate)
+|A comma-separated list of the book's authors.
+|YES
+
+s|Description
+|The brief description of the book on the inside flap or back cover.
+|YES
+
+s|Price
+|The book's price.
+|NO
+
+s|Publisher
+|The book's publisher as listed on the copyright page or spine.
+|YES
+
+s|Publish Date (YYYY MM DD)
+|The book's publish date or year as listed on the copyright page.
+|YES (year only)
+
+s|ISBN 13
+|The book's ISBN 13 code.
+|NO
+
+s|ISBN 10
+|The book's ISBN 10 code.
+|NO
+
+s|Pages
+|The book's total page count, including backmatter (notes, bibliography, or index).
+|YES (except for audiobooks)
+|===
+--
 
 == Edit an existing book
 
+. Open the Libib mobile app and select *Scottinez Books*.
+. Select the book that you want to edit.
+. Select image:resources/images/libib-meatballs.PNG[title=Libib book meatball menu,20,20] and then select *Edit*.
+. Make the required changes and then select *Save*.
+
 == Remove a book
+
+. Open the Libib mobile app and select *Scottinez Books*.
+. Select the book that you want to remove.
+. Select image:resources/images/libib-meatballs.PNG[title=Libib book meatball menu,20,20] and then select *Delete*.
+. Select *Delete* again to confirm.
 
 == Troubleshooting
