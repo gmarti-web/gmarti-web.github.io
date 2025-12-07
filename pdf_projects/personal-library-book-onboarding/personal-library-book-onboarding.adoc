@@ -3,6 +3,7 @@
 :page-categories: [portfolio, how-to]
 :url-libib-app: https://apps.apple.com/us/app/libib/id721908216
 :url-libib: https://www.libib.com
+:icons: font
 
 == Introduction
 
@@ -12,43 +13,56 @@ IMPORTANT: The procedures below require the {url-libib-app}[Libib mobile applica
 
 == Add a new book
 
-Add new books into Libib as you get them. You can do so in four ways. If one way fails, try the next one. See the following flowchart for reference.
+Add new books into Libib as you get them. You can do so in four ways:
+
+* Scan the book's barcode.
+* Search for the book by its ISBN 13 or ISBN 10.
+* Search for the book by title.
+* Create a new book manually.
+
+If one way fails, try the next one. See the following flowchart for reference.
 
 .New book process flowchart
 image::resources/images/add-new-book.drawio.png[A flowchart showing decisions a user must make when adding a book to a Libib collection., height=500]
 
 === Scan barcode
 
-.Prepare the barcode
-. Remove stickers or other obstructions from the barcode.
+Scanning the barcode is the easiest way to add a new book.
 
-.Scan the barcode with the Libib app
+To add a book by its barcode:
+
+. Remove stickers or other obstructions from the barcode.
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select image:resources/images/libib-plus.png[Libib + button,20,20] and then select *Barcode*.
 . Select *Book*.
 . Center the book's barcode on your screen using your phone's camera. Libib automatically captures the barcode.
 . Select *Add another* to add another book or select *Done* to save your changes.
 
-The book appears in the collection.
+A green confirmation message appears along the top of the screen.
 
-=== Enter ISBN
+=== Search by ISBN 13 or ISBN 10
+
+If the book doesn't have a barcode or if you can't scan it, search for the book by its ISBN 13 or ISBN 10.
+
+ISBN 13:: The ISBN 13 is an identification number with 13 digits that starts with _978_ or _979_. Books printed after 2007 only have an ISBN 13.
+ISBN 10:: The ISBN 10 is an identification number with 10 digits that starts with _0_ or _1_. Books printed before 2007 have both an ISBN 10 and an ISBN 13, but may only show the ISBN 10.
+
+To search for a book by its ISBN 13 or ISBN 10:
 
 . Find the ISBN 13 or ISBN 10 on the book's copyright page or near the barcode.
-+
---
-ISBN 13:: An identification number with 13 digits. An ISBN 13 code starts with _978_ or _979_. Books printed after 2007 only have an ISBN 13.
-ISBN 10:: An identification number with 10 digits. An ISBN 10 code starts with _0_ or _1_. Books printed before 2007 have both an ISBN 10 and an ISBN 13, but may only show the ISBN 10.
---
-+
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select image:resources/images/libib-plus.png[Libib + button,20,20] and then select *Barcode*.
 . Select *Book*.
 . Enter the ISBN 13 or ISBN 10 in the search bar along the top of the screen and then tap *return*.
 . Select *Add another* to add another book or select *Done* to save your changes.
 
-The book appears in the collection.
+A green confirmation message appears along the top of the screen.
 
 === Search by title
+
+If the book doesn't have an ISBN printed on it—this is common for older books—or if the search doesn't return results, search for the book by its title.
+
+IMPORTANT: You must use the website to search for a book by title.
 
 . Go to {url-libib}[Libib.com] and log in to the _greagancatalog@protonmail.com_ account.
 . In the sidebar menu, select *Add Items*.
@@ -67,9 +81,11 @@ Check the following attributes to find the closest match:
 * Publisher (in parentheses next to number of pages)
 --
 
-The book appears in the collection.
+A green confirmation message appears along the top of the screen.
 
-=== Create new book
+=== Create new book entry
+
+If you can't find the book by its barcode, ISBN 13 or 10, or title, create a new book entry.
 
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select image:resources/images/libib-plus.png[Libib + button,20,20] and then select *Manual*.
@@ -121,12 +137,18 @@ s|Yes (except for audio books)
 
 == Edit an existing book
 
+To edit an existing book's properties:
+
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to edit.
 . Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Edit*.
 . Make the required changes and then select *Save*.
 
-== Remove a book
+== Delete a book
+
+Delete books from Libib as you remove them from the library.
+
+To delete a book:
 
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to remove.
@@ -134,3 +156,8 @@ s|Yes (except for audio books)
 . Select *Delete* again to confirm.
 
 == Troubleshooting
+
+=== Scanned a book that already exists in the collection
+
+=== Need to adjust the number of copies in the collection
+
