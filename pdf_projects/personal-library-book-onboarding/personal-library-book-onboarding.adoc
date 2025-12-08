@@ -1,5 +1,5 @@
-= Scottinez collection guide
-:page-last_modified_at: 2025-12-06
+= Scottinez Libib collection guide
+:page-last_modified_at: 2025-12-07
 :page-categories: [portfolio, how-to]
 :url-libib-app: https://apps.apple.com/us/app/libib/id721908216
 :url-libib: https://www.libib.com
@@ -7,9 +7,9 @@
 
 == Introduction
 
-This guide describes how to manage books in the Scottinez library collection on the Libib app.
+This guide describes how to manage books in the Scottinez Libib collection.
 
-IMPORTANT: The procedures below require the {url-libib-app}[Libib mobile application].
+IMPORTANT: You need the {url-libib-app}[Libib mobile app] to use this guide.
 
 == Add a new book
 
@@ -83,6 +83,8 @@ Check the following attributes to find the closest match:
 
 A green confirmation message appears along the top of the screen.
 
+In hte sidebar menu, select *Library* to return to the library.
+
 === Create a new book manually
 
 If you can't find the book by its barcode, ISBN 13 or 10, or title, create a new book manually. Only create a new book if none of the other search methods work.
@@ -143,7 +145,10 @@ Select *Library* to return to the library.
 
 == Edit an existing book
 
-.Edit a book's properties
+You can edit details of books in your collection.
+
+=== Edit a book's properties
+
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to edit.
 . Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Edit*.
@@ -153,7 +158,8 @@ A green confirmation message appears along the top of the screen.
 
 Select *Back* and then select *Back* again to return to the library.
 
-.Edit a book's image
+=== Edit a book's image
+
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to edit.
 . Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Image*.
@@ -167,7 +173,7 @@ Select *Back* and then select *Back* again to return to the library.
 
 == Delete a book
 
-Delete books from Libib as you remove them from the library.
+Delete books from Libib as you dispose of them.
 
 To delete a book:
 
@@ -182,11 +188,20 @@ You're automatically returned to the library.
 
 == Troubleshooting
 
-=== Can't find book by barcode, ISBN, or title
+[qanda]
+I can't find the book by barcode, ISBN, or title::
+If you can't find a book by barcode, ISBN, or title, you must create the book manually. See <<Create a new book manually>> for instructions.
 
-=== Scanned a book that already exists in the collection
+I scanned a book that already exists in the collection::
+When you scan a book that already exists in the collection, select *Done* to avoid adding an extra copy.
 
-=== Need to adjust the number of copies in the collection
+I need to adjust the number of copies of a book in the collection::
+To adjust the number of copies of a book:
 
-=== Scanned book has wrong or missing information
+. Open the Libib mobile app and select *Scottinez Books*.
+. Select the book that you want to edit.
+. 
+
+A book that I scanned has wrong or missing information::
+Placeholder
 
