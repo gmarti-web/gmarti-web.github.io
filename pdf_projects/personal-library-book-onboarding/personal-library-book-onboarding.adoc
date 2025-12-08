@@ -206,7 +206,7 @@ I can't find the book by barcode, ISBN, or title::
 If you can't find a book by barcode, ISBN, or title, you must create the book manually. See <<Create a new book manually>> for instructions.
 
 I scanned a book that already exists in the collection::
-When you scan a book that already exists in the collection, select *Done* to avoid adding an extra copy.
+When you scan a book that already exists in the collection, select *Done* or *Add another* to avoid adding an extra copy.
 
 I need to adjust the number of copies of a book in the collection::
 +
