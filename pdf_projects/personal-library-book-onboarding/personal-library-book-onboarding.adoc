@@ -24,7 +24,7 @@ Add new books into Libib as you get them. You can do so in four ways:
 If one way fails, try another. See the following flowchart for reference.
 
 .New book process flowchart
-image::add-new-book.drawio.png["A flowchart showing decisions a user must make when adding a book to a Libib collection.",550,200]
+image::add-new-book.drawio.png["A flowchart showing decisions a user must make when adding a book to a Libib collection.",500,200]
 
 === Search by barcode
 
