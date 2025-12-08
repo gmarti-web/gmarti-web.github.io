@@ -36,14 +36,20 @@ To add a book by its barcode:
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select image:libib-plus.png[Libib + button,20,20] and then select *Barcode*.
 . Select *Book*.
-. Center the book's barcode on your screen using your phone's camera. Libib automatically captures the barcode.
-. Select *Add another* to add another book or select *Done* to save your changes.
+. Center the book's barcode on your screen using your phone's camera. Libib automatically captures the barcode. A confirmation message appears along the top of the screen.
++
+--
+NOTE: Libib adds the book to the collection as soon as you scan the barcode. The total book count won't update until you select *Done* to finish scanning.
+--
++
+. Optionally, select *Add another* to add another book.
+. Select *Done* to finish scanning books.
 
-A green confirmation message appears along the top of the screen.
+The total count book count refreshes to show your new total.
 
 === Search by ISBN 13 or ISBN 10
 
-If the book doesn't have a barcode or if you can't scan it, search for the book by its ISBN 13 or ISBN 10.
+Some books don't have a barcode or their barcode is invalid. If you can't find the book by its barcode, search for the book by its ISBN 13 or ISBN 10.
 
 ISBN 13:: The ISBN 13 is an identification number with 13 digits that starts with _978_ or _979_. Books printed after 2007 only have an ISBN 13.
 ISBN 10:: The ISBN 10 is an identification number with 10 digits that starts with _0_ or _1_. Books printed before 2007 have both an ISBN 10 and an ISBN 13, but may only show the ISBN 10.
@@ -55,9 +61,15 @@ To search for a book by its ISBN 13 or ISBN 10:
 . Select image:libib-plus.png[Libib + button,20,20] and then select *Barcode*.
 . Select *Book*.
 . Enter the ISBN 13 or ISBN 10 in the search bar along the top of the screen and then tap *return*.
-. Select *Add another* to add another book or select *Done* to save your changes.
++
+--
+NOTE: Libib adds the book to the collection as soon as you add the book. The total count won't update until you select *Done* to finish adding books. A green confirmation message appears along the top of the screen.
+--
++
+. Optionally, select *Add another* to add another book.
+. Select *Done* to finish adding books.
 
-A green confirmation message appears along the top of the screen.
+The total count book count refreshes to show your new total.
 
 === Search by title
 
@@ -84,7 +96,7 @@ Check the following attributes to find the closest match:
 
 A green confirmation message appears along the top of the screen.
 
-In hte sidebar menu, select *Library* to return to the library.
+In the sidebar menu, select *Library* to return to the library. The total count book count refreshes to show your new total.
 
 === Create a new book manually
 
@@ -142,7 +154,7 @@ s|Yes (except for audio books)
 
 A green confirmation message appears along the top of the screen.
 
-Select *Library* to return to the library.
+Select *Library* to return to the library. The total count book count refreshes to show your new total.
 
 == Edit an existing book
 
