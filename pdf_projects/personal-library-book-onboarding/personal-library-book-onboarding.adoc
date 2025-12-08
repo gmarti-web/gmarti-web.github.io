@@ -196,6 +196,8 @@ I scanned a book that already exists in the collection::
 When you scan a book that already exists in the collection, select *Done* to avoid adding an extra copy.
 
 I need to adjust the number of copies of a book in the collection::
++
+--
 To adjust the number of copies of a book:
 
 . Open the Libib mobile app and select *Scottinez Books*.
@@ -204,6 +206,8 @@ To adjust the number of copies of a book:
 . Select IMAGE and then select *Delete* to confirm.
 
 A green confirmation message appears along the top of the screen.
+--
++
 
 A book that I scanned has wrong or missing information::
 If a book has wrong or missing information, add it to the collection and then edit its details directly. See <<Edit an existing book>> for instructions.
