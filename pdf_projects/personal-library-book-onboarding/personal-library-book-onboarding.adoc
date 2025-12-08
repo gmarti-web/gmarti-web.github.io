@@ -39,13 +39,13 @@ To add a book by its barcode:
 . Center the book's barcode on your screen using your phone's camera. Libib automatically captures the barcode. A confirmation message appears along the top of the screen.
 +
 --
-NOTE: Libib adds the book to the collection as soon as you scan the barcode. The total book count won't update until you select *Done* to finish scanning.
+NOTE: Libib adds the book to the collection as soon as you scan the barcode. The total book count next to _Scottinez Books_ won't update until you select *Done* to finish scanning. A green confirmation message appears along the top of the screen.
 --
 +
 . Optionally, select *Add another* to add another book.
 . Select *Done* to finish scanning books.
 
-The total count book count refreshes to show your new total.
+The total book count next to _Scottinez Books_ refreshes to show your new total.
 
 === Search by ISBN 13 or ISBN 10
 
@@ -63,13 +63,13 @@ To search for a book by its ISBN 13 or ISBN 10:
 . Enter the ISBN 13 or ISBN 10 in the search bar along the top of the screen and then tap *return*.
 +
 --
-NOTE: Libib adds the book to the collection as soon as you add the book. The total count won't update until you select *Done* to finish adding books. A green confirmation message appears along the top of the screen.
+NOTE: Libib adds the book to the collection as soon as you tap *return*. The total count next to _Scottinez Books_ won't update until you select *Done* to finish adding books. A green confirmation message appears along the top of the screen.
 --
 +
 . Optionally, select *Add another* to add another book.
 . Select *Done* to finish adding books.
 
-The total count book count refreshes to show your new total.
+The total book count next to _Scottinez Books_ refreshes to show your new total.
 
 === Search by title
 
@@ -96,7 +96,7 @@ Check the following attributes to find the closest match:
 
 A green confirmation message appears along the top of the screen.
 
-In the sidebar menu, select *Library* to return to the library. The total count book count refreshes to show your new total.
+In the sidebar menu, select *Library* to return to the library. The total book count next to _Scottinez Books_ refreshes to show your new total.
 
 === Create a new book manually
 
@@ -154,7 +154,7 @@ s|Yes (except for audio books)
 
 A green confirmation message appears along the top of the screen.
 
-Select *Library* to return to the library. The total count book count refreshes to show your new total.
+Select *Library* to return to the library. The total book count next to _Scottinez Books_ refreshes to show your new total.
 
 == Edit an existing book
 
@@ -197,7 +197,7 @@ To delete a book:
 
 A green confirmation message appears along the top of the screen.
 
-You're automatically returned to the library.
+You're automatically returned to the library. The total book count next to _Scottinez Books_ refreshes to show your new total.
 
 == Troubleshooting
 
