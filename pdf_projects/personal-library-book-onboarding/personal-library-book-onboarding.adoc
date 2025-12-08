@@ -203,7 +203,7 @@ To adjust the number of copies of a book:
 . Open the Libib mobile app and select *Scottinez Books*.
 . Select the book that you want to edit.
 . Select image:resources/images/libib-meatballs.PNG[Libib book meatball menu,20,20] and then select *Copies*.
-. Select IMAGE and then select *Delete* to confirm.
+. Select image:resources/images/libib-trashcan.PNG[Libib trashcan icon in copies menu,20,20] and then select *Delete* to confirm.
 
 A green confirmation message appears along the top of the screen.
 --
