@@ -39,7 +39,7 @@ To add a book by its barcode:
 . Center the book's barcode on your screen using your phone's camera. Libib automatically captures the barcode. A confirmation message appears along the top of the screen.
 +
 --
-NOTE: Libib adds the book to the collection as soon as you scan the barcode. The total book count next to _Scottinez Books_ won't update until you select *Done* to finish scanning.
+NOTE: Libib adds the book to the collection as soon as you scan the barcode. The total book count next to _Scottinez Books_ won't update until you select *Done*.
 --
 +
 . Optionally, select *Add another* to add another book.
@@ -63,7 +63,7 @@ To search for a book by its ISBN 13 or ISBN 10:
 . Enter the ISBN 13 or ISBN 10 in the search bar along the top of the screen and then tap *return*. A green confirmation message appears along the top of the screen.
 +
 --
-NOTE: Libib adds the book to the collection as soon as you tap *return*. The total count next to _Scottinez Books_ won't update until you select *Done* to finish adding books.
+NOTE: Libib adds the book to the collection as soon as you tap *return*. The total count next to _Scottinez Books_ won't update until you select *Done*.
 --
 +
 . Optionally, select *Add another* to add another book.
