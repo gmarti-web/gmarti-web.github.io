@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+FILE_PATH=$1
+
+EXTENSION_FILE=resources/extensions/pdf-converter-admonition-theme-per-type.rb
+PDF_THEMESDIR=resources/themes
+PDF_THEME=basic
+OUTPUT_DIR=outputs
+
+asciidoctor-pdf \
+    -a pdf-themesdir=$PDF_THEMESDIR \
+    -a pdf-theme=$PDF_THEME \
+    -D $OUTPUT_DIR \
+    $FILE_PATH
+
