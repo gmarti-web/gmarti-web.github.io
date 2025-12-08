@@ -1,5 +1,5 @@
 = Scottinez Libib collection guide
-:page-last_modified_at: 2025-12-07
+:page-last_modified_at: 2025-12-08
 :page-categories: [portfolio, how-to]
 :url-libib-app: https://apps.apple.com/us/app/libib/id721908216
 :url-libib: https://www.libib.com
