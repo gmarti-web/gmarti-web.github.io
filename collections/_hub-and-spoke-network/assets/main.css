@@ -1,0 +1,23 @@
+.notice--icon {
+    display: grid;
+    grid-template-columns: 10% auto;
+    background-color: #d8ebf1;
+    text-indent: initial;
+}
+.callout-left-col {
+    grid-column: 1
+}
+
+.callout-right-col {
+    grid-column: 2
+}
+
+code pre {
+    background-color: #f8f9f9;
+}
+
+figure { flex-flow: column; page-break-inside: avoid; }
+
+figure img { border: 1px black solid; max-width: 100%; height:auto; }
+
+figure figcaption { align-self: flex-start; }
