@@ -29,12 +29,12 @@ For example, consider an organization with only one application. They create a s
 
 After some time, they create a new application. To have the same security as their first application, they create a VPC with the same components. Later, they replicate their VPC again for a third application. As the organization scales and creates more applications, they add more infrastructure to their AWS environment.
 
-<figure>
-    <img src="images/multiple-network-firewalls.png" alt="A diagram of three separate AWS cloud networks.">
-    <figcaption>
-        Figure 1: Arbitrary number of decentralized AWS VPCs connected to the public internet
-    </figcaption>
-</figure>
+{% include figure
+  popup=true
+  image_path="/assets/images/portfolio/hubandspoke/multiple-network-firewalls.drawio.svg"
+  alt="A diagram of three separate AWS cloud networks."
+  caption="Figure 1: Arbitrary number of decentralized AWS VPCs connected to the public internet"
+%}
 
 This infrastructure duplication is expensive. For a single VPC in the diagram above, it [costs $322 USD to process just 10 GB of data per month](https://calculator.aws/#/estimate?id=b12e071c14c1cdf95fff8d2618465fbbfe63545b). For three VPCs, the costs triple. And, its multiple exposures to the internet make it less secure. Firewall policies and security measures must be replicated across every VPC.
 
@@ -46,12 +46,12 @@ In a centralized VPC architecture, like the hub-and-spoke model, each applicatio
 
 For example, in the following diagram, a hub VPC in a hub-and-spoke architecture shares its firewall, NAT gateway, and internet gateway with all three spoke VPCs.
 
-<figure>
-    <img src="images/hub-and-spoke-overview.drawio.png" alt="A diagram of three spoke AWS networks connected to one hub network.">
-    <figcaption>
-        Figure 2: AWS networks connected to the public internet through a central, firewall-protected hub network
-    </figcaption>
-</figure>
+{% include figure
+  popup=true
+  image_path="/assets/images/portfolio/hubandspoke/hub-and-spoke-overview.drawio.svg"
+  alt="A diagram of three spoke AWS networks connected to one hub network."
+  caption="Figure 2: AWS networks connected to the public internet through a central, firewall-protected hub network"
+%}
 
 In the following sections, we'll learn how the spokes communicate with the hub, and the hub with each spoke, in detail.
 
