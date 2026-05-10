@@ -205,7 +205,7 @@ In this article, we saw how:
 * VPC route tables direct traffic flow between all VPCs in the network.
 * A single NAT gateway and a network firewall in the hub VPC protect all the spoke VPCs in the network.
 
-The hub-and-spoke network model is a powerful way to manage your cloud networks easily and efficiently. It lets you scale your applications without the cost of additional security services, like firewalls or NAT gateways. It's flexibility lets you modify the architecture to fit your business requirements. For example, you can duplicate your hub VPC across multiple availability zones to improve the network's availability. A centralized network, like the hub-and-spoke model, gives you complete control over the entire system.
+The hub-and-spoke network model is a powerful way to manage your cloud networks easily and efficiently. It lets you scale your applications without the cost of additional security services, like firewalls or NAT gateways. Its flexibility lets you modify the architecture to fit your business requirements. For example, you can duplicate your hub VPC across multiple availability zones to improve the network's availability. A centralized network, like the hub-and-spoke model, gives you complete control over the entire system.
 
 Check out the following resources to learn more about centralized networks or how to build your own hub-and-spoke model:
 
