@@ -1,0 +1,1 @@
+pandoc --pdf-engine=weasyprint --css assets/main.css 2025-03-16-hub-and-spoke.md -o hub-and-spoke.pdf

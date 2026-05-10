@@ -1,7 +1,7 @@
 ---
 title: Network communication in an AWS VPC hub-and-spoke architecture
+last_modified_at: 2026-05-10
 date: 2025-03-17
-last_modified_at: 2026-03-21
 permalink: /portfolio/network-communication-in-an-aws-vpc-hub-and-spoke-architecture/
 ---
 
@@ -19,7 +19,7 @@ In this article, you'll learn:
 
 ## Decentralized VPC architecture
 
-In a decentralized VPC architecture, each application is completely isolated. This means it has its own infrastructure, security settings, and internet exposure points. To add a new application to the network, you must recreate all these components. While this may suit organizations with one, two, or maybe three applications, it's cumbersome to manage and costly to maintain as the organization scales.
+In a decentralized VPC architecture, each application is completely isolated. This means each has its own infrastructure, security settings, and internet exposure points. To add a new application to the network, you must recreate all these components. While this may suit organizations with one, two, or maybe three applications, it's cumbersome to manage and costly to maintain as the organization scales.
 
 For example, consider an organization with only one application. They create a single VPC with:
 
@@ -29,12 +29,12 @@ For example, consider an organization with only one application. They create a s
 
 After some time, they create a new application. To have the same security as their first application, they create a VPC with the same components. Later, they replicate their VPC again for a third application. As the organization scales and creates more applications, they add more infrastructure to their AWS environment.
 
-{% include figure
-  popup=true
-  image_path="/assets/images/portfolio/hubandspoke/multiple-network-firewalls.drawio.svg"
-  alt="A diagram of three separate AWS cloud networks"
-  caption="Figure 1: Arbitrary number of decentralized AWS VPCs connected to the public internet"
-%}
+<figure>
+    <img src="images/multiple-network-firewalls.png" alt="A diagram of three separate AWS cloud networks.">
+    <figcaption>
+        Figure 1: Arbitrary number of decentralized AWS VPCs connected to the public internet
+    </figcaption>
+</figure>
 
 This infrastructure duplication is expensive. For a single VPC in the diagram above, it [costs $322 USD to process just 10 GB of data per month](https://calculator.aws/#/estimate?id=b12e071c14c1cdf95fff8d2618465fbbfe63545b). For three VPCs, the costs triple. And, its multiple exposures to the internet make it less secure. Firewall policies and security measures must be replicated across every VPC.
 
@@ -46,12 +46,12 @@ In a centralized VPC architecture, like the hub-and-spoke model, each applicatio
 
 For example, in the following diagram, a hub VPC in a hub-and-spoke architecture shares its firewall, NAT gateway, and internet gateway with all three spoke VPCs.
 
-{% include figure
-  popup=true
-  image_path="/assets/images/portfolio/hubandspoke/hub-and-spoke-overview.drawio.svg"
-  alt="A diagram of three spoke AWS networks connected to one hub network"
-  caption="Figure 2: AWS networks connected to the public internet through a central, firewall-protected hub network"
-%}
+<figure>
+    <img src="images/hub-and-spoke-overview.drawio.png" alt="A diagram of three spoke AWS networks connected to one hub network.">
+    <figcaption>
+        Figure 2: AWS networks connected to the public internet through a central, firewall-protected hub network
+    </figcaption>
+</figure>
 
 In the following sections, we'll learn how the spokes communicate with the hub, and the hub with each spoke, in detail.
 
@@ -109,7 +109,6 @@ The following diagram shows traffic from a spoke VPC to the hub:
   alt="A diagram of internet-bound traffic sent from a spoke VPC to the hub VPC"
   caption="Figure 4: Traffic flow from spoke VPC to hub VPC"
 %}
-
 
 #### Spoke-bound traffic from hub VPC to spoke VPC
 
