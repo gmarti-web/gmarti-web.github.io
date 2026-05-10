@@ -1,6 +1,6 @@
 ---
 title: Network communication in an AWS VPC hub-and-spoke architecture
-last_modified_at: 2025-03-17
+last_modified_at: 2026-05-10
 permalink: /portfolio/network-communication-in-an-aws-vpc-hub-and-spoke-architecture/
 ---
 
