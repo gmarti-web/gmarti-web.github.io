@@ -1,13 +1,19 @@
 = Markdown for GitHub Pages
 :page-last_modified_at: 2025-05-13
 :page-order: 1
+:page-liquid:
+:imagesdir: ../images/markdown-for-github-pages
 :url-docs-as-code: https://www.writethedocs.org/guide/docs-as-code/
 :url-set-up-jekyll: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 :url-github-pages-examples: https://github.com/collections/github-pages-examples
 
-In this tutorial, you'll learn how to contribute to a GitHub Pages project with some link:/portfolio/2025-03-16-aws-hub-and-spoke/[basic Markdown formatting tools]. These tools will help you create well-structured Markdown documents from scratch. You'll also learn how to add the YAML front matter that Jekyll needs to render your documents.
+In this tutorial, you'll learn how to contribute to a GitHub Pages project with some <<#basics, basic Markdown formatting tools>>. These tools will help you create well-structured Markdown documents from scratch. You'll also learn how to:
 
-## Introduction
+* Add the YAML front matter that Jekyll needs to render your documents.
+* Add images to your page to help readers visualize concepts.
+* Add tables to organize your content.
+
+== Introduction
 
 Documentation is one of the most important parts of any software project.
 
@@ -23,7 +29,7 @@ It's hard to blame them. Clear writing is hard work. It isn't as glamorous as de
 
 You can't turn every developer into an expert writer, but there's a middle ground: a {url-docs-as-code}[_Docs as Code_] approach to technical documentation.
 
-## The _Docs as Code_ approach
+=== The _Docs as Code_ approach
 
 _Docs as Code_ uses many of the same concepts as a typical software development cycle:
 
@@ -33,7 +39,7 @@ _Docs as Code_ uses many of the same concepts as a typical software development 
 
 By merging the writing process into their daily workflow, developers are better positioned to help create clearer, more complete documentation.
 
-## _Docs as code_ and GitHub Pages
+=== _Docs as code_ and GitHub Pages
 
 The final step in a _Docs as code_ approach is to render and display those plain text documents. One combination of options is {url-set-up-jekyll}[GitHub Pages and Jekyll].
 
@@ -47,11 +53,673 @@ The primary writing tool for GitHub Pages is Markdown. Markdown is a plain text 
 
 GitHub Pages uses Jekyll to render plain text Markdown files into static HTML and CSS files. You can find plenty of examples of this kind of site in {url-github-pages-examples}[GitHub's GitHub Pages example collection].
 
-## How to use this tutorial
+=== How to use this tutorial
 
 This tutorial is a reference guide to the most important Markdown features. Markdown is a feature-rich tool that can take a long time to master. Eventually, these features become second nature. In the meantime, though, a reference like this tutorial helps you get comfortable with the basics.
 
 If you're brand new to Markdown, read this tutorial in order. If you have some Markdown experience, use the table of contents on the right side of the page to find a topic you want to learn more about.
 
 With GitHub Pages, Jekyll, and some simple Markdown skills, you can create enticing, well-structured online documents. And, with a _Docs as Code_ approach, you can bring your development team along with you.
+
+== Basic front matter structure
+
+Front matter tells Jekyll how to render Markdown pages on your site. It defines the page's title, layout, address, and other metadata. If a page doesn't have this information, Jekyll won't render it.
+
+Front matter goes at the top of each Markdown page. Three dashes (`---`) separate the front matter from the rest of the document.
+
+For example, a Markdown document with front matter might look like this:
+
+[source,md]
+----
+<!-- START OF PAGE -->
+
+---
+title: My page title
+---
+
+<!-- MAIN CONTENT -->
+----
+
+=== Common front matter elements
+
+You can add any metadata you want to a page's front matter. The following table shows some common, helpful metadata elements.
+
+|===
+|YAML element |Description
+
+m|title
+|The page title.
+
+m|permalink
+|The page's address. The permalink element lets you link to this page from other pages in your site.
+
+m|parent
+|The page's "parent." "Children" pages are subpages of their parent page in the site's navigation.
+
+m|last_modified_date
+|The page's last modified date. This lets readers know when you last updated a page.
+|===
+
+For example, the front matter section of a page in your site's "Tutorials" section might look like this:
+
+[source,md]
+----
+---
+title: Tutorial example 1
+permalink: /tutorials/example1/
+parent: Tutorials
+last_modified_date: 2025-03-24
+---
+
+<!-- MAIN CONTENT -->
+----
+
+=== Advanced front matter uses
+
+You can reference metadata defined in one page's front matter from any other page in your site. This expands your site's capabilities to:
+
+* Create template HTML files to include on different pages.
+* Define data once and use it many times.
+* Generate page content dynamically.
+
+See https://jekyllrb.com/docs/front-matter/[Jekyll's front matter documentation] to learn more.
+
+See https://shopify.github.io/liquid/[the Liquid template language reference] to learn how to add logic to your documentation using metadata.
+
+To learn more about your Jekyll theme's specific front matter options, see your theme's documentation.
+
+== Basics
+
+Basic Markdown syntax adds structure, clarity, and emphasis to a document.
+
+The basics include:
+
+* Headings and subheadings.
+* Text decorations, like boldface, italic, and monospaced (code) fonts.
+* Ordered and unordered lists.
+* Hyperlinks.
+
+=== Headings
+
+Headings and subheadings add structure and organization to your document.
+
+Use hashes (`#`) to create headings and subheadings.
+
+|===
+|Heading level |Markdown syntax |Example
+
+|Level 1
+m|#
+m|# Level 1 heading
+
+|Level 2
+m|##
+m|## Level 2 heading
+
+|Level 3
+m|+++###+++
+m|+++### Level 3 heading+++
+
+|Level 4
+m|+++####+++
+m|+++#### Level 4 heading+++
+
+|Level 5
+m|+++#####+++
+m|+++##### Level 5 heading+++
+
+|Level 6
+m|+++######+++
+m|+++###### Level 6 heading+++
+|===
+
+The following image shows what these headings render to in the browser.
+
+.Six Markdown heading levels
+image::heading-example.png["A screenshot of the six Markdown heading levels."]
+
+=== Text formats
+
+Markdown lets you format your text with plain text decorators.
+
+==== Use boldface font
+
+Surround a word or phrase with two asterisks (`**`) to make it boldface.
+
+For example, the following Markdown text:
+
+[source,md]
+----
+This phrase uses **boldface** font.
+----
+
+renders to:
+
+This phrase uses **boldface** font.
+
+==== Use italic font
+
+Surround a word or phrase with an underscore (`_`) to make it italic.
+
+For example, the following Markdown text:
+
+[source,md]
+----
+This phrase uses _italics_.
+----
+
+renders to:
+
+This phrase uses _italics_.
+
+==== Use monospaced (code) font
+
+Use monospaced font for code snippets and code blocks.
+
+Surround a word with backticks ( ` ) to make it monospaced.
+
+For example, the following Markdown text:
+
+[source,md]
+----
+This phrase uses `monospaced` font.
+----
+
+renders to:
+
+This phrase uses `monospaced` font.
+
+To make multi-line code blocks, surround a text block with three backticks (+++\\\+++). For the code block to use syntax highlights, add the code language to the end of the first backtick triplet.
+
+For example, the following Markdown text:
+
+[source,md]
+----
+```python
+import pandas
+
+df = pandas.from_csv("mydata.csv")
+```
+----
+
+renders to:
+
+[source,python]
+----
+import pandas
+
+df = pandas.from_csv("mydata.csv")
+----
+
+=== Ordered and unordered lists
+
+Lists make sequential instructions or related collections of items easier to read. They break up long portions of text and add helpful white space to your document.
+
+==== Use an ordered list
+
+Use ordered lists to make sequential instructions easy to read.
+
+Start a line with the number one and a period (`1.`) to make an ordered list, whether your list has one or 100 items. Most Markdown flavors, including GitHub-flavored Markdown, will render your list in increasing, sequential order.
+
+For example, the following Markdown:
+
+[source,md]
+----
+1. Do this step first
+1. Do this step next
+1. Do this step last
+----
+
+renders to:
+
+. Do this step first
+. Do this step next
+. Do this step last
+
+==== Use an unordered list
+
+Use unordered list to organize related ideas that don't follow from one to the next.
+
+Start a line with an asterisk (`*`) to make an unordered list.
+
+For example, the following Markdown:
+
+[source,md]
+----
+* Item one
+* Item two
+* Item three
+----
+
+renders to:
+
+* Item one
+* Item two
+* Item three
+
+=== Hyperlinks
+
+Add hyperlinks to your document with brackets (`[]`) and parentheses (`()`).
+
+==== Link to external sites
+
+Hyperlinks can link any other site on the internet.
+
+For example, the following Markdown text:
+
+[source,md]
+----
+[This sentence links to https://google.com](https://google.com).
+----
+
+renders to:
+
+https://google.com[This sentence links to https://google.com].
+
+==== Link to other pages in your site
+
+Use the https://jekyllrb.com/docs/liquid/tags/#links[`link` Liquid tag] to link to another page in your site.
+
+For example, the following Markdown:
+
+[source,md]
+----
+[This sentence links to my About page]({% raw %}{% link _pages/about.md %}{% endraw %}).
+----
+
+renders to:
+
+link:/about/[This sentence links to my About page].
+
+==== Link to specific sections on the same page
+
+Add a hyperlink to any section of the current page with the heading name.
+
+For example, the following Markdown:
+
+[source,md]
+----
+[This sentence links to this page's **Headings** section](#headings).
+----
+
+renders to:
+
+<<#headings, This sentence links to this page's **Headings** section>>.
+
+== Images
+
+Images add concise explanations of complex topics to your technical documentation . They break up the text and give the reader another medium through which they can understand the content.
+
+=== Basic syntax
+
+Add images to a document with simple Markdown syntax.
+
+[source,md]
+----
+![alt-text](path/to/img.jpg "image title")
+----
+
+* `alt-text`. The image's alternative text. Alternative text improves the reading experience when using a screen reader.
+* `path/to/img.jpg`. The relative path to the image file.
+* `"image title"`. The image's title.
+
+For example, the following Markdown:
+
+[source,md]
+----
+![An example image](/assets/favicon/favicon-96x96.png "This is the image's title")
+----
+
+renders to:
+
+.This is the image's title
+image:/assets/favicon/favicon-96x96.png["An example image"]
+
+=== Advanced syntax
+
+To add a caption or custom style to an image, use the `figure` HTML block.
+
+For example, the following HTML:
+
+[source,html]
+----
+<figure>
+  <img src="/assets/favicon/favicon-96x96.png" alt="An example image" title="This is the image's title" style="width:25%;height:25%">
+  <figcaption>This is the image's caption</figcaption>
+</figure>
+----
+
+renders to:
+
+++++
+<figure>
+  <img src="/assets/favicon/favicon-96x96.png" alt="An example image" title="This is the image's title" style="width:25%;height:25%">
+  <figcaption>This is the image's caption</figcaption>
+</figure>
+++++
+
+== Tables
+
+Tables display information in a clear and logical format. They let readers scan your document for the information they need.
+
+With tables, you can:
+
+* Describe API inputs and outputs.
+* Define technical terms.
+* Show causes and effects.
+
+=== Basic table syntax
+
+Use pipes (`|`) and new lines to define a table's columns and rows.
+
+Pipes mark where columns start and end. Each table row has one pipe plus one for each column.
+
+A row of dashes (`-`) in the second row makes the first row the header row.
+
+For example, the following Markdown:
+
+[source,md]
+----
+| Column 1 | Column 2 |
+|----------|----------|
+| Column 1, Row 1 | Column 2, Row 1 |
+| Column 1, Row 2 | Column 2, Row 2 |
+----
+
+renders to:
+
+|===
+|Column 1 |Column 2
+
+|Column 1, Row 1
+|Column 2, Row 1
+
+|Column 1, Row 2
+|Column 2, Row 2
+|===
+
+==== Add a hyperlink to a table
+
+You can add a hyperlink to any cell in a table.
+
+<<#hyperlinks, Learn how to add hyperlinks>>.
+
+For example, the following Markdown:
+
+[source,md]
+----
+| Column 1 | Column 2 |
+|----------|----------|
+| [This sentence links to google.com](https://google.com) | Column 2, Row 1 |
+| Column 1, Row 2 | Column 2, Row 2 |
+----
+
+renders to:
+
+|===
+|Column 1 |Column 2
+
+a|https://google.com[This sentence links to google.com]
+|Column 2, Row 1
+
+|Column 1, Row 2
+|Column 2, Row 2
+|===
+
+==== Format texts in a table
+
+You can format any text in a table.
+
+<<#text-formats, Learn how to format text>>.
+
+For example, the following Markdown:
+
+[source,md]
+----
+| Column 1 | Column 2 |
+|----------|----------|
+| **Column 1**, Row 1 | Column 2, Row 1 |
+| Column 1, Row 2 | _Column 2_, Row 2 |
+| `Column 1, Row 3` | Column 2, Row 3 |
+----
+
+renders to:
+
+|===
+|Column 1 |Column 2
+
+a|**Column 1**, Row 1
+|Column 2, Row 1
+
+|Column 1, Row 2
+a|_Column 2_, Row 2
+
+a|`Column 1, Row 3`
+|Column 2, Row 3
+|===
+
+==== Add images to a table
+
+You can add an image to any cell in a table
+
+<<#images, Learn how to add images>>.
+
+For example, the following Markdown:
+
+[source, md]
+----
+| Column 1 | Column 2 |
+|----------|----------|
+| Column 1, Row 1 | Column 2, Row 1 |
+| Column 1, Row 2 | Column 2, Row 2 |
+| Column 1, Row 3 | ![small icon](/assets/favicon/favicon-96x96.png "Small icon image") |
+----
+
+renders to:
+
+|===
+|Column 1 |Column 2
+
+|Column 1, Row 1
+|Column 2, Row 1
+
+|Column 1, Row 2
+|Column 2, Row 2
+
+|Column 1, Row 3
+a|image:/assets/favicon/favicon-96x96.png["small icon", title="Small icon image"]
+|===
+
+=== Advanced table syntax
+
+Use the `<table>` HTML block to add more complicated elements, like:
+
+* Subtables.
+* Ordered and unordered lists.
+* Multi-line code blocks
+
+==== Understand the `<table>` HTML block
+
+The `<table>` HTML block has two subsections:
+
+`<thead>`:: The table head section.
+
+* Define each column name in this section with `th` elements.
+
+`<tbody>`:: The table body section.
+
+* Define each table row with a `<tr>` (table row) section.
+* Define each column value in a row with a `<td>` (table data) section.
+
+==== Add a list to a table
+
+To add a list to a table, define an ordered or unordered list in a table row.
+
+For example, the following HTML:
+
+[source,html]
+----
+<table>
+  <thead>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Column 1, Row 1</td>
+      <td>Column 2, Row 2</td>
+    </tr>
+    <tr>
+      <td>Column 1, Row 2</td>
+      <td><ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul></td>
+    </tr>
+  </tbody>
+</table>
+----
+
+renders to:
+
+|===
+|Column 1 |Column 2
+
+|Column 1, Row 1
+|Column 2, Row 1
+
+|Column 1, Row 2
+a|
+* Item 1
+* Item 2
+|===
+
+==== Add a multi-line code block to a table
+
+To add a multi-line code block, define a preformatted code block in a table row.
+
+For example, the following HTML:
+
+[source,html]
+----
+<table>
+  <thead>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Column 1, Row 1</td>
+      <td><code><pre>
+import pandas as pd
+
+df = pd.read_csv("file.csv")
+      </pre></code></td>
+    </tr>
+    <tr>
+      <td>Column 1, Row 2</td>
+      <td>Column 2, Row 2</td>
+    </tr>
+  </tbody>
+</table>
+----
+
+renders to:
+
+|===
+|Column 1 |Column 2
+
+|Column 1, Row 1
+a|
+[source,python]
+----
+import pandas as pd
+
+df = pd.read_csv("file.csv")
+----
+
+|Column 1, Row 2
+|Column 2, Row 2
+|===
+
+==== Add a subtable to a table
+
+To add a subtable, define a table in a table row.
+
+For example, the following HTML:
+
+[source,html]
+----
+<table>
+  <thead>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Column 1, Row 1</td>
+      <td>Column 2, Row 1</td>
+    </tr>
+    <tr>
+      <td>Column 1, Row 2</td>
+      <td><table>
+        <thead>
+          <th>Subcolumn 1</th>
+          <th>Subcolumn 2</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Subcolumn 1, Subrow 1</td>
+            <td>Subcolumn 2, Subrow 1</td>
+          </tr>
+          <tr>
+            <td>Subcolumn 1, Subrow 2</td>
+            <td>Subcolumn 2, Subrow 2</td>
+          </tr>
+        </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+----
+
+renders to:
+
+|===
+|Column 1 |Column 2
+
+|Column 1, Row 1
+|Column 2, Row 1
+
+|Column 1, Row 2
+a|
+!===
+!Subcolumn 1 !Subcolumn 2
+
+!Subcolumn 1, Subrow 1
+!Subcolumn 2, Subrow 1
+
+!Subcolumn 1, Subrow 2
+!Subcolumn 2, Subrow 2
+!===
+|===
+
+== Wrap up
+
+In this tutorial, you learned:
+
+* <<#frontmatter, How to write YAML front matter so Jekyll can render Markdown pages in your site>>.
+* <<#basics, How to add basics Markdown formatting>>.
+* <<#images, How to add images to your Markdown documents>>.
+* <<#tables, How to add tables with Markdown and HTML syntx>>.
+
+With these skills, you're ready to create simple but effective documents in Markdown for your own GitHub Pages site.
+
+When you're ready to move beyond the basics, there are plenty of areas to explore with the _Docs as Code_ approach:
+
+* Add dynamic templates to your site with https://jekyllrb.com/docs/liquid/[Liquid syntax].
+* Create an automated pipeline with https://github.com/errata-ai/vale-action[vale] to catch any typos or errors in your documentation before you post them.
+* Group your content with Jekyll https://jekyllrb.com/docs/collections/[Collections].
+
+For inspiration, check out the https://github.com/gmarti-web/gmarti-web.github.io[GitHub repo for this blog] and other repos in the GitHub Pages collection.
 
