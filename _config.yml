@@ -11,6 +11,7 @@ local: en-US
 name: Greg Martinez
 breadcrumbs: true
 logo: /assets/favicon/favicon.svg
+timezone: America/Los_Angeles
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -24,7 +25,6 @@ plugins:
   - jekyll-paginate
 
 include: ["_pages"]
-permalink: /:categories/:title/
 
 exclude:
   - .sass-cache/
@@ -40,40 +40,10 @@ exclude:
   - .ruby-version
   - scripts/
 
-collections_dir: collections
 collections:
-  azure-web-app-with-terraform:
+  portfolio:
     output: true
-    permalink: /:collection/:path
-    title: Azure Web App with Terraform
-    description: >-
-      In this tutorial, you'll learn how to deploy the required Azure infrastructure 
-      for a simple web application.
-  greener-redlands-proposal:
-    output: true
-    title: Greener Redlands proposal
-    description: >-
-      This mock proposal was my Professional Technical Writing 320 portfolio assignment.
-  hub-and-spoke-network:
-    output: true
-    title: Hub-and-spoke network
-    description: >-
-      An explanation of network traffic through a hub-and-spoke network model.
-  mtg-scraper-dfd:
-    output: true
-    title: MTG scraper data flow diagram
-    description: >-
-      A data flow diagram showing data moving through my MTG tournament scraper app.
-  markdown-for-github-pages:
-    output: true
-    title: How to write Markdown for GitHub Pages
-    description: >-
-      A set of guides to help you publish your documentation to a GitHub Pages site.
-  your-new-data-warehouse:
-    output: true
-    title: Your new data warehouse
-    description: >-
-      A brief article to help decision makers decide to build or buy a data warehouse for their organization.
+    permalink: /:collection/:path/
 
 show_excerpts: true
 enable_copy_code_button: true
@@ -83,7 +53,6 @@ lunr:
   search_within_pages: true
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -94,14 +63,14 @@ defaults:
       related: true
       show_date: true
   - scope:
-      path: _pages
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
   - scope:
-      path: "collections/_azure-web-app-with-terraform"
-      type: azure-web-app-with-terraform
+      path: "_portfolio"
+      type: portfolio
     values:
       layout: single
       author_profile: false
@@ -111,61 +80,7 @@ defaults:
       toc_icon: cog
       toc_sticky: true
       sort_by: order
-      sidebar:
-          nav: azure-web-app-with-terraform
-  - scope:
-      path: "collections/_greener-redlands-proposal"
-      type: greener-redlands-proposal
-    values:
-      layout: single
-      author_profile: false
-      show_date: true
-      toc: false
-  - scope:
-      path: "collections/_hub-and-spoke-network"
-      type: hub-and-spoke-network
-    values:
-      layout: single
-      author_profile: true
-      show_date: true
-      toc: true
-      toc_label: Table of contents
-      toc_sticky: true
-      sort_by: order
-  - scope:
-      path: "collections/_mtg-scraper-dfd"
-      type: mtg-scraper-dfd
-    values:
-      layout: single
-      author_profile: true
-      show_date: true
-      toc: false
-  - scope:
-      path: "collections/_markdown-for-github-pages"
-      type: markdown-for-github-pages
-    values:
-      layout: single
-      author_profile: false
-      show_date: true
-      toc: true
-      toc_label: Table of contents
-      toc_icon: cog
-      toc_sticky: true
-      sort_by: order
-      sidebar:
-        nav: markdown-for-github-pages
-  - scope:
-      path: "collections/_your-new-data-warehouse"
-      type: your-new-data-warehouse
-    values:
-      layout: single
       read_time: true
-      author_profile: true
-      show_date: true
-      toc: true
-      toc_label: Table of contents
-      toc_sticky: true
-      sort_by: order
 
 author:
   name : Greg Martinez
@@ -200,7 +115,6 @@ tag_archive:
 
 asciidoc:
   processor: asciidoctor
-  require_front_matter_header: true
 asciidoctor:
   attributes:
     icons: font

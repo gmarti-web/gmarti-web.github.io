@@ -9,54 +9,21 @@ main:
     url: /portfolio/
     description: Writing samples
 
-azure-web-app-with-terraform:
-  - title: Get started
+markdown-for-ghp:
+  - title: "Get started"
     children:
-      - title: Introduction
-        url: /azure-web-app-with-terraform/introduction/
-      - title: Prerequisites
-        url: /azure-web-app-with-terraform/prerequisites/
-  - title: Create Azure resources
+      - title: "Introduction"
+        url: /portfolio/markdown-for-github-pages/01-introduction/
+      - title: "Front matter"
+        url: /portfolio/markdown-for-ghp/02-frontmatter/
+      - title: "Basics"
+        url: /portfolio/markdown-for-ghp/03-basics/
+  - title: "Markdown structures"
     children:
-      - title: Connect to Azure with Terraform
-        url: /azure-web-app-with-terraform/connect-to-azure/
-      - title: Create a resource group
-        url: /azure-web-app-with-terraform/create-a-resource-group/
-      - title: Create a virtual network
-        url: /azure-web-app-with-terraform/create-a-virtual-network/
-      - title: Create a virtual machine
-        url: /azure-web-app-with-terraform/create-a-virtual-machine/
-      - title: Create an Azure SQL server
-        url: /azure-web-app-with-terraform/create-an-azure-sql-server/
-      - title: Deploy your resources with Terraform
-        url: /azure-web-app-with-terraform/deploy-your-resources/
-  - title: Wrap up and troubleshooting
-    children:
-      - title: Project summary
-        url: /azure-web-app-with-terraform/summary/
-      - title: FAQs
-        url: /azure-web-app-with-terraform/faqs/
+      - title: "Images"
+        url: /portfolio/markdown-for-ghp/04-images/
+      - title: "Tables"
+        url: /portfolio/markdown-for-ghp/05-tables/
+  - title: "Wrap up"
+    url: /portfolio/markdown-for-ghp/06-wrap-up/
 
-greener-redlands-proposal:
-  - title: Greener Redlands proposal
-    children:
-      - title: A greener Redlands
-        url: /greener-redlands-proposal/deliverable/
-
-markdown-for-github-pages:
-  - title: Get started
-    children:
-      - title: Introduction
-        url: /markdown-for-github-pages/introduction/
-      - title: Front matter
-        url: /markdown-for-github-pages/frontmatter/
-      - title: Basics
-        url: /markdown-for-github-pages/basics/
-  - title: Markdown structures
-    children:
-      - title: Images
-        url: /markdown-for-github-pages/images/
-      - title: Tables
-        url: /markdown-for-github-pages/tables/
-  - title: Wrap up
-    url: /markdown-for-github-pages/wrap-up/
