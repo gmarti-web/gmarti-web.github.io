@@ -7,6 +7,15 @@
 :url-set-up-jekyll: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 :url-github-pages-examples: https://github.com/collections/github-pages-examples
 
+****
+This project teaches developers how to write developer documentation with Markdown syntax. It also teaches them to write YAML front matter, which Jekyll requires to render pages. The intended audience can use this guide to:
+
+* Create new developer documentation in Markdown
+* Convert existing Microsoft Word documents to Markdown.
+
+I chose this project to help developers write better documentation. I work with many developers who are either too busy or don’t know how to write in Markdown. While proper Markdown may not improve content, it does create cleaner documents. This guide for basic Markdown syntax will help busy developers add headings, tables, and images to their documentation.
+****
+
 In this tutorial, you'll learn how to contribute to a GitHub Pages project with some <<#basics, basic Markdown formatting tools>>. These tools will help you create well-structured Markdown documents from scratch. You'll also learn how to:
 
 * Add the YAML front matter that Jekyll needs to render your documents.
